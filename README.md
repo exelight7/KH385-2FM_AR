@@ -6,9 +6,17 @@
 
 **الحالة: دفعة تجريبية؛ 24 مقطعًا من أصل 2,556 مقطعًا ظاهرًا (0.94%). لم تُعتمد المعاينة داخل اللعبة بعد.** يشمل الإصدار أول حوار وخط Segoe UI Bold بحروف عربية متصلة. بقية المقاطع بالإنجليزية. لا يشمل KH1 أو KH2 أو Re:coded.
 
+![واجهة المثبت](docs/installer-preview.png)
+
 ## التنزيل والتثبيت
 
-عند نشر إصدار، تجد الملفات في [الإصدارات](https://github.com/exelight7/KH385-2FM_AR/releases). المستودع والتنزيلات عامة بناءً على اختيار صاحب المشروع.
+الإصدار التجريبي [v0.1.0](https://github.com/exelight7/KH385-2FM_AR/releases/tag/v0.1.0) متاح الآن. المستودع والتنزيلات عامة بناءً على اختيار صاحب المشروع.
+
+| النظام | التحميل |
+|---|---|
+| Windows — تثبيت | [تحميل EXE](https://github.com/exelight7/KH385-2FM_AR/releases/download/v0.1.0/Days-Arabic-Setup-0.1.0.exe) |
+| Windows — إلغاء | [تحميل EXE](https://github.com/exelight7/KH385-2FM_AR/releases/download/v0.1.0/Days-Arabic-Uninstall-0.1.0.exe) |
+| Linux x64 | [تحميل AppImage](https://github.com/exelight7/KH385-2FM_AR/releases/download/v0.1.0/Days-Arabic-0.1.0.AppImage) |
 
 1. أغلق اللعبة. شغّل **Days-Arabic-Setup-0.1.0.exe** على Windows، أو **Days-Arabic-0.1.0.AppImage** على Linux مع Steam/Proton.
 2. سيبحث البرنامج عن مكتبات Steam. إن لم يجد اللعبة، اختر مجلدها أو مجلد `Image`.

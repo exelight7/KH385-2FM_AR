@@ -12,8 +12,8 @@ executor: Codex; user owns the game client
 - Safe archive transplant preserves all 2,024 records, including 57 unknown entries lost by direct OpenKH hed patch. Only three replacement records change, original PKG prefix remains byte-identical. Encoded replacement blocks re-extracted and SHA256 verified.
 - Public desktop payload: format 2 XOR differences against the owned original encoded blocks, compressed to 49,335 bytes. Reconstructed tail hashes match the same verified archive. Neither full archives nor raw replacement blocks are distributed.
 - Electron desktop app prepared: Arabic navy/gold UI, Steam library detection, local patch, immutable original backups, SHA256 gates, install/uninstall, transaction rollback and interrupted-operation recovery. Seven fixture tests pass.
-- Windows packaging in out/apps; Linux GitHub Actions workflow prepared, AppImage build not run yet.
-- User supplied exelight7/KH385-2FM_AR and explicitly chose PUBLIC publication after visibility was checked. Initial remote main contains GPL-3.0 LICENSE only. Preparing public code/delta and automatic Windows/AppImage prerelease; no browser sign-in needed for connector upload.
+- Windows EXEs and Linux x64 AppImage built successfully in GitHub Actions run 37930980259; all seven installer fixture tests pass on both operating systems.
+- User supplied exelight7/KH385-2FM_AR and explicitly chose PUBLIC publication after visibility was checked. Initial remote main contains GPL-3.0 LICENSE only. Public code/delta uploaded at commit 2969c118f2d627a75fa6ee11b97d78da0a48697e. Public prerelease v0.1.0 published with Setup/Uninstall EXEs, AppImage and SHA256SUMS; no browser sign-in needed for connector upload.
 
 ## Installed and verified
 - Original live game archives unchanged; no live installation performed.
@@ -43,3 +43,8 @@ executor: Codex; user owns the game client
 - 2026-10-09: expanded first dialogue to 24 entries, added desktop packaging and private GitHub publishing preparation.
 
 - 2026-10-09: owner explicitly chose PUBLIC repository exelight7/KH385-2FM_AR. Converted raw tail to an XOR delta against owned files before upload; updated installer release links.
+
+- Public format 2 full-size disposable archive install/uninstall passed. All source/target archive hashes matched; live game files unchanged.
+
+- Published release: https://github.com/exelight7/KH385-2FM_AR/releases/tag/v0.1.0
+- Workflow run 37930980259: Windows, Linux and release jobs all SUCCESS. Linux runtime/gameplay still unverified.

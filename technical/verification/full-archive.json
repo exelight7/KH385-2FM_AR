@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-09T12:33:32.108Z",
+  "translatedEntries": 24,
+  "checks": [
+    "full-size install hashes match verified archive",
+    "full-size uninstall restores byte-identical originals",
+    "live game original hashes unchanged"
+  ],
+  "gameInstalled": false,
+  "inGameVerified": false
+}

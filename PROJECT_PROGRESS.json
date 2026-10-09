@@ -16,9 +16,17 @@
   "preservedMareEntries": 2024,
   "patchCompressedBytes": 49335,
   "repository": "https://github.com/exelight7/KH385-2FM_AR",
-  "linuxAppImage": "awaiting first GitHub Actions build",
+  "linuxAppImage": "built successfully on Ubuntu 22.04 x64; in-game rendering unverified",
   "installerFixtureTests": 7,
   "fullArchiveInstallRestoreVerified": true,
   "visibility": "public — explicitly selected by owner",
-  "patchFormat": "xor-blocks-v2"
+  "patchFormat": "xor-blocks-v2",
+  "windowsExe": "built successfully on Windows x64",
+  "buildRun": "https://github.com/exelight7/KH385-2FM_AR/actions/runs/37930980259",
+  "releaseSourceCommit": "2969c118f2d627a75fa6ee11b97d78da0a48697e",
+  "testsOnWindowsAndLinux": 7,
+  "appImageSha256": "74a7cd72ccb24f57920c25de01190c4c1b669ad1eea2a9e3a9c731a8bf12cf40",
+  "release": "https://github.com/exelight7/KH385-2FM_AR/releases/tag/v0.1.0",
+  "releasePublished": true,
+  "windowsExeSha256": "e70f378505f1be58d63fa65d121437deeb553974724ca6688142e8d393689242"
 }

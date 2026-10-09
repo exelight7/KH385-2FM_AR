@@ -1,14 +1,15 @@
-"""Export XOR differences against owned archive blocks, plus three HED changes."""
+"""Export XOR differences against owned archive blocks, plus verified HED changes."""
 import gzip
 import hashlib
 import json
 import struct
 from pathlib import Path
 import numpy as np
+from original_archive import original_archive
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'out/first-dialogue'
-GAME = Path('C:/Program Files (x86)/Steam/steamapps/common/KINGDOM HEARTS -HD 1.5+2.5 ReMIX-/Image')
+GAME = original_archive()
 
 
 def main():
@@ -22,7 +23,7 @@ def main():
     before, after = (GAME / 'Mare.hed').read_bytes(), (archive / 'Mare.hed').read_bytes()
     changes = [{'offset': i, 'before': before[i:i+32].hex(), 'after': after[i:i+32].hex()}
                for i in range(0, len(before), 32) if before[i:i+32] != after[i:i+32]]
-    assert len(changes) == 3 and len(before) == len(after)
+    assert len(changes) == len(translation['files']) and len(before) == len(after)
     with (archive / 'Mare.pkg').open('rb') as f:
         f.seek(source['Mare.pkg']['bytes'])
         tail = f.read()
@@ -45,7 +46,9 @@ def main():
     segments.sort(key=lambda x: x['tailOffset'])
     compressed = gzip.compress(delta, compresslevel=9, mtime=0)
     (dest / 'tail.gz').write_bytes(compressed)
-    manifest = {'format': 2, 'version': '0.1.0', 'title': 'KINGDOM HEARTS 358/2 Days',
+    previous = json.loads((ROOT / 'technical/verification/v0.1.0-manifest.json').read_text())['target']
+    manifest = {'format': 2, 'version': '0.2.0', 'title': 'KINGDOM HEARTS 358/2 Days', 'day': 7,
+                'previous': previous,
                 'translatedEntries': translation['changed_messages'], 'totalVisibleEntries': 2556,
                 'inGameVerified': False, 'source': source, 'target': target,
                 'tail': {'bytes': len(tail), 'sha256': hashlib.sha256(tail).hexdigest()},

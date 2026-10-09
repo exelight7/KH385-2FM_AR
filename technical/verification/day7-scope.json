@@ -1,0 +1,81 @@
+{
+  "version": "0.2.0",
+  "day": 7,
+  "chapter_selector": "Number XIV",
+  "chp_record_index": 2,
+  "chp_record_offset": 200,
+  "day7_visible_rows": 8,
+  "day7_translated_rows": 8,
+  "day7_message_ids": [
+    "02018000",
+    "02018100",
+    "02018200",
+    "02018300",
+    "03918000",
+    "03918100",
+    "03918200",
+    "03918300"
+  ],
+  "sequences": [
+    {
+      "sequence": 2,
+      "thd_record_offset": 72,
+      "path": "uk/event/en/hd/hd002/hd002.exia2",
+      "visible_english_rows": 0,
+      "message_ids": []
+    },
+    {
+      "sequence": 3,
+      "thd_record_offset": 100,
+      "path": "uk/event/en/hd/hd803/hd803.exia2",
+      "visible_english_rows": 4,
+      "message_ids": [
+        "03918000",
+        "03918100",
+        "03918200",
+        "03918300"
+      ]
+    },
+    {
+      "sequence": 188,
+      "thd_record_offset": 5280,
+      "path": "uk/event/en/hd/hd003/hd003.exia2",
+      "visible_english_rows": 4,
+      "message_ids": [
+        "02018000",
+        "02018100",
+        "02018200",
+        "02018300"
+      ]
+    }
+  ],
+  "cumulative_translated_rows": 28,
+  "ctd_payload_roundtrip_and_expected_glyphs": true,
+  "xml_payload_expected_glyphs": true,
+  "xml_files": [
+    {
+      "path": "uk/event/en/hd/hd000/hd000.exia2",
+      "verified_rows": 3,
+      "timing_and_other_languages_unchanged": true
+    },
+    {
+      "path": "uk/event/en/hd/hd003/hd003.exia2",
+      "verified_rows": 4,
+      "timing_and_other_languages_unchanged": true
+    },
+    {
+      "path": "uk/event/en/hd/hd004/hd004.exia2",
+      "verified_rows": 17,
+      "timing_and_other_languages_unchanged": true
+    },
+    {
+      "path": "uk/event/en/hd/hd803/hd803.exia2",
+      "verified_rows": 4,
+      "timing_and_other_languages_unchanged": true
+    }
+  ],
+  "original_chp_sha256": "41442473048f0599347176e730e616511d26d20c767a5d08fa2bd5b0519a6924",
+  "original_thd_sha256": "121afe1796f3883231b55f6f784965846c564aff6ceba6552a76fad2230a038d",
+  "runtime_text_attribute_usage_confirmed": false,
+  "in_game_verified": false
+}

@@ -17,7 +17,7 @@ async function matches(p, expected) {
 async function loadPatch(dir) {
   const m = JSON.parse(await fs.readFile(path.join(dir, 'manifest.json'), 'utf8'));
   if (m.format !== 2 || m.delta?.file !== 'tail.gz' || !Array.isArray(m.delta.baseSegments) || !Array.isArray(m.hedChanges)) throw Error('حزمة تعريب غير صالحة.');
-  for (const n of names) for (const group of ['source', 'target']) {
+  for (const n of names) for (const group of ['source', 'target', ...(m.previous ? ['previous'] : [])]) {
     const v = m[group]?.[n];
     if (!Number.isSafeInteger(v?.bytes) || v.bytes < 0 || !/^[a-f0-9]{64}$/.test(v.sha256)) throw Error('بيانات التحقق غير صالحة.');
   }
@@ -55,7 +55,8 @@ async function recover(image, backup, m) {
   const tx = path.join(backup, 'transaction'), journalPath = path.join(tx, 'journal.json');
   if (!await exists(journalPath)) return;
   const j = JSON.parse(await fs.readFile(journalPath, 'utf8'));
-  if (!['source', 'target'].includes(j.before) || !['source', 'target'].includes(j.after)) throw Error('سجل الاسترجاع غير صالح.');
+  const groups = ['source', 'target', ...(m.previous ? ['previous'] : [])];
+  if (!groups.includes(j.before) || !groups.includes(j.after)) throw Error('سجل الاسترجاع غير صالح.');
   if (j.committed) {
     for (const n of names) if (!await matches(path.join(image, n), m[j.after][n])) throw Error('تغيرت ملفات اللعبة بعد العملية؛ يلزم فحص يدوي.');
   } else {
@@ -77,6 +78,7 @@ async function recover(image, backup, m) {
 async function classify(image, m) {
   if ((await Promise.all(names.map(n => matches(path.join(image, n), m.source[n])))).every(Boolean)) return 'source';
   if ((await Promise.all(names.map(n => matches(path.join(image, n), m.target[n])))).every(Boolean)) return 'target';
+  if (m.previous && (await Promise.all(names.map(n => matches(path.join(image, n), m.previous[n])))).every(Boolean)) return 'previous';
   throw Error('نسخة اللعبة مختلفة أو عليها تعديل آخر. لن يتم استبدال ملفاتها. هذه الحزمة لنسخة Steam الإنجليزية المحددة.');
 }
 async function operate({folder, patchDir, action, progress = () => {}, checkRunning = async () => false, fault}) {

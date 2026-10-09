@@ -3,144 +3,196 @@
     "index": 0,
     "id": "02000000",
     "english": "The destiny that is about to unfold",
-    "arabic": "إن المصير الذي يوشك أن يتكشف"
+    "arabic": "إن المصير الذي يوشك أن يتكشف",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 1,
     "id": "02000100",
     "english": "actually started when we first met",
-    "arabic": "بدأ حين التقينا أول مرة"
+    "arabic": "بدأ حين التقينا أول مرة",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 2,
     "id": "02000200",
     "english": "on the seventh day after I came here.",
-    "arabic": "في اليوم السابع بعد وصولي إلى هنا."
+    "arabic": "في اليوم السابع بعد وصولي إلى هنا.",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 4,
     "id": "02018000",
     "english": "For the seven days since my arrival--",
-    "arabic": "طوال الأيام السبعة منذ وصولي..."
+    "arabic": "طوال الأيام السبعة منذ وصولي...",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 5,
     "id": "02018100",
     "english": "the name Roxas, and the number\nthirteen were all I had.",
-    "arabic": "لم يكن لدي سوى اسم روكساس\nوالرقم ثلاثة عشر."
+    "arabic": "لم يكن لدي سوى اسم روكساس\nوالرقم ثلاثة عشر.",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 6,
     "id": "02018200",
     "english": "Who the people around me were, what they\nwanted, or what they were trying to do,",
-    "arabic": "لم أعرف من حولي ولا ما يريدون,\nولا ما كانوا يحاولون فعله,"
+    "arabic": "لم أعرف من حولي ولا ما يريدون,\nولا ما كانوا يحاولون فعله,",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 7,
     "id": "02018300",
     "english": "I had no idea...",
-    "arabic": "لم أكن أعرف شيئا..."
+    "arabic": "لم أكن أعرف شيئا...",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 9,
     "id": "02020000",
     "english": "Teach him well, Axel.",
-    "arabic": "أحسن تعليمه يا آكسل."
+    "arabic": "أحسن تعليمه يا آكسل.",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 10,
     "id": "02020100",
     "english": "Don't worry.\nI'll be sure he makes the grade.",
-    "arabic": "لا تقلق.\nسأجعله جديرا بنا."
+    "arabic": "لا تقلق.\nسأجعله جديرا بنا.",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 11,
     "id": "02020200",
     "english": "Roxas, let's go.",
-    "arabic": "هيا بنا يا روكساس."
+    "arabic": "هيا بنا يا روكساس.",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 12,
     "id": "02020300",
     "english": "What's wrong?",
-    "arabic": "ما الأمر?"
+    "arabic": "ما الأمر?",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 13,
     "id": "02021000",
     "english": "You worried about the new kid?",
-    "arabic": "أتقلق على الفتى الجديد?"
+    "arabic": "أتقلق على الفتى الجديد?",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 14,
     "id": "02020400",
     "english": "What was that name again...",
-    "arabic": "ما اسمه مجددا..."
+    "arabic": "ما اسمه مجددا...",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 15,
     "id": "02020500",
     "english": "Number XIV, Xion.",
-    "arabic": "رقم 14, شيون."
+    "arabic": "رقم 14, شيون.",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 16,
     "id": "02020600",
     "english": "Right. I knew that.",
-    "arabic": "صحيح, كنت أعرف ذلك."
+    "arabic": "صحيح, كنت أعرف ذلك.",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 17,
     "id": "02020700",
     "english": "Xion...",
-    "arabic": "شيون..."
+    "arabic": "شيون...",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 18,
     "id": "02020800",
     "english": "Got it memorized, Roxas?",
-    "arabic": "حفظتها يا روكساس?"
+    "arabic": "حفظتها يا روكساس?",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 19,
     "id": "02020900",
     "english": "Yeah...",
-    "arabic": "أجل..."
+    "arabic": "أجل...",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 20,
     "id": "02020a00",
     "english": "Yeah? How 'bout my name, then?",
-    "arabic": "أجل? وماذا عن اسمي?"
+    "arabic": "أجل? وماذا عن اسمي?",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 21,
     "id": "02020b00",
     "english": "Axel...",
-    "arabic": "آكسل..."
+    "arabic": "آكسل...",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 22,
     "id": "02020c00",
     "english": "And how about our boss's name, huh?",
-    "arabic": "وماذا عن اسم زعيمنا?"
+    "arabic": "وماذا عن اسم زعيمنا?",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 23,
     "id": "02020f00",
     "english": "Xemnas...",
-    "arabic": "زيمناس..."
+    "arabic": "زيمناس...",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 24,
     "id": "02020d00",
     "english": "No way you're gonna forget his name, right?",
-    "arabic": "لن تنسى اسمه, أليس كذلك?"
+    "arabic": "لن تنسى اسمه, أليس كذلك?",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
   },
   {
     "index": 25,
     "id": "02020e00",
     "english": "Let's go.",
-    "arabic": "هيا بنا."
+    "arabic": "هيا بنا.",
+    "file": "uk/message/en/event/hd/bin/cthd000.ctd"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 47,
+    "id": "03918000",
+    "english": "Good tidings, friends.\nToday is a momentous day.",
+    "arabic": "أبشروا يا أصدقائي.\nاليوم يوم عظيم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 48,
+    "id": "03918100",
+    "english": "I am pleased to announce that a new\ncomrade has been chosen to wear the coat.",
+    "arabic": "يسرني أن أعلن اختيار رفيق جديد\nليرتدي عباءتنا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 49,
+    "id": "03918200",
+    "english": "Number XIV.",
+    "arabic": "الرقم أربعة عشر."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 50,
+    "id": "03918300",
+    "english": "Let us all welcome one of\nthe Keyblade's chosen.",
+    "arabic": "فلنرحب جميعا بمن\nاختاره الكيبليد."
   }
 ]

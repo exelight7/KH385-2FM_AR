@@ -1,11 +1,16 @@
 {
-  "date": "2026-10-09T12:33:32.108Z",
-  "translatedEntries": 24,
+  "date": "2026-10-09T13:01:18.543Z",
+  "version": "0.2.0",
+  "translatedEntries": 28,
   "checks": [
-    "full-size install hashes match verified archive",
+    "full-size upgrade from live 0.1.0 copy matches verified 0.2.0 archive",
     "full-size uninstall restores byte-identical originals",
-    "live game original hashes unchanged"
+    "live game 0.1.0 hashes unchanged"
   ],
+  "liveHashes": {
+    "Mare.hed": "b47d4c55250f959cfdfd368695a99c436639a3403c3afeb6a9ffacf014d3ed59",
+    "Mare.pkg": "a6e566e0486f8dda34f92fab61387335b73d59cebc4cd7a9d55c99ce1829567b"
+  },
   "gameInstalled": false,
   "inGameVerified": false
 }

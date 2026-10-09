@@ -6,10 +6,11 @@ from pathlib import Path
 import shutil
 import struct
 import subprocess
+from original_archive import original_archive
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "out/first-dialogue"
-GAME = Path("C:/Program Files (x86)/Steam/steamapps/common/KINGDOM HEARTS -HD 1.5+2.5 ReMIX-/Image")
+GAME = original_archive()
 IDXIMG = Path(os.environ.get("OPENKH_IDXIMG", str(ROOT / "technical/tools/OpenKh.Command.IdxImg.exe")))
 
 
@@ -32,7 +33,7 @@ def build():
     assert len(original_entries) == 2024
     encoded_entries = {e[:16]: e for e in records(OUT / "patched/Mare.hed")}
     wanted = {hashlib.md5(f["path"].removeprefix("original/").encode()).digest(): f for f in manifest["files"]}
-    assert len(wanted) == 3 and wanted.keys() <= encoded_entries.keys()
+    assert len(wanted) == len(manifest['files']) and wanted.keys() <= encoded_entries.keys()
     blocks = {}
     with (OUT / "patched/Mare.pkg").open("rb") as stream:
         for key in wanted:
@@ -43,7 +44,7 @@ def build():
             assert len(data) == size
             blocks[key] = (entry, data)
 
-    # Extract the three transplanted encrypted blocks before trusting any package.
+    # Extract all transplanted encrypted blocks before trusting any package.
     scratch = OUT / "verify-blocks"
     scratch.mkdir(exist_ok=True)
     index = bytearray()

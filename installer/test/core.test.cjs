@@ -82,3 +82,40 @@ test('external update during staging is preserved and blocks archive replacement
   assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.pkg')), f.pkg);
   assert.deepEqual(await fs.readFile(path.join(f.image, '.days-arabic-backup/Mare.hed')), f.hed);
 });
+
+async function previousFixture(t) {
+  const f = await fixture(t);
+  const oldHed = Buffer.from(f.hed); oldHed.fill(77, 0, 32);
+  const oldPkg = Buffer.concat([f.pkg, Buffer.from('version 0.1 fixture')]);
+  f.m.previous = {'Mare.hed': info(oldHed), 'Mare.pkg': info(oldPkg)};
+  await fs.writeFile(path.join(f.patch, 'manifest.json'), JSON.stringify(f.m));
+  await fs.mkdir(path.join(f.image, '.days-arabic-backup'));
+  for (const [n, b] of [['Mare.hed', f.hed], ['Mare.pkg', f.pkg]]) await fs.writeFile(path.join(f.image, '.days-arabic-backup', n), b);
+  await fs.writeFile(path.join(f.image, 'Mare.hed'), oldHed);
+  await fs.writeFile(path.join(f.image, 'Mare.pkg'), oldPkg);
+  return {...f, oldHed, oldPkg};
+}
+test('upgrade from previous release and uninstall preserve original backups', async t => {
+  const f = await previousFixture(t);
+  assert.equal((await operate({...f.args, action: 'install'})).status, 'complete');
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.hed')), f.changedHed);
+  await operate({...f.args, action: 'uninstall'});
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.hed')), f.hed);
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.pkg')), f.pkg);
+});
+test('failed upgrade restores previous release and retries successfully', async t => {
+  const f = await previousFixture(t);
+  await assert.rejects(operate({...f.args, action: 'install', fault: async () => {throw Error('upgrade failure');}}), /upgrade failure/);
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.hed')), f.oldHed);
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.pkg')), f.oldPkg);
+  assert.equal((await operate({...f.args, action: 'install'})).status, 'complete');
+});
+test('previous release journal recovers a missing HED before uninstall', async t => {
+  const f = await previousFixture(t), tx = path.join(f.image, '.days-arabic-backup/transaction');
+  await fs.mkdir(tx);
+  await fs.rename(path.join(f.image, 'Mare.hed'), path.join(tx, 'Mare.hed.previous'));
+  await fs.writeFile(path.join(tx, 'journal.json'), JSON.stringify({before: 'previous', after: 'target', committed: false}));
+  await operate({...f.args, action: 'uninstall'});
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.hed')), f.hed);
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.pkg')), f.pkg);
+});

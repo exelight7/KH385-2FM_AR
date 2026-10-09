@@ -11,7 +11,7 @@ async function operate(action) {
   try {
     const r = await window.days.operate($('folder').value.trim(), action);
     if (!r.ok) return status(r.error, 'error');
-    const message = action === 'install' ? 'تم تثبيت 24 مقطعًا تجريبيًا. شغّل Days مع لغة النص English.' : 'تم إلغاء التعريب واسترجاع ملفات اللعبة الأصلية.';
+    const message = action === 'install' ? 'تم تثبيت اليوم السابع. أعد تشغيل اللعبة، واختر English ثم Chapter → Number XIV (Day 7).' : 'تم إلغاء التعريب واسترجاع ملفات اللعبة الأصلية.';
     status(r.status === 'unchanged' ? (action === 'install' ? 'هذه الدفعة مثبتة بالفعل.' : 'ملفات اللعبة أصلية بالفعل.') : message, 'success');
   } catch (e) { status('تعذر إكمال العملية: ' + e.message, 'error'); }
   finally { busy(false); }

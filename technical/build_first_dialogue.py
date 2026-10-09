@@ -1,10 +1,12 @@
-"""Build-only opening subtitle PoC using LittleBitUA's CTD/font readers and writer."""
+"""Build-only Day 7 and opening subtitles using LittleBitUA's CTD/font readers and writer."""
 import hashlib
 import json
 from pathlib import Path
 import struct
 import subprocess
 import unicodedata
+import re
+import html
 
 import arabic_reshaper
 from bidi.algorithm import get_display
@@ -15,7 +17,6 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "technical/extracted_mare/original/uk"
 TOOL = ROOT / "technical/tools/kh-localization-tool"
 OUTPUT = ROOT / "out/first-dialogue"
-CTD_REL = "uk/message/en/event/hd/bin/cthd000.ctd"
 FONT_REL = "uk/font/eventfont"
 FONT = Path("C:/Windows/Fonts/segoeuib.ttf")
 
@@ -117,9 +118,11 @@ const fs=require('fs'),assert=require('assert/strict');
 const ctd=require('./technical/tools/kh-localization-tool/tools/lib/ddd-ctd');
 const font=require('./technical/tools/kh-localization-tool/tools/lib/bbs-font');
 const input=JSON.parse(fs.readFileSync(0,'utf8'));
-const original=fs.readFileSync('./technical/extracted_mare/original/uk/message/en/event/hd/bin/cthd000.ctd');
+let files={},total=0,changed=0;
+for(const rel of new Set(input.rows.map(r=>r.file))){
+const original=fs.readFileSync('./technical/extracted_mare/original/'+rel);
 const p=ctd.parseDddCtd(original),rep=new Map();
-input.rows.forEach((r,i)=>{assert.equal(p.entries[r.index].text,r.english);assert.equal(p.entries[r.index].id,parseInt(r.id,16));rep.set(r.index,input.mapped[i]);});
+input.rows.forEach((r,i)=>{if(r.file!==rel)return;assert.equal(p.entries[r.index].text,r.english);assert.equal(p.entries[r.index].id,parseInt(r.id,16));assert(!rep.has(r.index));rep.set(r.index,input.mapped[i]);});
 const output=ctd.composeDddCtd(p,rep),q=ctd.parseDddCtd(output);
 assert.equal(p.entries.length,q.entries.length);assert(p.layouts.equals(q.layouts));
 for(let i=0;i<p.entries.length;i++){
@@ -127,8 +130,10 @@ for(let i=0;i<p.entries.length;i++){
  if(rep.has(i))assert.equal(q.entries[i].text,rep.get(i));else assert.deepEqual(q.entries[i].codes,p.entries[i].codes);
 }
 assert(ctd.composeDddCtd(q,rep).equals(output));
+files[rel]=output.toString('base64');total+=p.entries.length;changed+=rep.size;
+}
 const cod=font.composeCod(input.entries);assert.deepEqual(font.parseCod(cod),input.entries);
-console.log(JSON.stringify({ctd:output.toString('base64'),cod:cod.toString('base64'),entries:p.entries.length,unchanged:p.entries.length-rep.size}));
+console.log(JSON.stringify({files,cod:cod.toString('base64'),entries:total,unchanged:total-changed}));
 """, {"rows": rows, "mapped": mapped, "entries": entries})
     import base64
     cod_bytes = base64.b64decode(result["cod"])
@@ -137,10 +142,46 @@ console.log(JSON.stringify({ctd:output.toString('base64'),cod:cod.toString('base
     assert len(cod_bytes) == len(source_cod)
     assert all(a == b or i in allowed_cod for i, (a, b) in enumerate(zip(cod_bytes, source_cod)))
     payloads = {
-        f"original/{CTD_REL}": base64.b64decode(result["ctd"]),
+        **{f"original/{rel}": base64.b64decode(data) for rel, data in result['files'].items()},
         f"original/{FONT_REL}.cod": cod_bytes,
         f"original/{FONT_REL}.tm2": changed_tm2,
     }
+    # Movie schedules also embed localized strings. Keep timing, IDs and every
+    # other language byte-identical; numeric references keep the ASCII/SJIS XML
+    # declaration usable with our existing donor glyph encoding.
+    by_message = {int(row['id'], 16): (row, text) for row, text in zip(rows, mapped)}
+    inline_ids = set()
+    for movie in ['hd000', 'hd003', 'hd004', 'hd803']:
+        rel = f'uk/event/en/hd/{movie}/{movie}.exia2'
+        source = ROOT / 'technical/extracted_mare/original' / rel
+        raw = source.read_bytes()
+        end = raw.index(b'</EXUSIA2_XML>') + len(b'</EXUSIA2_XML>')
+        xml = raw[:end].decode('utf-8')
+        def schedule(match):
+            block = match.group()
+            if not re.search(r'<PARAM[^>]+Language="LANGUAGE_EN"', block):
+                return block
+            def data(match):
+                ident = int(match['id'], 16)
+                if ident not in by_message:
+                    return match.group()
+                row, text = by_message[ident]
+                assert html.unescape(match['text']).replace('\r\n', '\n') == row['english'], (rel, ident)
+                inline_ids.add(ident)
+                value = ''.join(f'&#x{ord(c):04X};' if ord(c) > 127 else html.escape(c, quote=True) for c in text)
+                value = value.replace('\n', '&#10;')
+                return match['prefix'] + value + match['suffix']
+            return re.sub(r'(?P<prefix><DATA\b[^>]*TextID="(?P<id>[0-9A-Fa-f]+)"[^>]*Text=")(?P<text>.*?)(?P<suffix>"\s*/>)', data, block, flags=re.S)
+        updated = re.sub(r'<SCHEDULE_CATEGORY\b[^>]*>.*?</SCHEDULE_CATEGORY>', schedule, xml, flags=re.S)
+        # Removing only Text attribute values must produce identical schedules.
+        strip = lambda s: re.sub(r' Text=".*?"', ' Text=""', s, flags=re.S)
+        assert strip(xml) == strip(updated)
+        import xml.etree.ElementTree as ET
+        ET.fromstring(updated)
+        encoded = updated.encode('utf-8') + b'\r\n'
+        encoded += bytes([0xCD]) * (-len(encoded) % 16)
+        payloads[f'original/{rel}'] = encoded
+    assert inline_ids == set(by_message), ('uncovered movie subtitles', set(by_message) - inline_ids)
     manifest = []
     for rel, data in payloads.items():
         dest = OUTPUT / "payload" / rel
@@ -198,7 +239,7 @@ console.log(JSON.stringify({ctd:output.toString('base64'),cod:cod.toString('base
     (OUTPUT / "allocation.json").write_text(json.dumps([
         {"form": f"U+{ord(c):04X}", "donor": f"U+{e['id']:04X}", **e} for c, e in allocation.items()
     ], ensure_ascii=False, indent=2), encoding="utf-8")
-    report = {"round": "DAYS-FIRST-DIALOGUE", "tool_commit": subprocess.check_output(["git", "-C", str(TOOL), "rev-parse", "HEAD"], text=True).strip(),
+    report = {"round": "DAYS-DAY7-V020", "tool_commit": subprocess.check_output(["git", "-C", str(TOOL), "rev-parse", "HEAD"], text=True).strip(),
               "roundtrip_original_files": metadata["roundtripPass"], "changed_messages": len(rows),
               "unchanged_messages": result["unchanged"], "arabic_glyphs": len(allocation),
               "font": "Segoe UI Bold 24px", "join_fix": "clip connecting edges at shared pen boundary, preserving terminal outlines",

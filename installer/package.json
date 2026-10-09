@@ -1,0 +1,57 @@
+{
+  "name": "days-arabic-installer",
+  "version": "0.1.0",
+  "description": "مثبت التعريب العربي التجريبي لـ KINGDOM HEARTS 358/2 Days",
+  "author": "exelight7",
+  "private": true,
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test test/*.test.cjs",
+    "build:win": "electron-builder --win portable --x64 --publish never",
+    "build:linux": "electron-builder --linux AppImage --x64 --publish never"
+  },
+  "devDependencies": {
+    "electron": "44.7.0",
+    "electron-builder": "26.15.3"
+  },
+  "build": {
+    "appId": "io.exelight7.daysarabic",
+    "productName": "Days Arabic",
+    "directories": {
+      "output": "../out/apps",
+      "buildResources": "assets"
+    },
+    "files": [
+      "main.cjs",
+      "preload.cjs",
+      "core.cjs",
+      "ui/**/*",
+      "assets/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "patch",
+        "to": "patch"
+      }
+    ],
+    "asar": true,
+    "win": {
+      "target": "portable",
+      "icon": "assets/icon.ico",
+      "signExecutable": false
+    },
+    "portable": {
+      "artifactName": "Days-Arabic-Setup-${version}.exe",
+      "requestExecutionLevel": "user"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "assets/icon.png",
+      "category": "Game",
+      "artifactName": "Days-Arabic-${version}.AppImage"
+    }
+  },
+  "license": "GPL-3.0-only"
+}

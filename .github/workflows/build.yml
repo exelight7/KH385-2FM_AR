@@ -1,0 +1,74 @@
+name: Build desktop packages
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  package:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            script: build:win
+            artifact: windows-exe
+          - os: ubuntu-22.04
+            script: build:linux
+            artifact: linux-appimage
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        working-directory: installer
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: installer/package-lock.json
+      - run: npm ci --no-audit --no-fund
+      - run: npm test
+      - run: npm run ${{ matrix.script }}
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+      - name: Prepare uninstall launcher and hashes
+        shell: bash
+        run: node release.cjs
+      - uses: actions/upload-artifact@v7
+        with:
+          name: ${{ matrix.artifact }}
+          path: |
+            out/apps/*.exe
+            out/apps/*.AppImage
+            out/apps/SHA256SUMS.txt
+          if-no-files-found: error
+  release:
+    if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v')
+    needs: package
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/download-artifact@v8
+        with:
+          path: artifacts
+      - name: Publish experimental release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          if [[ "$GITHUB_REF" == refs/tags/* ]]; then
+            TAG="$GITHUB_REF_NAME"
+          else
+            TAG="v$(node -p "require('./installer/package.json').version")"
+          fi
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release $TAG already exists; bump package version for a new release."
+            exit 0
+          fi
+          find artifacts -type f \( -name '*.exe' -o -name '*.AppImage' \) -exec sha256sum {} + > SHA256SUMS.txt
+          gh release create "$TAG" --target "$GITHUB_SHA" --prerelease --title "Days Arabic $TAG — تجريبي" --notes "أول 24 مقطعًا من حوار البداية. المعاينة داخل اللعبة لم تُعتمد بعد. اختر English للنص وأغلق اللعبة قبل التثبيت. ملف Setup يثبت التعريب، وUninstall يسترجع النسخة الأصلية. Linux: اجعل AppImage قابلا للتنفيذ ثم افتحه. حزمة فروق تتطلب نسختك الأصلية من اللعبة." artifacts/windows-exe/*.exe artifacts/linux-appimage/*.AppImage SHA256SUMS.txt

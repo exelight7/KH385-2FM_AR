@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'">
+  <title>Days Arabic — 358/2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="constellation" aria-hidden="true"></div>
+  <main>
+    <header><div class="brand" dir="ltr"><span class="brand-mark">✦</span> DAYS <span class="brand-light">ARABIC</span></div><span class="edition">إصدار تجريبي <b id="version">0.1.0</b></span></header>
+    <section class="hero">
+      <div class="orbit" aria-hidden="true"><img src="../assets/emblem.svg" alt=""></div>
+      <div class="hero-copy"><p class="eyebrow" dir="ltr">KINGDOM HEARTS <span>358/2 DAYS</span></p><h1>ذكرياتك،<br><em>بلغتك.</em></h1><p class="intro">عد إلى برج الساعة مع روكساس وآكسل وشيون.<br>بداية حكاية Days، بحوار عربي وخط متصل.</p></div>
+    </section>
+    <section class="progress-card" aria-label="حالة مشروع التعريب">
+      <div class="progress-title"><span><i class="dot"></i> الدفعة الأولى · حوار البداية</span><b><span id="count">24</span> <small>/ <span id="total">2556</span> مقطعًا</small></b></div>
+      <div class="translation-track"><i></i></div>
+      <p>نسخة للاختبار؛ المعاينة داخل اللعبة لم تُعتمد بعد. باقي المقاطع بالإنجليزية.</p>
+    </section>
+    <section class="install-card">
+      <div class="section-heading"><h2>مجلد اللعبة</h2><span id="found">ابحث عن نسخة Steam</span></div>
+      <div class="path-row"><input id="folder" dir="ltr" aria-label="مسار مجلد اللعبة" spellcheck="false" placeholder="اختر مجلد KINGDOM HEARTS"><button id="choose" class="browse">اختيار المجلد</button></div>
+      <p class="hint">أغلق اللعبة قبل البدء، واختر لغة النص English من إعداداتها.</p>
+      <div class="actions"><button id="install" class="primary">تثبيت التعريب <span>✦</span></button><button id="uninstall" class="secondary">إلغاء التعريب</button></div>
+      <div class="operation-track" id="operation-track" hidden><i id="bar"></i></div>
+      <p id="status" class="status" role="status">جاهز حين تكون جاهزًا.</p>
+      <p class="backup-note">◇ يحتفظ المثبت بنسخة أصلية لاسترجاعها عند إلغاء التعريب.</p>
+    </section>
+    <footer><span>مشروع مجتمعي مستقل <span class="separator">/</span> غير تابع لـ SQUARE ENIX أو Disney</span><button id="releases">المشروع والإصدارات ↗</button></footer>
+  </main>
+  <script src="renderer.js"></script>
+</body>
+</html>

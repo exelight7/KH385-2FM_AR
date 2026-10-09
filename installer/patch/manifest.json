@@ -1,0 +1,71 @@
+{
+  "format": 2,
+  "version": "0.1.0",
+  "title": "KINGDOM HEARTS 358/2 Days",
+  "translatedEntries": 24,
+  "totalVisibleEntries": 2556,
+  "inGameVerified": false,
+  "source": {
+    "Mare.hed": {
+      "bytes": 64768,
+      "sha256": "1e5e8fb26cf0eb52e2c37a542bc3218fcf3c48b286c8495109af73c3777e420f"
+    },
+    "Mare.pkg": {
+      "bytes": 2750086080,
+      "sha256": "5a3a20283ce7dd2edcd9c96a898c4a6d00c03d5592f3e06f3caaafb7e32980b1"
+    }
+  },
+  "target": {
+    "Mare.hed": {
+      "bytes": 64768,
+      "sha256": "b47d4c55250f959cfdfd368695a99c436639a3403c3afeb6a9ffacf014d3ed59"
+    },
+    "Mare.pkg": {
+      "bytes": 2754323472,
+      "sha256": "a6e566e0486f8dda34f92fab61387335b73d59cebc4cd7a9d55c99ce1829567b"
+    }
+  },
+  "tail": {
+    "bytes": 4237392,
+    "sha256": "5d52ab3e8ed06142a89b1a2d48f8e5b07fb18409255191da40107306958da406"
+  },
+  "delta": {
+    "file": "tail.gz",
+    "bytes": 4237392,
+    "sha256": "9ce5a26993bf27463ec003642897a6a4031a539e61ba7638e436651ab48e3e33",
+    "baseSegments": [
+      {
+        "sourceOffset": 2558108240,
+        "tailOffset": 0,
+        "bytes": 9712
+      },
+      {
+        "sourceOffset": 2558117984,
+        "tailOffset": 9712,
+        "bytes": 4195408
+      },
+      {
+        "sourceOffset": 2699146752,
+        "tailOffset": 4205120,
+        "bytes": 32272
+      }
+    ]
+  },
+  "hedChanges": [
+    {
+      "offset": 63904,
+      "before": "65e67a2bc470c69308f8b095546483b350a2799800000000f0250000e0250000",
+      "after": "65e67a2bc470c69308f8b095546483b3c0fbeaa300000000f0250000e0250000"
+    },
+    {
+      "offset": 63968,
+      "before": "9bce45633273cae1f91c77dadb09aadb60c87998000000005004400040044000",
+      "after": "9bce45633273cae1f91c77dadb09aadbb021eba3000000005004400040044000"
+    },
+    {
+      "offset": 64288,
+      "before": "9a361c82a283d22f07c862e0373e3f3700b6e1a000000000607f0000507f0000",
+      "after": "9a361c82a283d22f07c862e0373e3f3700262ba400000000107e0000007e0000"
+    }
+  ]
+}

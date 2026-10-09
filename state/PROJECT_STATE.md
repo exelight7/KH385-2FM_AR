@@ -14,7 +14,7 @@ executor: Codex; user owns game client
 - Segoe UI Bold24px,81 forms,233 joins,min125/128;92 original CTD byteexact roundtrips.
 - Archive transplant preserves2024 records including57 unknown;8 modified records; rebuilt block extraction hashes match. Public XORdelta78778 bytes.
 - App0.2 supports direct0.1→0.2 upgrade, keeps original backup, restores originals on uninstall.10 fixture tests pass including upgrade rollback and crash recovery.
-- Full size0.1 to0.2 upgrade and restore PASS; all expected archive hashes match; live0.1 files unchanged. CI publication pending.
+- Full size0.1 to0.2 upgrade and restore PASS; all expected archive hashes match; live0.1 files unchanged. GitHubActions run37934072172: Windows, Linux, release allSUCCESS. v0.2.0 public prerelease published; downloaded all assets and verified SHA256 and EXE/AppImage headers.
 
 ## Installed and verified
 - Live game remains0.1.0 as installed by user; Codex has not installed0.2 or launched game.
@@ -33,3 +33,6 @@ executor: Codex; user owns game client
 - technical/verification/v0.1.0-manifest.json
 - out/first-dialogue/manifest.json and package-manifest.json
 - installer/patch/manifest.json
+
+- Release: https://github.com/exelight7/KH385-2FM_AR/releases/tag/v0.2.0
+- Release source commit:5ca9bf55ba91ce61b04734c95c29fd4112002d26.

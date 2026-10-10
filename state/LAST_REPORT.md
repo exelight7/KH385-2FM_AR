@@ -10,6 +10,6 @@ Date: 2026-10-10 / DAYS-TEXT-V041
 -13 installer tests pass. Full-size upgrade/uninstall verification: True. Direct upgrade supports0.1.0/0.2.0/0.3.0/0.4.0.
 -Live installed:True; current live version:0.4.1. No game launch. Current in-game font/menu/diary verification remains0 rows.
 -Decorative English in artwork, including WINNER and OPERATIONS CLOSED FOR VACATION, remains. Publisher logos/credits retained; full artwork inventory still needed. Shared Re:coded menu labels/profiles included; Re:coded story and KH1 story excluded.
--Public release verified:False. Packaging pending.
+-Public release verified:True. https://github.com/exelight7/KH385-2FM_AR/actions/runs/38041091103
 
 Never launch the game automatically. Preserve Image/.days-arabic-backup and frozen earlier translations/proofs. Never install intermediate OpenKH output; it drops57 records. Sources of truth: PROJECT_PROGRESS.json, installer/patch/manifest.json, versioned verification files.

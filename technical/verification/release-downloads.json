@@ -1,34 +1,34 @@
 {
-  "date": "2026-10-10T05:02:52.029290+00:00",
-  "version": "0.4.0",
-  "release": "https://github.com/exelight7/KH385-2FM_AR/releases/tag/v0.4.0",
+  "date": "2026-10-10T09:26:07.627723+00:00",
+  "version": "0.4.1",
+  "release": "https://github.com/exelight7/KH385-2FM_AR/releases/tag/v0.4.1",
   "assets": [
     {
-      "name": "Days-Arabic-0.4.0.AppImage",
-      "bytes": 126343070,
-      "sha256": "2c76b1e581a344ab3a6e107920f74f2ad7da4fddcbe2b80e6f1f2be138d0b502",
+      "name": "Days-Arabic-0.4.1.AppImage",
+      "bytes": 126617695,
+      "sha256": "c135a4cb5822dabc242a9cf77bc752d4224bce966866443d4e74296b42201cff",
       "header": "Linux ELF AppImage type2",
       "sha256SumsMatch": true,
       "githubDigestMatch": true,
-      "url": "https://github.com/exelight7/KH385-2FM_AR/releases/download/v0.4.0/Days-Arabic-0.4.0.AppImage"
+      "url": "https://github.com/exelight7/KH385-2FM_AR/releases/download/v0.4.1/Days-Arabic-0.4.1.AppImage"
     },
     {
-      "name": "Days-Arabic-Setup-0.4.0.exe",
-      "bytes": 101527683,
-      "sha256": "237bfbde297f9ec20de1ddc38f0ec5b37e584601c084193afee4b48fded75f1a",
+      "name": "Days-Arabic-Setup-0.4.1.exe",
+      "bytes": 101801425,
+      "sha256": "dac5f778a755858601a1fc4cfc485abe2ee2d76e79f54ecd9d7d1c122e9f157c",
       "header": "Windows PE portable EXE",
       "sha256SumsMatch": true,
       "githubDigestMatch": true,
-      "url": "https://github.com/exelight7/KH385-2FM_AR/releases/download/v0.4.0/Days-Arabic-Setup-0.4.0.exe"
+      "url": "https://github.com/exelight7/KH385-2FM_AR/releases/download/v0.4.1/Days-Arabic-Setup-0.4.1.exe"
     },
     {
-      "name": "Days-Arabic-Uninstall-0.4.0.exe",
-      "bytes": 101527683,
-      "sha256": "237bfbde297f9ec20de1ddc38f0ec5b37e584601c084193afee4b48fded75f1a",
+      "name": "Days-Arabic-Uninstall-0.4.1.exe",
+      "bytes": 101801425,
+      "sha256": "dac5f778a755858601a1fc4cfc485abe2ee2d76e79f54ecd9d7d1c122e9f157c",
       "header": "Windows PE portable EXE",
       "sha256SumsMatch": true,
       "githubDigestMatch": true,
-      "url": "https://github.com/exelight7/KH385-2FM_AR/releases/download/v0.4.0/Days-Arabic-Uninstall-0.4.0.exe"
+      "url": "https://github.com/exelight7/KH385-2FM_AR/releases/download/v0.4.1/Days-Arabic-Uninstall-0.4.1.exe"
     }
   ],
   "allDownloadsVerified": true,

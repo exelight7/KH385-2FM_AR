@@ -1,0 +1,359 @@
+[
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 0,
+    "id": "34000000",
+    "english": "This game uses an auto-save feature.",
+    "arabic": "تستخدم هذه اللعبة ميزة الحفظ التلقائي."
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 1,
+    "id": "34000001",
+    "english": "Secret Reports has been unlocked!\nPress {BTN_Y} while in Roxas's Diary to switch between\nentries in Secret Reports and Roxas's Diary.",
+    "arabic": "تم فتح التقارير السرية!\nاضغط {BTN_Y} في يوميات روكساس للتبديل بين\nإدخالات التقارير السرية ويوميات روكساس."
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 2,
+    "id": "34000002",
+    "english": "The Characters section has been unlocked!",
+    "arabic": "تم فتح قسم الشخصيات!"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 3,
+    "id": "34000003",
+    "english": "A new entry has been added to the Characters section.",
+    "arabic": "أضيف إدخال جديد إلى قسم الشخصيات."
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 4,
+    "id": "34000004",
+    "english": "Download the selected theme?",
+    "arabic": "هل تريد تنزيل السمة المحددة؟"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 5,
+    "id": "34000005",
+    "english": "Sharing Restrictions",
+    "arabic": "قيود المشاركة"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 6,
+    "id": "34000006",
+    "english": "This game is a copyrighted work. The copyright is held by\nThe Walt Disney Company and a collaboration of authors\nrepresenting The Walt Disney Company. Additionally,\nthe copyright of certain characters is held by Square Enix Co., Ltd.\n\nStreaming of this game is permitted only in non-commercial\ncontexts. However, using streams of the game to primarily provide\nor listen to the music is prohibited even in such non-commercial\ncontexts.\n\nFor information on the terms of use relating to streaming the game,\nplease see the official KINGDOM HEARTS site:\nhttps://www.kingdomhearts.com/1525/us/",
+    "arabic": "هذه اللعبة عمل محمي بحقوق النشر. تعود حقوق النشر إلى\nشركة والت ديزني ومجموعة من المؤلفين\nيمثلون شركة والت ديزني. بالإضافة إلى ذلك،\nتعود حقوق نشر بعض الشخصيات إلى شركة سكوير إنيكس المحدودة.\n\nيسمح ببث هذه اللعبة في سياقات غير تجارية فقط.\nومع ذلك، يحظر استخدام بث اللعبة أساسا لتقديم\nالموسيقى أو الاستماع إليها، حتى في تلك السياقات\nغير التجارية.\n\nللاطلاع على شروط الاستخدام المتعلقة ببث اللعبة،\nيرجى زيارة موقع KINGDOM HEARTS الرسمي:\nhttps://www.kingdomhearts.com/1525/us/"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 7,
+    "id": "34000007",
+    "english": "Theme obtained for completing the game.",
+    "arabic": "حصلت على سمة لإكمالك اللعبة."
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 8,
+    "id": "34000008",
+    "english": "The Characters section has been unlocked!\nEntries can be viewed by selecting EXTRAS.",
+    "arabic": "تم فتح قسم الشخصيات!\nيمكنك عرض الإدخالات باختيار الإضافات."
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 12,
+    "id": "3400000c",
+    "english": "System data will now be created.",
+    "arabic": "سيتم الآن إنشاء بيانات النظام."
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 13,
+    "id": "3400000d",
+    "english": "Creating system data...\nDon't turn off your PC at this time.",
+    "arabic": "جار إنشاء بيانات النظام...\nلا تطفئ حاسوبك في هذه الأثناء."
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 14,
+    "id": "3400000e",
+    "english": "Saving system data...\nDon't turn off your PC at this time.",
+    "arabic": "جار حفظ بيانات النظام...\nلا تطفئ حاسوبك في هذه الأثناء."
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 18,
+    "id": "34000012",
+    "english": "The secret movie \"Destiny\"\nhas been unlocked.",
+    "arabic": "تم فتح المقطع السري\n«القدر»."
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 19,
+    "id": "34000013",
+    "english": "Please wait while game data is installed.",
+    "arabic": "يرجى الانتظار ريثما تثبت بيانات اللعبة."
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 20,
+    "id": "34000100",
+    "english": "Adjust the white corners of the frame until they\nappear inside the borders of your screen.",
+    "arabic": "اضبط الزوايا البيضاء للإطار حتى\nتظهر داخل حدود شاشتك."
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 21,
+    "id": "34000101",
+    "english": "Increase Size",
+    "arabic": "تكبير الحجم"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 22,
+    "id": "34000102",
+    "english": "Decrease Size",
+    "arabic": "تصغير الحجم"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 23,
+    "id": "34000103",
+    "english": "Confirm",
+    "arabic": "تأكيد"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 24,
+    "id": "34000104",
+    "english": "Cancel",
+    "arabic": "إلغاء"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 25,
+    "id": "34000200",
+    "english": "Continue",
+    "arabic": "متابعة"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 26,
+    "id": "34000201",
+    "english": "Go to next chapter",
+    "arabic": "الانتقال إلى الفصل التالي"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 27,
+    "id": "34000202",
+    "english": "Go to previous chapter",
+    "arabic": "الانتقال إلى الفصل السابق"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 28,
+    "id": "34000203",
+    "english": "Return to Chapter Menu",
+    "arabic": "العودة إلى قائمة الفصول"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 29,
+    "id": "34000204",
+    "english": "Return to Title Screen",
+    "arabic": "العودة إلى شاشة العنوان"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 31,
+    "id": "34000400",
+    "english": "Hide Text",
+    "arabic": "إخفاء النص"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 34,
+    "id": "34000602",
+    "english": "BACK",
+    "arabic": "رجوع"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 35,
+    "id": "34000603",
+    "english": "NEXT",
+    "arabic": "التالي"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 36,
+    "id": "34000604",
+    "english": "PLAY ALL",
+    "arabic": "تشغيل الكل"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 37,
+    "id": "34000605",
+    "english": "Yes",
+    "arabic": "نعم"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 38,
+    "id": "34000606",
+    "english": "No",
+    "arabic": "لا"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 39,
+    "id": "34000607",
+    "english": "OK",
+    "arabic": "حسنا"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 40,
+    "id": "34000700",
+    "english": "CHAPTER",
+    "arabic": "الفصل"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 41,
+    "id": "34000701",
+    "english": "Roxas's Diary",
+    "arabic": "يوميات روكساس"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 42,
+    "id": "34000702",
+    "english": "Secret Reports",
+    "arabic": "التقارير السرية"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 43,
+    "id": "34000703",
+    "english": "Characters",
+    "arabic": "الشخصيات"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 44,
+    "id": "34000800",
+    "english": "Select a Chapter to view.",
+    "arabic": "اختر فصلا لعرضه."
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 45,
+    "id": "34000801",
+    "english": "Select a Character entry to view.",
+    "arabic": "اختر إدخالا من الشخصيات لعرضه."
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 46,
+    "id": "34000802",
+    "english": "Select a Diary entry to view.",
+    "arabic": "اختر إدخالا من اليوميات لعرضه."
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 47,
+    "id": "34000803",
+    "english": "Select a Report entry to view.",
+    "arabic": "اختر إدخالا من التقارير لعرضه."
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 48,
+    "id": "34000900",
+    "english": "GAME SETTINGS",
+    "arabic": "إعدادات اللعبة"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 49,
+    "id": "34000901",
+    "english": "Change Profile",
+    "arabic": "تغيير الملف الشخصي"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 52,
+    "id": "34000a02",
+    "english": "Play KINGDOM HEARTS II FINAL MIX?",
+    "arabic": "هل تريد تشغيل KINGDOM HEARTS II FINAL MIX؟"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 53,
+    "id": "34000a03",
+    "english": "Play KINGDOM HEARTS Birth by Sleep FINAL MIX?",
+    "arabic": "هل تريد تشغيل KINGDOM HEARTS Birth by Sleep FINAL MIX؟"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 54,
+    "id": "34000a04",
+    "english": "Play KINGDOM HEARTS Re:coded?",
+    "arabic": "هل تريد تشغيل KINGDOM HEARTS Re:coded؟"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 56,
+    "id": "34000a06",
+    "english": "Play KINGDOM HEARTS FINAL MIX?",
+    "arabic": "هل تريد تشغيل KINGDOM HEARTS FINAL MIX؟"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 57,
+    "id": "34000a07",
+    "english": "Play KINGDOM HEARTS Re:Chain of Memories?",
+    "arabic": "هل تريد تشغيل KINGDOM HEARTS Re:Chain of Memories؟"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 58,
+    "id": "34000a08",
+    "english": "Play KINGDOM HEARTS 358/2 Days?",
+    "arabic": "هل تريد تشغيل KINGDOM HEARTS 358/2 Days؟"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 59,
+    "id": "34000b00",
+    "english": "Congratulations on completing the game!\nThe EXTRAS section has been unlocked.",
+    "arabic": "تهانينا على إكمال اللعبة!\nتم فتح قسم الإضافات."
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 60,
+    "id": "34000b01",
+    "english": "A new theme has been added to EXTRAS.",
+    "arabic": "أضيفت سمة جديدة إلى الإضافات."
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 61,
+    "id": "34000b02",
+    "english": "A new add-on is available.\nGo to PlayStation®Store?",
+    "arabic": "تتوفر إضافة جديدة.\nهل تريد الانتقال إلى PlayStation®Store؟"
+  },
+  {
+    "file": "uk/ctd/ctmn000.ctd",
+    "index": 62,
+    "id": "34000c00",
+    "english": "The screen size can be adjusted at any time \nfrom the launcher screen.",
+    "arabic": "يمكنك تعديل حجم الشاشة في أي وقت\nمن شاشة مشغل اللعبة."
+  }
+]

@@ -1,15 +1,15 @@
-# Days Arabic · 0.4.1
+# Days Arabic · 1.0.0
 
-Date: 2026-10-10 / DAYS-TEXT-V041
+Date: 2026-10-10 / DAYS-REVIEW-V100
 
-- 2461/2461 translatable CTD rows completed. Legacy inventory2556 included95 movie resource keys; all95 stay verbatim. The corrected denominator is explicit, not an assertion of complete visual localization.
-- Adds845 translated menu, diary/report and character rows. Two independent review passes completed; 55 distinct draft rows corrected. The1616 frozen story rows reuse their verified0.4.0 reviews with hash provenance; no new reread is claimed.
-- Nine CTDs, four font assets,121 inline XML schedules and two UI containers:136 changed assets. Source IDs, layouts, commands, timing, blank-line positions and other-language schedules preserved.92 original CTDs roundtrip;1568 inline IDs updated.44 inline source-field discrepancies use canonical CTD English.
--25 native UI labels translated with IBM Plex Sans Arabic Medium. Original UVs, geometry, texture dimensions, alpha maximum and all pixels outside label rectangles preserved.136 font glyphs;216 connectivity checks;0 relative-width warnings.
--2024 archive records and57 unknown records preserved. Every replacement re-extracted and SHA256 matched; original PKG prefix unchanged. No movie reencoding. Reported video-quality cause remains unconfirmed.
--13 installer tests pass. Full-size upgrade/uninstall verification: True. Direct upgrade supports0.1.0/0.2.0/0.3.0/0.4.0.
--Live installed:True; current live version:0.4.1. No game launch. Current in-game font/menu/diary verification remains0 rows.
--Decorative English in artwork, including WINNER and OPERATIONS CLOSED FOR VACATION, remains. Publisher logos/credits retained; full artwork inventory still needed. Shared Re:coded menu labels/profiles included; Re:coded story and KH1 story excluded.
--Public release verified:True. https://github.com/exelight7/KH385-2FM_AR/actions/runs/38041091103
+- Fresh independent bilingual passes 1 and 2 read all 2461 translated CTD rows, including all1616 story rows. No inherited-review completion claims. 11 distinct rows corrected against frozen0.4.1; 11 correction events, with original English and reasons recorded.
+- Nine CTDs cover dialogue, intro/narration, menus/chapters, diaries/reports and character descriptions. All95 movie resource keys remain verbatim and are excluded from the2461 denominator. Complete visual localization remains false.
+-92 original CTD roundtrips; source IDs/layouts/commands/newlines preserved. 121 inline XML schedules / 1568 IDs updated with timing and other languages intact. Canonical CTD English resolves 44 abbreviated/empty inline source fields.
+-25 native UI labels retain UVs, geometry, dimensions, alpha maximum and all pixels outside text. IBM Plex Sans Arabic Medium is the exact KH2FM font. 136 glyphs, 216 connectivity checks, 0 width warnings.
+-All2024 archive records and57 unknown records preserved; 136 replacements re-extracted and hash matched. Original PKG prefix unchanged, no video reencoding; reported video-quality cause unconfirmed.
+-Fixed cross-version interrupted-transaction recovery, backup/transaction junction writes, leaked lock on metadata failure, and launcher/process detection.22 installer tests pass. Full archive upgrade/restore verified: True. Direct upgrade supports0.1.0/0.2.0/0.3.0/0.4.0/0.4.1.
+-Live installed:True; current live version:1.0.0. No automatic game launch. In-game rendering remains unverified (0 rows).
+-Decorative WINNER and OPERATIONS CLOSED FOR VACATION artwork remains English; logos/credits retained. Full artwork inventory remains pending. Shared Re:coded menu labels/profiles included; Re:coded story and KH1/KH2 excluded.
+-Public downloads verified:False. Packaging pending.
 
-Never launch the game automatically. Preserve Image/.days-arabic-backup and frozen earlier translations/proofs. Never install intermediate OpenKH output; it drops57 records. Sources of truth: PROJECT_PROGRESS.json, installer/patch/manifest.json, versioned verification files.
+Preserve Image/.days-arabic-backup and frozen earlier translations/proofs. Never install intermediate OpenKH output, which drops57 records. Sources of truth: PROJECT_PROGRESS.json, installer/patch/manifest.json, versioned verification files.

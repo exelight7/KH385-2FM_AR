@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "status": "complete",
+  "baseline": "0.4.1",
+  "testsBefore": {
+    "total": 22,
+    "passed": 13,
+    "failed": 9
+  },
+  "testsAfter": {
+    "total": 22,
+    "passed": 22,
+    "failed": 0
+  },
+  "fixes": [
+    {
+      "issue": "Interrupted transaction journals used shifting release aliases and could not recover with a newer installer.",
+      "fix": "Bind new journals to exact archive hashes; infer legacy transactions only from supported complete archive pairs; validate both files before recovery.",
+      "regression": "Legacy committed and interrupted journals across shifted slots; hash-bound journals; unknown external update retained."
+    },
+    {
+      "issue": "Backup or transaction junctions could redirect writes outside the chosen game.",
+      "fix": "Reject linked/non-directory backup paths and linked/non-file recovery entries before recovery or copying.",
+      "regression": "Backup and transaction junctions preserve unrelated files and refuse operation."
+    },
+    {
+      "issue": "A failure writing lock metadata left the installer lock open and prevented retry.",
+      "fix": "Write lock metadata inside the cleanup try/finally.",
+      "regression": "Injected ENOSPC removes lock, preserves game and permits retry."
+    },
+    {
+      "issue": "Running-process detection omitted WaitTitleProject and could mistake the installer directory for a game executable.",
+      "fix": "Match game executable basenames and collection launcher without crossing path separators.",
+      "regression": "Windows CSV and Wine paths; launcher detected, installer path excluded."
+    }
+  ],
+  "compatibility": "Supports source plus five historical releases 0.1.0 through 0.4.1. Versioned UI output and complete CTD selection work for 1.0.0.",
+  "inGameVerified": false,
+  "independentCodeReview": {
+    "reviewer": "story_b",
+    "status": "complete",
+    "scope": "core.cjs, main.cjs and test/core.test.cjs changes with connected recovery/lock/path code",
+    "unresolved": []
+  }
+}

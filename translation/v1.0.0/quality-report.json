@@ -1,0 +1,858 @@
+{
+  "version": "1.0.0",
+  "status": "complete",
+  "translatedEntries": 2461,
+  "freshlyReviewedEntries": 2461,
+  "reviewPasses": 2,
+  "legacyInventoryEntries": 2556,
+  "technicalResourceKeysPreserved": [
+    {
+      "id": "00328200",
+      "index": 491,
+      "value": "hd501"
+    },
+    {
+      "id": "00328201",
+      "index": 492,
+      "value": "hd502"
+    },
+    {
+      "id": "00328202",
+      "index": 493,
+      "value": "hd503 hd504"
+    },
+    {
+      "id": "00328203",
+      "index": 494,
+      "value": "hd504"
+    },
+    {
+      "id": "00328204",
+      "index": 495,
+      "value": "hd505"
+    },
+    {
+      "id": "00328205",
+      "index": 496,
+      "value": "hd506"
+    },
+    {
+      "id": "00328206",
+      "index": 497,
+      "value": "hd601"
+    },
+    {
+      "id": "00328207",
+      "index": 498,
+      "value": "hd507"
+    },
+    {
+      "id": "00328208",
+      "index": 499,
+      "value": "hd508"
+    },
+    {
+      "id": "00328209",
+      "index": 500,
+      "value": "hd509"
+    },
+    {
+      "id": "0032820a",
+      "index": 501,
+      "value": "hd510 hd511"
+    },
+    {
+      "id": "0032820b",
+      "index": 502,
+      "value": "hd511"
+    },
+    {
+      "id": "0032820c",
+      "index": 503,
+      "value": "hd512 hd513"
+    },
+    {
+      "id": "0032820d",
+      "index": 504,
+      "value": "hd513"
+    },
+    {
+      "id": "0032820e",
+      "index": 505,
+      "value": "hd602"
+    },
+    {
+      "id": "0032820f",
+      "index": 506,
+      "value": "hd514"
+    },
+    {
+      "id": "00328210",
+      "index": 507,
+      "value": "hd603"
+    },
+    {
+      "id": "00328211",
+      "index": 508,
+      "value": "hd516 C1 - C17"
+    },
+    {
+      "id": "00328212",
+      "index": 509,
+      "value": "hd516 C18 - hd517"
+    },
+    {
+      "id": "00328213",
+      "index": 510,
+      "value": "hd517"
+    },
+    {
+      "id": "00328214",
+      "index": 511,
+      "value": "hd518"
+    },
+    {
+      "id": "00328215",
+      "index": 512,
+      "value": "hd519"
+    },
+    {
+      "id": "00328216",
+      "index": 513,
+      "value": "hd520"
+    },
+    {
+      "id": "00328217",
+      "index": 514,
+      "value": "hd521"
+    },
+    {
+      "id": "00328218",
+      "index": 515,
+      "value": "hd522 hd523"
+    },
+    {
+      "id": "00328219",
+      "index": 516,
+      "value": "hd524"
+    },
+    {
+      "id": "0032821a",
+      "index": 517,
+      "value": "hd525"
+    },
+    {
+      "id": "0032821b",
+      "index": 518,
+      "value": "hd604"
+    },
+    {
+      "id": "0032821c",
+      "index": 519,
+      "value": "hd528"
+    },
+    {
+      "id": "0032821d",
+      "index": 520,
+      "value": "hd605"
+    },
+    {
+      "id": "0032821e",
+      "index": 521,
+      "value": "hd530"
+    },
+    {
+      "id": "0032821f",
+      "index": 522,
+      "value": "hd531"
+    },
+    {
+      "id": "00328220",
+      "index": 523,
+      "value": "hd532"
+    },
+    {
+      "id": "00328221",
+      "index": 524,
+      "value": "hd606"
+    },
+    {
+      "id": "00328222",
+      "index": 525,
+      "value": "hd535"
+    },
+    {
+      "id": "00328223",
+      "index": 526,
+      "value": "hd536"
+    },
+    {
+      "id": "00328224",
+      "index": 527,
+      "value": "hd607"
+    },
+    {
+      "id": "00328225",
+      "index": 528,
+      "value": "hd538\n"
+    },
+    {
+      "id": "00328226",
+      "index": 529,
+      "value": "hd539 hd540"
+    },
+    {
+      "id": "00328227",
+      "index": 530,
+      "value": "hd540"
+    },
+    {
+      "id": "00328228",
+      "index": 531,
+      "value": "hd541"
+    },
+    {
+      "id": "00328229",
+      "index": 532,
+      "value": "hd542"
+    },
+    {
+      "id": "0032822a",
+      "index": 533,
+      "value": "hd543"
+    },
+    {
+      "id": "0032822b",
+      "index": 534,
+      "value": "hd544"
+    },
+    {
+      "id": "0032822c",
+      "index": 535,
+      "value": "hd545"
+    },
+    {
+      "id": "0032822d",
+      "index": 536,
+      "value": "hd546"
+    },
+    {
+      "id": "0032822e",
+      "index": 537,
+      "value": "hd547"
+    },
+    {
+      "id": "0032822f",
+      "index": 538,
+      "value": "hd548"
+    },
+    {
+      "id": "00328230",
+      "index": 539,
+      "value": "hd549"
+    },
+    {
+      "id": "00328231",
+      "index": 540,
+      "value": "hd550"
+    },
+    {
+      "id": "00328232",
+      "index": 541,
+      "value": "hd551"
+    },
+    {
+      "id": "00328233",
+      "index": 542,
+      "value": "hd552"
+    },
+    {
+      "id": "00328234",
+      "index": 543,
+      "value": "hd553"
+    },
+    {
+      "id": "00328235",
+      "index": 544,
+      "value": "hd554"
+    },
+    {
+      "id": "00328236",
+      "index": 545,
+      "value": "hd555"
+    },
+    {
+      "id": "00328237",
+      "index": 546,
+      "value": "hd556"
+    },
+    {
+      "id": "00328238",
+      "index": 547,
+      "value": "hd557"
+    },
+    {
+      "id": "00328239",
+      "index": 548,
+      "value": "hd558"
+    },
+    {
+      "id": "0032823a",
+      "index": 549,
+      "value": "hd559"
+    },
+    {
+      "id": "0032823b",
+      "index": 550,
+      "value": "hd560"
+    },
+    {
+      "id": "0032823c",
+      "index": 551,
+      "value": "hd561"
+    },
+    {
+      "id": "0032823d",
+      "index": 552,
+      "value": "hd562 hd563 hd564 hd565 hd566 hd567 hd568 hd569"
+    },
+    {
+      "id": "0032823e",
+      "index": 553,
+      "value": "hd563"
+    },
+    {
+      "id": "0032823f",
+      "index": 554,
+      "value": "hd564"
+    },
+    {
+      "id": "00328240",
+      "index": 555,
+      "value": "hd565"
+    },
+    {
+      "id": "00328241",
+      "index": 556,
+      "value": "hd566"
+    },
+    {
+      "id": "00328242",
+      "index": 557,
+      "value": "hd567"
+    },
+    {
+      "id": "00328243",
+      "index": 558,
+      "value": "hd568"
+    },
+    {
+      "id": "00328244",
+      "index": 559,
+      "value": "hd569"
+    },
+    {
+      "id": "00328245",
+      "index": 560,
+      "value": "hd570"
+    },
+    {
+      "id": "00328246",
+      "index": 561,
+      "value": "hd571"
+    },
+    {
+      "id": "00328247",
+      "index": 562,
+      "value": "hd595"
+    },
+    {
+      "id": "00328248",
+      "index": 563,
+      "value": "hd572"
+    },
+    {
+      "id": "00328249",
+      "index": 564,
+      "value": "hd573 hd574"
+    },
+    {
+      "id": "0032824a",
+      "index": 565,
+      "value": "hd574"
+    },
+    {
+      "id": "0032824b",
+      "index": 566,
+      "value": "hd575"
+    },
+    {
+      "id": "0032824c",
+      "index": 567,
+      "value": "hd576"
+    },
+    {
+      "id": "0032824d",
+      "index": 568,
+      "value": "hd577"
+    },
+    {
+      "id": "0032824e",
+      "index": 569,
+      "value": "hd578"
+    },
+    {
+      "id": "0032824f",
+      "index": 570,
+      "value": "hd579"
+    },
+    {
+      "id": "00328250",
+      "index": 571,
+      "value": "hd580"
+    },
+    {
+      "id": "00328251",
+      "index": 572,
+      "value": "hd581"
+    },
+    {
+      "id": "00328252",
+      "index": 573,
+      "value": "hd582"
+    },
+    {
+      "id": "00328253",
+      "index": 574,
+      "value": "hd583"
+    },
+    {
+      "id": "00328254",
+      "index": 575,
+      "value": "hd584"
+    },
+    {
+      "id": "00328255",
+      "index": 576,
+      "value": "hd585"
+    },
+    {
+      "id": "00328256",
+      "index": 577,
+      "value": "hd586"
+    },
+    {
+      "id": "00328257",
+      "index": 578,
+      "value": "hd587"
+    },
+    {
+      "id": "00328258",
+      "index": 579,
+      "value": "hd588"
+    },
+    {
+      "id": "00328259",
+      "index": 580,
+      "value": "hd589"
+    },
+    {
+      "id": "0032825a",
+      "index": 581,
+      "value": "hd590 hd591"
+    },
+    {
+      "id": "0032825b",
+      "index": 582,
+      "value": "hd596"
+    },
+    {
+      "id": "0032825c",
+      "index": 583,
+      "value": "hd592"
+    },
+    {
+      "id": "0032825d",
+      "index": 584,
+      "value": "hd593"
+    },
+    {
+      "id": "0032825e",
+      "index": 585,
+      "value": "hd594"
+    }
+  ],
+  "files": {
+    "ct00100": {
+      "reviewedRows": 538,
+      "translatedRows": 443,
+      "canonicalSha256": "1ed81221c43feab5a0c22707290614614b340c466a0233f194fff49ca33132a7",
+      "passes": 2,
+      "reviewers": [
+        "story_b",
+        "diaries"
+      ],
+      "freshFullReview": true
+    },
+    "ctmn000": {
+      "reviewedRows": 51,
+      "translatedRows": 51,
+      "canonicalSha256": "d9660f6fb07b6dc1c6d11b5f84b7f28637752ce594edbe194ae387514bf7f3ae",
+      "passes": 2,
+      "reviewers": [
+        "story_b",
+        "diaries"
+      ],
+      "freshFullReview": true
+    },
+    "ctmn200": {
+      "reviewedRows": 232,
+      "translatedRows": 232,
+      "canonicalSha256": "941904917040ab40dab84484a38fab837f28c7f25ecc974830ece51b500b38f7",
+      "passes": 2,
+      "reviewers": [
+        "diaries",
+        "day7_trace"
+      ],
+      "freshFullReview": true
+    },
+    "ctmn300": {
+      "reviewedRows": 119,
+      "translatedRows": 119,
+      "canonicalSha256": "c66266c813993e00f5eb0ed681a86221222aba892e4c94aa66b7b8554059cf50",
+      "passes": 2,
+      "reviewers": [
+        "day7_trace",
+        "story_b"
+      ],
+      "freshFullReview": true
+    },
+    "cthd000": {
+      "reviewedRows": 319,
+      "translatedRows": 319,
+      "canonicalSha256": "a25509e4eed372dae85f5b85395e86a3741a09992d6915a21cf6f73356cd55d1",
+      "passes": 2,
+      "reviewers": [
+        "day7_trace",
+        "story_b"
+      ],
+      "freshFullReview": true
+    },
+    "cthd050": {
+      "reviewedRows": 509,
+      "translatedRows": 509,
+      "canonicalSha256": "3617b09518d62052f99a3a632b58c9b7f41f735efb10ef72e2e81340d347cbd8",
+      "passes": 2,
+      "reviewers": [
+        "diaries",
+        "day7_trace"
+      ],
+      "freshFullReview": true
+    },
+    "cthd100": {
+      "reviewedRows": 444,
+      "translatedRows": 444,
+      "canonicalSha256": "a9343eb0f4bb2a1c1ee3970669e5e7489b211ac936c23ca9e7325d07fefff1be",
+      "passes": 2,
+      "reviewers": [
+        "story_b",
+        "diaries"
+      ],
+      "freshFullReview": true
+    },
+    "cthd300": {
+      "reviewedRows": 46,
+      "translatedRows": 46,
+      "canonicalSha256": "3f1d7525ffc9aec41ded4590c63690a05e3f457fc7730610ec4143a9d159a986",
+      "passes": 2,
+      "reviewers": [
+        "diaries",
+        "day7_trace"
+      ],
+      "freshFullReview": true
+    },
+    "cthd800": {
+      "reviewedRows": 298,
+      "translatedRows": 298,
+      "canonicalSha256": "2416bd4a5dd748e430b2fe3037fe2694fa8ad723cf0c05616fe076ee4425e5cc",
+      "passes": 2,
+      "reviewers": [
+        "day7_trace",
+        "story_b"
+      ],
+      "freshFullReview": true
+    }
+  },
+  "correctionEvents": 11,
+  "distinctCorrectedRows": 11,
+  "corrections": [
+    {
+      "file": "ct00100",
+      "id": "00320003",
+      "index": 3,
+      "english": "Number XIV, Xion",
+      "before": "العضو الرابع عشر، شيون",
+      "after": "العضوة الرابعة عشرة، شيون",
+      "reason": "العنوان يسمي شيون صراحة؛ ضبط اسم العضوية والعدد الترتيبي للمؤنث وفقا للسياق والمسرد.",
+      "category": "اتفاق الجنس",
+      "passNumber": 1,
+      "reviewer": "story_b"
+    },
+    {
+      "file": "ct00100",
+      "id": "00320204",
+      "index": 232,
+      "english": "Number XIV, Xion",
+      "before": "العضو الرابع عشر، شيون",
+      "after": "العضوة الرابعة عشرة، شيون",
+      "reason": "نسخة العنوان في قائمة المشاهد تسمي شيون صراحة؛ توحيد التأنيث مع المرجع نفسه.",
+      "category": "اتفاق الجنس",
+      "passNumber": 1,
+      "reviewer": "story_b"
+    },
+    {
+      "file": "ctmn200",
+      "id": "34640102",
+      "index": 62,
+      "english": "    The past few days, the other members have been\nshowing me how to fight and do mission stuff. They\nalso told me more about the Organization, and about\nmyself.\n    I still don't really get what a \"heart\" is. But\napparently, it's a vital piece of who I am--so I've\ndecided to cooperate. If I collect enough hearts, I\ncan complete Kingdom Hearts. Then I'll be whole.",
+      "before": "طوال الأيام الماضية، كان الأعضاء الآخرون\nيعلمونني القتال وأداء المهمات. وأخبروني أيضا بالمزيد\nعن المنظمة وعن نفسي. ما زلت لا\nأفهم\nحقا ما «القلب». لكن يبدو أنه\nجزء أساسي مما أكون، لذا قررت التعاون.\nإن جمعت ما يكفي من القلوب، فسأتمكن\nمن إكمال كينغدوم هارتس. وعندها سأصبح كاملا.",
+      "after": "طوال الأيام الماضية، كان الأعضاء الآخرون\nيعلمونني القتال وأداء المهمات. وأخبروني أيضا بالمزيد\nعن المنظمة وعن نفسي. ما زلت لا\nأفهم\nحقا ما «القلب». لكن يبدو أنه\nجزء أساسي من كياني، لذا قررت التعاون.\nإن جمعت ما يكفي من القلوب، فسأتمكن\nمن إكمال كينغدوم هارتس. وعندها سأصبح كاملا.",
+      "reason": "تصحيح النقل الحرفي لعبارة a vital piece of who I am إلى تركيب فصيح يحافظ على معنى كون القلب جزءا أساسيا من كيان روكساس.",
+      "category": "fluency",
+      "passNumber": 1,
+      "reviewer": "diaries"
+    },
+    {
+      "file": "ctmn200",
+      "id": "3464810d",
+      "index": 193,
+      "english": "    The Replica Program continues apace, but\nsomething has gone wrong at Castle Oblivion. The\nDusks returned with word that none of those we\ndispatched survived--but the news came in fragments.\nI still know too little to extract the truth.\n    I doubt Axel would be among those lost, but I\nmust plan for the worst. First, I must locate the\nKeyblade master.",
+      "before": "يستمر برنامج النسخ في التقدم، لكن\nخطبا ما وقع في قلعة النسيان. عاد الداسك\nبخبر مفاده أن أحدا ممن أرسلناهم لم\nينج، لكن الأنباء وردت متقطعة. ما زلت أعرف\nأقل مما يكفي لاستخلاص الحقيقة. أشك في\nأن آكسل من بين الذين فقدناهم، لكن\nعلي التخطيط لأسوأ الاحتمالات. أولا، علي تحديد مكان\nحامل الكيبلايد.",
+      "after": "يستمر برنامج النسخ في التقدم، لكن\nخطبا ما وقع في قلعة النسيان. عاد الداسك\nبخبر مفاده أنه لم ينج أحد ممن\nأرسلناهم، لكن الأنباء وردت متقطعة. ما زلت أعرف\nأقل مما يكفي لاستخلاص الحقيقة. أشك في\nأن آكسل من بين الذين فقدناهم، لكن\nعلي التخطيط لأسوأ الاحتمالات. أولا، علي تحديد مكان\nحامل الكيبلايد.",
+      "reason": "تصحيح مجال النفي: none of those we dispatched survived تعني عدم نجاة أي ممن أرسلوا، بينما ترتيب أحدا ... لم ينج قد يفهم منه عدم نجاة فرد بعينه.",
+      "category": "negation",
+      "passNumber": 1,
+      "reviewer": "diaries"
+    },
+    {
+      "file": "ctmn200",
+      "id": "3464811e",
+      "index": 210,
+      "english": "    Roxas and Xion must have had it out over\nsomething. Knowing them, it's something dumb, but\nstill.\n    Watching them, it's like they're human. It's\nmessing with my head.\n    I kind of wonder if Roxas understood all that\nabout the wrong buttons. I get the sense a lot of it\nwent right over his head.",
+      "before": "لا بد أن روكساس وشيون تشاجرا\nبشأن أمر ما. ولأنني أعرفهما، فهو أمر سخيف،\nلكن\nمع ذلك... حين أراقبهما، يبدوان بشريين. وهذا\nيربك تفكيري. أتساءل\nإن كان روكساس فهم حديثي عن تجنب\nاستفزازها بما لا ينبغي. أشعر بأن الكثير منه\nلم يصل إلى فهمه.",
+      "after": "لا بد أن روكساس وشيون تشاجرا\nبشأن أمر ما. ولأنني أعرفهما، فهو أمر سخيف،\nلكن\nمع ذلك... حين أراقبهما، يبدوان بشريين. وهذا\nيربك تفكيري. أتساءل\nإن كان روكساس فهم حديثي عن تجنب\nاستفزازها بما لا ينبغي. أشعر بأنه\nلم يستوعب الكثير منه.",
+      "reason": "إصلاح ترجمة حرفية لعبارة went right over his head بصياغة فصحى طبيعية تدل على عدم استيعاب معظم الحديث.",
+      "category": "naturalness",
+      "passNumber": 2,
+      "reviewer": "day7_trace"
+    },
+    {
+      "file": "ctmn200",
+      "id": "34648122",
+      "index": 214,
+      "english": "    I find myself envying the children. Perhaps some\nfundamental difference exists between those who\nbecome Nobodies as adults and otherwise.\n    The longer you have lived, the more you are\npositioned to lose with such a gamble. But a child can\nlook forward, unafraid even in the face of\nimmeasurable odds. I doubt they even see life as a\ngamble the way we do.",
+      "before": "أجدني أحسد الأطفال. لعل هناك فرقا جوهريا بين\nالذين يصبحون من اللا أحد وهم بالغون،\nوالذين يصبحون كذلك في غير تلك السن.\nكلما طالت حياتك، زاد ما تعرضه للخسارة\nفي مقامرة كهذه. لكن الطفل يستطيع النظر إلى الأمام\nبلا خوف، حتى أمام احتمالات لا\nيمكن تقديرها. أشك حتى في أنهم يرون الحياة مقامرة\nكما نراها نحن.",
+      "after": "أجدني أحسد الأطفال. لعل هناك فرقا جوهريا بين\nالذين يصبحون من اللا أحد وهم بالغون،\nوالذين يصبحون كذلك في غير تلك السن.\nكلما طالت حياتك، زاد ما تعرضه للخسارة\nفي مقامرة كهذه. لكن الطفل يستطيع النظر إلى الأمام\nبلا خوف، حتى أمام أعتى\nالعقبات. أشك حتى في أنهم يرون الحياة مقامرة\nكما نراها نحن.",
+      "reason": "immeasurable odds تصف ضخامة العقبات أمام الطفل، ولا تعني احتمالات يتعذر حسابها؛ أعيد المعنى إلى مواجهة المصاعب الهائلة.",
+      "category": "meaning",
+      "passNumber": 2,
+      "reviewer": "day7_trace"
+    },
+    {
+      "file": "ctmn200",
+      "id": "34648126",
+      "index": 218,
+      "english": "    Even if Xion is a replica--a puppet--she's still\nXion. I understand that in my head, but how do I\ninteract with her now? Riku Replica was just a tool,\nbut I can't just use Xion. No, I was wrong to have\njust used Riku Replica in the first place. How is a\nman-made puppet any less worthy than a Nobody\nthat was never meant to exist at all?\n    They're both ambiguous. Tenuous at best. And\nshe's my friend. Even if neither of us should exist,\nthat doesn't invalidate the bonds we form. Next break\nwe get, I told her we'd all go to the beach. I hope we\nget the chance. Our little summer vacation. I know if\nwe can get together and laugh about stupid stuff,\nthis nagging doubt will go away.",
+      "before": "حتى إن كانت شيون نسخة، دمية، فهي تظل\nشيون. أفهم ذلك بعقلي، لكن كيف أتعامل معها\nالآن؟ كانت نسخة ريكو مجرد أداة، لكنني لا أستطيع\nاستغلال شيون بهذه البساطة. لا، كنت مخطئا حين\nاستغللت نسخة ريكو أصلا. كيف تكون دمية من\nصنع البشر أقل استحقاقا من أحد اللا أحد\nالذي لم يكن يفترض به أن\nيوجد أصلا؟ كلاهما وجود ملتبس، واه في\nأحسن الأحوال. وهي صديقتي. حتى إن لم يكن يفترض\nلأي منا أن يوجد، فهذا لا يبطل الروابط التي\nنشكلها. أخبرتها أننا سنذهب جميعا إلى الشاطئ في إجازتنا\nالتالية. آمل أن تتاح لنا الفرصة. إجازتنا الصيفية الصغيرة.\nأعرف أننا إن استطعنا الاجتماع والضحك على أمور\nسخيفة، فسيزول هذا الشك الملح.",
+      "after": "حتى إن كانت شيون نسخة، دمية، فهي تظل\nشيون. أفهم ذلك بعقلي، لكن كيف أتعامل معها\nالآن؟ كانت نسخة ريكو مجرد أداة، لكنني لا أستطيع\nاستغلال شيون بهذه البساطة. لا، كنت مخطئا حين\nاستغللت نسخة ريكو أصلا. كيف تكون دمية من\nصنع البشر أقل استحقاقا من أحد اللا أحد\nالذي لم يكن يفترض به أن\nيوجد أصلا؟ كلاهما وجود ملتبس، واه في\nأحسن الأحوال. وهي صديقتي. حتى إن لم يكن يفترض\nأن يوجد أي منا، فهذا لا يبطل الروابط التي\nنشكلها. أخبرتها أننا سنذهب جميعا إلى الشاطئ في إجازتنا\nالتالية. آمل أن تتاح لنا الفرصة. إجازتنا الصيفية الصغيرة.\nأعرف أننا إن استطعنا الاجتماع والضحك على أمور\nسخيفة، فسيزول هذا الشك الملح.",
+      "reason": "إزالة حرف الجر غير الصحيح في تركيب يفترض أن، مع حفظ النفي وشموله كليهما.",
+      "category": "grammar",
+      "passNumber": 2,
+      "reviewer": "day7_trace"
+    },
+    {
+      "file": "ctmn200",
+      "id": "3464812d",
+      "index": 225,
+      "english": "    None of us really know everything that's going on\nin Castle Oblivion. Some rooms even Xemnas doesn't\nknow about. Not many are even aware that Xion was\nborn there. I wonder if the truth about that place\nwill ever surface.",
+      "before": "لا أحد منا يعرف حقا كل ما\nيجري في قلعة النسيان. ثمة غرف حتى زيمناس\nلا يعرف عنها. وقليلون جدا يعلمون أن شيون\nولدت هناك. أتساءل إن كانت حقيقة ذلك\nالمكان ستنكشف يوما.",
+      "after": "لا أحد منا يعرف حقا كل ما\nيجري في قلعة النسيان. ثمة غرف لا يعلم\nبها حتى زيمناس. وقليلون جدا يعلمون أن شيون\nولدت هناك. أتساءل إن كانت حقيقة ذلك\nالمكان ستنكشف يوما.",
+      "reason": "تصحيح تركيب لا يعرف عنها الناقص في هذا السياق بصياغة لا يعلم بها، مع حفظ معنى أن زيمناس نفسه لا يعرف هذه الغرف.",
+      "category": "grammar",
+      "passNumber": 2,
+      "reviewer": "day7_trace"
+    },
+    {
+      "file": "ctmn300",
+      "id": "34960c01",
+      "index": 25,
+      "english": "The thirteenth member of Organization XIII. He is\noften assigned to missions to collect hearts as he\nwields a Keyblade. A bit of a zombie when he first\njoined, Roxas slowly regains himself through\ninteraction with Axel and Xion, becoming best\nfriends with them.",
+      "before": "العضو الثالث عشر في المنظمة الثالثة عشرة.\nكثيرا ما يكلف بمهمات جمع القلوب،\nلامتلاكه كيبلايد. كان أشبه بجسد بلا روح\nحين انضم، ثم استعاد نفسه تدريجيا\nبتفاعله مع آكسل وشيون، وأصبح من\nأعز أصدقائهما.",
+      "after": "العضو الثالث عشر في المنظمة الثالثة عشرة.\nكثيرا ما يكلف بمهمات جمع القلوب،\nلقدرته على استخدام كيبلايد. كان أشبه بجسد بلا روح\nحين انضم، ثم استعاد نفسه تدريجيا\nبتفاعله مع آكسل وشيون، وأصبح من\nأعز أصدقائهما.",
+      "reason": "الأصل يربط تكليف روكساس بجمع القلوب بكونه قادرا على استخدام الكيبلايد (wields)، لا بمجرد ملكية السلاح؛ ضبط سبب التكليف دون إضافة حدث أو تغيير بقية الوصف.",
+      "category": "دقة المعنى",
+      "passNumber": 2,
+      "reviewer": "story_b"
+    },
+    {
+      "file": "cthd000",
+      "id": "02020500",
+      "index": 15,
+      "english": "Number XIV, Xion.",
+      "before": "الرقم أربعة عشر، شيون.",
+      "after": "العضو الرابع عشر، شيون.",
+      "reason": "مطابقة Number XIV للتعبير الترتيبي الرابع عشر في مسرد Days الحديث ولنداء العضو في مشهد تقديمه؛ الجنس النحوي متسق مع الوافد الجديد في السياق السابق.",
+      "category": "اتساق مسرد وعدد",
+      "passNumber": 1,
+      "reviewer": "day7_trace"
+    },
+    {
+      "file": "cthd050",
+      "id": "021b8500",
+      "index": 38,
+      "english": "I fell right on my butt chasing them around.",
+      "before": "سقطت على مؤخرتي وأنا أطاردهم.",
+      "after": "سقطت على مؤخرتي وأنا أطاردها.",
+      "reason": "اتفاق ضمير مخلوقات بلا قلب، المذكورة في الجملة السابقة، مع جمع غير العاقل.",
+      "category": "agreement",
+      "passNumber": 1,
+      "reviewer": "diaries"
+    }
+  ],
+  "changesFrom041": [
+    {
+      "file": "ct00100",
+      "id": "00320003",
+      "index": 3,
+      "english": "Number XIV, Xion",
+      "before": "العضو الرابع عشر، شيون",
+      "after": "العضوة الرابعة عشرة، شيون",
+      "reasons": [
+        "العنوان يسمي شيون صراحة؛ ضبط اسم العضوية والعدد الترتيبي للمؤنث وفقا للسياق والمسرد."
+      ]
+    },
+    {
+      "file": "ct00100",
+      "id": "00320204",
+      "index": 232,
+      "english": "Number XIV, Xion",
+      "before": "العضو الرابع عشر، شيون",
+      "after": "العضوة الرابعة عشرة، شيون",
+      "reasons": [
+        "نسخة العنوان في قائمة المشاهد تسمي شيون صراحة؛ توحيد التأنيث مع المرجع نفسه."
+      ]
+    },
+    {
+      "file": "ctmn200",
+      "id": "34640102",
+      "index": 62,
+      "english": "    The past few days, the other members have been\nshowing me how to fight and do mission stuff. They\nalso told me more about the Organization, and about\nmyself.\n    I still don't really get what a \"heart\" is. But\napparently, it's a vital piece of who I am--so I've\ndecided to cooperate. If I collect enough hearts, I\ncan complete Kingdom Hearts. Then I'll be whole.",
+      "before": "طوال الأيام الماضية، كان الأعضاء الآخرون\nيعلمونني القتال وأداء المهمات. وأخبروني أيضا بالمزيد\nعن المنظمة وعن نفسي. ما زلت لا\nأفهم\nحقا ما «القلب». لكن يبدو أنه\nجزء أساسي مما أكون، لذا قررت التعاون.\nإن جمعت ما يكفي من القلوب، فسأتمكن\nمن إكمال كينغدوم هارتس. وعندها سأصبح كاملا.",
+      "after": "طوال الأيام الماضية، كان الأعضاء الآخرون\nيعلمونني القتال وأداء المهمات. وأخبروني أيضا بالمزيد\nعن المنظمة وعن نفسي. ما زلت لا\nأفهم\nحقا ما «القلب». لكن يبدو أنه\nجزء أساسي من كياني، لذا قررت التعاون.\nإن جمعت ما يكفي من القلوب، فسأتمكن\nمن إكمال كينغدوم هارتس. وعندها سأصبح كاملا.",
+      "reasons": [
+        "تصحيح النقل الحرفي لعبارة a vital piece of who I am إلى تركيب فصيح يحافظ على معنى كون القلب جزءا أساسيا من كيان روكساس."
+      ]
+    },
+    {
+      "file": "ctmn200",
+      "id": "3464810d",
+      "index": 193,
+      "english": "    The Replica Program continues apace, but\nsomething has gone wrong at Castle Oblivion. The\nDusks returned with word that none of those we\ndispatched survived--but the news came in fragments.\nI still know too little to extract the truth.\n    I doubt Axel would be among those lost, but I\nmust plan for the worst. First, I must locate the\nKeyblade master.",
+      "before": "يستمر برنامج النسخ في التقدم، لكن\nخطبا ما وقع في قلعة النسيان. عاد الداسك\nبخبر مفاده أن أحدا ممن أرسلناهم لم\nينج، لكن الأنباء وردت متقطعة. ما زلت أعرف\nأقل مما يكفي لاستخلاص الحقيقة. أشك في\nأن آكسل من بين الذين فقدناهم، لكن\nعلي التخطيط لأسوأ الاحتمالات. أولا، علي تحديد مكان\nحامل الكيبلايد.",
+      "after": "يستمر برنامج النسخ في التقدم، لكن\nخطبا ما وقع في قلعة النسيان. عاد الداسك\nبخبر مفاده أنه لم ينج أحد ممن\nأرسلناهم، لكن الأنباء وردت متقطعة. ما زلت أعرف\nأقل مما يكفي لاستخلاص الحقيقة. أشك في\nأن آكسل من بين الذين فقدناهم، لكن\nعلي التخطيط لأسوأ الاحتمالات. أولا، علي تحديد مكان\nحامل الكيبلايد.",
+      "reasons": [
+        "تصحيح مجال النفي: none of those we dispatched survived تعني عدم نجاة أي ممن أرسلوا، بينما ترتيب أحدا ... لم ينج قد يفهم منه عدم نجاة فرد بعينه."
+      ]
+    },
+    {
+      "file": "ctmn200",
+      "id": "3464811e",
+      "index": 210,
+      "english": "    Roxas and Xion must have had it out over\nsomething. Knowing them, it's something dumb, but\nstill.\n    Watching them, it's like they're human. It's\nmessing with my head.\n    I kind of wonder if Roxas understood all that\nabout the wrong buttons. I get the sense a lot of it\nwent right over his head.",
+      "before": "لا بد أن روكساس وشيون تشاجرا\nبشأن أمر ما. ولأنني أعرفهما، فهو أمر سخيف،\nلكن\nمع ذلك... حين أراقبهما، يبدوان بشريين. وهذا\nيربك تفكيري. أتساءل\nإن كان روكساس فهم حديثي عن تجنب\nاستفزازها بما لا ينبغي. أشعر بأن الكثير منه\nلم يصل إلى فهمه.",
+      "after": "لا بد أن روكساس وشيون تشاجرا\nبشأن أمر ما. ولأنني أعرفهما، فهو أمر سخيف،\nلكن\nمع ذلك... حين أراقبهما، يبدوان بشريين. وهذا\nيربك تفكيري. أتساءل\nإن كان روكساس فهم حديثي عن تجنب\nاستفزازها بما لا ينبغي. أشعر بأنه\nلم يستوعب الكثير منه.",
+      "reasons": [
+        "إصلاح ترجمة حرفية لعبارة went right over his head بصياغة فصحى طبيعية تدل على عدم استيعاب معظم الحديث."
+      ]
+    },
+    {
+      "file": "ctmn200",
+      "id": "34648122",
+      "index": 214,
+      "english": "    I find myself envying the children. Perhaps some\nfundamental difference exists between those who\nbecome Nobodies as adults and otherwise.\n    The longer you have lived, the more you are\npositioned to lose with such a gamble. But a child can\nlook forward, unafraid even in the face of\nimmeasurable odds. I doubt they even see life as a\ngamble the way we do.",
+      "before": "أجدني أحسد الأطفال. لعل هناك فرقا جوهريا بين\nالذين يصبحون من اللا أحد وهم بالغون،\nوالذين يصبحون كذلك في غير تلك السن.\nكلما طالت حياتك، زاد ما تعرضه للخسارة\nفي مقامرة كهذه. لكن الطفل يستطيع النظر إلى الأمام\nبلا خوف، حتى أمام احتمالات لا\nيمكن تقديرها. أشك حتى في أنهم يرون الحياة مقامرة\nكما نراها نحن.",
+      "after": "أجدني أحسد الأطفال. لعل هناك فرقا جوهريا بين\nالذين يصبحون من اللا أحد وهم بالغون،\nوالذين يصبحون كذلك في غير تلك السن.\nكلما طالت حياتك، زاد ما تعرضه للخسارة\nفي مقامرة كهذه. لكن الطفل يستطيع النظر إلى الأمام\nبلا خوف، حتى أمام أعتى\nالعقبات. أشك حتى في أنهم يرون الحياة مقامرة\nكما نراها نحن.",
+      "reasons": [
+        "immeasurable odds تصف ضخامة العقبات أمام الطفل، ولا تعني احتمالات يتعذر حسابها؛ أعيد المعنى إلى مواجهة المصاعب الهائلة."
+      ]
+    },
+    {
+      "file": "ctmn200",
+      "id": "34648126",
+      "index": 218,
+      "english": "    Even if Xion is a replica--a puppet--she's still\nXion. I understand that in my head, but how do I\ninteract with her now? Riku Replica was just a tool,\nbut I can't just use Xion. No, I was wrong to have\njust used Riku Replica in the first place. How is a\nman-made puppet any less worthy than a Nobody\nthat was never meant to exist at all?\n    They're both ambiguous. Tenuous at best. And\nshe's my friend. Even if neither of us should exist,\nthat doesn't invalidate the bonds we form. Next break\nwe get, I told her we'd all go to the beach. I hope we\nget the chance. Our little summer vacation. I know if\nwe can get together and laugh about stupid stuff,\nthis nagging doubt will go away.",
+      "before": "حتى إن كانت شيون نسخة، دمية، فهي تظل\nشيون. أفهم ذلك بعقلي، لكن كيف أتعامل معها\nالآن؟ كانت نسخة ريكو مجرد أداة، لكنني لا أستطيع\nاستغلال شيون بهذه البساطة. لا، كنت مخطئا حين\nاستغللت نسخة ريكو أصلا. كيف تكون دمية من\nصنع البشر أقل استحقاقا من أحد اللا أحد\nالذي لم يكن يفترض به أن\nيوجد أصلا؟ كلاهما وجود ملتبس، واه في\nأحسن الأحوال. وهي صديقتي. حتى إن لم يكن يفترض\nلأي منا أن يوجد، فهذا لا يبطل الروابط التي\nنشكلها. أخبرتها أننا سنذهب جميعا إلى الشاطئ في إجازتنا\nالتالية. آمل أن تتاح لنا الفرصة. إجازتنا الصيفية الصغيرة.\nأعرف أننا إن استطعنا الاجتماع والضحك على أمور\nسخيفة، فسيزول هذا الشك الملح.",
+      "after": "حتى إن كانت شيون نسخة، دمية، فهي تظل\nشيون. أفهم ذلك بعقلي، لكن كيف أتعامل معها\nالآن؟ كانت نسخة ريكو مجرد أداة، لكنني لا أستطيع\nاستغلال شيون بهذه البساطة. لا، كنت مخطئا حين\nاستغللت نسخة ريكو أصلا. كيف تكون دمية من\nصنع البشر أقل استحقاقا من أحد اللا أحد\nالذي لم يكن يفترض به أن\nيوجد أصلا؟ كلاهما وجود ملتبس، واه في\nأحسن الأحوال. وهي صديقتي. حتى إن لم يكن يفترض\nأن يوجد أي منا، فهذا لا يبطل الروابط التي\nنشكلها. أخبرتها أننا سنذهب جميعا إلى الشاطئ في إجازتنا\nالتالية. آمل أن تتاح لنا الفرصة. إجازتنا الصيفية الصغيرة.\nأعرف أننا إن استطعنا الاجتماع والضحك على أمور\nسخيفة، فسيزول هذا الشك الملح.",
+      "reasons": [
+        "إزالة حرف الجر غير الصحيح في تركيب يفترض أن، مع حفظ النفي وشموله كليهما."
+      ]
+    },
+    {
+      "file": "ctmn200",
+      "id": "3464812d",
+      "index": 225,
+      "english": "    None of us really know everything that's going on\nin Castle Oblivion. Some rooms even Xemnas doesn't\nknow about. Not many are even aware that Xion was\nborn there. I wonder if the truth about that place\nwill ever surface.",
+      "before": "لا أحد منا يعرف حقا كل ما\nيجري في قلعة النسيان. ثمة غرف حتى زيمناس\nلا يعرف عنها. وقليلون جدا يعلمون أن شيون\nولدت هناك. أتساءل إن كانت حقيقة ذلك\nالمكان ستنكشف يوما.",
+      "after": "لا أحد منا يعرف حقا كل ما\nيجري في قلعة النسيان. ثمة غرف لا يعلم\nبها حتى زيمناس. وقليلون جدا يعلمون أن شيون\nولدت هناك. أتساءل إن كانت حقيقة ذلك\nالمكان ستنكشف يوما.",
+      "reasons": [
+        "تصحيح تركيب لا يعرف عنها الناقص في هذا السياق بصياغة لا يعلم بها، مع حفظ معنى أن زيمناس نفسه لا يعرف هذه الغرف."
+      ]
+    },
+    {
+      "file": "ctmn300",
+      "id": "34960c01",
+      "index": 25,
+      "english": "The thirteenth member of Organization XIII. He is\noften assigned to missions to collect hearts as he\nwields a Keyblade. A bit of a zombie when he first\njoined, Roxas slowly regains himself through\ninteraction with Axel and Xion, becoming best\nfriends with them.",
+      "before": "العضو الثالث عشر في المنظمة الثالثة عشرة.\nكثيرا ما يكلف بمهمات جمع القلوب،\nلامتلاكه كيبلايد. كان أشبه بجسد بلا روح\nحين انضم، ثم استعاد نفسه تدريجيا\nبتفاعله مع آكسل وشيون، وأصبح من\nأعز أصدقائهما.",
+      "after": "العضو الثالث عشر في المنظمة الثالثة عشرة.\nكثيرا ما يكلف بمهمات جمع القلوب،\nلقدرته على استخدام كيبلايد. كان أشبه بجسد بلا روح\nحين انضم، ثم استعاد نفسه تدريجيا\nبتفاعله مع آكسل وشيون، وأصبح من\nأعز أصدقائهما.",
+      "reasons": [
+        "الأصل يربط تكليف روكساس بجمع القلوب بكونه قادرا على استخدام الكيبلايد (wields)، لا بمجرد ملكية السلاح؛ ضبط سبب التكليف دون إضافة حدث أو تغيير بقية الوصف."
+      ]
+    },
+    {
+      "file": "cthd000",
+      "id": "02020500",
+      "index": 15,
+      "english": "Number XIV, Xion.",
+      "before": "الرقم أربعة عشر، شيون.",
+      "after": "العضو الرابع عشر، شيون.",
+      "reasons": [
+        "مطابقة Number XIV للتعبير الترتيبي الرابع عشر في مسرد Days الحديث ولنداء العضو في مشهد تقديمه؛ الجنس النحوي متسق مع الوافد الجديد في السياق السابق."
+      ]
+    },
+    {
+      "file": "cthd050",
+      "id": "021b8500",
+      "index": 38,
+      "english": "I fell right on my butt chasing them around.",
+      "before": "سقطت على مؤخرتي وأنا أطاردهم.",
+      "after": "سقطت على مؤخرتي وأنا أطاردها.",
+      "reasons": [
+        "اتفاق ضمير مخلوقات بلا قلب، المذكورة في الجملة السابقة، مع جمع غير العاقل."
+      ]
+    }
+  ],
+  "inGameVerified": false,
+  "unresolved": [],
+  "metric": "100% refers to the 2461 translatable CTD rows in nine Days/shared-menu files. 95 original movie resource keys are preserved, not counted as dialogue. This is not a claim of 100% visual localization.",
+  "scopeExclusions": [
+    "KH1 story: cthd400",
+    "Re:coded story: cthd500, cthd550, cthd600"
+  ],
+  "sharedContentIncluded": "Chapter labels, launcher prompts and character descriptions stored in the same menu files, including shared Re:coded labels/descriptions; not Re:coded story.",
+  "remainingVisualWork": [
+    "Decorative English embedded in scene artwork, including WINNER and OPERATIONS CLOSED FOR VACATION; complete art inventory still needed.",
+    "Original publisher/brand logos and credits retained.",
+    "Human in-game verification of menus, diary layout and all scenes remains pending."
+  ]
+}

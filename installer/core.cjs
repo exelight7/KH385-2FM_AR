@@ -5,7 +5,8 @@ const crypto = require('node:crypto');
 const zlib = require('node:zlib');
 
 const names = ['Mare.hed', 'Mare.pkg'];
-const versions = m => ['source', 'target', ...['previous', 'older', 'earlier', 'legacy'].filter(g => m[g])];
+const versions = m => ['source', 'target', ...['previous', 'older', 'earlier', 'oldest', 'legacy'].filter(g => m[g])];
+const isGameRunning = text => /(?:^|[\/\\\s"'])(?:KINGDOM[ \t]*HEARTS[^\/\\\r\n"]*|WaitTitleProject)\.exe(?=$|[\s"',])/im.test(text);
 const exists = async p => fs.access(p).then(() => true, () => false);
 async function hash(p) {
   const h = crypto.createHash('sha256');
@@ -52,22 +53,53 @@ async function writeJournal(file, value) {
   try { await handle.writeFile(JSON.stringify(value)); await handle.sync(); } finally { await handle.close(); }
   await fs.rename(temp, file);
 }
+async function checkBackupPaths(backup) {
+  const tx = path.join(backup, 'transaction');
+  const directories = [backup, tx];
+  const files = [...names.flatMap(n => [path.join(backup, n), path.join(backup, n + '.copying'), path.join(tx, n), path.join(tx, n + '.previous')]), path.join(tx, 'journal.json'), path.join(tx, 'journal.json.next')];
+  for (const p of [...directories, ...files]) {
+    const st = await fs.lstat(p).catch(e => { if (e.code === 'ENOENT') return null; throw e; });
+    if (st && (st.isSymbolicLink() || !(directories.includes(p) ? st.isDirectory() : st.isFile()))) throw Error('مجلد الاسترجاع يحتوي روابط أو مسارات غير صالحة؛ لم تتغير ملفات اللعبة.');
+  }
+}
 async function recover(image, backup, m) {
   const tx = path.join(backup, 'transaction'), journalPath = path.join(tx, 'journal.json');
   if (!await exists(journalPath)) return;
   const j = JSON.parse(await fs.readFile(journalPath, 'utf8'));
   const groups = versions(m);
-  if (!groups.includes(j.before) || !groups.includes(j.after)) throw Error('سجل الاسترجاع غير صالح.');
+  if (typeof j.committed !== 'boolean' || !groups.includes(j.before) || !groups.includes(j.after)) throw Error('سجل الاسترجاع غير صالح.');
+  const bound = j.beforeFiles !== undefined || j.afterFiles !== undefined;
+  const sameFiles = (a, b) => names.every(n => a?.[n]?.bytes === b[n].bytes && a?.[n]?.sha256 === b[n].sha256);
+  let before = bound && groups.find(g => sameFiles(j.beforeFiles, m[g]));
+  let after = bound && groups.find(g => sameFiles(j.afterFiles, m[g]));
+  if (bound && (!before || !after)) throw Error('سجل الاسترجاع لا يطابق إصدارات التعريب المدعومة.');
+  // Legacy journals stored shifting aliases, so infer the actual known pair.
+  if (!bound && !j.committed) {
+    for (const g of [j.before, ...groups.filter(g => g !== j.before)]) {
+      if ((await Promise.all(names.map(async n => matches(await exists(path.join(tx, n + '.previous')) ? path.join(tx, n + '.previous') : path.join(image, n), m[g][n])))).every(Boolean)) { before = g; break; }
+    }
+    if (!before) throw Error('نسخة الاسترجاع غير سليمة.');
+  }
+  if (!bound) {
+    for (const g of [j.after, ...groups.filter(g => g !== j.after)]) {
+      if ((await Promise.all(names.map(async n => {
+        const current = path.join(image, n);
+        if (!j.committed && (await matches(current, m[before][n]) || await exists(path.join(tx, n + '.previous')) && !await exists(current))) return true;
+        return matches(current, m[g][n]);
+      }))).every(Boolean)) { after = g; break; }
+    }
+    if (!after) throw Error('تعديل خارجي أثناء العملية؛ تم إيقاف الاسترجاع.');
+  }
   if (j.committed) {
-    for (const n of names) if (!await matches(path.join(image, n), m[j.after][n])) throw Error('تغيرت ملفات اللعبة بعد العملية؛ يلزم فحص يدوي.');
+    for (const n of names) if (!await matches(path.join(image, n), m[after][n])) throw Error('تغيرت ملفات اللعبة بعد العملية؛ يلزم فحص يدوي.');
   } else {
     // Validate the whole pair before touching either file during crash recovery.
     for (const n of names) {
       const prev = path.join(tx, n + '.previous'), current = path.join(image, n);
       if (await exists(prev)) {
-        if (!await matches(prev, m[j.before][n])) throw Error('نسخة الاسترجاع غير سليمة.');
-        if (await exists(current) && !await matches(current, m[j.before][n]) && !await matches(current, m[j.after][n])) throw Error('تعديل خارجي أثناء العملية؛ تم إيقاف الاسترجاع.');
-      } else if (!await matches(current, m[j.before][n])) throw Error('تعذر استرجاع العملية السابقة بأمان.');
+        if (!await matches(prev, m[before][n])) throw Error('نسخة الاسترجاع غير سليمة.');
+        if (await exists(current) && !await matches(current, m[before][n]) && !await matches(current, m[after][n])) throw Error('تعديل خارجي أثناء العملية؛ تم إيقاف الاسترجاع.');
+      } else if (!await matches(current, m[before][n])) throw Error('تعذر استرجاع العملية السابقة بأمان.');
     }
     for (const n of names) {
       const prev = path.join(tx, n + '.previous');
@@ -100,9 +132,10 @@ async function operate({folder, patchDir, action, progress = () => {}, checkRunn
     await fs.rm(lockPath);
     lock = await fs.open(lockPath, 'wx');
   }
-  await lock.writeFile(JSON.stringify({pid: process.pid}));
   const backup = path.join(image, '.days-arabic-backup'), tx = path.join(backup, 'transaction');
   try {
+    await lock.writeFile(JSON.stringify({pid: process.pid}));
+    await checkBackupPaths(backup);
     progress(5, 'فحص الملفات واسترجاع أي عملية منقطعة…');
     await recover(image, backup, m);
     const before = await classify(image, m), after = action === 'install' ? 'target' : 'source';
@@ -157,7 +190,7 @@ async function operate({folder, patchDir, action, progress = () => {}, checkRunn
     for (const n of names) if (!await matches(path.join(tx, n), m[after][n])) throw Error('فشل التحقق النهائي؛ لم تتغير اللعبة.');
     if (await checkRunning()) throw Error('بدأت اللعبة أثناء التجهيز. أغلقها وأعد المحاولة.');
     if (await classify(image, m) !== before) throw Error('تغيرت ملفات اللعبة أثناء التجهيز. أوقف تحديث Steam وأعد المحاولة.');
-    const journal = {before, after, committed: false};
+    const journal = {before, after, beforeFiles: m[before], afterFiles: m[after], committed: false};
     await writeJournal(path.join(tx, 'journal.json'), journal);
     try {
       progress(85, 'تطبيق الملفات…');
@@ -177,4 +210,4 @@ async function operate({folder, patchDir, action, progress = () => {}, checkRunn
     await lock.close(); await fs.rm(lockPath, {force: true});
   }
 }
-module.exports = {hash, matches, loadPatch, resolveImage, operate};
+module.exports = {hash, matches, loadPatch, resolveImage, operate, isGameRunning};

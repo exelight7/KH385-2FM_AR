@@ -5,7 +5,7 @@ const path = require('node:path');
 const os = require('node:os');
 const crypto = require('node:crypto');
 const zlib = require('node:zlib');
-const {operate} = require('../core.cjs');
+const {operate, isGameRunning} = require('../core.cjs');
 const info = b => ({bytes: b.length, sha256: crypto.createHash('sha256').update(b).digest('hex')});
 async function fixture(t) {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), 'days-installer-test-'));
@@ -154,4 +154,86 @@ test('upgrade from the fourth historical release preserves the original backup',
   await operate({...f.args, action: 'uninstall'});
   assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.pkg')), f.pkg);
   assert.deepEqual(await fs.readFile(path.join(f.image, '.days-arabic-backup/Mare.pkg')), f.pkg);
+});
+
+async function shiftedJournal(t, committed, descriptors = false) {
+  const f = await previousFixture(t), tx = path.join(f.image, '.days-arabic-backup/transaction');
+  const olderHed = Buffer.from(f.hed); olderHed.fill(88, 0, 32);
+  const olderPkg = Buffer.concat([f.pkg, Buffer.from('older release fixture')]);
+  f.m.older = {'Mare.hed': info(olderHed), 'Mare.pkg': info(olderPkg)};
+  await fs.writeFile(path.join(f.patch, 'manifest.json'), JSON.stringify(f.m));
+  await fs.mkdir(tx);
+  await fs.writeFile(path.join(tx, 'Mare.hed.previous'), olderHed);
+  await fs.writeFile(path.join(f.image, 'Mare.pkg'), committed ? f.oldPkg : olderPkg);
+  if (committed) await fs.writeFile(path.join(tx, 'Mare.pkg.previous'), olderPkg);
+  const journal = {before: 'previous', after: 'target', committed};
+  if (descriptors) Object.assign(journal, {beforeFiles: f.m.older, afterFiles: f.m.previous});
+  await fs.writeFile(path.join(tx, 'journal.json'), JSON.stringify(journal));
+  return {...f, tx};
+}
+for (const committed of [false, true]) test(`legacy journal survives changed release slots (committed=${committed})`, async t => {
+  const f = await shiftedJournal(t, committed);
+  await operate({...f.args, action: 'uninstall'});
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.hed')), f.hed);
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.pkg')), f.pkg);
+  await assert.rejects(fs.access(f.tx));
+});
+test('new journal binds file hashes across release slot changes', async t => {
+  const f = await shiftedJournal(t, false, true);
+  await operate({...f.args, action: 'uninstall'});
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.pkg')), f.pkg);
+});
+test('recovery rejects an unknown external update before restoring either file', async t => {
+  const f = await shiftedJournal(t, false, true);
+  await fs.writeFile(path.join(f.image, 'Mare.hed'), 'external update');
+  const beforePkg = await fs.readFile(path.join(f.image, 'Mare.pkg'));
+  await assert.rejects(operate({...f.args, action: 'uninstall'}), /خارجي/);
+  assert.equal(await fs.readFile(path.join(f.image, 'Mare.hed'), 'utf8'), 'external update');
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.pkg')), beforePkg);
+  assert.ok(await fs.readFile(path.join(f.tx, 'Mare.hed.previous')));
+});
+test('backup junction cannot write outside the selected game', async t => {
+  const f = await fixture(t), outside = path.join(f.root, 'outside');
+  await fs.mkdir(outside);
+  await fs.writeFile(path.join(outside, 'Mare.pkg'), 'unrelated file');
+  await fs.symlink(outside, path.join(f.image, '.days-arabic-backup'), 'junction');
+  await assert.rejects(operate({...f.args, action: 'install'}), /روابط/);
+  await assert.rejects(fs.access(path.join(outside, 'Mare.hed')));
+  assert.equal(await fs.readFile(path.join(outside, 'Mare.pkg'), 'utf8'), 'unrelated file');
+});
+test('transaction junction cannot overwrite unrelated files', async t => {
+  const f = await previousFixture(t), outside = path.join(f.root, 'outside');
+  await fs.mkdir(outside);
+  await fs.writeFile(path.join(outside, 'Mare.hed'), 'unrelated file');
+  await fs.symlink(outside, path.join(f.image, '.days-arabic-backup/transaction'), 'junction');
+  await assert.rejects(operate({...f.args, action: 'install'}), /روابط/);
+  assert.equal(await fs.readFile(path.join(outside, 'Mare.hed'), 'utf8'), 'unrelated file');
+});
+test('lock metadata failure releases the lock and permits retry', async t => {
+  const f = await fixture(t), open = fs.open;
+  const mock = t.mock.method(fs, 'open', async (...args) => {
+    const handle = await open(...args);
+    if (String(args[0]).endsWith('.days-arabic.lock')) {
+      t.after(async () => { if (handle.fd !== -1) await handle.close(); });
+      handle.writeFile = async () => { throw Object.assign(Error('injected disk full'), {code: 'ENOSPC'}); };
+    }
+    return handle;
+  });
+  await assert.rejects(operate({...f.args, action: 'install'}), /injected disk full/);
+  mock.mock.restore();
+  await assert.rejects(fs.access(path.join(f.image, '.days-arabic.lock')));
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.pkg')), f.pkg);
+  assert.equal((await operate({...f.args, action: 'install'})).status, 'complete');
+});
+test('fifth historical release upgrades and restores the exact original', async t => {
+  const f = await previousFixture(t);
+  f.m.oldest = f.m.previous; delete f.m.previous;
+  await fs.writeFile(path.join(f.patch, 'manifest.json'), JSON.stringify(f.m));
+  await operate({...f.args, action: 'install'});
+  await operate({...f.args, action: 'uninstall'});
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.pkg')), f.pkg);
+});
+test('process detection covers the collection launcher without matching installer directory names', () => {
+  for (const line of ['"KINGDOM HEARTS HD 1.5+2.5 ReMIX.exe","123","Console"', 'wine /games/KINGDOM HEARTS/WaitTitleProject.exe', '"WaitTitleProject.exe","42"', '/games/KINGDOM HEARTS HD 1.5+2.5 ReMIX.exe']) assert.equal(isGameRunning(line), true, line);
+  for (const line of ['wine /games/KINGDOM HEARTS -HD 1.5+2.5 ReMIX-/Days-Arabic-Setup-1.0.0.exe', '"explorer.exe","42"', '']) assert.equal(isGameRunning(line), false, line);
 });

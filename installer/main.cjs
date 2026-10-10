@@ -4,7 +4,7 @@ const os = require('node:os');
 const path = require('node:path');
 const {execFile} = require('node:child_process');
 const {promisify} = require('node:util');
-const {operate, loadPatch} = require('./core.cjs');
+const {operate, loadPatch, isGameRunning} = require('./core.cjs');
 const run = promisify(execFile);
 const patchDir = app.isPackaged ? path.join(process.resourcesPath, 'patch') : path.join(__dirname, 'patch');
 const releases = 'https://github.com/exelight7/KH385-2FM_AR/releases';
@@ -13,7 +13,7 @@ let win, busy = false;
 async function running() {
   const windows = process.platform === 'win32';
   const {stdout} = await run(windows ? 'tasklist' : 'ps', windows ? ['/FO', 'CSV', '/NH'] : ['-eo', 'args='], {windowsHide: true, maxBuffer: 4 * 1024 * 1024});
-  return /KINGDOM\s*HEARTS.*\.exe/i.test(stdout);
+  return isGameRunning(stdout);
 }
 async function detect() {
   const game = 'KINGDOM HEARTS -HD 1.5+2.5 ReMIX-';

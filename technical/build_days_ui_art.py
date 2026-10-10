@@ -27,7 +27,7 @@ LABELS={
 }
 
 
-def main():
+def main(out=OUT):
     report=[];previews=[]
     for name,labels in LABELS.items():
         source=SOURCE/f'uk/l2d/{name}.l2d';raw=source.read_bytes();data=bytearray(raw)
@@ -71,7 +71,7 @@ def main():
         assert np.array_equal(pixels[~allowed],original[~allowed])
         data[pos:pos+meta['imageBytes']]=pixels.tobytes()
         assert len(data)==len(raw) and data[:pos]==raw[:pos] and data[pos+meta['imageBytes']:]==raw[pos+meta['imageBytes']:]
-        target=OUT/f'payload/original/uk/l2d/{name}.l2d';target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(data)
+        target=out/f'payload/original/uk/l2d/{name}.l2d';target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(data)
         for r in report:
             if r['path']==source.relative_to(SOURCE).as_posix():
                 r.update(targetSha256=hashlib.sha256(data).hexdigest(),layoutAndOtherTexturesUnchanged=True,outsideLabelsUnchanged=True)
@@ -79,8 +79,8 @@ def main():
     for i,(text,image) in enumerate(previews):
         draw.text((8,i*100+2),text.split(' / ')[0],fill='white')
         sheet.paste(image,(220,i*100+10),image)
-    sheet.save(OUT/'ui-art-preview.png')
-    (OUT/'ui-art-report.json').write_text(json.dumps({'labels':report,'count':len(report),'inGameVerified':False},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    sheet.save(out/'ui-art-preview.png')
+    (out/'ui-art-report.json').write_text(json.dumps({'labels':report,'count':len(report),'inGameVerified':False},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps({'labels':len(report),'containers':len(LABELS),'geometryUnchanged':True,'outsideLabelsUnchanged':True}))
 
 

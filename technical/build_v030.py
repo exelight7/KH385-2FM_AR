@@ -39,7 +39,8 @@ def visual(text):
 def build(require_reviews=True, version='0.3.0'):
     assert re.fullmatch(r'\d+\.\d+\.\d+',version)
     OUT=ROOT/f'out/v{version}'
-    names=COMPLETE_NAMES if version=='0.4.1' else NAMES
+    complete=tuple(map(int,version.split('.'))) >= (0,4,1)
+    names=COMPLETE_NAMES if complete else NAMES
     rows=[];technical_keys=[];review_counts={}
     for name in names:
         translated=json.loads((ROOT/f'translation/v{version}/{name}.json').read_text(encoding='utf-8'))
@@ -58,8 +59,8 @@ def build(require_reviews=True, version='0.3.0'):
             assert [not line.strip() for line in row['arabic'].split('\n')]==[not line.strip() for line in row['english'].split('\n')],row['id']
             assert not re.search('[\u064b-\u065f\u0640\u200e\u200f]',row['arabic']),row['id']
             rows.append(row)
-    assert len(rows)==(2461 if version=='0.4.1' else 1616)
-    assert len(technical_keys)==(95 if version=='0.4.1' else 0)
+    assert len(rows)==(2461 if complete else 1616)
+    assert len(technical_keys)==(95 if complete else 0)
     if technical_keys:
         node(r"""
 const fs=require('fs'),assert=require('assert/strict'),c=require('./technical/tools/kh-localization-tool/tools/lib/ddd-ctd');
@@ -72,6 +73,7 @@ for(const r of rows){assert.equal(p.entries[r.index].text,r.english);assert.equa
             matching=[r for r in reviews if name in r.get('files',{}) and 'pass' in r and 'outputCanonicalSha256' in r['files'][name]]
             assert len(matching)>=2,('missing second review',name)
             assert {r['pass'] for r in matching}=={1,2},('missing independent passes',name)
+            assert len({r['reviewer'] for r in matching})>=2,('reviews need distinct reviewers',name)
             for review in matching:
                 assert review['status']=='complete' and not review.get('unresolved',[])
                 item=review['files'][name]
@@ -104,9 +106,9 @@ for(const rel of new Set(x.rows.map(r=>r.file))){const p=c.parseDddCtd(fs.readFi
 """,{'rows':rows,'mapped':mapped})
     payloads.update({rel:base64.b64decode(data) for rel,data in built['files'].items()})
     ui_art=None
-    if version=='0.4.1':
+    if complete:
         from build_days_ui_art import main as build_ui
-        build_ui()
+        build_ui(OUT)
         ui_art=json.loads((OUT/'ui-art-report.json').read_text(encoding='utf-8'))
         for rel in sorted({r['path'] for r in ui_art['labels']}):
             payloads['original/'+rel]=(OUT/'payload/original'/rel).read_bytes()
@@ -158,7 +160,7 @@ for(const rel of new Set(x.rows.map(r=>r.file))){const p=c.parseDddCtd(fs.readFi
         source_max=max(width(line) for line in row['english'].split('\n'))
         target_max=max(width(line) for line in encoded.split('\n'))
         width_report.append({'file':row['file'],'index':row['index'],'id':row['id'],'source_max':source_max,'arabic_max':target_max,'warn':target_max>max(160,source_max*1.3)})
-    total=2461 if version=='0.4.1' else 2556
+    total=2461 if complete else 2556
     report={'version':version,'changed_messages':len(rows),'unchanged_messages':built['unchanged'],'totalVisibleEntries':total,'translatedPercent':round(100*len(rows)/total,3),'legacyInventoryEntries':2556,'technicalResourceKeysPreserved':[{'id':r['id'],'index':r['index'],'value':r['english']} for r in technical_keys],'uiArt':ui_art,'roundtrip_original_files':92,'font':font_report,'files':files,'xml_files':xml_report,'xml_rows':len(xml_ids),'xml_source_mismatches':xml_source_mismatches,'widths':width_report,'installed':False,'in_game_verified':False,'review_gate_enforced':require_reviews}
     (OUT/'manifest.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps({'translated':len(rows),'percent':report['translatedPercent'],'files':len(files),'xml_rows':len(xml_ids),'xml_source_mismatches':len(xml_source_mismatches),'width_warnings':sum(r['warn'] for r in width_report)}))

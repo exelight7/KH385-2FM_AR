@@ -8,6 +8,6 @@ Date:2026-10-10 / FONT-UI-FIX-101
 - Only four font payloads and days_theatre.l2d changed since1.0.0;131 payloads unchanged.136 replacements re-extracted/hash matched,2024 archive records including57 unknown preserved. Video untouched; reported video-quality cause remains unconfirmed.
 -23 installer tests; upgrades supported from0.1.0/0.2.0/0.3.0/0.4.0/0.4.1/1.0.0. Full archive upgrade/restore verified:True. Live installed:True; live version:1.0.1. No automatic game launch.
 - Decorative scene artwork (including WINNER/vacation notice) still English. Full art inventory and runtime verification pending. Re:coded story/KH1/KH2 excluded; shared labels/profiles included.
-- Public binary downloads verified:False. CI packaging pending.
+- Public binary downloads verified:True. https://github.com/exelight7/KH385-2FM_AR/actions/runs/38059066718
 
 Preserve original Image/.days-arabic-backup and prior frozen proofs. Sources of truth: PROJECT_PROGRESS.json, installer/patch/manifest.json and versioned verification files.

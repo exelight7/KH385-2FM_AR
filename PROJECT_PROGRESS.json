@@ -67,9 +67,9 @@
   "repository": "https://github.com/exelight7/KH385-2FM_AR",
   "visibility": "public - explicitly selected by owner",
   "release": "https://github.com/exelight7/KH385-2FM_AR/releases/tag/v1.0.1",
-  "releasePublished": false,
-  "windowsExe": "CI packaging pending",
-  "linuxAppImage": "CI packaging pending; in-game rendering unverified",
+  "releasePublished": true,
+  "windowsExe": "public download verified",
+  "linuxAppImage": "public download verified; in-game rendering unverified",
   "freshlyReviewedEntries": 0,
   "distinctCorrectedRows": 0,
   "correctionEvents": 0,
@@ -78,5 +78,12 @@
   "currentRuntimeRenderingVerified": false,
   "distinctAdjacentJoinPairsPerFont": 1334,
   "codCroppedJoinFailures": 0,
-  "renderingFixReport": "technical/verification/v1.0.1-rendering-fix.json"
+  "renderingFixReport": "technical/verification/v1.0.1-rendering-fix.json",
+  "buildRun": "https://github.com/exelight7/KH385-2FM_AR/actions/runs/38059066718",
+  "releaseSourceCommit": "ae30125562bd94d14aa43ea548cb9425aca00055",
+  "testsOnWindowsAndLinux": 23,
+  "releaseDownloadVerification": "technical/verification/v1.0.1-release-downloads.json",
+  "appImageSha256": "976e52fe7c35007c548e9994c2d19ea2332587f034cd24d5633460883b9e07f0",
+  "windowsExeSha256": "50c57c99e33a44ea63f40ba9004eacadaf7ec0107256f7947bb520c14d18d252",
+  "uninstallExeSha256": "50c57c99e33a44ea63f40ba9004eacadaf7ec0107256f7947bb520c14d18d252"
 }

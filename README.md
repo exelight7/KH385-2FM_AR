@@ -54,7 +54,7 @@
 
 تم تركيب **1.0.1** على نسخة صاحب المشروع بعد اختبار النسخة المنفصلة؛ [سجل التثبيت](technical/verification/v1.0.1-install.json) يثبت تطابق الحزمة وسلامة النسخة الأصلية الاحتياطية. لم تُشغّل اللعبة تلقائيًا. سبب ملاحظة اختلاف جودة المشاهد لم يُحسم؛ [فحص الفيديو](technical/verification/video-integrity.json) و[فحص الأرشيف الحالي](technical/verification/v1.0.1-archive.json) يثبتان حفظ البيانات الأصلية.
 
-بناء حزم Windows وLinux ونشر التنزيلات جارٍ. تُضاف سجلات البناء والتحقق بعد اكتمالها.
+نجح بناء Windows وLinux عبر [GitHub Actions](https://github.com/exelight7/KH385-2FM_AR/actions/runs/38059066718)، مع **23 اختبارًا ناجحًا لكل نظام**. تحققت تنزيلات البرامج الثلاثة من SHA-256 والحجم وترويسات EXE وAppImage: [سجل البناء](technical/verification/v1.0.1-ci.json)، و[سجل التنزيلات](technical/verification/v1.0.1-release-downloads.json).
 
 ## المساهمة والبناء
 

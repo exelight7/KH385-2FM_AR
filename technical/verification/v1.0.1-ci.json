@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-10T14:22:24.538Z",
+  "version": "1.0.1",
+  "runId": 38059066718,
+  "url": "https://github.com/exelight7/KH385-2FM_AR/actions/runs/38059066718",
+  "sourceCommit": "ae30125562bd94d14aa43ea548cb9425aca00055",
+  "status": "completed",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "id": 114233425391,
+      "name": "package (windows-latest, build:win, windows-exe)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 114233425575,
+      "name": "package (ubuntu-22.04, build:linux, linux-appimage)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 114234015339,
+      "name": "release",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "testsPerOs": 23,
+  "testLogEvidence": {
+    "windows": [
+      "2026-10-10T14:18:41.5074336Z ℹ tests 23\r",
+      "2026-10-10T14:18:41.5075127Z ℹ pass 23\r",
+      "2026-10-10T14:18:41.5075429Z ℹ fail 0\r"
+    ],
+    "linux": [
+      "2026-10-10T14:18:28.5674409Z ℹ tests 23",
+      "2026-10-10T14:18:28.5675964Z ℹ pass 23",
+      "2026-10-10T14:18:28.5676344Z ℹ fail 0"
+    ]
+  },
+  "allJobsSucceeded": true,
+  "inGameVerified": false
+}

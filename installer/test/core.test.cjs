@@ -115,6 +115,18 @@ test('upgrade from legacy release also preserves and restores exact original bac
   assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.hed')), f.hed);
   assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.pkg')), f.pkg);
 });
+
+test('upgrade from older release retains the same verified original backup', async t => {
+  const f = await previousFixture(t);
+  f.m.older = f.m.previous;
+  delete f.m.previous;
+  await fs.writeFile(path.join(f.patch, 'manifest.json'), JSON.stringify(f.m));
+  assert.equal((await operate({...f.args, action: 'install'})).status, 'complete');
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.hed')), f.changedHed);
+  assert.equal((await operate({...f.args, action: 'uninstall'})).status, 'complete');
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.pkg')), f.pkg);
+  assert.deepEqual(await fs.readFile(path.join(f.image, '.days-arabic-backup/Mare.pkg')), f.pkg);
+});
 test('failed upgrade restores previous release and retries successfully', async t => {
   const f = await previousFixture(t);
   await assert.rejects(operate({...f.args, action: 'install', fault: async () => {throw Error('upgrade failure');}}), /upgrade failure/);

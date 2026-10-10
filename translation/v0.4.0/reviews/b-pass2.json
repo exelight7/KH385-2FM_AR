@@ -1,0 +1,47 @@
+{
+  "pass": 2,
+  "status": "complete",
+  "reviewer": "story_b",
+  "files": {
+    "cthd100": {
+      "reviewedRows": 444,
+      "correctedIds": [],
+      "unresolved": [],
+      "outputCanonicalSha256": "a9343eb0f4bb2a1c1ee3970669e5e7489b211ac936c23ca9e7325d07fefff1be",
+      "inputCanonicalSha256": "a9343eb0f4bb2a1c1ee3970669e5e7489b211ac936c23ca9e7325d07fefff1be",
+      "sourceCanonicalSha256": "20aebd3e293948d48009c4b847c95c45c7e16fbe88113c77f61648d601700f86"
+    },
+    "cthd300": {
+      "reviewedRows": 46,
+      "correctedIds": [],
+      "unresolved": [],
+      "outputCanonicalSha256": "3f1d7525ffc9aec41ded4590c63690a05e3f457fc7730610ec4143a9d159a986",
+      "inputCanonicalSha256": "3f1d7525ffc9aec41ded4590c63690a05e3f457fc7730610ec4143a9d159a986",
+      "sourceCanonicalSha256": "11f632597c7be9d4005a3ff674113fb627d41d66d5a5c9549a050b8d0be28851"
+    }
+  },
+  "corrections": [],
+  "unresolved": [],
+  "method": "Read every paired English/Arabic row of current 0.4.0 files in order: cthd100 in three contiguous batches of 150/150/144 records, then all 46 cthd300 records. Checked each with adjacent dialogue/narrative context for semantic fidelity, spelling, hamza, ta marbuta, alif maqsura, pronouns, number/gender agreement, tense, negation, idioms, locked names and natural formal subtitle register. No remaining substantive correction was warranted; no cosmetic rewrites or forced edits were introduced.",
+  "checks": {
+    "reviewedRows": 490,
+    "metadataAndEnglishExact": true,
+    "sourceRowOrderExact": true,
+    "newlineCountsExact": true,
+    "blankLinePositionsExact": true,
+    "orderedTagsExact": true,
+    "commandLinePositionsExact": true,
+    "noVowelMarksOrTatweel": true,
+    "commandCounts": {
+      "cthd100": 0,
+      "cthd300": 71
+    }
+  },
+  "notes": [
+    "Current REVIEW1 repairs were checked directly against English, including each-other phrasing, threat/identity exchanges, the future role of Sora memories, and narrative paragraphs.",
+    "Preserved the catchphrase forms using حفظ and the already-correct awkwardness/idiom fixes.",
+    "Reviewed all BGTRANS/WAIT narrative control cues and kept them on their source lines and in their source paragraphs.",
+    "The two JSON payload files were left byte-for-byte unchanged because the review found no further necessary edit.",
+    "No installation, game launch, build, publication, or write outside this report."
+  ]
+}

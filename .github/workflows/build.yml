@@ -71,4 +71,4 @@ jobs:
             exit 0
           fi
           find artifacts -type f \( -name '*.exe' -o -name '*.AppImage' \) -exec sha256sum {} + > SHA256SUMS.txt
-          gh release create "$TAG" --target "$GITHUB_SHA" --prerelease --title "Days Arabic $TAG — تجريبي" --notes "0.3.0: تعريب 1616 من 2556 سجلا نصيا (63.2%)؛ حوارات القصة والمقدمة والفقرات السردية، بفصحى راجعتها مراجعتان مستقلتان. خط IBM Plex Sans Arabic Medium المستخدم في KH2FM. القوائم واليوميات وبطاقات الصور باقية بالإنجليزية. يدعم الترقية المباشرة من 0.1.0 و0.2.0 مع حفظ النسخة الأصلية؛ أغلق اللعبة واختر English للنص. Setup يثبت وUninstall يسترجع الأصل؛ AppImage يوفر الزرين على Linux. حزمة فروق تتطلب نسختك الأصلية. العرض بالخط الجديد داخل اللعبة وعلى Linux يحتاج تأكيد المستخدم؛ لا تعني نسبة النصوص اعتماد المشاهدة. لا تعيد الحزمة ضغط الفيديو." artifacts/windows-exe/*.exe artifacts/linux-appimage/*.AppImage SHA256SUMS.txt
+          gh release create "$TAG" --target "$GITHUB_SHA" --prerelease --title "Days Arabic $TAG — تجريبي" --notes-file release-notes.md artifacts/windows-exe/*.exe artifacts/linux-appimage/*.AppImage SHA256SUMS.txt

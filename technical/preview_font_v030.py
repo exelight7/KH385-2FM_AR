@@ -2,13 +2,17 @@
 import json
 from pathlib import Path
 import struct
+import sys
+import re
 import numpy as np
 from PIL import Image, ImageDraw
 from build_v030 import visual
 from font_atlas import cod_entries
 
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'out/v0.3.0'
+version=sys.argv[1] if len(sys.argv)>1 else '0.3.0'
+assert re.fullmatch(r'\d+\.\d+\.\d+',version)
+OUT=ROOT/f'out/v{version}'
 data=(OUT/'payload/original/uk/font/eventfont.tm2').read_bytes()
 _,palette_size,image_size,header=struct.unpack_from('<IIIH',data,16)
 assert palette_size==1024
@@ -21,11 +25,11 @@ rgba[:,:3]=np.minimum(rgba[:,:3].astype(np.int32)*2,255).astype(np.uint8)
 count=struct.unpack_from('<H',(ROOT/'technical/extracted_mare/original/uk/font/eventfont.inf').read_bytes())[0]
 entries={e['id']:e for e in cod_entries((OUT/'payload/original/uk/font/eventfont.cod').read_bytes(),count)}
 donors={chr(int(e['form'][2:],16)):e['id'] for e in json.loads((OUT/'allocation.json').read_text())}
-rows={r['id']:r for p in (ROOT/'translation/v0.3.0').glob('ct*.json') for r in json.loads(p.read_text(encoding='utf-8'))}
+rows={r['id']:r for p in (ROOT/f'translation/v{version}').glob('ct*.json') for r in json.loads(p.read_text(encoding='utf-8'))}
 sample=['03918000','03918100','03918200']
 lines=[line for ident in sample for line in visual(rows[ident]['arabic']).split('\n')]
 canvas=Image.new('RGBA',(620,45+len(lines)*40),(204,204,218,255))
-ImageDraw.Draw(canvas).text((10,10),'0.3.0 / IBM PLEX SANS ARABIC MEDIUM / OFFLINE ATLAS PREVIEW',fill='black')
+ImageDraw.Draw(canvas).text((10,10),version+' / IBM PLEX SANS ARABIC MEDIUM / OFFLINE ATLAS PREVIEW',fill='black')
 for i,line in enumerate(lines):
     codes=[donors.get(c,ord(c)) for c in line]
     # ASCII space is handled by the engine and has no COD cell. Its advance

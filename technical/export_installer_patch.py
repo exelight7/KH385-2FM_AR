@@ -47,11 +47,13 @@ def main():
     segments.sort(key=lambda x: x['tailOffset'])
     compressed = gzip.compress(delta, compresslevel=9, mtime=0)
     (dest / 'tail.gz').write_bytes(compressed)
-    previous = json.loads((ROOT / 'technical/verification/v0.2.0-manifest.json').read_text(encoding='utf-8'))['target']
+    previous = json.loads((ROOT / 'technical/verification/v0.3.0-manifest.json').read_text(encoding='utf-8'))['target']
+    older = json.loads((ROOT / 'technical/verification/v0.2.0-manifest.json').read_text(encoding='utf-8'))['target']
     legacy = json.loads((ROOT / 'technical/verification/v0.1.0-manifest.json').read_text(encoding='utf-8'))['target']
     version = json.loads((ROOT / 'installer/package.json').read_text(encoding='utf-8'))['version']
+    assert translation['version']==version, 'Build and installer versions must match'
     manifest = {'format': 2, 'version': version, 'title': 'KINGDOM HEARTS 358/2 Days',
-                'previous': previous, 'legacy': legacy,
+                'previous': previous, 'older': older, 'legacy': legacy,
                 'translatedEntries': translation['changed_messages'], 'totalVisibleEntries': 2556,
                 'inGameVerified': False, 'source': source, 'target': target,
                 'tail': {'bytes': len(tail), 'sha256': hashlib.sha256(tail).hexdigest()},

@@ -17,7 +17,6 @@ from font_atlas import make_fonts
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'technical/extracted_mare/original'
-OUT = ROOT / 'out/v0.3.0'
 NAMES = ['cthd000', 'cthd050', 'cthd100', 'cthd300', 'cthd800']
 TAG = re.compile(r'(\{[^}]+\}|\[(?:BGTRANS|WAIT)[^]]*\])')
 digest = lambda b: hashlib.sha256(b).hexdigest()
@@ -34,10 +33,12 @@ def visual(text):
     return ''.join(part if TAG.fullmatch(part) else get_display(arabic_reshaper.reshape(part)) for part in TAG.split(text))
 
 
-def build(require_reviews=True):
+def build(require_reviews=True, version='0.3.0'):
+    assert re.fullmatch(r'\d+\.\d+\.\d+',version)
+    OUT=ROOT/f'out/v{version}'
     rows=[]
     for name in NAMES:
-        translated=json.loads((ROOT/f'translation/v0.3.0/{name}.json').read_text(encoding='utf-8'))
+        translated=json.loads((ROOT/f'translation/v{version}/{name}.json').read_text(encoding='utf-8'))
         assert len(translated)==dict(cthd000=319,cthd050=509,cthd100=444,cthd300=46,cthd800=298)[name]
         for row in translated:
             assert row['file']==f'uk/message/en/event/hd/bin/{name}.ctd'
@@ -49,7 +50,7 @@ def build(require_reviews=True):
         rows.extend(translated)
     assert len(rows)==1616
     if require_reviews:
-        reviews=[json.loads(p.read_text(encoding='utf-8')) for p in (ROOT/'translation/v0.3.0/reviews').glob('*.json')]
+        reviews=[json.loads(p.read_text(encoding='utf-8')) for p in (ROOT/f'translation/v{version}/reviews').glob('*.json')]
         for name in NAMES:
             matching=[r for r in reviews if name in r.get('files',{})]
             assert len(matching)>=2,('missing second review',name)
@@ -61,7 +62,7 @@ def build(require_reviews=True):
                 assert not item.get('unresolved',[])
                 if review['pass']==2:
                     reviewed_hash=item['outputCanonicalSha256']
-                    canonical=(ROOT/f'translation/v0.3.0/{name}.json').read_text(encoding='utf-8').encode('utf-8')
+                    canonical=(ROOT/f'translation/v{version}/{name}.json').read_text(encoding='utf-8').encode('utf-8')
                     assert reviewed_hash==digest(canonical),('changed after final review',name)
     metadata=node(r"""
 const fs=require('fs'),path=require('path'),c=require('./technical/tools/kh-localization-tool/tools/lib/ddd-ctd');let used=new Set(),count=0;
@@ -133,11 +134,15 @@ for(const rel of new Set(x.rows.map(r=>r.file))){const p=c.parseDddCtd(fs.readFi
         source_max=max(width(line) for line in row['english'].split('\n'))
         target_max=max(width(line) for line in encoded.split('\n'))
         width_report.append({'file':row['file'],'index':row['index'],'id':row['id'],'source_max':source_max,'arabic_max':target_max,'warn':target_max>max(160,source_max*1.3)})
-    report={'version':'0.3.0','changed_messages':len(rows),'unchanged_messages':built['unchanged'],'totalVisibleEntries':2556,'translatedPercent':round(100*len(rows)/2556,3),'roundtrip_original_files':92,'font':font_report,'files':files,'xml_files':xml_report,'xml_rows':len(xml_ids),'xml_source_mismatches':xml_source_mismatches,'widths':width_report,'installed':False,'in_game_verified':False,'review_gate_enforced':require_reviews}
+    report={'version':version,'changed_messages':len(rows),'unchanged_messages':built['unchanged'],'totalVisibleEntries':2556,'translatedPercent':round(100*len(rows)/2556,3),'roundtrip_original_files':92,'font':font_report,'files':files,'xml_files':xml_report,'xml_rows':len(xml_ids),'xml_source_mismatches':xml_source_mismatches,'widths':width_report,'installed':False,'in_game_verified':False,'review_gate_enforced':require_reviews}
     (OUT/'manifest.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps({'translated':len(rows),'percent':report['translatedPercent'],'files':len(files),'xml_rows':len(xml_ids),'xml_source_mismatches':len(xml_source_mismatches),'width_warnings':sum(r['warn'] for r in width_report)}))
 
 
 if __name__=='__main__':
-    import sys
-    build(require_reviews='--draft-check' not in sys.argv)
+    import argparse
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--version',default='0.3.0')
+    parser.add_argument('--draft-check',action='store_true')
+    args=parser.parse_args()
+    build(require_reviews=not args.draft_check,version=args.version)

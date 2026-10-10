@@ -5,7 +5,7 @@ const crypto = require('node:crypto');
 const zlib = require('node:zlib');
 
 const names = ['Mare.hed', 'Mare.pkg'];
-const versions = m => ['source', 'target', ...['previous', 'legacy'].filter(g => m[g])];
+const versions = m => ['source', 'target', ...['previous', 'older', 'legacy'].filter(g => m[g])];
 const exists = async p => fs.access(p).then(() => true, () => false);
 async function hash(p) {
   const h = crypto.createHash('sha256');

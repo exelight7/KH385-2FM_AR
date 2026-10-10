@@ -1,0 +1,913 @@
+{
+  "version": "0.4.0",
+  "baseline": "0.3.0",
+  "reviewedEntriesPerPass": 1616,
+  "independentPasses": 2,
+  "changedRows": 64,
+  "changedRowsPerFile": {
+    "cthd000": 15,
+    "cthd050": 25,
+    "cthd100": 12,
+    "cthd300": 3,
+    "cthd800": 9
+  },
+  "unresolved": [],
+  "changes": [
+    {
+      "file": "cthd000",
+      "index": 14,
+      "id": "02020400",
+      "english": "What was that name again...",
+      "before": "ما كان ذلك الاسم مجددا...؟",
+      "after": "ما كان اسمه...؟",
+      "reasons": [
+        "صياغة طبيعية لطلب استعادة الاسم المنسي بدل النقل الحرفي لكلمة again."
+      ],
+      "categories": [
+        "صياغة"
+      ]
+    },
+    {
+      "file": "cthd000",
+      "index": 18,
+      "id": "02020800",
+      "english": "Got it memorized, Roxas?",
+      "before": "هل حفظته يا روكساس؟",
+      "after": "هل حفظت ذلك يا روكساس؟",
+      "reasons": [
+        "توحيد الشعار المتكرر وفق قرار الاتساق، مع إبقاء اسم المخاطب."
+      ],
+      "categories": [
+        "اتساق شعار"
+      ]
+    },
+    {
+      "file": "cthd000",
+      "index": 31,
+      "id": "02031100",
+      "english": "Get it memorized.",
+      "before": "احفظه جيدا.",
+      "after": "احفظ ذلك جيدا.",
+      "reasons": [
+        "توحيد صيغة الأمر في الشعار مع السؤال هل حفظت ذلك."
+      ],
+      "categories": [
+        "اتساق شعار"
+      ]
+    },
+    {
+      "file": "cthd000",
+      "index": 46,
+      "id": "02038000",
+      "english": "The Organization defeats the Heartless\nin order to collect hearts...",
+      "before": "تهزم المنظمة بلا قلب\nلتجمع القلوب...",
+      "after": "تهزم المنظمة مخلوقات بلا قلب\nلتجمع القلوب...",
+      "reasons": [
+        "توضيح المفعول به ومنع قراءة العبارة بمعنى أن المنظمة تقاتل دون قلب."
+      ],
+      "categories": [
+        "وضوح نحوي"
+      ]
+    },
+    {
+      "file": "cthd000",
+      "index": 103,
+      "id": "02050800",
+      "english": "Got it memorized?",
+      "before": "هل حفظته؟",
+      "after": "هل حفظت ذلك؟",
+      "reasons": [
+        "توحيد السؤال المجرد للشعار المتكرر؛ لا يحدد هذا السطر مفعولا مستقلا مثل العدد."
+      ],
+      "categories": [
+        "اتساق شعار"
+      ]
+    },
+    {
+      "file": "cthd000",
+      "index": 128,
+      "id": "02090000",
+      "english": "I've got someplace to be again today,\nso go on ahead without me.",
+      "before": "لدي مكان أذهب إليه اليوم أيضا،\nلذا اذهب قبلي من دوني.",
+      "after": "لدي مكان أقصده اليوم أيضا،\nلذا انطلق من دوني.",
+      "reasons": [
+        "إزالة التكرار المربك اذهب قبلي من دوني."
+      ],
+      "categories": [
+        "صياغة"
+      ]
+    },
+    {
+      "file": "cthd000",
+      "index": 176,
+      "id": "020c8000",
+      "english": "Hey, what happens when\nHeartless are destroyed?",
+      "before": "ماذا يحدث عندما\nيتم القضاء على بلا قلب؟",
+      "after": "ماذا يحدث عندما\nيقضى على مخلوقات بلا قلب؟",
+      "reasons": [
+        "تكييف المصطلح الثابت مع التركيب العربي وإزالة التباس على بلا قلب."
+      ],
+      "categories": [
+        "وضوح نحوي"
+      ]
+    },
+    {
+      "file": "cthd000",
+      "index": 199,
+      "id": "020e8000",
+      "english": "I knew that I'd find you snoozing down here.",
+      "before": "كنت أعرف أنني سأجدك نائما هنا.",
+      "after": "كنت أعرف أنني سأجدك نائما هنا في الأسفل.",
+      "reasons": [
+        "استعادة الإشارة المكانية down here التي اختزلت إلى «هنا» فقط."
+      ],
+      "categories": [
+        "fidelity"
+      ]
+    },
+    {
+      "file": "cthd000",
+      "index": 254,
+      "id": "02138100",
+      "english": "You really think so? I was\nthinking the same about you.",
+      "before": "أتظن ذلك حقا؟ كنت\nأفكر في الأمر نفسه عنك.",
+      "after": "أتظن ذلك حقا؟ كنت\nأرى أنك أصبحت كذلك أيضا.",
+      "reasons": [
+        "صياغة طبيعية لملاحظة التغير نفسه في المخاطب."
+      ],
+      "categories": [
+        "صياغة"
+      ]
+    },
+    {
+      "file": "cthd000",
+      "index": 256,
+      "id": "02138700",
+      "english": "He musta rubbed off on me.",
+      "before": "لا بد أنه أثر في.",
+      "after": "لا بد أنني تأثرت به.",
+      "reasons": [
+        "إزالة التباس أثر في عند منع التشكيل، مع الحفاظ على تأثير الصديق."
+      ],
+      "categories": [
+        "وضوح ضمير"
+      ]
+    },
+    {
+      "file": "cthd000",
+      "index": 287,
+      "id": "02162a00",
+      "english": "But if I don't defeat Heartless\nwith the Keyblade...",
+      "before": "لكن إن لم أهزم بلا قلب\nباستخدام الكيبلايد...",
+      "after": "لكن إن لم أهزم مخلوقات بلا قلب\nباستخدام الكيبلايد...",
+      "reasons": [
+        "توضيح المفعول به حول مصطلح بلا قلب."
+      ],
+      "categories": [
+        "وضوح نحوي"
+      ]
+    },
+    {
+      "file": "cthd000",
+      "index": 288,
+      "id": "02160c00",
+      "english": "...the hearts they release will just find\ntheir way into other Heartless instead.",
+      "before": "فإن القلوب التي يحررونها\nستجد سبيلها إلى آخرين من بلا قلب.",
+      "after": "فإن القلوب التي تتحرر منها\nستجد سبيلها إلى مخلوقات أخرى من بلا قلب.",
+      "reasons": [
+        "مطابقة الإحالة إلى «مخلوقات بلا قلب» في السطر السابق بصياغة سليمة، وتجنب «آخرين من بلا قلب» بعد إدخال الموصوف غير العاقل. بقي معنى تحرر القلوب وانتقالها إلى مخلوقات أخرى محفوظا."
+      ],
+      "categories": [
+        "agreement"
+      ]
+    },
+    {
+      "file": "cthd000",
+      "index": 289,
+      "id": "02160d00",
+      "english": "I swat them in one place and\nthey just pop up in another.",
+      "before": "أقضي عليهم في مكان،\nفيظهرون في مكان آخر.",
+      "after": "أقضي عليها في مكان،\nفتظهر في مكان آخر.",
+      "reasons": [
+        "مطابقة الضمائر والأفعال مع «مخلوقات» في السياق السابق، بدلا من خلط المؤنث والمذكر."
+      ],
+      "categories": [
+        "agreement"
+      ]
+    },
+    {
+      "file": "cthd000",
+      "index": 312,
+      "id": "02162300",
+      "english": "Friends need to lean on each other\nevery now and then. ",
+      "before": "يحتاج الأصدقاء إلى الاعتماد\nبعضهم على بعض بين حين وآخر.",
+      "after": "يحتاج الأصدقاء إلى أن يعتمد\nبعضهم على بعض بين حين وآخر.",
+      "reasons": [
+        "إصلاح تركيب الاعتماد بعضهم على بعض بصلة فعلية سليمة."
+      ],
+      "categories": [
+        "نحو"
+      ]
+    },
+    {
+      "file": "cthd000",
+      "index": 325,
+      "id": "02170500",
+      "english": "I don't know. I couldn't tell ya because\nI don't have any best friends.",
+      "before": "لا أعرف. لا أستطيع إخبارك،\nفليس لدي أصدقاء مقربون إلى هذا الحد.",
+      "after": "لا أعرف. لا أستطيع إخبارك،\nفليس لدي من أعده أعز أصدقائي.",
+      "reasons": [
+        "حفظ تعبير أعز أصدقائي صراحة مع فصحى طبيعية بدلا من أصدقاء مقربون إلى هذا الحد."
+      ],
+      "categories": [
+        "اتساق مصطلح"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 37,
+      "id": "021b8400",
+      "english": "You know, I sure wish the Heartless\nwould hold still once in a while.",
+      "before": "أتعلمان؟ ليت بلا قلب\nيثبتون في أماكنهم أحيانا.",
+      "after": "أتعلمان؟ ليت مخلوقات بلا قلب\nتثبت في أماكنها أحيانا.",
+      "reasons": [
+        "Give the locked class name its natural Arabic noun construction and match nonhuman plural agreement."
+      ],
+      "categories": [
+        "grammar"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 47,
+      "id": "021ba000",
+      "english": "Xion might never have remembered\nhow to use the Keyblade.",
+      "before": "ربما لم تتذكر شيون أبدا\nكيفية استخدام الكيبلايد.",
+      "after": "لربما لم تتذكر شيون أبدا\nكيفية استخدام الكيبلايد.",
+      "reasons": [
+        "Connect the counterfactual result to preceding فلولاك without removing might."
+      ],
+      "categories": [
+        "grammar"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 78,
+      "id": "021c0b00",
+      "english": "One even he doesn't know of its\nwhereabouts.",
+      "before": "أحدها لا يعرف حتى هو\nمكانه.",
+      "after": "حتى هو لا يعرف\nمكان أحدها.",
+      "reasons": [
+        "Repair displaced subject/topic order while retaining one hidden secret and even-he emphasis."
+      ],
+      "categories": [
+        "grammar"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 81,
+      "id": "021c0e00",
+      "english": "We turned that place inside out. If it's there,\nwe're not gonna find it just by looking.",
+      "before": "فتشنا المكان رأسا على عقب. إن كانت هناك،\nفلن نجدها بمجرد البحث.",
+      "after": "قلبنا المكان رأسا على عقب. إن كانت هناك،\nفلن نجدها بمجرد البحث.",
+      "reasons": [
+        "استعمال التعبير العربي الصحيح قلبنا المكان رأسا على عقب بدلا من فتشنا المكان رأسا على عقب."
+      ],
+      "categories": [
+        "صياغة اصطلاحية"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 101,
+      "id": "021c2400",
+      "english": "Expect the orders soon.",
+      "before": "توقع الأوامر قريبا.",
+      "after": "ستتلقى الأوامر قريبا.",
+      "reasons": [
+        "صياغة طبيعية لإبلاغ المخاطب بأن الأوامر ستصله قريبا بدل الأمر الحرفي توقع الأوامر."
+      ],
+      "categories": [
+        "صياغة"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 133,
+      "id": "021f8600",
+      "english": "A month off!?",
+      "before": "شهر من الإجازة!؟",
+      "after": "شهر من الإجازة؟!",
+      "reasons": [
+        "Use normal Arabic order for a surprised question."
+      ],
+      "categories": [
+        "punctuation"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 140,
+      "id": "021f8c00",
+      "english": "Hmm... I could deal with seven days, maybe.",
+      "before": "همم... ربما أستطيع تدبر سبعة أيام.",
+      "after": "همم... ربما أستطيع تدبر أمر سبعة أيام.",
+      "reasons": [
+        "إكمال تعدية تدبر بالتركيب الطبيعي تدبر أمر، مع حفظ الإجازة ذات السبعة أيام."
+      ],
+      "categories": [
+        "نحو وصياغة"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 167,
+      "id": "021fa500",
+      "english": "Hey, I'm not about to tell you\nALL my dark secrets.",
+      "before": "اسمع، لن أخبركما\nبكل أسراري المظلمة.",
+      "after": "اسمعا، لن أخبركما\nبكل أسراري المظلمة.",
+      "reasons": [
+        "Match the opening address to the same two friends addressed by أخبركما and the surrounding dialogue."
+      ],
+      "categories": [
+        "agreement"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 185,
+      "id": "02200400",
+      "english": "Yeah, yeah, whatever you say.",
+      "before": "نعم، نعم، كما تشاء.",
+      "after": "نعم، نعم، كما تقول.",
+      "reasons": [
+        "Whatever you say dismisses the claim; it does not grant the addressee a wish."
+      ],
+      "categories": [
+        "idiom"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 205,
+      "id": "02218100",
+      "english": "We can't afford to take\nany more chances on you.",
+      "before": "لا يمكننا المجازفة\nبمنحك مزيد من الفرص.",
+      "after": "لا يمكننا المجازفة\nبمنحك مزيدا من الفرص.",
+      "reasons": [
+        "مزيدا is the accusative object of منح; restore its required written accusative alif without vowel marks."
+      ],
+      "categories": [
+        "grammar"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 235,
+      "id": "02221700",
+      "english": "I couldn't bear to lose\nmy memories of you or Xion.",
+      "before": "لا أطيق فقدان\nذكرياتي عنك وعن شيون.",
+      "after": "لا أطيق فقدان\nذكرياتي عنك أو عن شيون.",
+      "reasons": [
+        "Preserve the original disjunction: losing memories of either friend would be unbearable."
+      ],
+      "categories": [
+        "semantic"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 262,
+      "id": "02239a00",
+      "english": "or if we need hearts.",
+      "before": "ولا عما إن كنا نحتاج إلى القلوب.",
+      "after": "ولا عما إذا كنا نحتاج إلى القلوب.",
+      "reasons": [
+        "Use the idiomatic indirect-question construction ما إذا after عن."
+      ],
+      "categories": [
+        "grammar"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 287,
+      "id": "02260300",
+      "english": "If there's something going on, just be\nstraight with me for once, will ya?",
+      "before": "إن كان هناك شيء يحدث، فكن صريحا\nمعي ولو لمرة، أتفعل؟",
+      "after": "إن كان هناك شيء يحدث، فكن صريحا\nمعي ولو لمرة، أرجوك.",
+      "reasons": [
+        "ترجمة will ya كطلب ملح طبيعي بدل النقل الحرفي أتفعل."
+      ],
+      "categories": [
+        "صياغة حوار"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 289,
+      "id": "02260500",
+      "english": "Well, you've got me there, I guess.",
+      "before": "حسنا، أظن أنك أحرجتني هنا.",
+      "after": "حسنا، أظن أنك محق في هذه النقطة.",
+      "reasons": [
+        "You have got me there concedes Saix point about honesty; it does not merely report embarrassment."
+      ],
+      "categories": [
+        "idiom"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 305,
+      "id": "02280b00",
+      "english": "That long!?",
+      "before": "كل هذه المدة!؟",
+      "after": "كل هذه المدة؟!",
+      "reasons": [
+        "Use normal Arabic order for a surprised question."
+      ],
+      "categories": [
+        "punctuation"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 306,
+      "id": "02280c00",
+      "english": "Yeah. You were sleeping so much that\nme and Axel were getting worried.",
+      "before": "نعم. نمت طويلا إلى حد\nجعلني أنا وآكسل نقلق عليك.",
+      "after": "نعم. نمت طويلا إلى حد\nأثار قلقي وقلق آكسل عليك.",
+      "reasons": [
+        "إصلاح عدم المطابقة في جعلني أنا وآكسل نقلق، مع حفظ قلق الشخصين بسبب طول نوم شيون."
+      ],
+      "categories": [
+        "نحو ومطابقة"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 310,
+      "id": "02281000",
+      "english": "Huh? Oh, I'm about to head out.",
+      "before": "ماذا؟ آه، كنت على وشك الانطلاق.",
+      "after": "ماذا؟ آه، أنا على وشك الانطلاق.",
+      "reasons": [
+        "I am about to head out is present; remove the unsupported past كنت."
+      ],
+      "categories": [
+        "tense"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 329,
+      "id": "022a8200",
+      "english": "It just doesn't seem like you.",
+      "before": "الأمر فقط أن هذا لا يشبهك.",
+      "after": "كل ما في الأمر أن هذا لا يشبهك.",
+      "reasons": [
+        "Repair the literal it-just construction into natural formal Arabic without changing the claim."
+      ],
+      "categories": [
+        "register"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 361,
+      "id": "022b8d00",
+      "english": "For research, huh?",
+      "before": "مع أنهم... لا يرسلونني ولا روكساس أبدا.",
+      "after": "للأبحاث، إذن؟",
+      "reasons": [
+        "The previous draft copied the later line about never sending Xion/Roxas. Restore the actual research-facility question."
+      ],
+      "categories": [
+        "semantic"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 364,
+      "id": "022b8f00",
+      "english": "Well...they probably just don't\nneed you there.",
+      "before": "حسنا... ربما لا\nيحتاجون إليكما هناك فحسب.",
+      "after": "حسنا... ربما هم ببساطة\nلا يحتاجون إليكما هناك.",
+      "reasons": [
+        "إزالة التباس نطاق فحسب بعد النفي؛ الأصل يرجح ببساطة أنهم لا يحتاجون إليهما في المكان."
+      ],
+      "categories": [
+        "نطاق قيد ونفي"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 388,
+      "id": "022c8600",
+      "english": "Why, Xigbar...\nIt almost sounds as though you know.",
+      "before": "يا زيغبار...\nيبدو من كلامك أنك تعرف.",
+      "after": "يا زيغبار...\nيكاد كلامك يوحي بأنك تعرف.",
+      "reasons": [
+        "Retain almost in the insinuation instead of turning the hedged inference into an unqualified one."
+      ],
+      "categories": [
+        "semantic"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 439,
+      "id": "022e0100",
+      "english": "Then I...wasn't who I am...?",
+      "before": "إذن، أنا... لست من كنت أظن...؟",
+      "after": "إذن، أنا... لم أكن نفسي...؟",
+      "reasons": [
+        "Preserve past identity confusion in was not who I am; remove the invented thought/belief phrase كنت أظن."
+      ],
+      "categories": [
+        "tense"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 460,
+      "id": "022f1300",
+      "english": "only to find out that nobody\nremembers him anymore.",
+      "before": "ليكتشف أن أحدا\nلم يعد يتذكره.",
+      "after": "ليكتشف أنه لم يعد\nهناك من يتذكره.",
+      "reasons": [
+        "توضيح النفي الشامل في nobody remembers him anymore ومنع فهم أن شخصا واحدا فقط نسيه."
+      ],
+      "categories": [
+        "نفي ودلالة"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 472,
+      "id": "022f1e00",
+      "english": "They're all a jumbled mess now.\nAnd to put them back into one...",
+      "before": "كلها متشابكة الآن.\nولجمعها في كيان واحد مجددا...",
+      "after": "كلها متشابكة الآن.\nولإعادة جمعها في ذاكرة واحدة...",
+      "reasons": [
+        "The objects being restored into one are memories; avoid suggesting a separate physical entity with كيان."
+      ],
+      "categories": [
+        "semantic"
+      ]
+    },
+    {
+      "file": "cthd050",
+      "index": 519,
+      "id": "02310200",
+      "english": "Roxas!?",
+      "before": "روكساس!؟",
+      "after": "روكساس؟!",
+      "reasons": [
+        "Use normal Arabic order for a surprised question."
+      ],
+      "categories": [
+        "punctuation"
+      ]
+    },
+    {
+      "file": "cthd100",
+      "index": 18,
+      "id": "02358400",
+      "english": "He is what makes you and Xion\na part of each other's lives.",
+      "before": "هو ما يجعلك أنت وشيون\nجزءا من حياة بعضكما.",
+      "after": "هو ما يجعل كلا منكما\nجزءا من حياة الآخر.",
+      "reasons": [
+        "إصلاح تركيب «حياة بعضكما» مع إبقاء معنى دخول كل منهما في حياة الآخر."
+      ],
+      "categories": [
+        "grammar"
+      ]
+    },
+    {
+      "file": "cthd100",
+      "index": 21,
+      "id": "02358601",
+      "english": "I must insist you get your mind off\nthese needless distractions.",
+      "before": "فعليك أن تصرف ذهنك\nعن هذه المشاغل التي لا داعي لها.",
+      "after": "فعليك أن تصرف ذهنك\nعن هذه الأمور التي تشغلك بلا داع.",
+      "reasons": [
+        "صياغة طبيعية للملهيات غير الضرورية؛ «المشاغل» قد توحي بالواجبات بدلا من التشتيت."
+      ],
+      "categories": [
+        "wording"
+      ]
+    },
+    {
+      "file": "cthd100",
+      "index": 89,
+      "id": "023a0200",
+      "english": "Well, um...",
+      "before": "حسنا، أنا...",
+      "after": "حسنا، أمم...",
+      "reasons": [
+        "الأصل تردد Well, um ولا يتضمن بدء جملة بضمير «أنا»."
+      ],
+      "categories": [
+        "fidelity"
+      ]
+    },
+    {
+      "file": "cthd100",
+      "index": 103,
+      "id": "023a1000",
+      "english": "It could be that you're robbing Roxas of\nhis powers more than you oughta be.",
+      "before": "فربما تسلبين روكساس\nمن قواه أكثر مما ينبغي لك.",
+      "after": "فربما تسلبين من روكساس\nقوة أكثر مما ينبغي.",
+      "reasons": [
+        "إصلاح تعدية «تسلبين روكساس من قواه» مع الحفاظ على أن قوتها تنمو على حساب قوته."
+      ],
+      "categories": [
+        "grammar"
+      ]
+    },
+    {
+      "file": "cthd100",
+      "index": 156,
+      "id": "023d9100",
+      "english": "I know we've seen a lot of sunsets,\nbut today's puts them all to shame.",
+      "before": "أعرف أننا رأينا غروب الشمس كثيرا،\nلكن غروب اليوم يفوقها جميعا جمالا.",
+      "after": "أعرف أننا شاهدنا الغروب مرارا،\nلكن غروب اليوم يفوق كل ما رأيناه جمالا.",
+      "reasons": [
+        "إصلاح مرجع ضمير الجمع «يفوقها» بعد «غروب الشمس» المفرد مع حفظ المقارنة بكل الغروبات السابقة."
+      ],
+      "categories": [
+        "agreement"
+      ]
+    },
+    {
+      "file": "cthd100",
+      "index": 182,
+      "id": "023f0300",
+      "english": "Why is it that you always have to\nglare at me like that?",
+      "before": "لماذا أواجه دائما\nتلك النظرة الغاضبة منك؟",
+      "after": "لماذا تحدق بي دائما\nبتلك النظرة الغاضبة؟",
+      "reasons": [
+        "استعادة إسناد التحديق المباشر إلى المخاطب بدلا من الصياغة الحرفية غير الطبيعية «أواجه تلك النظرة منك»."
+      ],
+      "categories": [
+        "wording"
+      ]
+    },
+    {
+      "file": "cthd100",
+      "index": 198,
+      "id": "023f8300",
+      "english": "I'll give him that.\nCan't toss the blame around.",
+      "before": "سأقر له بذلك.\nلا أستطيع إلقاء اللوم على غيري.",
+      "after": "أقر له بذلك.\nلا أستطيع إلقاء اللوم على غيري.",
+      "reasons": [
+        "I will give him that هنا إقرار آني بصحة قوله، لا وعد بفعل مستقبلي."
+      ],
+      "categories": [
+        "idiom"
+      ]
+    },
+    {
+      "file": "cthd100",
+      "index": 258,
+      "id": "02408700",
+      "english": "Perhaps you'd care to enlighten us\nabout this pet project of yours.",
+      "before": "ربما تود أن تشرح لنا\nمشروعك المفضل هذا.",
+      "after": "ربما تود أن تطلعنا\nعلى مشروعك العزيز عليك.",
+      "reasons": [
+        "Pet project مشروع يعتز به صاحبه، وليس بالضرورة مشروعه المفضل مقارنة بكل مشاريعه."
+      ],
+      "categories": [
+        "idiom"
+      ]
+    },
+    {
+      "file": "cthd100",
+      "index": 320,
+      "id": "02418a00",
+      "english": "And now I know it's not because a depletion\nin members had made them weak.",
+      "before": "وأعرف الآن أن السبب ليس\nضعفها بعد خسارة أعضائها.",
+      "after": "وأعرف الآن أن السبب ليس\nضعفها بسبب تناقص عدد أعضائها.",
+      "reasons": [
+        "حفظ معنى انخفاض عدد الأعضاء وتسببه المفترض بالضعف، دون إيحاء بخسارة جميع الأعضاء."
+      ],
+      "categories": [
+        "fidelity"
+      ]
+    },
+    {
+      "file": "cthd100",
+      "index": 333,
+      "id": "02419500",
+      "english": "I've got that covered, Your Maj--",
+      "before": "سأتولى ذلك يا جلا...",
+      "after": "تكفلت بذلك يا جلا...",
+      "reasons": [
+        "Got that covered تعني أنه تولى الأمر ورتب له بالفعل، لا أنه سيبدأ توليه لاحقا."
+      ],
+      "categories": [
+        "tense"
+      ]
+    },
+    {
+      "file": "cthd100",
+      "index": 391,
+      "id": "02421200",
+      "english": "Best friends are supposed to be\nhonest with each other!",
+      "before": "يفترض بأعز الأصدقاء\nأن يكونوا صادقين مع بعضهم!",
+      "after": "يفترض بأعز الأصدقاء\nأن يكونوا صادقين بعضهم مع بعض!",
+      "reasons": [
+        "صياغة فصيحة سليمة للعلاقة المتبادلة، مع حفظ مصطلح أعز الأصدقاء."
+      ],
+      "categories": [
+        "grammar"
+      ]
+    },
+    {
+      "file": "cthd100",
+      "index": 436,
+      "id": "02429301",
+      "english": "I can't keep even one piece of the\nmemory called \"you\" connected.",
+      "before": "لا أستطيع أن أبقي حتى جزءا واحدا\nمن الذكرى التي تمثلك مرتبطا.",
+      "after": "لا أستطيع أن أبقي ولو جزءا واحدا\nمن الذكرى المسماة «أنت» متصلا.",
+      "reasons": [
+        "الحفاظ على تسمية الذكرى «أنت» الواردة صراحة في الأصل، وعلى معنى بقاء أجزائها متصلة."
+      ],
+      "categories": [
+        "fidelity"
+      ]
+    },
+    {
+      "file": "cthd300",
+      "index": 24,
+      "id": "02a10000",
+      "english": "[BGTRANS:tz171a.tm2]Before returning to the castle,\nRoxas saw Beast, wounded from\nprotecting what he cares for, with\nBelle there to care for him.\n\nLove had grown between the two. Xaldin\ndeclared the power of love to be\nworthless. Roxas asked what that power\nwas, but Xaldin said that explaining the\nconcept to a Nobody with no heart would\nbe pointless, and departed.",
+      "before": "[BGTRANS:tz171a.tm2]قبل عودته إلى القلعة،\nرأى روكساس الوحش مصابا\nبعدما حمى ما يهمه،\nورأى بيل تعتني به.\n\nكان الحب قد نما بينهما. أعلن\nزالدين أن قوة الحب عديمة القيمة.\nسأله روكساس عن تلك القوة، لكن\nزالدين قال إن شرح الفكرة\nلأحد اللا أحد ممن لا قلب\nلهم لا جدوى منه، ثم رحل.",
+      "after": "[BGTRANS:tz171a.tm2]قبل عودته إلى القلعة،\nرأى روكساس الوحش مصابا\nبعدما حمى ما يهمه،\nورأى بيل تعتني به.\n\nكان الحب قد نما بينهما. أعلن\nزالدين أن قوة الحب عديمة القيمة.\nسأله روكساس عن تلك القوة، لكن\nزالدين قال إن شرح الفكرة\nلواحد من اللا أحد لا يملك\nقلبا لن يجدي، ثم رحل.",
+      "reasons": [
+        "إصلاح التركيب المتعثر «لأحد اللا أحد ممن لا قلب لهم» مع إبقاء المصطلح الثابت ومعنى انتفاء جدوى الشرح لمن لا قلب له."
+      ],
+      "categories": [
+        "grammar"
+      ]
+    },
+    {
+      "file": "cthd300",
+      "index": 31,
+      "id": "02a30000",
+      "english": "[BGTRANS:tz194b.tm2]During a mission, Roxas and Axel visited\nthe world where Roxas had once flown.\n\nRoxas again met Tinker Bell and had her\nsprinkle pixie dust on him so that they\nmight fly. He began to float, but Axel\nremained firmly planted on the ground.",
+      "before": "[BGTRANS:tz194b.tm2]خلال إحدى المهمات، زار روكساس وآكسل\nالعالم الذي طار فيه روكساس من قبل.\n\nالتقى روكساس بتينكر بيل مجددا، وطلب\nمنها نثر غبار الجنيات عليه كي يتمكنا\nمن الطيران. بدأ يطفو، لكن آكسل\nبقي على الأرض دون حراك.",
+      "after": "[BGTRANS:tz194b.tm2]خلال إحدى المهمات، زار روكساس وآكسل\nالعالم الذي طار فيه روكساس من قبل.\n\nالتقى روكساس بتينكر بيل مجددا، وطلب\nمنها نثر غبار الجنيات عليه كي يتمكنا\nمن الطيران. بدأ يطفو، لكن آكسل\nبقي ثابتا على الأرض.",
+      "reasons": [
+        "Firmly planted on the ground تفيد بقاءه على الأرض دون ارتفاع، ولا تستلزم أنه لم يتحرك إطلاقا."
+      ],
+      "categories": [
+        "fidelity"
+      ]
+    },
+    {
+      "file": "cthd300",
+      "index": 34,
+      "id": "02a38000",
+      "english": "[BGTRANS:tz225a.tm2]Xion, depressed, left without eating\nher ice cream.\n\nRoxas asked Axel if she was alright but\nreceived a dismissive response.\n\nRoxas wondered if Xion might feel better\nif the three of them went to the beach\ntogether, like they had promised the\nother day.",
+      "before": "[BGTRANS:tz225a.tm2]رحلت شيون محبطة دون\nأن تأكل مثلجاتها.\n\nسأل روكساس آكسل إن كانت بخير، لكنه\nتلقى جوابا ينم عن عدم الاكتراث.\n\nتساءل روكساس إن كانت ستتحسن\nحالتها لو ذهب ثلاثتهم إلى\nالشاطئ معا، كما وعدوا\nبعضهم في يوم سابق.",
+      "after": "[BGTRANS:tz225a.tm2]رحلت شيون محبطة دون\nأن تأكل مثلجاتها.\n\nسأل روكساس آكسل إن كانت بخير، لكنه\nتلقى جوابا ينم عن عدم الاكتراث.\n\nتساءل روكساس إن كانت ستتحسن\nحالتها لو ذهب ثلاثتهم إلى\nالشاطئ معا، كما وعد\nبعضهم بعضا في يوم سابق.",
+      "reasons": [
+        "تصحيح تركيب الوعد المتبادل «كما وعدوا بعضهم» إلى «وعد بعضهم بعضا»، دون تبديله باتفاق يضعف معنى الوعد."
+      ],
+      "categories": [
+        "grammar"
+      ]
+    },
+    {
+      "file": "cthd800",
+      "index": 1,
+      "id": "03910100",
+      "english": "mindlessly collecting hearts.",
+      "before": "يجمعون القلوب بلا تفكير.",
+      "after": "تجمع القلوب بلا تفكير.",
+      "reasons": [
+        "مطابقة الفعل مع «مخلوقات بلا قلب» في السطر السابق، وهو جمع غير عاقل."
+      ],
+      "categories": [
+        "agreement"
+      ]
+    },
+    {
+      "file": "cthd800",
+      "index": 106,
+      "id": "03991400",
+      "english": "It's not like I have memories\nfrom before the Organization.",
+      "before": "فليس لدي ذكريات\nمما قبل المنظمة.",
+      "after": "فليس لدي ذكريات\nتسبق انضمامي إلى المنظمة.",
+      "reasons": [
+        "توضيح المدة وإزالة تركيب مما قبل المنظمة المترجم حرفيا."
+      ],
+      "categories": [
+        "صياغة"
+      ]
+    },
+    {
+      "file": "cthd800",
+      "index": 128,
+      "id": "039a8900",
+      "english": "That's a lie! I remember\neveryone from the islands!",
+      "before": "هذه كذبة! أتذكر\nالجميع من الجزر!",
+      "after": "هذه كذبة! أتذكر\nكل أهل الجزر!",
+      "reasons": [
+        "صياغة طبيعية بدلا من الجميع من الجزر."
+      ],
+      "categories": [
+        "صياغة"
+      ]
+    },
+    {
+      "file": "cthd800",
+      "index": 187,
+      "id": "039e1400",
+      "english": "When his memories were scattered, some\nof them...found their way inside you.",
+      "before": "عندما تفرقت ذكرياته، وجد بعض منها...\nطريقه إلى داخلك.",
+      "after": "عندما تفرقت ذكرياته، وجد بعضها...\nطريقه إلى داخلك.",
+      "reasons": [
+        "تحسين ترابط ضمير الذكريات وإزالة بعض منها."
+      ],
+      "categories": [
+        "ضمير"
+      ]
+    },
+    {
+      "file": "cthd800",
+      "index": 203,
+      "id": "039e3000",
+      "english": "And where you belong.",
+      "before": "وإلى أين تنتمين.",
+      "after": "وأين مكانك.",
+      "reasons": [
+        "التعبير عن الانتماء دون تركيب الاتجاه إلى أين تنتمين."
+      ],
+      "categories": [
+        "صياغة"
+      ]
+    },
+    {
+      "file": "cthd800",
+      "index": 204,
+      "id": "039e2100",
+      "english": "How will I know where I belong, truly?",
+      "before": "كيف سأعرف إلى أين أنتمي حقا؟",
+      "after": "كيف سأعرف أين مكاني حقا؟",
+      "reasons": [
+        "صياغة طبيعية للسؤال عن موضع الانتماء، متسقة مع السابقة."
+      ],
+      "categories": [
+        "صياغة"
+      ]
+    },
+    {
+      "file": "cthd800",
+      "index": 205,
+      "id": "039e2200",
+      "english": "I'm not sure I can promise you\nI'll come up with the right answer.",
+      "before": "لست واثقة أنني أستطيع أن أعدك\nبالوصول إلى الإجابة الصحيحة.",
+      "after": "لست واثقة بأنني أستطيع أن أعدك\nبالوصول إلى الإجابة الصحيحة.",
+      "reasons": [
+        "إثبات حرف الجر في واثقة بأنني."
+      ],
+      "categories": [
+        "نحو"
+      ]
+    },
+    {
+      "file": "cthd800",
+      "index": 321,
+      "id": "03a80000",
+      "english": "Who are you...again?",
+      "before": "من أنت... مجددا؟",
+      "after": "ذكريني... من أنت؟",
+      "reasons": [
+        "طلب التذكير بالهوية المنسية طبيعيا بدل من أنت مجددا، مع خطاب شيون المؤنث."
+      ],
+      "categories": [
+        "صياغة"
+      ]
+    },
+    {
+      "file": "cthd800",
+      "index": 336,
+      "id": "03a81700",
+      "english": "See you again.",
+      "before": "أراك مجددا.",
+      "after": "سنلتقي مجددا.",
+      "reasons": [
+        "صياغة وداع بلقاء لاحق بدلا من مضارع قد يفهم لقاء جاريا."
+      ],
+      "categories": [
+        "صياغة"
+      ]
+    }
+  ]
+}

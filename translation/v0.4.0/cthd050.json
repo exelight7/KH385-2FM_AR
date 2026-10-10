@@ -1,0 +1,3565 @@
+[
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 0,
+    "id": "02190000",
+    "english": "It looks like every Nobody in the\nOrganization is good at different things.",
+    "arabic": "يبدو أن كل واحد من اللا أحد في\nالمنظمة يتقن أشياء مختلفة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 1,
+    "id": "02190100",
+    "english": "That's right.\nEverybody's unique.",
+    "arabic": "هذا صحيح.\nكل شخص مميز."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 2,
+    "id": "02190200",
+    "english": "Even Nobodies without hearts?",
+    "arabic": "حتى اللا أحد الذين لا قلوب لهم؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 3,
+    "id": "02190300",
+    "english": "Just because we don't all have hearts\ndoesn't mean that we're all exactly the same.",
+    "arabic": "كوننا جميعا بلا قلوب\nلا يعني أننا متشابهون تماما."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 4,
+    "id": "02190400",
+    "english": "We each have memories of our pasts.",
+    "arabic": "لكل منا ذكريات عن ماضيه."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 5,
+    "id": "02190500",
+    "english": "Memories?",
+    "arabic": "ذكريات؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 6,
+    "id": "02190600",
+    "english": "You remember your past?",
+    "arabic": "أنت تتذكر ماضيك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 7,
+    "id": "02190700",
+    "english": "Yeah, that's one of the things that makes\neach member of the Organization special.",
+    "arabic": "نعم، هذا أحد الأمور التي تجعل\nكل عضو في المنظمة مميزا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 8,
+    "id": "02190800",
+    "english": "We remember who we were as humans.",
+    "arabic": "نتذكر من كنا عندما كنا بشرا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 9,
+    "id": "02190900",
+    "english": "But I don't.",
+    "arabic": "لكنني لا أتذكر."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 10,
+    "id": "02190a00",
+    "english": "Me neither.",
+    "arabic": "ولا أنا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 11,
+    "id": "02190b00",
+    "english": "Well, maybe that right there is what makes\nyou guys the most unique in the Organization.",
+    "arabic": "حسنا، ربما هذا بالذات ما يجعلكما\nأكثر أعضاء المنظمة تميزا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 12,
+    "id": "02190c00",
+    "english": "What were you like before\nyou were a Nobody?",
+    "arabic": "كيف كنت قبل أن تصبح\nواحدا من اللا أحد؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 13,
+    "id": "02190d00",
+    "english": "Huh? Me? ",
+    "arabic": "ماذا؟ أنا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 14,
+    "id": "02191700",
+    "english": "Oh, I dunno. I think I've always been\npretty much the same.",
+    "arabic": "لا أعرف. أظن أنني كنت دائما\nكما أنا تقريبا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 15,
+    "id": "02190e00",
+    "english": "I wish I could remember stuff like that.",
+    "arabic": "ليتني أتذكر أمورا كهذه."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 16,
+    "id": "02190f00",
+    "english": "Really? It's just baggage, you know.",
+    "arabic": "حقا؟ إنها مجرد عبء، كما تعلم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 17,
+    "id": "02191000",
+    "english": "But I--I can't remember anything.\nNot even from when I was born a Nobody.",
+    "arabic": "لكنني... لا أتذكر أي شيء.\nولا حتى من وقت ولادتي كواحد من اللا أحد."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 18,
+    "id": "02191100",
+    "english": "All you did was stare into space!",
+    "arabic": "كل ما كنت تفعله هو التحديق في الفراغ!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 19,
+    "id": "02191200",
+    "english": "Oh, thanks!",
+    "arabic": "آه، شكرا لك!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 20,
+    "id": "02191300",
+    "english": "You know, I don't remember much, either.",
+    "arabic": "أتعلمان؟ أنا أيضا لا أتذكر الكثير."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 21,
+    "id": "02191400",
+    "english": "You two sure do have a lot in common.",
+    "arabic": "لديكما الكثير من القواسم المشتركة حقا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 22,
+    "id": "02191500",
+    "english": "I wonder what kind of guy I was before...",
+    "arabic": "أتساءل أي نوع من الأشخاص كنت سابقا..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 24,
+    "id": "021b0000",
+    "english": "Thanks, Roxas. ",
+    "arabic": "شكرا يا روكساس."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 25,
+    "id": "021b0800",
+    "english": "You can have this back.",
+    "arabic": "يمكنك استعادة هذا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 26,
+    "id": "021b0100",
+    "english": "Do you remember anything?",
+    "arabic": "هل تتذكرين شيئا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 27,
+    "id": "021b0200",
+    "english": "I don't know...but let me try again.",
+    "arabic": "لا أعرف... لكن دعني أحاول مجددا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 28,
+    "id": "021b0300",
+    "english": "You did it!",
+    "arabic": "لقد نجحت!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 29,
+    "id": "021b0400",
+    "english": "Roxas! It worked!",
+    "arabic": "روكساس! نجح الأمر!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 30,
+    "id": "021b0500",
+    "english": "I can't wait to tell Axel this. Let's go!",
+    "arabic": "لا أطيق الانتظار لإخبار آكسل. هيا بنا!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 31,
+    "id": "021b0600",
+    "english": "Yeah!",
+    "arabic": "نعم!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 34,
+    "id": "021b8100",
+    "english": "Axel!",
+    "arabic": "آكسل!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 35,
+    "id": "021b8200",
+    "english": "Whoa! Where'd you come from?",
+    "arabic": "مهلا! من أين أتيتما؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 36,
+    "id": "021b8300",
+    "english": "How was your mission?",
+    "arabic": "كيف كانت مهمتك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 37,
+    "id": "021b8400",
+    "english": "You know, I sure wish the Heartless\nwould hold still once in a while.",
+    "arabic": "أتعلمان؟ ليت مخلوقات بلا قلب\nتثبت في أماكنها أحيانا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 38,
+    "id": "021b8500",
+    "english": "I fell right on my butt chasing them around.",
+    "arabic": "سقطت على مؤخرتي وأنا أطاردهم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 39,
+    "id": "021b8600",
+    "english": "I thought you said you were tough.",
+    "arabic": "ظننت أنك قلت إنك قوي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 40,
+    "id": "021b8700",
+    "english": "Yeah, whatever, that's got\nnothing to do with it.",
+    "arabic": "نعم، أيا يكن، هذا\nلا علاقة له بالأمر."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 41,
+    "id": "021b9f00",
+    "english": "So, how did your caper go?",
+    "arabic": "إذن، كيف سارت مغامرتكما؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 42,
+    "id": "021b8800",
+    "english": "Ta-daaah!",
+    "arabic": "ها هو ذا!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 43,
+    "id": "021b8900",
+    "english": "Roxas, Axel, thank you.",
+    "arabic": "روكساس، آكسل، شكرا لكما."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 44,
+    "id": "021b8a00",
+    "english": "I didn't do anything.",
+    "arabic": "لم أفعل شيئا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 45,
+    "id": "021b8b00",
+    "english": "You made it possible for the two of us\nto go on a mission together.",
+    "arabic": "بفضلك استطعنا نحن الاثنان\nالذهاب في مهمة معا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 46,
+    "id": "021b8c00",
+    "english": "If it weren't for you, ",
+    "arabic": "فلولاك،"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 47,
+    "id": "021ba000",
+    "english": "Xion might never have remembered\nhow to use the Keyblade.",
+    "arabic": "لربما لم تتذكر شيون أبدا\nكيفية استخدام الكيبلايد."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 48,
+    "id": "021b8d00",
+    "english": "So thanks, Axel.",
+    "arabic": "لذا شكرا يا آكسل."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 49,
+    "id": "021b8e00",
+    "english": "How 'bout a sea salt ice cream, then?",
+    "arabic": "ما رأيك في مثلجات ملح البحر إذن؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 50,
+    "id": "021b8f00",
+    "english": "Huh?",
+    "arabic": "ماذا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 51,
+    "id": "021b9000",
+    "english": "Buy me one, and we'll call it even.",
+    "arabic": "اشتر لي واحدة، ونكون متعادلين."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 52,
+    "id": "021b9100",
+    "english": "You got it. I'll be right back!",
+    "arabic": "لك ذلك. سأعود حالا!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 53,
+    "id": "021b9200",
+    "english": "I hope we can always be just\nlike this forever.",
+    "arabic": "آمل أن نظل دائما\nهكذا إلى الأبد."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 54,
+    "id": "021b9300",
+    "english": "Me too.",
+    "arabic": "وأنا أيضا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 55,
+    "id": "021b9400",
+    "english": "What's that all about?",
+    "arabic": "ما سبب هذا الكلام؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 56,
+    "id": "021b9500",
+    "english": "I just...want these days to last forever.\nHanging out, the ice cream, the sunsets... ",
+    "arabic": "أنا فقط... أريد لهذه الأيام أن تدوم إلى الأبد.\nقضاء الوقت معا، والمثلجات، والغروب..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 57,
+    "id": "021b9600",
+    "english": "Well, nothing lasts forever, you know?",
+    "arabic": "حسنا، لا شيء يدوم إلى الأبد، تعلمين؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 58,
+    "id": "021ba100",
+    "english": "Least of all for a bunch of Nobodies like us.",
+    "arabic": "ولا سيما لجماعة من اللا أحد مثلنا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 59,
+    "id": "021b9700",
+    "english": "But it's okay if things change and\nwe can't meet up here.",
+    "arabic": "لكن لا بأس إن تغيرت الأمور\nولم نستطع اللقاء هنا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 60,
+    "id": "021b9800",
+    "english": "Huh?",
+    "arabic": "ماذا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 61,
+    "id": "021b9900",
+    "english": "As long as we keep each other in our thoughts,\nnone of us will ever have to be apart.",
+    "arabic": "ما دمنا نتذكر بعضنا بعضا،\nفلن نضطر أبدا إلى الافتراق."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 62,
+    "id": "021b9a00",
+    "english": "Got it memorized?",
+    "arabic": "هل حفظت ذلك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 63,
+    "id": "021b9b00",
+    "english": "Wow, that was so not you.",
+    "arabic": "يا للعجب، هذا لا يشبهك أبدا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 64,
+    "id": "021b9c00",
+    "english": "Hey!",
+    "arabic": "مهلا!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 67,
+    "id": "021c0000",
+    "english": "Ever heard of knocking?\nWhat do you want?",
+    "arabic": "ألم تسمع بطرق الباب؟\nماذا تريد؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 68,
+    "id": "021c0100",
+    "english": "Tell me what Xion has been doing.",
+    "arabic": "أخبرني بما كانت تفعله شيون."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 69,
+    "id": "021c0200",
+    "english": "Well, how should I know?\nI'm not spying on her.",
+    "arabic": "وكيف لي أن أعرف؟\nأنا لا أتجسس عليها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 70,
+    "id": "021c0300",
+    "english": "The two of you look pretty close.",
+    "arabic": "تبدوان مقربين جدا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 71,
+    "id": "021c0400",
+    "english": "So what, now I've gotta rat\non my friends to you?",
+    "arabic": "وماذا الآن، هل علي أن أشي\nبأصدقائي إليك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 72,
+    "id": "021c0500",
+    "english": "I think you should just go.",
+    "arabic": "أرى أن عليك الرحيل."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 73,
+    "id": "021c0600",
+    "english": "Today, you and Xion will be\ngoing on the same mission.",
+    "arabic": "اليوم، ستذهب أنت وشيون\nفي المهمة نفسها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 74,
+    "id": "021c0700",
+    "english": "Well, thank you, sir, for personally\ndelivering that message to me.",
+    "arabic": "شكرا لك يا سيدي على\nإيصال الرسالة إلي شخصيا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 75,
+    "id": "021c0800",
+    "english": "We also need you to go back to\nCastle Oblivion soon.",
+    "arabic": "نحتاج أيضا إلى عودتك إلى\nقلعة النسيان قريبا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 76,
+    "id": "021c0900",
+    "english": "Says Lord Xemnas?",
+    "arabic": "هل هذا أمر من السيد زيمناس؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 77,
+    "id": "021c0a00",
+    "english": "That castle hasn't given up all its secrets.",
+    "arabic": "تلك القلعة لم تكشف كل أسرارها بعد."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 78,
+    "id": "021c0b00",
+    "english": "One even he doesn't know of its\nwhereabouts.",
+    "arabic": "حتى هو لا يعرف\nمكان أحدها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 79,
+    "id": "021c0c00",
+    "english": "Even he doesn't know...",
+    "arabic": "حتى هو لا يعرف..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 80,
+    "id": "021c0d00",
+    "english": "You mean the chamber, right?",
+    "arabic": "تقصد الحجرة، صحيح؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 81,
+    "id": "021c0e00",
+    "english": "We turned that place inside out. If it's there,\nwe're not gonna find it just by looking.",
+    "arabic": "قلبنا المكان رأسا على عقب. إن كانت هناك،\nفلن نجدها بمجرد البحث."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 82,
+    "id": "021c0f00",
+    "english": "Then let me give you another reason.",
+    "arabic": "إذن، دعني أعطك سببا آخر."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 83,
+    "id": "021c1000",
+    "english": "Xion comes from the castle",
+    "arabic": "شيون أتت من القلعة"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 84,
+    "id": "021c2200",
+    "english": "to which Naminé can be traced.",
+    "arabic": "التي تعود أصول ناميني إليها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 85,
+    "id": "021c1100",
+    "english": "The place where both\nNaminé and Xion were born...",
+    "arabic": "المكان الذي ولدت فيه\nناميني وشيون..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 86,
+    "id": "021c1200",
+    "english": "It's practically calling out for you.",
+    "arabic": "إنه يكاد يناديك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 87,
+    "id": "021c1300",
+    "english": "Whatever.",
+    "arabic": "أيا يكن."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 88,
+    "id": "021c1400",
+    "english": "As far as the castle goes, you're the\none who really wants to go there.",
+    "arabic": "أما القلعة، فأنت\nمن يريد الذهاب إليها حقا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 89,
+    "id": "021c1500",
+    "english": "By finding the room that Xemnas\nis searching for...",
+    "arabic": "بالعثور على الحجرة\nالتي يبحث عنها زيمناس..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 90,
+    "id": "021c1600",
+    "english": "You would find out everything about\nXemnas's true agenda. Am I right?",
+    "arabic": "ستعرف كل شيء\nعن مخطط زيمناس الحقيقي. أليس كذلك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 91,
+    "id": "021c1700",
+    "english": "The Chamber of Repose as well as\nthe Chamber of Waking... ",
+    "arabic": "قاعة الراحة، وكذلك\nقاعة اليقظة..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 92,
+    "id": "021c1800",
+    "english": "Xemnas has an agenda that\nhe hasn't told to anybody.",
+    "arabic": "لدى زيمناس مخطط\nلم يخبر به أحدا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 93,
+    "id": "021c1900",
+    "english": "And we are bound to find some clues\nin the Chamber of Waking.",
+    "arabic": "ولا بد أننا سنجد بعض الأدلة\nفي قاعة اليقظة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 94,
+    "id": "021c1a00",
+    "english": "And once we obtain those clues,",
+    "arabic": "وحين نحصل على تلك الأدلة،"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 95,
+    "id": "021c2300",
+    "english": "we'll have the upper hand\nfor our own objectives.",
+    "arabic": "ستكون لنا اليد العليا\nفي تحقيق أهدافنا الخاصة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 96,
+    "id": "021c1b00",
+    "english": "I knew the time would come when\nVexen and Zexion got in your way.",
+    "arabic": "عرفت أن الوقت سيأتي\nحين يعترض فيكسن وزيكسيون طريقك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 97,
+    "id": "021c1c00",
+    "english": "That's why I took the initiative...",
+    "arabic": "لهذا بادرت..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 98,
+    "id": "021c1d00",
+    "english": "and cleared the way to the top for you.",
+    "arabic": "ومهدت لك الطريق إلى القمة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 99,
+    "id": "021c1e00",
+    "english": "I can handle all the dirty work.\nYou go all the way to the top.",
+    "arabic": "يمكنني تولي كل الأعمال القذرة.\nاصعد أنت إلى القمة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 100,
+    "id": "021c1f00",
+    "english": "You will be going on a solo mission to\nCastle Oblivion. ",
+    "arabic": "ستذهب في مهمة منفردة\nإلى قلعة النسيان."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 101,
+    "id": "021c2400",
+    "english": "Expect the orders soon.",
+    "arabic": "ستتلقى الأوامر قريبا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 102,
+    "id": "021c2000",
+    "english": "Castle Oblivion...",
+    "arabic": "قلعة النسيان..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 103,
+    "id": "021c2500",
+    "english": "Naminé...and Xion...",
+    "arabic": "ناميني... وشيون..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 105,
+    "id": "021d8000",
+    "english": "Roxas is late today.",
+    "arabic": "روكساس متأخر اليوم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 106,
+    "id": "021d8100",
+    "english": "Hope Xigbar isn't giving him\ntoo hard of a time.",
+    "arabic": "آمل ألا يكون زيغبار\nيرهقه كثيرا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 107,
+    "id": "021d8200",
+    "english": "Yeah, right?",
+    "arabic": "نعم، أليس كذلك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 108,
+    "id": "021d8300",
+    "english": "You know what, Axel?",
+    "arabic": "أتعلم يا آكسل؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 109,
+    "id": "021d8400",
+    "english": "Hm?",
+    "arabic": "همم؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 110,
+    "id": "021d8500",
+    "english": "When I sit here and talk with you guys...",
+    "arabic": "عندما أجلس هنا وأتحدث معكما..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 111,
+    "id": "021d8600",
+    "english": "I get the strangest feeling...",
+    "arabic": "يراودني أغرب شعور..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 112,
+    "id": "021d9200",
+    "english": "that a long time ago, I used to watch\nthe sunset with somebody else.",
+    "arabic": "بأنني كنت أشاهد الغروب مع شخص آخر\nمنذ زمن بعيد."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 113,
+    "id": "021d8700",
+    "english": "It's the same when I watch the sea.",
+    "arabic": "وأشعر بالأمر نفسه حين أشاهد البحر."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 114,
+    "id": "021d8800",
+    "english": "Someplace by the sea...where\nI hear the sound of the waves...",
+    "arabic": "في مكان ما بجوار البحر... حيث\nأسمع صوت الأمواج..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 115,
+    "id": "021d9100",
+    "english": "I get the feeling that I was\ntalking with someone.",
+    "arabic": "يراودني شعور بأنني كنت\nأتحدث مع شخص ما."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 116,
+    "id": "021d8900",
+    "english": "So you mean that...you have\nmemories of your past?",
+    "arabic": "إذن، تقصدين أن لديك\nذكريات عن ماضيك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 117,
+    "id": "021d8a00",
+    "english": "No... It's not quite like that.",
+    "arabic": "لا... ليس الأمر كذلك تماما."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 118,
+    "id": "021d8b00",
+    "english": "Well, I dunno.",
+    "arabic": "حسنا، لا أعرف."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 119,
+    "id": "021d9400",
+    "english": "What do you think?\nAre these memories?",
+    "arabic": "ما رأيك؟\nهل هذه ذكريات؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 120,
+    "id": "021d8c00",
+    "english": "Huh... I wouldn't know, either.",
+    "arabic": "همم... لا أعرف أيضا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 121,
+    "id": "021d8d00",
+    "english": "You have memories, don't you?",
+    "arabic": "لديك ذكريات، أليس كذلك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 122,
+    "id": "021d8e00",
+    "english": "Yeah, sorta.",
+    "arabic": "نعم، إلى حد ما."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 123,
+    "id": "021d9500",
+    "english": "Though it's not like they've\never really done me any good.",
+    "arabic": "مع أنها لم تفدني\nيوما في شيء حقا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 124,
+    "id": "021d8f00",
+    "english": "Roxas is like me.\nNeither one of us remembers much.",
+    "arabic": "روكساس مثلي.\nلا يتذكر أي منا الكثير."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 125,
+    "id": "021d9000",
+    "english": "I wonder if he and I...had this much\nin common before we were Nobodies.",
+    "arabic": "أتساءل إن كنا أنا وهو... نتشابه\nإلى هذا الحد قبل أن نصبح من اللا أحد."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 127,
+    "id": "021f8000",
+    "english": "I knew you'd be here.",
+    "arabic": "عرفت أنك ستكون هنا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 128,
+    "id": "021f8100",
+    "english": "Axel... ",
+    "arabic": "آكسل..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 129,
+    "id": "021f8200",
+    "english": "Slept like a log.",
+    "arabic": "نمت نوما عميقا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 130,
+    "id": "021f8300",
+    "english": "Are the kids here on summer vacation already? \n...Nah, can't be. It's much too early.",
+    "arabic": "هل بدأ الأطفال هنا العطلة الصيفية بالفعل؟\n...لا، لا يمكن. ما زال الوقت مبكرا جدا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 131,
+    "id": "021f8400",
+    "english": "Summer vacation?\nWhat's that?",
+    "arabic": "العطلة الصيفية؟\nما هي؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 132,
+    "id": "021f8500",
+    "english": "It's a dream come true, that's what-- \nwhere they get a whole month off.",
+    "arabic": "إنها حلم أصبح حقيقة،\nإذ يحصلون على شهر كامل من الإجازة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 133,
+    "id": "021f8600",
+    "english": "A month off!?",
+    "arabic": "شهر من الإجازة؟!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 134,
+    "id": "021f8700",
+    "english": "I wouldn't know what to do\nwith that much time.",
+    "arabic": "لن أعرف ماذا أفعل\nبكل ذلك الوقت."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 135,
+    "id": "021f8800",
+    "english": "I can't even figure out how to fill a day.",
+    "arabic": "حتى إنني لا أعرف كيف أملأ يوما واحدا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 136,
+    "id": "021f8900",
+    "english": "You'd be surprised.",
+    "arabic": "ستندهش."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 137,
+    "id": "021f8a00",
+    "english": "They give you plenty of homework,\nand of course,",
+    "arabic": "يعطونك واجبات منزلية كثيرة،\nوبالطبع،"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 138,
+    "id": "021f8a01",
+    "english": "you have to play with your friends\neveryday.",
+    "arabic": "عليك أن تلعب مع أصدقائك\nكل يوم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 139,
+    "id": "021f8b00",
+    "english": "Trust me, it's over before you can blink.",
+    "arabic": "صدقني، تنتهي في غمضة عين."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 140,
+    "id": "021f8c00",
+    "english": "Hmm... I could deal with seven days, maybe.",
+    "arabic": "همم... ربما أستطيع تدبر أمر سبعة أيام."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 141,
+    "id": "021f8d00",
+    "english": "Most kids spend the time just\ngoofing off with their friends.",
+    "arabic": "يقضي معظم الأطفال الوقت\nفي اللهو مع أصدقائهم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 142,
+    "id": "021f8e00",
+    "english": "They save the homework till the end\nand then help each other finish it.",
+    "arabic": "يؤجلون الواجبات إلى النهاية،\nثم يساعد بعضهم بعضا في إنجازها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 143,
+    "id": "021f8f00",
+    "english": "That sounds fun, I guess.",
+    "arabic": "يبدو ذلك ممتعا، على ما أظن."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 144,
+    "id": "021f9000",
+    "english": "Hanging around with friends is fun.",
+    "arabic": "قضاء الوقت مع الأصدقاء ممتع."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 145,
+    "id": "021fb300",
+    "english": "I'd forgotten all that since becoming\na Nobody, I guess.",
+    "arabic": "أظن أنني نسيت كل ذلك\nمنذ صرت واحدا من اللا أحد."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 146,
+    "id": "021f9100",
+    "english": "So, how did you spend your day?",
+    "arabic": "إذن، كيف قضيت يومك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 147,
+    "id": "021f9200",
+    "english": "Hey, guys.\nHow did I know you'd be here?",
+    "arabic": "مرحبا يا رفاق.\nكيف عرفت أنكما ستكونان هنا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 148,
+    "id": "021f9300",
+    "english": "Where did you go, Xion?",
+    "arabic": "أين ذهبت يا شيون؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 149,
+    "id": "021f9400",
+    "english": "I didn't go anywhere.",
+    "arabic": "لم أذهب إلى أي مكان."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 150,
+    "id": "021f9500",
+    "english": "What about you two?",
+    "arabic": "وماذا عنكما؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 151,
+    "id": "021fb400",
+    "english": "Did you guys go somewhere without me?",
+    "arabic": "هل ذهبتما إلى مكان ما من دوني؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 152,
+    "id": "021f9600",
+    "english": "Axel says he was asleep all day.",
+    "arabic": "يقول آكسل إنه نام طوال اليوم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 153,
+    "id": "021f9700",
+    "english": "What? What's that about?\nYou wasted a day off?",
+    "arabic": "ماذا؟ لماذا؟\nأضعت يوم الإجازة؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 154,
+    "id": "021f9800",
+    "english": "Unlike you two lazybones, I work hard,\nso I'm tired, okay?",
+    "arabic": "أنا أعمل بجد، بخلافكما أيها الكسولان،\nلذا أنا متعب، مفهوم؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 155,
+    "id": "021f9900",
+    "english": "Unlike me and Roxas, maybe you're\njust out of shape!",
+    "arabic": "ربما لياقتك ضعيفة فحسب،\nعلى عكسي وعكس روكساس!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 156,
+    "id": "021f9a00",
+    "english": "Tomorrow, it's back to work.",
+    "arabic": "سنعود إلى العمل غدا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 157,
+    "id": "021f9b00",
+    "english": "Yeah... ",
+    "arabic": "نعم..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 158,
+    "id": "021f9c00",
+    "english": "Hope we get another vacation soon.",
+    "arabic": "آمل أن نحصل على إجازة أخرى قريبا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 159,
+    "id": "021f9d00",
+    "english": "Oh yeah... I might not see you guys\nagain for a while.",
+    "arabic": "آه، بالمناسبة... قد لا أراكما\nمجددا لفترة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 160,
+    "id": "021f9e00",
+    "english": "Huh?",
+    "arabic": "ماذا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 161,
+    "id": "021f9f00",
+    "english": "They're sending me out on recon for a\nfew days.",
+    "arabic": "سيرسلونني في مهمة استطلاعية\nلبضعة أيام."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 162,
+    "id": "021fa000",
+    "english": "Where?",
+    "arabic": "إلى أين؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 163,
+    "id": "021fa100",
+    "english": "Can't tell.",
+    "arabic": "لا أستطيع إخباركما."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 164,
+    "id": "021fa200",
+    "english": "What's up with that?",
+    "arabic": "لماذا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 165,
+    "id": "021fa300",
+    "english": "It's a secret mission.",
+    "arabic": "إنها مهمة سرية."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 166,
+    "id": "021fa400",
+    "english": "But I thought we were friends.",
+    "arabic": "لكنني ظننت أننا أصدقاء."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 167,
+    "id": "021fa500",
+    "english": "Hey, I'm not about to tell you\nALL my dark secrets.",
+    "arabic": "اسمعا، لن أخبركما\nبكل أسراري المظلمة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 168,
+    "id": "021fa600",
+    "english": "Got it memorized?",
+    "arabic": "هل حفظتما ذلك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 169,
+    "id": "021fa700",
+    "english": "Dark secrets?",
+    "arabic": "أسرار مظلمة؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 170,
+    "id": "021fa800",
+    "english": "I'm kidding.",
+    "arabic": "أنا أمزح."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 171,
+    "id": "021fa900",
+    "english": "I just gotta keep my mouth shut about it,\nor else Saïx will get on my case.",
+    "arabic": "علي فقط أن أكتم الأمر،\nوإلا فسيوبخني سايكس."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 172,
+    "id": "021faa00",
+    "english": "You know how he can get.",
+    "arabic": "تعرفان طباعه."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 173,
+    "id": "021fab00",
+    "english": "Yeah.",
+    "arabic": "نعم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 174,
+    "id": "021fac00",
+    "english": "Try not to bungle everything\nwhile I'm gone, huh?",
+    "arabic": "حاولا ألا تفسدا كل شيء\nفي غيابي، اتفقنا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 175,
+    "id": "021fad00",
+    "english": "Now, why would we do that?",
+    "arabic": "ولماذا قد نفعل ذلك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 176,
+    "id": "021fae00",
+    "english": "Well, considering your track record,\nI just can't count on you guys.",
+    "arabic": "نظرا إلى سوابقكما،\nلا أستطيع الاعتماد عليكما."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 177,
+    "id": "021faf00",
+    "english": "Hey!",
+    "arabic": "مهلا!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 178,
+    "id": "021fb000",
+    "english": "We can handle things just fine!",
+    "arabic": "نستطيع تدبر الأمور جيدا!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 179,
+    "id": "021fb100",
+    "english": "That's right, just you watch!",
+    "arabic": "صحيح، سترى بنفسك!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 181,
+    "id": "02200000",
+    "english": "What took you so long?",
+    "arabic": "ما الذي أخرك هكذا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 182,
+    "id": "02200100",
+    "english": "It's my vacation. I can take\nall the time I want. ",
+    "arabic": "هذه إجازتي. يمكنني أن أتمهل\nقدر ما أشاء."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 183,
+    "id": "02200200",
+    "english": "Since when do I have to check in with you?",
+    "arabic": "منذ متى علي إبلاغك بما أفعل؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 184,
+    "id": "02200300",
+    "english": "You're letting yourself get\ntoo attached to them.",
+    "arabic": "أنت تسمح لنفسك\nبالتعلق بهما أكثر من اللازم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 185,
+    "id": "02200400",
+    "english": "Yeah, yeah, whatever you say.",
+    "arabic": "نعم، نعم، كما تقول."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 186,
+    "id": "02200500",
+    "english": "You know, you've changed...",
+    "arabic": "أتعلم؟ لقد تغيرت..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 188,
+    "id": "02208000",
+    "english": "Hey, Roxas!",
+    "arabic": "مرحبا يا روكساس!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 189,
+    "id": "02208100",
+    "english": "Axel... You're back!",
+    "arabic": "آكسل... لقد عدت!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 190,
+    "id": "02208200",
+    "english": "Yup, I just got home.",
+    "arabic": "نعم، وصلت للتو."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 191,
+    "id": "02208300",
+    "english": "So, are ya holding up?",
+    "arabic": "إذن، كيف تتدبر الأمور؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 192,
+    "id": "02208a00",
+    "english": "Yeah.",
+    "arabic": "بخير."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 193,
+    "id": "02208b00",
+    "english": "Where's Xion?",
+    "arabic": "أين شيون؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 194,
+    "id": "02208400",
+    "english": "She's not here yet.",
+    "arabic": "لم تصل بعد."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 195,
+    "id": "02208500",
+    "english": "Hunh.",
+    "arabic": "همم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 196,
+    "id": "02208600",
+    "english": "She's usually here by now.",
+    "arabic": "عادة ما تكون هنا في هذا الوقت."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 197,
+    "id": "02208700",
+    "english": "This isn't like her... ",
+    "arabic": "هذا ليس من عادتها..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 200,
+    "id": "02210000",
+    "english": "How could he...",
+    "arabic": "كيف أمكنه أن..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 202,
+    "id": "02210200",
+    "english": "I'm not a sham...",
+    "arabic": "أنا لست زائفة..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 204,
+    "id": "02218000",
+    "english": "Just give me another chance!",
+    "arabic": "أعطني فرصة أخرى فحسب!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 205,
+    "id": "02218100",
+    "english": "We can't afford to take\nany more chances on you.",
+    "arabic": "لا يمكننا المجازفة\nبمنحك مزيدا من الفرص."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 206,
+    "id": "02218200",
+    "english": "You were a mistake we never\nshould have made.",
+    "arabic": "كنت خطأ لم يكن ينبغي لنا\nارتكابه أصلا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 207,
+    "id": "02218300",
+    "english": "Xion?",
+    "arabic": "شيون؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 208,
+    "id": "02220000",
+    "english": "Where's Xion?",
+    "arabic": "أين شيون؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 209,
+    "id": "02220100",
+    "english": "Haven't seen her today.",
+    "arabic": "لم أرها اليوم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 210,
+    "id": "02220200",
+    "english": "Oh well.",
+    "arabic": "لا بأس."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 211,
+    "id": "02220300",
+    "english": "Axel... ",
+    "arabic": "آكسل..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 212,
+    "id": "02220400",
+    "english": "Hm?",
+    "arabic": "همم؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 213,
+    "id": "02220500",
+    "english": "Is there anything you couldn't bear to lose?",
+    "arabic": "هل هناك شيء لا تطيق فقدانه؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 214,
+    "id": "02220600",
+    "english": "Anything I couldn't bear to lose?",
+    "arabic": "شيء لا أطيق فقدانه؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 215,
+    "id": "02222300",
+    "english": "What's that about?",
+    "arabic": "ما سبب سؤالك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 216,
+    "id": "02220700",
+    "english": "Well, I met someone today\nwho had something like that.",
+    "arabic": "قابلت اليوم شخصا\nلديه شيء كهذا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 217,
+    "id": "02220800",
+    "english": "This thing was so important to him\nhe couldn't bear to lose it...",
+    "arabic": "كان ذلك الشيء عزيزا عليه\nإلى حد لا يطيق معه فقدانه..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 218,
+    "id": "02222400",
+    "english": "and Xaldin said that was his weakness.",
+    "arabic": "وقال زالدين إن تلك نقطة ضعفه."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 219,
+    "id": "02220900",
+    "english": "Why don't I have anything like that?",
+    "arabic": "لماذا ليس لدي شيء كهذا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 220,
+    "id": "02220a00",
+    "english": "It's because you don't have a heart.",
+    "arabic": "لأنك لا تملك قلبا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 221,
+    "id": "02220b00",
+    "english": "I guess... ",
+    "arabic": "أظن ذلك..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 222,
+    "id": "02220c00",
+    "english": "But Demyx doesn't have a heart, and I bet\nhe'd get upset if you took his sitar away.",
+    "arabic": "لكن ديميكس لا يملك قلبا، وأنا واثق\nأنه سينزعج إن أخذت آلة السيتار منه."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 223,
+    "id": "02220d00",
+    "english": "Huh... I think you have a point there.",
+    "arabic": "همم... أظن أنك محق في ذلك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 224,
+    "id": "02220e00",
+    "english": "So you don't need a heart to have\nsomething that you can't bear to lose then.",
+    "arabic": "إذن، لا تحتاج إلى قلب كي يكون\nلديك شيء لا تطيق فقدانه."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 225,
+    "id": "02220f00",
+    "english": "If that's true, then I guess the\nclosest thing that we Nobodies have",
+    "arabic": "إن صح ذلك، فأظن أن أقرب\nشيء نملكه نحن اللا أحد"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 226,
+    "id": "02220f01",
+    "english": "would be memories of our past.",
+    "arabic": "هو ذكريات ماضينا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 227,
+    "id": "02221000",
+    "english": "It's the memories that create\nthe things that we don't want to lose.",
+    "arabic": "الذكريات هي التي تصنع\nالأشياء التي لا نريد فقدانها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 228,
+    "id": "02221100",
+    "english": "Memories of the past...",
+    "arabic": "ذكريات الماضي..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 229,
+    "id": "02222500",
+    "english": "I don't remember MY past.",
+    "arabic": "أنا لا أتذكر ماضي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 230,
+    "id": "02221200",
+    "english": "Even though you might not remember the past,\nI'm sure you have things you don't wanna lose.",
+    "arabic": "حتى إن لم تتذكر الماضي،\nفأنا واثق أن لديك أشياء لا تريد فقدانها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 231,
+    "id": "02221300",
+    "english": "Like what?",
+    "arabic": "مثل ماذا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 232,
+    "id": "02221400",
+    "english": "You've got memories since\nyou joined us, right?",
+    "arabic": "لديك ذكريات منذ\nانضمامك إلينا، صحيح؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 233,
+    "id": "02221500",
+    "english": "I dunno... ",
+    "arabic": "لا أعرف..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 234,
+    "id": "02221600",
+    "english": "I do, don't I?",
+    "arabic": "لدي بالفعل، أليس كذلك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 235,
+    "id": "02221700",
+    "english": "I couldn't bear to lose\nmy memories of you or Xion.",
+    "arabic": "لا أطيق فقدان\nذكرياتي عنك أو عن شيون."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 236,
+    "id": "02221800",
+    "english": "So then you really do have something\nthat you can't bear to lose, right?",
+    "arabic": "إذن، لديك بالفعل شيء\nلا تطيق فقدانه، صحيح؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 237,
+    "id": "02221900",
+    "english": "Every one of us--including us Nobodies--we all\nhave something that we want to hang on to.",
+    "arabic": "كل واحد منا، حتى نحن اللا أحد،\nيملك شيئا يريد التمسك به."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 238,
+    "id": "02221a00",
+    "english": "It's scary.",
+    "arabic": "هذا مخيف."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 239,
+    "id": "02221b00",
+    "english": "You can't be scared without a heart!",
+    "arabic": "لا يمكنك أن تخاف من دون قلب!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 240,
+    "id": "02221c00",
+    "english": "If my friends... ",
+    "arabic": "لو أن أصدقائي..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 241,
+    "id": "02222600",
+    "english": "If you or Xion were to disappear...",
+    "arabic": "إن اختفيت أنت أو شيون..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 242,
+    "id": "02221d00",
+    "english": "It's...scary to think of what it would\nbe like without you guys.",
+    "arabic": "من المخيف... أن أفكر كيف\nستكون الأمور من دونكما."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 243,
+    "id": "02221e00",
+    "english": "\"Scared\" is not an emotion that\ncan exist inside us.",
+    "arabic": "«الخوف» ليس شعورا\nيمكن أن يوجد في داخلنا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 244,
+    "id": "02221f00",
+    "english": "Well... ",
+    "arabic": "حسنا..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 245,
+    "id": "02222700",
+    "english": "I am scared right now, for sure.",
+    "arabic": "أنا خائف الآن بالتأكيد."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 246,
+    "id": "02222000",
+    "english": "Maybe it's just that you remember\nwhat it's like to be scared, you know?",
+    "arabic": "ربما تتذكر فحسب\nكيف يكون الشعور بالخوف، أتفهم؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 247,
+    "id": "02222100",
+    "english": "Somewhere deep inside your memories.",
+    "arabic": "في مكان ما في أعماق ذكرياتك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 249,
+    "id": "02230000",
+    "english": "I wonder where Axel is.",
+    "arabic": "أتساءل أين آكسل."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 250,
+    "id": "02230100",
+    "english": "Guess we got the work done a little\nTOO fast, huh?",
+    "arabic": "أظن أننا أنهينا العمل\nبسرعة زائدة قليلا، أليس كذلك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 252,
+    "id": "02238000",
+    "english": "Xion?",
+    "arabic": "شيون؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 253,
+    "id": "02238100",
+    "english": "Xion!",
+    "arabic": "شيون!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 254,
+    "id": "02238200",
+    "english": "Something wrong?",
+    "arabic": "هل هناك خطب؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 255,
+    "id": "02238300",
+    "english": "Sorry. \nMy mind's on other things.",
+    "arabic": "آسفة.\nذهني مشغول بأمور أخرى."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 256,
+    "id": "02238400",
+    "english": "Roxas, do you ever think...about\nwhy we're doing all of this?",
+    "arabic": "روكساس، هل تفكر يوما...\nفي سبب قيامنا بكل هذا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 257,
+    "id": "02238500",
+    "english": "What do you mean, why? \nSo we can get hearts of our own, right?",
+    "arabic": "ماذا تقصدين بالسبب؟\nلنحصل على قلوب خاصة بنا، صحيح؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 258,
+    "id": "02238600",
+    "english": "But what do we need hearts for?",
+    "arabic": "لكن لماذا نحتاج إلى القلوب؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 259,
+    "id": "02238700",
+    "english": "I don't know.",
+    "arabic": "لا أعرف."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 260,
+    "id": "02238800",
+    "english": "But I think once we have hearts,",
+    "arabic": "لكنني أظن أننا عندما نحصل على قلوب،"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 261,
+    "id": "02238900",
+    "english": "we probably won't have to think about\nwhy we're doing all this,",
+    "arabic": "لن نحتاج على الأرجح إلى التساؤل\nعن سبب قيامنا بكل هذا،"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 262,
+    "id": "02239a00",
+    "english": "or if we need hearts.",
+    "arabic": "ولا عما إذا كنا نحتاج إلى القلوب."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 263,
+    "id": "02238a00",
+    "english": "I'm not sure.",
+    "arabic": "لست متأكدة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 264,
+    "id": "02238b00",
+    "english": "I just wish ",
+    "arabic": "أتمنى فقط"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 265,
+    "id": "02239b00",
+    "english": "I knew what I was doing here.",
+    "arabic": "أن أعرف ما أفعله هنا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 266,
+    "id": "02238c00",
+    "english": "I started having the strangest dreams.",
+    "arabic": "بدأت تراودني أغرب الأحلام."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 267,
+    "id": "02238d00",
+    "english": "Like nightmares?",
+    "arabic": "مثل الكوابيس؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 268,
+    "id": "02238e00",
+    "english": "I can never remember what they're about.",
+    "arabic": "لا أتذكر أبدا ما يدور فيها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 269,
+    "id": "02239c00",
+    "english": "I just...wake up scared.",
+    "arabic": "أنا فقط... أستيقظ خائفة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 270,
+    "id": "02238f00",
+    "english": "Xigbar said you and me were pretty\nspecial. \"Exceptional,\" he said.",
+    "arabic": "قال زيغبار إنني وأنت مميزان جدا.\nقال إننا «استثنائيان»."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 271,
+    "id": "02239000",
+    "english": "Special? Isn't that...",
+    "arabic": "مميزة؟ أليست هذه..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 272,
+    "id": "02239100",
+    "english": "just another way of saying\nthat I'm a mistake?",
+    "arabic": "مجرد طريقة أخرى للقول\nإنني خطأ؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 273,
+    "id": "02239200",
+    "english": "You're not a mistake.",
+    "arabic": "أنت لست خطأ."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 274,
+    "id": "02239300",
+    "english": "Well, you and I may both be\nexceptional, Roxas,",
+    "arabic": "قد نكون نحن الاثنان\nاستثنائيين يا روكساس،"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 275,
+    "id": "02239d00",
+    "english": "but...I don't think we're quite the same.",
+    "arabic": "لكن... لا أظن أننا متشابهان تماما."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 276,
+    "id": "02239400",
+    "english": "Xion... ",
+    "arabic": "شيون..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 277,
+    "id": "02239500",
+    "english": "Heya, Roxas!",
+    "arabic": "مرحبا يا روكساس!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 278,
+    "id": "02239600",
+    "english": "Axel... ",
+    "arabic": "آكسل..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 279,
+    "id": "02239700",
+    "english": "Xion couldn't make it again today?",
+    "arabic": "ألم تستطع شيون المجيء اليوم أيضا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 280,
+    "id": "02239800",
+    "english": "Actually, you just missed her.",
+    "arabic": "في الحقيقة، لقد رحلت قبل وصولك مباشرة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 282,
+    "id": "02250000",
+    "english": "Xion... ",
+    "arabic": "شيون..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 284,
+    "id": "02260000",
+    "english": "Hey, that was uncalled for!",
+    "arabic": "مهلا، لم يكن هناك داع لذلك!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 285,
+    "id": "02260100",
+    "english": "I told you. Keep out of this.",
+    "arabic": "أخبرتك. لا تتدخل في الأمر."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 286,
+    "id": "02260200",
+    "english": "And I'm telling you that I have\nto know what's the deal with Xion.",
+    "arabic": "وأنا أخبرك بأن علي\nمعرفة ما يجري مع شيون."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 287,
+    "id": "02260300",
+    "english": "If there's something going on, just be\nstraight with me for once, will ya?",
+    "arabic": "إن كان هناك شيء يحدث، فكن صريحا\nمعي ولو لمرة، أرجوك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 288,
+    "id": "02260400",
+    "english": "Do you mean just like you are\nalways honest with me?",
+    "arabic": "أتقصد أن أكون صريحا\nكما تكون أنت صريحا معي دائما؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 289,
+    "id": "02260500",
+    "english": "Well, you've got me there, I guess.",
+    "arabic": "حسنا، أظن أنك محق في هذه النقطة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 290,
+    "id": "02260600",
+    "english": "Xion has no right to be among our number.",
+    "arabic": "ليس لشيون حق في أن تكون بيننا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 291,
+    "id": "02260700",
+    "english": "What do you mean?",
+    "arabic": "ماذا تقصد؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 292,
+    "id": "02260800",
+    "english": "It's plain to see.\nI have nothing more to say.",
+    "arabic": "الأمر واضح.\nليس لدي ما أضيفه."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 295,
+    "id": "02280100",
+    "english": "Uh...  Good morning, Xion.",
+    "arabic": "آه... صباح الخير يا شيون."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 296,
+    "id": "02280200",
+    "english": "Oh... Morning... ",
+    "arabic": "آه... صباح الخير..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 297,
+    "id": "02280300",
+    "english": "You woke up so suddenly,\nyou just startled me.",
+    "arabic": "استيقظت فجأة،\nفأفزعتني."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 298,
+    "id": "02280400",
+    "english": "S-sorry...",
+    "arabic": "آ... آسفة..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 299,
+    "id": "02280500",
+    "english": "Oh...",
+    "arabic": "آه..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 300,
+    "id": "02280600",
+    "english": "Did you bring me these seashells?",
+    "arabic": "هل أحضرت لي هذه الأصداف؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 301,
+    "id": "02280700",
+    "english": "Do you hear it?",
+    "arabic": "هل تسمعه؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 302,
+    "id": "02280800",
+    "english": "Yeah, the sound of the waves.",
+    "arabic": "نعم، صوت الأمواج."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 303,
+    "id": "02280900",
+    "english": "How long was I asleep?",
+    "arabic": "كم بقيت نائمة؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 304,
+    "id": "02280a00",
+    "english": "About twenty days.",
+    "arabic": "نحو عشرين يوما."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 305,
+    "id": "02280b00",
+    "english": "That long!?",
+    "arabic": "كل هذه المدة؟!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 306,
+    "id": "02280c00",
+    "english": "Yeah. You were sleeping so much that\nme and Axel were getting worried.",
+    "arabic": "نعم. نمت طويلا إلى حد\nأثار قلقي وقلق آكسل عليك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 307,
+    "id": "02280d00",
+    "english": "I'm sorry about that.",
+    "arabic": "أنا آسفة على ذلك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 308,
+    "id": "02280e00",
+    "english": "Kind of weird that we can feel anything\nat all. Without having hearts to feel with.",
+    "arabic": "من الغريب أننا نستطيع الشعور بأي شيء\nمن دون قلوب نشعر بها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 309,
+    "id": "02280f00",
+    "english": "Hey, Roxas.\nDon't you have work today?",
+    "arabic": "اسمع يا روكساس.\nأليس لديك عمل اليوم؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 310,
+    "id": "02281000",
+    "english": "Huh? Oh, I'm about to head out.",
+    "arabic": "ماذا؟ آه، أنا على وشك الانطلاق."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 311,
+    "id": "02281100",
+    "english": "I'd like to tag along.",
+    "arabic": "أود مرافقتك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 312,
+    "id": "02281200",
+    "english": "But don't you need some more rest?",
+    "arabic": "لكن ألا تحتاجين إلى مزيد من الراحة؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 313,
+    "id": "02281300",
+    "english": "I'll be fine. C'mon, take me with you.",
+    "arabic": "سأكون بخير. هيا، خذني معك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 314,
+    "id": "02281400",
+    "english": "All right... Sure.",
+    "arabic": "حسنا... بالتأكيد."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 316,
+    "id": "02290000",
+    "english": "Xion!",
+    "arabic": "شيون!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 318,
+    "id": "02290200",
+    "english": "Leave Xion to me.",
+    "arabic": "اترك شيون لي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 319,
+    "id": "02290300",
+    "english": "Got it!",
+    "arabic": "حسنا!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 320,
+    "id": "022a0000",
+    "english": "Well, that didn't take long.\nDid it break again?",
+    "arabic": "لم يطل الأمر، إذن.\nهل تعطل ذلك الشيء مجددا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 321,
+    "id": "022a0100",
+    "english": "She's not an \"it\"!",
+    "arabic": "إنها ليست «شيئا»!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 322,
+    "id": "022a0200",
+    "english": "Keep your mouth shut.",
+    "arabic": "أغلق فمك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 323,
+    "id": "022a0300",
+    "english": "You have changed...",
+    "arabic": "لقد تغيرت..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 324,
+    "id": "022a0400",
+    "english": "What happened at Castle Oblivion?",
+    "arabic": "ماذا حدث في قلعة النسيان؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 325,
+    "id": "022a0500",
+    "english": "Does the past mean nothing to you?",
+    "arabic": "ألا يعني لك الماضي شيئا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 327,
+    "id": "022a8000",
+    "english": "Are you worried about her, Axel?",
+    "arabic": "هل أنت قلق عليها يا آكسل؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 328,
+    "id": "022a8100",
+    "english": "Of course I am.",
+    "arabic": "بالطبع أنا قلق."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 329,
+    "id": "022a8200",
+    "english": "It just doesn't seem like you.",
+    "arabic": "كل ما في الأمر أن هذا لا يشبهك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 330,
+    "id": "022a8300",
+    "english": "What do you mean?",
+    "arabic": "ماذا تقصد؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 331,
+    "id": "022a8400",
+    "english": "I mean, you don't like things\nto be complicated.",
+    "arabic": "أقصد أنك لا تحب\nأن تكون الأمور معقدة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 332,
+    "id": "022a8500",
+    "english": "You know, Roxas...",
+    "arabic": "أتعلم يا روكساس..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 333,
+    "id": "022a8600",
+    "english": "Each day the three of us meet up there for\nice cream. Now, why do you think that is?",
+    "arabic": "نلتقي نحن الثلاثة هناك كل يوم\nلتناول المثلجات. لماذا تظن أننا نفعل ذلك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 334,
+    "id": "022a8700",
+    "english": "Huh?",
+    "arabic": "ماذا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 335,
+    "id": "022a8800",
+    "english": "I mean, if you think about it, I don't need to\ngo out of my way to meet you guys, right?",
+    "arabic": "أقصد أنني، إن فكرت في الأمر، لست مضطرا\nإلى بذل الجهد للقائكما، أليس كذلك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 336,
+    "id": "022a8900",
+    "english": "I don't know... ",
+    "arabic": "لا أعرف..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 337,
+    "id": "022a8a00",
+    "english": "You want me to tell you why?",
+    "arabic": "أتريدني أن أخبرك بالسبب؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 338,
+    "id": "022a8b00",
+    "english": "It's because you guys\nare my best friends.",
+    "arabic": "لأنكما\nأعز أصدقائي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 339,
+    "id": "022a8c00",
+    "english": "We are?",
+    "arabic": "نحن كذلك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 340,
+    "id": "022a8d00",
+    "english": "Get it memorized, alright?\nWe are best friends.",
+    "arabic": "احفظ ذلك جيدا، مفهوم؟\nنحن أعز الأصدقاء."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 341,
+    "id": "022a8e00",
+    "english": "Oh yeah... ",
+    "arabic": "آه، نعم..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 342,
+    "id": "022a8f00",
+    "english": "Guess we are.",
+    "arabic": "أظن أننا كذلك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 343,
+    "id": "022a9000",
+    "english": "Heh heh...",
+    "arabic": "هه هه..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 344,
+    "id": "022a9100",
+    "english": "Thanks, Axel.\nYou're sweet.",
+    "arabic": "شكرا يا آكسل.\nأنت لطيف."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 345,
+    "id": "022a9200",
+    "english": "Are you feeling better?",
+    "arabic": "هل تشعرين بتحسن؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 346,
+    "id": "022a9300",
+    "english": "I just got a little dizzy, that's all.\nSorry to worry you guys.",
+    "arabic": "شعرت بدوار بسيط فقط، هذا كل شيء.\nآسفة لأنني أقلقتكما."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 347,
+    "id": "022a9400",
+    "english": "Don't scare us like that anymore.",
+    "arabic": "لا تفزعينا هكذا مرة أخرى."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 349,
+    "id": "022a9600",
+    "english": "Just take it easy today.",
+    "arabic": "خذي قسطا من الراحة اليوم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 350,
+    "id": "022a9700",
+    "english": "I will. Thanks. Both of you.",
+    "arabic": "سأفعل. شكرا لكما."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 352,
+    "id": "022b0000",
+    "english": "THE TRUTH ABOUT NAMINÉ\n  Vexen",
+    "arabic": "الحقيقة بشأن ناميني\nفيكسن"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 355,
+    "id": "022b8700",
+    "english": "Hey, Axel?",
+    "arabic": "آكسل؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 356,
+    "id": "022b8800",
+    "english": "Hm?",
+    "arabic": "همم؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 357,
+    "id": "022b8900",
+    "english": "You've been to Castle Oblivion, right?",
+    "arabic": "لقد ذهبت إلى قلعة النسيان، صحيح؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 358,
+    "id": "022b8a00",
+    "english": "Yeah.",
+    "arabic": "نعم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 359,
+    "id": "022b8b00",
+    "english": "What is it like?",
+    "arabic": "كيف تبدو؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 360,
+    "id": "022b8c00",
+    "english": "What's it like? Just an Organization\nresearch facility.",
+    "arabic": "كيف تبدو؟ إنها مجرد منشأة\nأبحاث تابعة للمنظمة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 361,
+    "id": "022b8d00",
+    "english": "For research, huh?",
+    "arabic": "للأبحاث، إذن؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 362,
+    "id": "022ba000",
+    "english": "Seems everyone gets sent there\nall the time. Especially you.",
+    "arabic": "يبدو أن الجميع يرسلون إلى هناك\nباستمرار. وخاصة أنت."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 363,
+    "id": "022b8e00",
+    "english": "Although...they never send me or Roxas.",
+    "arabic": "مع أنهم... لا يرسلونني أنا وروكساس أبدا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 364,
+    "id": "022b8f00",
+    "english": "Well...they probably just don't\nneed you there.",
+    "arabic": "حسنا... ربما هم ببساطة\nلا يحتاجون إليكما هناك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 365,
+    "id": "022b9000",
+    "english": "I'm...I'm heading back.",
+    "arabic": "أنا... سأعود."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 366,
+    "id": "022b9100",
+    "english": "Huh?",
+    "arabic": "ماذا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 367,
+    "id": "022b9200",
+    "english": "Maybe you're not completely well yet.",
+    "arabic": "ربما لم تتعافي تماما بعد."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 368,
+    "id": "022b9300",
+    "english": "No, it's nothing like that.",
+    "arabic": "لا، ليس الأمر كذلك إطلاقا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 369,
+    "id": "022b9400",
+    "english": "Got it!",
+    "arabic": "وجدتها!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 370,
+    "id": "022b9500",
+    "english": "Huh? Got what?",
+    "arabic": "ماذا؟ ماذا وجدت؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 371,
+    "id": "022b9600",
+    "english": "On our next day off, let's all\ngo to the beach, huh?",
+    "arabic": "في إجازتنا القادمة، لنذهب جميعا\nإلى الشاطئ، ما رأيكما؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 372,
+    "id": "022b9700",
+    "english": "The beach?\nWhere did that idea come from?",
+    "arabic": "الشاطئ؟\nمن أين أتتك هذه الفكرة؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 373,
+    "id": "022b9800",
+    "english": "We should go someplace\ndifferent for a change.",
+    "arabic": "علينا الذهاب إلى مكان\nمختلف على سبيل التغيير."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 374,
+    "id": "022b9900",
+    "english": "You're talking about a vacation with friends.",
+    "arabic": "أنت تتحدث عن إجازة مع الأصدقاء."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 375,
+    "id": "022b9a00",
+    "english": "Exactly.",
+    "arabic": "بالضبط."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 376,
+    "id": "022b9b00",
+    "english": "I'll join you...if I can.",
+    "arabic": "سأنضم إليكما... إن استطعت."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 377,
+    "id": "022b9c00",
+    "english": "What are you talking about, Xion?",
+    "arabic": "ماذا تقولين يا شيون؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 378,
+    "id": "022b9d00",
+    "english": "It'll be a blast, trust me.",
+    "arabic": "سيكون الأمر ممتعا جدا، صدقيني."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 379,
+    "id": "022b9e00",
+    "english": "Yes, all right.",
+    "arabic": "نعم، حسنا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 380,
+    "id": "022b9f00",
+    "english": "Let's go.",
+    "arabic": "هيا بنا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 381,
+    "id": "022c8000",
+    "english": "I sent Axel to Castle Oblivion last night ",
+    "arabic": "أرسلت آكسل إلى قلعة النسيان ليلة أمس"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 382,
+    "id": "022c8100",
+    "english": "to help expedite the matter we spoke of.",
+    "arabic": "لتسريع الأمر الذي تحدثنا عنه."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 383,
+    "id": "022c8200",
+    "english": "I also instructed him to\nclear out our facilities there.",
+    "arabic": "وأمرته أيضا\nبإخلاء منشآتنا هناك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 384,
+    "id": "022c9900",
+    "english": "He should return soon.",
+    "arabic": "يفترض أن يعود قريبا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 385,
+    "id": "022c8300",
+    "english": "And what of Naminé?",
+    "arabic": "وماذا عن ناميني؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 386,
+    "id": "022c8400",
+    "english": "Still missing, sir.",
+    "arabic": "ما زالت مفقودة يا سيدي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 387,
+    "id": "022c8500",
+    "english": "Where, oh where could she be?",
+    "arabic": "أين، يا ترى، يمكن أن تكون؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 388,
+    "id": "022c8600",
+    "english": "Why, Xigbar...\nIt almost sounds as though you know.",
+    "arabic": "يا زيغبار...\nيكاد كلامك يوحي بأنك تعرف."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 389,
+    "id": "022c8700",
+    "english": "Continue.",
+    "arabic": "تابع."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 390,
+    "id": "022c8800",
+    "english": "Somebody accessed our main computer\nwithout authorization.",
+    "arabic": "دخل أحدهم إلى حاسوبنا الرئيسي\nمن دون تصريح."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 391,
+    "id": "022c8900",
+    "english": "And you expect us to believe you\nreally don't know who it was? As if.",
+    "arabic": "وتتوقع منا أن نصدق أنك\nلا تعرف من هو حقا؟ وكأننا سنصدق!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 392,
+    "id": "022c8a00",
+    "english": "Little Poppet is turning into a problem.",
+    "arabic": "الدمية الصغيرة بدأت تصبح مشكلة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 393,
+    "id": "022c8b00",
+    "english": "Nonsense.\nI see no problem whatsoever.",
+    "arabic": "هراء.\nلا أرى أي مشكلة إطلاقا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 394,
+    "id": "022c8c00",
+    "english": "Well, no, apparently you don't!",
+    "arabic": "نعم، يبدو بالفعل أنك لا تراها!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 395,
+    "id": "022c8d00",
+    "english": "Something you find amusing?",
+    "arabic": "هل تجد في الأمر ما يضحك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 396,
+    "id": "022c8e00",
+    "english": "Ah, the things you hear\nfrom a guy with no heart.",
+    "arabic": "آه، يا للكلام الذي تسمعه\nمن شخص بلا قلب."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 397,
+    "id": "022c8f00",
+    "english": "No matter what unfolds,\nour plans remain unchanged.",
+    "arabic": "مهما حدث،\nتبقى خططنا كما هي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 398,
+    "id": "022c9000",
+    "english": "Axel, Roxas, and Xion ",
+    "arabic": "آكسل وروكساس وشيون"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 399,
+    "id": "022c9100",
+    "english": "will play the respective roles that\nKingdom Hearts has given them.",
+    "arabic": "سيؤدي كل منهم الدور\nالذي منحه إياه كينغدوم هارتس."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 400,
+    "id": "022c9200",
+    "english": "But sir, Xion--",
+    "arabic": "لكن يا سيدي، شيون..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 401,
+    "id": "022c9300",
+    "english": "Leave it be. ",
+    "arabic": "دع الأمر."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 402,
+    "id": "022c9400",
+    "english": "How can you not see how perfect this is?\nIn truth, this is more than perfect.",
+    "arabic": "كيف لا ترى مدى مثالية هذا؟\nفي الحقيقة، إنه أكثر من مثالي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 403,
+    "id": "022c9500",
+    "english": "Xion is marching right into the arms of\ndestiny, but to destiny's own time.",
+    "arabic": "شيون تسير مباشرة إلى أحضان\nالقدر، لكن في الوقت الذي يحدده هو."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 404,
+    "id": "022c9600",
+    "english": "We need not take any more steps. All we\nmust do is watch with caution and patience.",
+    "arabic": "لا نحتاج إلى أي خطوات أخرى. كل ما علينا\nهو المراقبة بحذر وصبر."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 407,
+    "id": "022d0000",
+    "english": "My head...hurts... ",
+    "arabic": "رأسي... يؤلمني..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 409,
+    "id": "022d0100",
+    "english": "This is the last you'll ever see of these walls,",
+    "arabic": "هذه آخر مرة سترين فيها هذه الجدران،"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 410,
+    "id": "022d0200",
+    "english": "Xion.",
+    "arabic": "يا شيون."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 411,
+    "id": "022d0300",
+    "english": "Axel... What are you doing here...?",
+    "arabic": "آكسل... ماذا تفعل هنا...؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 412,
+    "id": "022d0400",
+    "english": "I'm just here on orders, that's all.",
+    "arabic": "أنا هنا تنفيذا للأوامر فحسب."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 413,
+    "id": "022d0500",
+    "english": "There's nothing for you to see here.",
+    "arabic": "ليس هنا شيء لتريه."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 414,
+    "id": "022d0600",
+    "english": "Lies!",
+    "arabic": "أكاذيب!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 415,
+    "id": "022d0700",
+    "english": "This is the place I come from. I just know it.",
+    "arabic": "هذا هو المكان الذي أتيت منه. أنا واثقة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 416,
+    "id": "022d0800",
+    "english": "What about your mission?",
+    "arabic": "وماذا عن مهمتك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 417,
+    "id": "022d0900",
+    "english": "Don't be selfish.",
+    "arabic": "لا تكوني أنانية."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 418,
+    "id": "022d0a00",
+    "english": "Or else they'll turn me into a Dusk?",
+    "arabic": "وإلا فسيحولونني إلى الداسك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 419,
+    "id": "022d0b00",
+    "english": "They'll do worse than turn you into a Dusk.",
+    "arabic": "سيفعلون ما هو أسوأ من تحويلك إلى الداسك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 420,
+    "id": "022d1d00",
+    "english": "They'll just destroy you.",
+    "arabic": "سيدمرونك فحسب."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 421,
+    "id": "022d0c00",
+    "english": "And is that because I'm useless?",
+    "arabic": "أهذا لأنني عديمة الفائدة؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 422,
+    "id": "022d0d00",
+    "english": "That's not it.",
+    "arabic": "ليس هذا هو السبب."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 423,
+    "id": "022d0e00",
+    "english": "Xion, go home.",
+    "arabic": "عودي إلى المنزل يا شيون."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 424,
+    "id": "022d0f00",
+    "english": "I'm remembering things. I have\nmemories of back when I was a human.",
+    "arabic": "بدأت أتذكر أشياء. لدي\nذكريات من أيام كنت إنسانة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 425,
+    "id": "022d1000",
+    "english": "Well, stop remembering.\nNothing good will come of it.",
+    "arabic": "إذن، توقفي عن التذكر.\nلن يأتي منه خير."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 426,
+    "id": "022d1100",
+    "english": "I have dreams every night.\nAnd you're in those dreams, Axel!",
+    "arabic": "أرى أحلاما كل ليلة.\nوأنت فيها يا آكسل!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 427,
+    "id": "022d1200",
+    "english": "Then they sure aren't memories.\nHow could I be a part of your past?",
+    "arabic": "إذن، فهي ليست ذكريات بالتأكيد.\nكيف يمكن أن أكون جزءا من ماضيك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 428,
+    "id": "022d1300",
+    "english": "They're just dreams, that's all.",
+    "arabic": "إنها مجرد أحلام، لا أكثر."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 429,
+    "id": "022d1400",
+    "english": "You can't fool me. ",
+    "arabic": "لا يمكنك خداعي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 430,
+    "id": "022d1500",
+    "english": "We've met before,\nAxel, right here in this castle!",
+    "arabic": "لقد التقينا من قبل،\nيا آكسل، هنا في هذه القلعة!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 431,
+    "id": "022d1600",
+    "english": "No, we have not.",
+    "arabic": "لا، لم نلتق."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 432,
+    "id": "022d1700",
+    "english": "Let's go home, Xion.",
+    "arabic": "لنعد إلى المنزل يا شيون."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 433,
+    "id": "022d1800",
+    "english": "Don't keep Roxas waiting.",
+    "arabic": "لا تدعي روكساس ينتظر."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 434,
+    "id": "022d1900",
+    "english": "Please, Axel...you've got to help me!",
+    "arabic": "أرجوك يا آكسل... عليك مساعدتي!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 435,
+    "id": "022d1a00",
+    "english": "I need to know who I am.",
+    "arabic": "أحتاج إلى معرفة من أكون."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 436,
+    "id": "022d1b00",
+    "english": "Stop! Stay out of there, Xion!",
+    "arabic": "توقفي! لا تدخلي إلى هناك يا شيون!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 438,
+    "id": "022e0000",
+    "english": "Wh-What... ",
+    "arabic": "م... ماذا..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 439,
+    "id": "022e0100",
+    "english": "Then I...wasn't who I am...?",
+    "arabic": "إذن، أنا... لم أكن نفسي...؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 441,
+    "id": "022f0000",
+    "english": "So we meet again.",
+    "arabic": "ها نحن نلتقي مجددا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 442,
+    "id": "022f0100",
+    "english": "You made me a promise.",
+    "arabic": "لقد قطعت لي وعدا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 443,
+    "id": "022f0200",
+    "english": "I remember.\nIt was to look after Sora.",
+    "arabic": "أتذكر.\nوعدت بأن أعتني بسورا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 444,
+    "id": "022f0300",
+    "english": "I'm sorry... I'm not sure I've kept\nthat promise very well.",
+    "arabic": "أنا آسف... لست واثقا أنني\nوفيت بذلك الوعد كما ينبغي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 445,
+    "id": "022f0400",
+    "english": "Can you tell me what's happening?",
+    "arabic": "أتخبرينني بما يحدث؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 446,
+    "id": "022f0500",
+    "english": "Some of Sora's memories are missing.",
+    "arabic": "بعض ذكريات سورا مفقودة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 447,
+    "id": "022f0600",
+    "english": "How could that be?",
+    "arabic": "كيف يمكن ذلك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 448,
+    "id": "022f0700",
+    "english": "Sora's memories are escaping through\nSora's Nobody into a third person--",
+    "arabic": "تتسرب ذكريات سورا عبر\nاللا أحد المنبثق منه إلى شخص ثالث،"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 449,
+    "id": "022f0800",
+    "english": "and now they're starting to\nbecome a part of her.",
+    "arabic": "وبدأت الآن\nتصبح جزءا منها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 450,
+    "id": "022f0900",
+    "english": "Isn't there a way to bring back\njust Sora's memories?",
+    "arabic": "أليست هناك طريقة لاستعادة\nذكريات سورا وحدها؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 451,
+    "id": "022f0a00",
+    "english": "If they're still separate...then I think\nI can take out fragments of it.",
+    "arabic": "إن كانت لا تزال منفصلة... فأظن\nأنني أستطيع انتزاع شظايا منها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 452,
+    "id": "022f0b00",
+    "english": "But if her memories and Sora's memory\nfragments are completely weaved together... ",
+    "arabic": "لكن إن كانت ذكرياتها وشظايا ذكريات سورا\nقد تشابكت تماما..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 454,
+    "id": "022f0d00",
+    "english": "I would need to untangle them from\neach other and that would take more time.",
+    "arabic": "فسأحتاج إلى فصل بعضها\nعن بعض، وهذا سيستغرق وقتا أطول."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 455,
+    "id": "022f0e00",
+    "english": "Which means it would take even longer\nbefore Sora can wake up again.",
+    "arabic": "وهذا يعني مزيدا من التأخير\nقبل أن يستيقظ سورا مجددا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 456,
+    "id": "022f0f00",
+    "english": "And DiZ wouldn't tolerate that.",
+    "arabic": "وديز لن يتقبل ذلك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 457,
+    "id": "022f1000",
+    "english": "So what can you do?",
+    "arabic": "إذن، ماذا يمكنك فعله؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 458,
+    "id": "022f1100",
+    "english": "If I just jump in and rearrange her memory...",
+    "arabic": "إن تدخلت مباشرة وأعدت ترتيب ذاكرتها..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 459,
+    "id": "022f1200",
+    "english": "...then Sora might wake up ",
+    "arabic": "فقد يستيقظ سورا"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 460,
+    "id": "022f1300",
+    "english": "only to find out that nobody\nremembers him anymore.",
+    "arabic": "ليكتشف أنه لم يعد\nهناك من يتذكره."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 461,
+    "id": "022f1400",
+    "english": "That's a risk I just can't take.",
+    "arabic": "هذه مخاطرة لا أستطيع تحملها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 462,
+    "id": "022f1500",
+    "english": "It's too late either way. ",
+    "arabic": "لقد فات الأوان في الحالتين."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 463,
+    "id": "022f1600",
+    "english": "Sora's awakening has already been delayed.",
+    "arabic": "استيقاظ سورا تأخر بالفعل."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 464,
+    "id": "022f1700",
+    "english": "Sora's Nobody and the one that's\nabsorbing his memory... ",
+    "arabic": "اللا أحد المنبثق من سورا، وتلك\nالتي تمتص ذكرياته..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 465,
+    "id": "022f1800",
+    "english": "None of us imagined that they would fight\nso hard to become their own people.",
+    "arabic": "لم يتخيل أحد منا أنهما سيقاتلان\nبهذه الشراسة ليكون لكل منهما كيانه الخاص."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 466,
+    "id": "022f1900",
+    "english": "Unfortunately, the only real solution... ",
+    "arabic": "للأسف، الحل الحقيقي الوحيد..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 467,
+    "id": "022f2300",
+    "english": "is for them both to go away.",
+    "arabic": "هو أن يختفي كلاهما."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 468,
+    "id": "022f1a00",
+    "english": "Did you know her face was blank at first?",
+    "arabic": "هل كنت تعلم أن وجهها كان خاليا من الملامح في البداية؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 469,
+    "id": "022f1b00",
+    "english": "But now...there is a face\nthat is clearly visible.",
+    "arabic": "لكن الآن... هناك وجه\nواضح الملامح."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 470,
+    "id": "022f1c00",
+    "english": "I think that's proof that she has\nentered Sora's memories.",
+    "arabic": "أظن أن هذا دليل\nعلى دخولها إلى ذكريات سورا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 471,
+    "id": "022f1d00",
+    "english": "Sora's memories, Sora's Nobody's\nmemories, and her memories... ",
+    "arabic": "ذكريات سورا، وذكريات اللا أحد\nالمنبثق منه، وذكرياتها..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 472,
+    "id": "022f1e00",
+    "english": "They're all a jumbled mess now.\nAnd to put them back into one...",
+    "arabic": "كلها متشابكة الآن.\nولإعادة جمعها في ذاكرة واحدة..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 473,
+    "id": "022f1f00",
+    "english": "I'm afraid there's no other way.",
+    "arabic": "أخشى أنه لا توجد طريقة أخرى."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 474,
+    "id": "022f2000",
+    "english": "All right.",
+    "arabic": "حسنا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 477,
+    "id": "022f8000",
+    "english": "Hey... It's been a while.",
+    "arabic": "مرحبا... مضى وقت طويل."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 478,
+    "id": "022f8100",
+    "english": "You think so?",
+    "arabic": "أتظن ذلك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 479,
+    "id": "022f8200",
+    "english": "So...I went to the beach today.",
+    "arabic": "حسنا... ذهبت إلى الشاطئ اليوم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 480,
+    "id": "022f8300",
+    "english": "And there was this girl who looked\nkind of like Xion... ",
+    "arabic": "وكانت هناك فتاة تشبه\nشيون بعض الشيء..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 481,
+    "id": "022f8400",
+    "english": "but I couldn't get close enough to\ntell for sure.",
+    "arabic": "لكنني لم أستطع الاقتراب بما يكفي\nلأتأكد."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 482,
+    "id": "022f8500",
+    "english": "I probably imagined it.",
+    "arabic": "ربما تخيلت الأمر."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 483,
+    "id": "022f8600",
+    "english": "To be honest, I'm not even sure\ntoday's mission really happened.",
+    "arabic": "بصراحة، لست متأكدا حتى\nمن أن مهمة اليوم حدثت حقا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 484,
+    "id": "022f8700",
+    "english": "Feels like I just woke up from a dream\nor something.",
+    "arabic": "أشعر كأنني استيقظت للتو من حلم\nأو شيء من هذا القبيل."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 485,
+    "id": "022f8800",
+    "english": "Do you remember our promise?",
+    "arabic": "أتذكر وعدنا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 486,
+    "id": "022f8900",
+    "english": "When we said that the three of us would\ngo to the beach on our next break?",
+    "arabic": "حين قلنا إننا سنذهب نحن الثلاثة\nإلى الشاطئ في إجازتنا القادمة؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 487,
+    "id": "022f8a00",
+    "english": "Maybe that's why.",
+    "arabic": "ربما هذا هو السبب."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 488,
+    "id": "022f8b00",
+    "english": "Maybe I saw Xion there\nbecause I wanted her to be there.",
+    "arabic": "ربما رأيت شيون هناك\nلأنني أردتها أن تكون هناك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 489,
+    "id": "022f8c00",
+    "english": "Wanna go look for her?",
+    "arabic": "أتريد البحث عنها؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 490,
+    "id": "022f8d00",
+    "english": "Huh?",
+    "arabic": "ماذا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 491,
+    "id": "022f8e00",
+    "english": "Beginning tomorrow, let's use\nour spare time to find Xion.",
+    "arabic": "ابتداء من الغد، لنستخدم\nوقت فراغنا للعثور على شيون."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 492,
+    "id": "022f8f00",
+    "english": "Mm-hmm. ",
+    "arabic": "نعم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 493,
+    "id": "022f9000",
+    "english": "Sounds good, let's do that.",
+    "arabic": "فكرة جيدة، لنفعل ذلك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 497,
+    "id": "02300000",
+    "english": "It's no use.",
+    "arabic": "لا جدوى."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 498,
+    "id": "02300100",
+    "english": "You sure you're not forgetting some place?",
+    "arabic": "أمتأكد أنك لم تنس مكانا ما؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 499,
+    "id": "02300200",
+    "english": "I've been everywhere I know how to get to.",
+    "arabic": "ذهبت إلى كل مكان أعرف كيف أصل إليه."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 500,
+    "id": "02300300",
+    "english": "Alright...",
+    "arabic": "حسنا..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 501,
+    "id": "02300400",
+    "english": "The only place I haven't been to\nis Castle Oblivion.",
+    "arabic": "المكان الوحيد الذي لم أذهب إليه\nهو قلعة النسيان."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 502,
+    "id": "02300500",
+    "english": "It was just the other day that Xion was\nasking you what the place was like.",
+    "arabic": "منذ أيام قليلة فقط، كانت شيون\nتسألك كيف يبدو ذلك المكان."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 503,
+    "id": "02300600",
+    "english": "And the day before she disappeared,",
+    "arabic": "وفي اليوم الذي سبق اختفاءها،"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 504,
+    "id": "02300700",
+    "english": "you said she was put on an important\nmission. Remember?",
+    "arabic": "قلت إنها كلفت\nبمهمة ذات أهمية. أتذكر؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 505,
+    "id": "02300800",
+    "english": "Yeah...",
+    "arabic": "نعم..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 506,
+    "id": "02300900",
+    "english": "But there's nothing there anymore.",
+    "arabic": "لكن لم يعد هناك شيء."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 507,
+    "id": "02300a00",
+    "english": "Well, Xion might be there.",
+    "arabic": "قد تكون شيون هناك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 508,
+    "id": "02300b00",
+    "english": "Apparently...Xion comes from\nCastle Oblivion. ",
+    "arabic": "يبدو... أن شيون أتت من\nقلعة النسيان."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 509,
+    "id": "02300c00",
+    "english": "What?",
+    "arabic": "ماذا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 510,
+    "id": "02300d00",
+    "english": "That's probably why she was\nasking about the place.",
+    "arabic": "ربما لهذا كانت\nتسأل عن المكان."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 511,
+    "id": "02300e00",
+    "english": "I had no idea... ",
+    "arabic": "لم تكن لدي أي فكرة..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 512,
+    "id": "02300f00",
+    "english": "Me neither.",
+    "arabic": "ولا أنا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 513,
+    "id": "02301000",
+    "english": "I only found out a little while ago.",
+    "arabic": "لم أعرف إلا منذ فترة قصيرة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 514,
+    "id": "02301100",
+    "english": "Castle Oblivion... ",
+    "arabic": "قلعة النسيان..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 515,
+    "id": "02301200",
+    "english": "Xion... ",
+    "arabic": "شيون..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 517,
+    "id": "02310000",
+    "english": "So, this is Castle Oblivion...",
+    "arabic": "إذن، هذه قلعة النسيان..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 519,
+    "id": "02310200",
+    "english": "Roxas!?",
+    "arabic": "روكساس؟!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 520,
+    "id": "02310300",
+    "english": "My...my head!",
+    "arabic": "رأسي... رأسي!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 521,
+    "id": "02310400",
+    "english": "Easy, man!\nLet's retreat for now and--",
+    "arabic": "على مهلك يا رجل!\nلننسحب الآن ثم..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 522,
+    "id": "02310500",
+    "english": "I'm fine!",
+    "arabic": "أنا بخير!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 523,
+    "id": "02310600",
+    "english": "We have to...find Xion...",
+    "arabic": "علينا... العثور على شيون..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 524,
+    "id": "02310700",
+    "english": "Wh...what's happening?",
+    "arabic": "م... ماذا يحدث؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 525,
+    "id": "02310800",
+    "english": "Roxas!",
+    "arabic": "روكساس!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 526,
+    "id": "02310900",
+    "english": "So much...rushing into...",
+    "arabic": "أشياء كثيرة... تتدفق إلى..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 527,
+    "id": "02310a00",
+    "english": "my head... ",
+    "arabic": "رأسي..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 528,
+    "id": "02310b00",
+    "english": "Let's get out of here for now!",
+    "arabic": "لنخرج من هنا الآن!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 529,
+    "id": "02310c00",
+    "english": "No, wait... ",
+    "arabic": "لا، انتظر..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 530,
+    "id": "02311000",
+    "english": "There's...something...",
+    "arabic": "هناك... شيء ما..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 531,
+    "id": "02310d00",
+    "english": "I can...almost...",
+    "arabic": "أكاد... أستطيع..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 534,
+    "id": "02318000",
+    "english": "Giving up already? \nI thought you were stronger than that.",
+    "arabic": "أتستسلم بهذه السرعة؟\nظننت أنك أقوى من ذلك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 535,
+    "id": "02318100",
+    "english": "Riku!",
+    "arabic": "ريكو!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 536,
+    "id": "02318200",
+    "english": "Are you alright?",
+    "arabic": "هل أنت بخير؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 537,
+    "id": "02318300",
+    "english": "What...happened to me?",
+    "arabic": "ماذا... حدث لي؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 538,
+    "id": "02318400",
+    "english": "You collapsed just as you\nentered the castle doors. ",
+    "arabic": "انهرت بمجرد\nدخولك أبواب القلعة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 539,
+    "id": "02318500",
+    "english": "Don't you remember?",
+    "arabic": "ألا تتذكر؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 540,
+    "id": "02318600",
+    "english": "I only remember going inside.",
+    "arabic": "لا أتذكر سوى الدخول."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 541,
+    "id": "02318700",
+    "english": "Just take it easy for now.",
+    "arabic": "خذ قسطا من الراحة الآن فحسب."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 542,
+    "id": "02318800",
+    "english": "I'm fine. Let's go back to\nCastle Oblivion.",
+    "arabic": "أنا بخير. لنعد إلى\nقلعة النسيان."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 543,
+    "id": "02318900",
+    "english": "Don't push yourself, man.",
+    "arabic": "لا ترهق نفسك يا رجل."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 544,
+    "id": "02318a00",
+    "english": "Who's there?",
+    "arabic": "من هناك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 545,
+    "id": "02318b00",
+    "english": "Xion?",
+    "arabic": "شيون؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 546,
+    "id": "02318c00",
+    "english": "Xion, wait!",
+    "arabic": "شيون، انتظري!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 547,
+    "id": "02318d00",
+    "english": "Out of the way!",
+    "arabic": "ابتعد عن الطريق!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 548,
+    "id": "02318e00",
+    "english": "Hey!",
+    "arabic": "مهلا!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+    "index": 549,
+    "id": "02318f00",
+    "english": "Roxas, wait!",
+    "arabic": "روكساس، انتظر!"
+  }
+]

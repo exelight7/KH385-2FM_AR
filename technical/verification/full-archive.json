@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-10T04:07:04.101Z",
-  "version": "0.3.0",
+  "date": "2026-10-10T04:55:32.161Z",
+  "version": "0.4.0",
   "translatedEntries": 1616,
   "testedArchiveTarget": {
     "Mare.hed": {
       "bytes": 64768,
-      "sha256": "6ea392f61abacf37b9b442d661d30227812ecbc6f0365a5f7b0bda3b9ce9ae6f"
+      "sha256": "c4a4229bf956b9bb3e4044527fb7c033b2a1d38387aead69458177f2a75dce3d"
     },
     "Mare.pkg": {
-      "bytes": 2785669776,
-      "sha256": "ed99f88be70db700c98227c9dc012bfddc23ea688049a7c19e15f582537991e4"
+      "bytes": 2785670144,
+      "sha256": "3607fbcb8a2fe6b1e95109d6615e5bad4695b4a4aecf78df8dd7fac2a1b668ee"
     }
   },
-  "patchDeltaSha256": "07c828d15831fae5133076566fe29377f003f4e6d9003454b2b7635764d8edfa",
+  "patchDeltaSha256": "770d39c42bfbcadad0c66cca2e34adc6a9310d8e00c35eeda747ff273eefef44",
   "checks": [
-    "full-size upgrade from live previous-release copy matches verified 0.3.0 archive",
+    "full-size upgrade from live previous-release copy matches verified 0.4.0 archive",
     "full-size uninstall restores byte-identical originals",
     "live game hashes unchanged"
   ],
   "liveHashes": {
-    "Mare.hed": "f43b48a65f1c676ebe0e296fce6c71f9e89aca22a906ae9b521195475b211a2c",
-    "Mare.pkg": "fc4182833b076a731a16d4f0c53871182f626a9715bc95b0df7fc1425d37f5a7"
+    "Mare.hed": "6ea392f61abacf37b9b442d661d30227812ecbc6f0365a5f7b0bda3b9ce9ae6f",
+    "Mare.pkg": "ed99f88be70db700c98227c9dc012bfddc23ea688049a7c19e15f582537991e4"
   },
   "gameInstalled": false,
   "inGameVerified": false

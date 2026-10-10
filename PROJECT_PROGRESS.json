@@ -66,11 +66,18 @@
   "repository": "https://github.com/exelight7/KH385-2FM_AR",
   "visibility": "public - explicitly selected by owner",
   "release": "https://github.com/exelight7/KH385-2FM_AR/releases/tag/v1.0.0",
-  "releasePublished": false,
-  "windowsExe": "CI packaging pending",
-  "linuxAppImage": "CI packaging pending; in-game rendering unverified",
+  "releasePublished": true,
+  "windowsExe": "public download verified",
+  "linuxAppImage": "public download verified; in-game rendering unverified",
   "freshlyReviewedEntries": 2461,
   "distinctCorrectedRows": 11,
   "correctionEvents": 11,
-  "installerAudit": "technical/verification/v1.0.0-installer-audit.json"
+  "installerAudit": "technical/verification/v1.0.0-installer-audit.json",
+  "buildRun": "https://github.com/exelight7/KH385-2FM_AR/actions/runs/38043186624",
+  "releaseSourceCommit": "a50c5488d1f3082a4e58ba358711174b300428b8",
+  "testsOnWindowsAndLinux": 22,
+  "releaseDownloadVerification": "technical/verification/v1.0.0-release-downloads.json",
+  "appImageSha256": "4b2abc1b62fd5626a2dfaa42a87df3ba91dd91c665eb045913eeb7fa8376d55a",
+  "windowsExeSha256": "8803b20a3c4a8a96034fd13fc1726d32d46a2755ecf10d771e852643989202de",
+  "uninstallExeSha256": "8803b20a3c4a8a96034fd13fc1726d32d46a2755ecf10d771e852643989202de"
 }

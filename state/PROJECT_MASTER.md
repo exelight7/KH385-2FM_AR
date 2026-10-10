@@ -10,6 +10,6 @@ Date: 2026-10-10 / DAYS-REVIEW-V100
 -Fixed cross-version interrupted-transaction recovery, backup/transaction junction writes, leaked lock on metadata failure, and launcher/process detection.22 installer tests pass. Full archive upgrade/restore verified: True. Direct upgrade supports0.1.0/0.2.0/0.3.0/0.4.0/0.4.1.
 -Live installed:True; current live version:1.0.0. No automatic game launch. In-game rendering remains unverified (0 rows).
 -Decorative WINNER and OPERATIONS CLOSED FOR VACATION artwork remains English; logos/credits retained. Full artwork inventory remains pending. Shared Re:coded menu labels/profiles included; Re:coded story and KH1/KH2 excluded.
--Public downloads verified:False. Packaging pending.
+-Public downloads verified:True. https://github.com/exelight7/KH385-2FM_AR/actions/runs/38043186624
 
 Preserve Image/.days-arabic-backup and frozen earlier translations/proofs. Never install intermediate OpenKH output, which drops57 records. Sources of truth: PROJECT_PROGRESS.json, installer/patch/manifest.json, versioned verification files.

@@ -58,7 +58,7 @@ AppImage يوفر التثبيت والإلغاء لنسخة Steam/Proton، وق
 
 الحزمة تحفظ الفيديو الأصلي دون إعادة ترميز. سبب ملاحظة المستخدم اختلاف جودة المشهد لم يحسم، ولم تجر مقارنة المشهد نفسه بعد الإلغاء. [فحص الفيديو السابق](technical/verification/video-integrity.json) و[فحص الأرشيف الحالي](technical/verification/v1.0.0-archive.json).
 
-بناء Windows وLinux وفحص التنزيلات العامة لـ1.0.0 قيد الإعداد. ستضاف سجلات البناء والتنزيلات بعد نجاحها.
+نجح بناء Windows وLinux عبر [GitHub Actions](https://github.com/exelight7/KH385-2FM_AR/actions/runs/38043186624)، مع 22 اختبارا ناجحا لكل نظام. تحققت تنزيلات البرامج الثلاثة من SHA-256 وحجم الملف وترويسات EXE وAppImage: [سجل البناء](technical/verification/v1.0.0-ci.json)، و[سجل فحص التنزيلات](technical/verification/v1.0.0-release-downloads.json).
 
 ## المساهمة والبناء
 

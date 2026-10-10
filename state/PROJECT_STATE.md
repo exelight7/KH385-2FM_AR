@@ -18,7 +18,7 @@ executor: Codex; user owns and runs the game client
 - User's supplied screenshot proves Arabic appeared in0.2.0. New0.3.0 font/layout has0 visually verified rows. Offline preview is not an in-game screenshot.
 - Menus, diaries and image title cards remain English. Unreviewed full-project drafts remain local and are excluded from0.3.0.
 - Read-only video audit found no movie reencoding or movie writes in the patch pipeline. User has not compared the same scene after uninstall; visual quality cause remains unconfirmed.
-- CI/release publication pending. PROJECT_PROGRESS.json will record actual published status and download hashes when complete.
+- GitHub Actions run38023200468: Windows, Linux and release allSUCCESS. Eleven tests pass on each platform. Public prerelease v0.3.0 published from ad3412d0ecf3df0627fbc1c2f8b4c8f261980f84. All three public binaries streamed and SHA256 matched both SHA256SUMS.txt and GitHub asset digests; EXE/ELF/AppImage headers verified. See technical/verification/v0.3.0-ci.json and release-downloads.json.
 
 ## Rules
 - Never launch the game automatically. Human screenshot verification remains separate from archive installation checks.

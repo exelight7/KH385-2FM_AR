@@ -1,0 +1,32 @@
+{
+  "version": "0.3.0",
+  "runId": 38023200468,
+  "url": "https://github.com/exelight7/KH385-2FM_AR/actions/runs/38023200468",
+  "sourceCommit": "ad3412d0ecf3df0627fbc1c2f8b4c8f261980f84",
+  "status": "completed",
+  "conclusion": "success",
+  "tests": {
+    "windows": 11,
+    "linux": 11
+  },
+  "jobs": [
+    {
+      "id": 114128432767,
+      "name": "package (windows-latest, build:win, windows-exe)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 114128432899,
+      "name": "package (ubuntu-22.04, build:linux, linux-appimage)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 114128883704,
+      "name": "release",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ]
+}

@@ -39,7 +39,7 @@
     "0.2.0"
   ],
   "installerFixtureTests": 11,
-  "testsOnWindowsAndLinux": "Windows 11 pass; Linux CI pending",
+  "testsOnWindowsAndLinux": 11,
   "fullArchiveInstallRestoreVerified": true,
   "liveInstallReceipt": "technical/verification/v0.3.0-install.json",
   "movieReencoding": false,
@@ -52,7 +52,13 @@
   "repository": "https://github.com/exelight7/KH385-2FM_AR",
   "visibility": "public - explicitly selected by owner",
   "release": "https://github.com/exelight7/KH385-2FM_AR/releases/tag/v0.3.0",
-  "releasePublished": false,
-  "windowsExe": "CI pending",
-  "linuxAppImage": "CI pending; in-game rendering unverified"
+  "releasePublished": true,
+  "windowsExe": "Built successfully on Windows x64; downloaded SHA256 and PE header verified",
+  "linuxAppImage": "Built successfully on Ubuntu22.04 x64; downloaded SHA256 and ELF/AppImage header verified; in-game rendering unverified",
+  "buildRun": "https://github.com/exelight7/KH385-2FM_AR/actions/runs/38023200468",
+  "releaseSourceCommit": "ad3412d0ecf3df0627fbc1c2f8b4c8f261980f84",
+  "appImageSha256": "8da231778bc2d54d74461141bf3c3f866ecf42dad9cfc99e1a91f1ea57d49e0c",
+  "windowsExeSha256": "4b0b21cbb914060ef342cc0b1841c415c9562b25f003c15b5f7f71f0001ed76e",
+  "uninstallExeSha256": "4b0b21cbb914060ef342cc0b1841c415c9562b25f003c15b5f7f71f0001ed76e",
+  "releaseDownloadVerification": "technical/verification/release-downloads.json"
 }

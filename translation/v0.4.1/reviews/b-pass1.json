@@ -1,0 +1,224 @@
+{
+  "pass": 1,
+  "status": "complete",
+  "reviewer": "story_b",
+  "files": {
+    "cthd050": {
+      "reviewedRows": 509,
+      "correctedIds": [
+        "021b8400",
+        "021ba000",
+        "021c0b00",
+        "021f8600",
+        "021fa500",
+        "02200400",
+        "02218100",
+        "02221700",
+        "02239a00",
+        "02260500",
+        "02280b00",
+        "02281000",
+        "022a8200",
+        "022b8d00",
+        "022c8600",
+        "022e0100",
+        "022f1e00",
+        "02310200"
+      ],
+      "unresolved": [],
+      "outputCanonicalSha256": "7a5bef07792e58da553db95bfb6839fc5deecbe2730d37d0300da8312ef03493",
+      "inputCanonicalSha256": "0763d6160536e9d0a064f5fc409113205a8eb07332be1e6b91555b27d59eed5c",
+      "sourceCanonicalSha256": "3cec39bf5fbf507108b0366c9490ff89cc55e10e3d621bc8536f7cc19593a174"
+    }
+  },
+  "corrections": [
+    {
+      "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+      "id": "021b8400",
+      "index": 37,
+      "before": "أتعلمان؟ ليت بلا قلب\nيثبتون في أماكنهم أحيانا.",
+      "after": "أتعلمان؟ ليت مخلوقات بلا قلب\nتثبت في أماكنها أحيانا.",
+      "reason": "Give the locked class name its natural Arabic noun construction and match nonhuman plural agreement.",
+      "category": "grammar"
+    },
+    {
+      "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+      "id": "021ba000",
+      "index": 47,
+      "before": "ربما لم تتذكر شيون أبدا\nكيفية استخدام الكيبلايد.",
+      "after": "لربما لم تتذكر شيون أبدا\nكيفية استخدام الكيبلايد.",
+      "reason": "Connect the counterfactual result to preceding فلولاك without removing might.",
+      "category": "grammar"
+    },
+    {
+      "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+      "id": "021c0b00",
+      "index": 78,
+      "before": "أحدها لا يعرف حتى هو\nمكانه.",
+      "after": "حتى هو لا يعرف\nمكان أحدها.",
+      "reason": "Repair displaced subject/topic order while retaining one hidden secret and even-he emphasis.",
+      "category": "grammar"
+    },
+    {
+      "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+      "id": "021f8600",
+      "index": 133,
+      "before": "شهر من الإجازة!؟",
+      "after": "شهر من الإجازة؟!",
+      "reason": "Use normal Arabic order for a surprised question.",
+      "category": "punctuation"
+    },
+    {
+      "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+      "id": "021fa500",
+      "index": 167,
+      "before": "اسمع، لن أخبركما\nبكل أسراري المظلمة.",
+      "after": "اسمعا، لن أخبركما\nبكل أسراري المظلمة.",
+      "reason": "Match the opening address to the same two friends addressed by أخبركما and the surrounding dialogue.",
+      "category": "agreement"
+    },
+    {
+      "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+      "id": "02200400",
+      "index": 185,
+      "before": "نعم، نعم، كما تشاء.",
+      "after": "نعم، نعم، كما تقول.",
+      "reason": "Whatever you say dismisses the claim; it does not grant the addressee a wish.",
+      "category": "idiom"
+    },
+    {
+      "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+      "id": "02218100",
+      "index": 205,
+      "before": "لا يمكننا المجازفة\nبمنحك مزيد من الفرص.",
+      "after": "لا يمكننا المجازفة\nبمنحك مزيدا من الفرص.",
+      "reason": "مزيدا is the accusative object of منح; restore its required written accusative alif without vowel marks.",
+      "category": "grammar"
+    },
+    {
+      "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+      "id": "02221700",
+      "index": 235,
+      "before": "لا أطيق فقدان\nذكرياتي عنك وعن شيون.",
+      "after": "لا أطيق فقدان\nذكرياتي عنك أو عن شيون.",
+      "reason": "Preserve the original disjunction: losing memories of either friend would be unbearable.",
+      "category": "semantic"
+    },
+    {
+      "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+      "id": "02239a00",
+      "index": 262,
+      "before": "ولا عما إن كنا نحتاج إلى القلوب.",
+      "after": "ولا عما إذا كنا نحتاج إلى القلوب.",
+      "reason": "Use the idiomatic indirect-question construction ما إذا after عن.",
+      "category": "grammar"
+    },
+    {
+      "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+      "id": "02260500",
+      "index": 289,
+      "before": "حسنا، أظن أنك أحرجتني هنا.",
+      "after": "حسنا، أظن أنك محق في هذه النقطة.",
+      "reason": "You have got me there concedes Saix point about honesty; it does not merely report embarrassment.",
+      "category": "idiom"
+    },
+    {
+      "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+      "id": "02280b00",
+      "index": 305,
+      "before": "كل هذه المدة!؟",
+      "after": "كل هذه المدة؟!",
+      "reason": "Use normal Arabic order for a surprised question.",
+      "category": "punctuation"
+    },
+    {
+      "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+      "id": "02281000",
+      "index": 310,
+      "before": "ماذا؟ آه، كنت على وشك الانطلاق.",
+      "after": "ماذا؟ آه، أنا على وشك الانطلاق.",
+      "reason": "I am about to head out is present; remove the unsupported past كنت.",
+      "category": "tense"
+    },
+    {
+      "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+      "id": "022a8200",
+      "index": 329,
+      "before": "الأمر فقط أن هذا لا يشبهك.",
+      "after": "كل ما في الأمر أن هذا لا يشبهك.",
+      "reason": "Repair the literal it-just construction into natural formal Arabic without changing the claim.",
+      "category": "register"
+    },
+    {
+      "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+      "id": "022b8d00",
+      "index": 361,
+      "before": "مع أنهم... لا يرسلونني ولا روكساس أبدا.",
+      "after": "للأبحاث، إذن؟",
+      "reason": "The previous draft copied the later line about never sending Xion/Roxas. Restore the actual research-facility question.",
+      "category": "semantic"
+    },
+    {
+      "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+      "id": "022c8600",
+      "index": 388,
+      "before": "يا زيغبار...\nيبدو من كلامك أنك تعرف.",
+      "after": "يا زيغبار...\nيكاد كلامك يوحي بأنك تعرف.",
+      "reason": "Retain almost in the insinuation instead of turning the hedged inference into an unqualified one.",
+      "category": "semantic"
+    },
+    {
+      "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+      "id": "022e0100",
+      "index": 439,
+      "before": "إذن، أنا... لست من كنت أظن...؟",
+      "after": "إذن، أنا... لم أكن نفسي...؟",
+      "reason": "Preserve past identity confusion in was not who I am; remove the invented thought/belief phrase كنت أظن.",
+      "category": "tense"
+    },
+    {
+      "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+      "id": "022f1e00",
+      "index": 472,
+      "before": "كلها متشابكة الآن.\nولجمعها في كيان واحد مجددا...",
+      "after": "كلها متشابكة الآن.\nولإعادة جمعها في ذاكرة واحدة...",
+      "reason": "The objects being restored into one are memories; avoid suggesting a separate physical entity with كيان.",
+      "category": "semantic"
+    },
+    {
+      "file": "uk/message/en/event/hd/bin/cthd050.ctd",
+      "id": "02310200",
+      "index": 519,
+      "before": "روكساس!؟",
+      "after": "روكساس؟!",
+      "reason": "Use normal Arabic order for a surprised question.",
+      "category": "punctuation"
+    }
+  ],
+  "unresolved": [],
+  "method": "Read all 509 English/Arabic pairs in source order, in four complete contiguous batches of 130/130/130/119 records, with adjoining dialogue context. Checked spelling, hamza, feminine endings, alif maqsura, agreement, pronouns, tense, negation, names, factual fidelity and literal idiom errors. No row was skipped. No automatic paraphrase/translation replacement used.",
+  "checks": {
+    "rowCount": 509,
+    "sourceMetadataExact": true,
+    "rowOrderExact": true,
+    "newlineCountsExact": true,
+    "blankPositionsExact": true,
+    "orderedTagsExact": true,
+    "paragraphCommandLinePositionsExact": true,
+    "noVowelMarksOrTatweel": true,
+    "LFOutput": true
+  },
+  "notes": [
+    "The file contains no embedded control commands; source English and metadata were checked unchanged against extracted original source.",
+    "Catchphrases at 021b9a00, 021fa600 and 022a8d00 already use حفظ wording with appropriate number/context and were retained.",
+    "The unvowelled possessive ماضي was retained: the contracted منقوص possessive form does not require a newly inserted written ي under the no-diacritics rule.",
+    "No install, game launch, build or publish operation performed."
+  ],
+  "provenance": {
+    "reusedFromVersion": "0.4.0",
+    "sourceReport": "translation/v0.4.0/reviews/b-pass1.json",
+    "sourceReportSha256": "95fcb9aa7b2ac7e7b22be1872a15906fe21caaa278b96f3b708129a539878466",
+    "reason": "Frozen story translations are byte-for-byte unchanged.",
+    "hashConvention": "UTF-8 with canonical LF line endings"
+  }
+}

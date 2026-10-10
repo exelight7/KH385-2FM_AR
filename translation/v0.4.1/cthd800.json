@@ -1,0 +1,2088 @@
+[
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 0,
+    "id": "03910000",
+    "english": "Pitiful Heartless,",
+    "arabic": "يا لبؤس مخلوقات بلا قلب،"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 1,
+    "id": "03910100",
+    "english": "mindlessly collecting hearts.",
+    "arabic": "تجمع القلوب بلا تفكير."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 2,
+    "id": "03910200",
+    "english": "The rage of the Keyblade",
+    "arabic": "غضب الكيبلايد"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 3,
+    "id": "03910300",
+    "english": "releases those hearts.",
+    "arabic": "يحرر تلك القلوب."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 4,
+    "id": "03910400",
+    "english": "They gather in darkness,",
+    "arabic": "فتجتمع في الظلام،"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 5,
+    "id": "03910500",
+    "english": "masterless and free...",
+    "arabic": "حرة وبلا سيد..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 6,
+    "id": "03910600",
+    "english": "until they weave together to make",
+    "arabic": "حتى تتشابك معا لتشكل"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 7,
+    "id": "03910700",
+    "english": "Kingdom Hearts.",
+    "arabic": "كينغدوم هارتس."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 8,
+    "id": "03910800",
+    "english": "And when that time comes,",
+    "arabic": "وعندما يحين ذلك الوقت،"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 9,
+    "id": "03910900",
+    "english": "we can truly, finally exist.",
+    "arabic": "يمكننا أخيرا أن نوجد حقا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 10,
+    "id": "03910a00",
+    "english": "Roxas...",
+    "arabic": "روكساس..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 11,
+    "id": "03910b00",
+    "english": "are you really sure",
+    "arabic": "هل أنت واثق حقا"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 12,
+    "id": "03910c00",
+    "english": "that you don't have a heart?",
+    "arabic": "أنك لا تملك قلبا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 13,
+    "id": "03910d00",
+    "english": "I dunno.",
+    "arabic": "لا أعرف."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 14,
+    "id": "03910e00",
+    "english": "I can't...just look inside.",
+    "arabic": "لا أستطيع... النظر إلى داخلي ببساطة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 16,
+    "id": "03911000",
+    "english": "But I figure...",
+    "arabic": "لكنني أظن..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 17,
+    "id": "03911100",
+    "english": "if there is something in there...inside us--",
+    "arabic": "أنه إن كان هناك شيء في داخلنا..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 18,
+    "id": "03911200",
+    "english": "then we'd feel it, wouldn't we?",
+    "arabic": "فسنشعر به، أليس كذلك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 20,
+    "id": "03911400",
+    "english": "True enough.",
+    "arabic": "هذا صحيح."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 21,
+    "id": "03911500",
+    "english": "You seek answers.",
+    "arabic": "أنت تبحث عن إجابات."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 22,
+    "id": "03912000",
+    "english": "You feel nothing. Nothing is real.",
+    "arabic": "أنت لا تشعر بشيء. لا شيء حقيقي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 23,
+    "id": "03911600",
+    "english": "I can give you purpose.",
+    "arabic": "يمكنني أن أمنحك غاية."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 24,
+    "id": "03912e00",
+    "english": "...Roxas",
+    "arabic": "...روكساس"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 25,
+    "id": "03911700",
+    "english": "That is right--the new you.",
+    "arabic": "هذا صحيح، ذاتك الجديدة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 26,
+    "id": "03911800",
+    "english": "Man, I miss the old times.",
+    "arabic": "آه، أفتقد الأيام الماضية."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 27,
+    "id": "03911900",
+    "english": "Still got it memorized?",
+    "arabic": "أما زلت تحفظ ذلك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 28,
+    "id": "03911a00",
+    "english": "The day we met, when you got your new name,",
+    "arabic": "يوم التقينا، حين حصلت على اسمك الجديد،"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 29,
+    "id": "03911b00",
+    "english": "you and I sat right here, just like this,",
+    "arabic": "جلسنا أنا وأنت هنا تماما، هكذا،"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 30,
+    "id": "03911c00",
+    "english": "and watched the sun set.",
+    "arabic": "وشاهدنا غروب الشمس."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 47,
+    "id": "03918000",
+    "english": "Good tidings, friends.\nToday is a momentous day.",
+    "arabic": "بشرى سارة يا أصدقائي.\nاليوم يوم عظيم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 48,
+    "id": "03918100",
+    "english": "I am pleased to announce that a new\ncomrade has been chosen to wear the coat.",
+    "arabic": "يسرني الإعلان عن اختيار رفيق جديد\nليرتدي المعطف."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 49,
+    "id": "03918200",
+    "english": "Number XIV.",
+    "arabic": "العضو الرابع عشر."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 50,
+    "id": "03918300",
+    "english": "Let us all welcome one of\nthe Keyblade's chosen.",
+    "arabic": "فلنرحب جميعا بأحد\nالذين اختارهم الكيبلايد."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 52,
+    "id": "03928000",
+    "english": "I've been to see him.",
+    "arabic": "ذهبت لرؤيته."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 53,
+    "id": "03928100",
+    "english": "He looks a lot like you.",
+    "arabic": "إنه يشبهك كثيرا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 54,
+    "id": "03928200",
+    "english": "Who are you?",
+    "arabic": "من أنت؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 55,
+    "id": "03928300",
+    "english": "I'm what's left.",
+    "arabic": "أنا ما تبقى."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 56,
+    "id": "03928400",
+    "english": "Or...maybe I'm all there ever was.",
+    "arabic": "أو... ربما أنا كل ما كان موجودا أصلا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 57,
+    "id": "03928500",
+    "english": "I meant your name.",
+    "arabic": "قصدت اسمك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 58,
+    "id": "03928600",
+    "english": "My name is of no importance.",
+    "arabic": "اسمي لا أهمية له."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 59,
+    "id": "03928700",
+    "english": "What about you?",
+    "arabic": "وماذا عنك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 60,
+    "id": "03928a00",
+    "english": "Do you remember your true name?",
+    "arabic": "أتذكر اسمك الحقيقي؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 61,
+    "id": "03928800",
+    "english": "My true name is...",
+    "arabic": "اسمي الحقيقي هو..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 62,
+    "id": "03928900",
+    "english": "You have been with us for six days now.",
+    "arabic": "أنت معنا منذ ستة أيام الآن."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 63,
+    "id": "03928b00",
+    "english": "The time has come...",
+    "arabic": "لقد حان الوقت..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 64,
+    "id": "03968000",
+    "english": "Your face...",
+    "arabic": "وجهك..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 65,
+    "id": "03968100",
+    "english": "Who are you really?\nAnd why do you have a Keyblade?",
+    "arabic": "من أنت حقا؟\nولماذا لديك كيبلايد؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 66,
+    "id": "03968200",
+    "english": "Tell me first...why you\nare dressed as one of us.",
+    "arabic": "أخبرني أنت أولا... لماذا\nترتدي ملابس مثلنا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 67,
+    "id": "03968300",
+    "english": "To make sure my best friend...sleeps in peace.",
+    "arabic": "لأتأكد من أن أعز أصدقائي... ينام بسلام."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 68,
+    "id": "03968400",
+    "english": "I don't know who you're supposed to be.\nBut...you can't fight fire with sparks.",
+    "arabic": "لا أعرف من يفترض بك أن تكوني.\nلكن... لا يمكنك محاربة النار بالشرر."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 69,
+    "id": "03968500",
+    "english": "This Keyblade, it's a sham--worthless.",
+    "arabic": "هذا الكيبلايد زائف، ولا قيمة له."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 70,
+    "id": "03968600",
+    "english": "My Keyblade is not a sham!",
+    "arabic": "الكيبلايد الخاص بي ليس زائفا!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 71,
+    "id": "03968c00",
+    "english": "What gives you the right to say that?",
+    "arabic": "ما الذي يعطيك الحق في قول ذلك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 72,
+    "id": "03968700",
+    "english": "Find a new crowd. Trust me.\nThose guys are bad news.",
+    "arabic": "ابحثي عن جماعة أخرى. صدقيني.\nأولئك لا يجلبون إلا المتاعب."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 73,
+    "id": "03968800",
+    "english": "Why? You're the real sham.",
+    "arabic": "لماذا؟ أنت الزائف الحقيقي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 74,
+    "id": "03968900",
+    "english": "Fair enough.",
+    "arabic": "معك حق."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 75,
+    "id": "03968a00",
+    "english": "You could say I am...the\nbiggest nobody of them all.",
+    "arabic": "يمكنك القول إنني...\nأكبر نكرة بينهم جميعا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 77,
+    "id": "03978000",
+    "english": "Sora!",
+    "arabic": "سورا!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 79,
+    "id": "03980000",
+    "english": "It's my lucky charm.\nBe sure to bring it back to me!",
+    "arabic": "هذه تعويذة حظي.\nاحرص على إعادتها إلي!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 81,
+    "id": "03988000",
+    "english": "You seem to be struggling.",
+    "arabic": "يبدو أنك تواجهين صعوبة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 82,
+    "id": "03988100",
+    "english": "A Nobody is interfering, I think.",
+    "arabic": "أظن أن واحدا من اللا أحد يتدخل."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 83,
+    "id": "03988200",
+    "english": "A Nobody?",
+    "arabic": "واحد من اللا أحد؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 84,
+    "id": "03988300",
+    "english": "I keep trying to piece his\nmemory back together,",
+    "arabic": "أحاول باستمرار جمع\nذكرياته من جديد،"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 85,
+    "id": "03988301",
+    "english": "but what if some of the pieces got lost?",
+    "arabic": "لكن ماذا إن ضاع بعض أجزائها؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 86,
+    "id": "03988400",
+    "english": "There would be no way for me to finish.",
+    "arabic": "لن أتمكن من إكمالها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 87,
+    "id": "03988500",
+    "english": "If that happened--and they\nfound their way into someone else--",
+    "arabic": "إن حدث ذلك،\nووجدت طريقها إلى شخص آخر،"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 88,
+    "id": "03988600",
+    "english": "he'd never get them back.",
+    "arabic": "فلن يستعيدها أبدا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 89,
+    "id": "03988700",
+    "english": "Oh, I think he can do\nwithout a memory or two.",
+    "arabic": "أظن أنه يستطيع الاستغناء\nعن ذكرى أو اثنتين."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 90,
+    "id": "03988800",
+    "english": "But what--what if he needs those\nmemories in order to wake up?",
+    "arabic": "لكن ماذا... إن احتاج إلى تلك\nالذكريات ليستيقظ؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 91,
+    "id": "03988900",
+    "english": "What if they're the key?",
+    "arabic": "ماذا إن كانت هي المفتاح؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 92,
+    "id": "03988a00",
+    "english": "Naminé...",
+    "arabic": "ناميني..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 93,
+    "id": "03988b00",
+    "english": "You are a witch who has power over Sora's\nmemories and those connected to him.",
+    "arabic": "أنت ساحرة تملكين سلطة على ذكريات\nسورا ومن تربطهم صلة به."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 94,
+    "id": "03988c00",
+    "english": "Are you seeing something I cannot?",
+    "arabic": "هل ترين شيئا لا أراه؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 95,
+    "id": "03988d00",
+    "english": "If his memories become her\nmemories...she will never survive it.",
+    "arabic": "إن أصبحت ذكرياته\nذكرياتها... فلن تنجو أبدا من ذلك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 96,
+    "id": "03988e00",
+    "english": "She?",
+    "arabic": "هي؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 98,
+    "id": "03990000",
+    "english": "You're early.",
+    "arabic": "أتيت مبكرا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 99,
+    "id": "03990100",
+    "english": "No, you're just late.",
+    "arabic": "لا، أنت تأخرت فحسب."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 100,
+    "id": "03990200",
+    "english": "Today makes 255.",
+    "arabic": "مر حتى اليوم 255 يوما."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 101,
+    "id": "03990300",
+    "english": "What's that about?",
+    "arabic": "ماذا تقصد بذلك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 102,
+    "id": "03990400",
+    "english": "It's been that many days\nsince I first joined the Organization.",
+    "arabic": "مضى هذا العدد من الأيام\nمنذ انضمامي إلى المنظمة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 103,
+    "id": "03991300",
+    "english": "Man, time flies.",
+    "arabic": "آه، ما أسرع مرور الوقت."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 104,
+    "id": "03990500",
+    "english": "So, you got the number memorized, do you?",
+    "arabic": "إذن، لقد حفظت العدد، أليس كذلك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 105,
+    "id": "03990600",
+    "english": "Yeah. Have to hang onto something, right?",
+    "arabic": "نعم. علي التمسك بشيء ما، صحيح؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 106,
+    "id": "03991400",
+    "english": "It's not like I have memories\nfrom before the Organization.",
+    "arabic": "فليس لدي ذكريات\nتسبق انضمامي إلى المنظمة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 107,
+    "id": "03990700",
+    "english": "Don't you remember? I acted like a zombie.",
+    "arabic": "ألا تتذكر؟ كنت أتصرف كالميت الحي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 108,
+    "id": "03990800",
+    "english": "Right, that first week you\ncould barely form a sentence.",
+    "arabic": "صحيح، في أسبوعك الأول\nكنت بالكاد تستطيع تكوين جملة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 109,
+    "id": "03990900",
+    "english": "But come on, you're still kind of a zombie.",
+    "arabic": "لكن، بحقك، ما زلت أشبه بميت حي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 110,
+    "id": "03990a00",
+    "english": "Oh, thanks!",
+    "arabic": "آه، شكرا لك!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 111,
+    "id": "03990b00",
+    "english": "Hey, Roxas. Bet you don't\nknow why the sun sets red.",
+    "arabic": "اسمع يا روكساس. أراهن أنك لا\nتعرف لماذا تحمر الشمس عند الغروب."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 112,
+    "id": "03990c00",
+    "english": "You see, light is made up of lots of colors.",
+    "arabic": "الضوء مكون من ألوان كثيرة، كما ترى."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 113,
+    "id": "03990d00",
+    "english": "And out of all those colors, red\nis the one that travels the farthest.",
+    "arabic": "ومن بين كل تلك الألوان، الأحمر\nهو الذي يقطع المسافة الأطول."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 114,
+    "id": "03990e00",
+    "english": "Like I asked! Know-it-all.",
+    "arabic": "وكأنني سألتك! يا من تعرف كل شيء."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 117,
+    "id": "03991100",
+    "english": "Seriously, where is she?",
+    "arabic": "حقا، أين هي؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 120,
+    "id": "039a8100",
+    "english": "Xion...",
+    "arabic": "شيون..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 121,
+    "id": "039a8200",
+    "english": "Xion!",
+    "arabic": "شيون!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 122,
+    "id": "039a8300",
+    "english": "Surely...you must have known\nthat this was going to happen.",
+    "arabic": "لا بد... أنك عرفت\nأن هذا سيحدث."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 123,
+    "id": "039a8400",
+    "english": "Why would I know?",
+    "arabic": "وما الذي يجعلني أعرف؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 124,
+    "id": "039a8500",
+    "english": "Because, in your memory, you've been to a\nnumber of worlds before you came to this one.",
+    "arabic": "لأنك زرت، في ذكرياتك،\nعدة عوالم قبل مجيئك إلى هذا العالم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 125,
+    "id": "039a8600",
+    "english": "And of course, in those worlds, the\nonly beings you met were the dark kind.",
+    "arabic": "وبالطبع، في تلك العوالم، لم\nتقابل سوى مخلوقات الظلام."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 126,
+    "id": "039a8700",
+    "english": "That's all that's left in your\nheart: the darkest of memories.",
+    "arabic": "هذا كل ما تبقى في\nقلبك: أحلك الذكريات."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 127,
+    "id": "039a8800",
+    "english": "Your memories of home are gone--every one.",
+    "arabic": "اختفت ذكرياتك عن وطنك، كلها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 128,
+    "id": "039a8900",
+    "english": "That's a lie! I remember\neveryone from the islands!",
+    "arabic": "هذه كذبة! أتذكر\nكل أهل الجزر!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 129,
+    "id": "039a8a00",
+    "english": "They're my...",
+    "arabic": "إنهم..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 130,
+    "id": "039a8e00",
+    "english": "my...my closest friends...",
+    "arabic": "أ... أعز أصدقائي..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 131,
+    "id": "039a8b00",
+    "english": "And who threw away those friends?",
+    "arabic": "ومن الذي تخلى عن أولئك الأصدقاء؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 132,
+    "id": "039a8c00",
+    "english": "Maybe it's your own actions you've forgotten.",
+    "arabic": "ربما أفعالك أنت هي ما نسيته."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 133,
+    "id": "039a8d00",
+    "english": "It was you who destroyed your home!",
+    "arabic": "أنت من دمر وطنك!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 134,
+    "id": "039b0000",
+    "english": "Who am I? What am I...here for?",
+    "arabic": "من أنا؟ لماذا... أنا هنا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 136,
+    "id": "039c0000",
+    "english": "Is it that I'm not supposed to exist?",
+    "arabic": "هل يفترض بي ألا أوجد؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 137,
+    "id": "039c0100",
+    "english": "Well, what do you want to do, Xion?",
+    "arabic": "حسنا، ماذا تريدين أن تفعلي يا شيون؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 138,
+    "id": "039c0200",
+    "english": "I want...",
+    "arabic": "أريد..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 139,
+    "id": "039c0700",
+    "english": "I want to be with you two.",
+    "arabic": "أريد أن أكون معكما."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 140,
+    "id": "039c0300",
+    "english": "Then come back with us.",
+    "arabic": "إذن، عودي معنا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 141,
+    "id": "039c0400",
+    "english": "I can't... Not the way I am now.",
+    "arabic": "لا أستطيع... ليس وأنا على هذه الحال."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 142,
+    "id": "039c0500",
+    "english": "But...what would it take\nfor me to be like you?",
+    "arabic": "لكن... ماذا يلزم\nلأصبح مثلكما؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 144,
+    "id": "039c8000",
+    "english": "Xion. Where have you been?",
+    "arabic": "شيون. أين كنت؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 145,
+    "id": "039c8100",
+    "english": "Axel and I have been looking all over for you.",
+    "arabic": "كنا أنا وآكسل نبحث عنك في كل مكان."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 146,
+    "id": "039c8200",
+    "english": "You have? Sorry.",
+    "arabic": "حقا؟ أنا آسفة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 147,
+    "id": "039c8300",
+    "english": "Let's go home.",
+    "arabic": "لنعد إلى المنزل."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 148,
+    "id": "039c8400",
+    "english": "If you come back voluntarily, Saïx\nwill let all this drop. He has to.",
+    "arabic": "إن عدت طوعا، فسيتغاضى سايكس\nعن كل هذا. لا بد له من ذلك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 149,
+    "id": "039c8500",
+    "english": "I don't care what he said to you.\nI'll be there.",
+    "arabic": "لا يهمني ما قاله لك.\nسأكون معك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 150,
+    "id": "039c9000",
+    "english": "Me and Axel will make sure--",
+    "arabic": "أنا وآكسل سنحرص على..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 151,
+    "id": "039c8600",
+    "english": "I really can't.",
+    "arabic": "لا أستطيع حقا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 152,
+    "id": "039c8700",
+    "english": "Why not? Come on...",
+    "arabic": "لماذا لا؟ هيا..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 153,
+    "id": "039c8800",
+    "english": "Wait!",
+    "arabic": "انتظري!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 155,
+    "id": "039c8a00",
+    "english": "Well, hello there...Xion.",
+    "arabic": "أهلا بك... يا شيون."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 156,
+    "id": "039c8b00",
+    "english": "Axel?",
+    "arabic": "آكسل؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 157,
+    "id": "039c8c00",
+    "english": "No, wait!",
+    "arabic": "لا، انتظر!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 158,
+    "id": "039c8d00",
+    "english": "Stop!",
+    "arabic": "توقف!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 159,
+    "id": "039c8e00",
+    "english": "Xion...",
+    "arabic": "شيون..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 161,
+    "id": "039e0000",
+    "english": "Are you...",
+    "arabic": "هل أنت..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 162,
+    "id": "039e0100",
+    "english": "Riku.",
+    "arabic": "ريكو."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 163,
+    "id": "039e2700",
+    "english": "Sora's friend.",
+    "arabic": "صديق سورا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 164,
+    "id": "039e0200",
+    "english": "Sora?",
+    "arabic": "سورا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 165,
+    "id": "039e2800",
+    "english": "You know Sora?",
+    "arabic": "أتعرف سورا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 166,
+    "id": "039e0300",
+    "english": "Yeah.",
+    "arabic": "نعم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 167,
+    "id": "039e0400",
+    "english": "Thank you.",
+    "arabic": "شكرا لك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 168,
+    "id": "039e0500",
+    "english": "You saved me, but I don't know why...",
+    "arabic": "لقد أنقذتني، لكنني لا أعرف لماذا..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 169,
+    "id": "039e2900",
+    "english": "you did.",
+    "arabic": "فعلت ذلك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 170,
+    "id": "039e0600",
+    "english": "I guess...I just felt like it.",
+    "arabic": "أظن... أنني أردت ذلك فحسب."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 171,
+    "id": "039e0700",
+    "english": "Riku, please...",
+    "arabic": "أرجوك يا ريكو..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 172,
+    "id": "039e0800",
+    "english": "Tell me more--",
+    "arabic": "أخبرني بالمزيد..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 173,
+    "id": "039e2a00",
+    "english": "about Sora and that girl he's always with.",
+    "arabic": "عن سورا والفتاة التي ترافقه دائما."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 174,
+    "id": "039e0900",
+    "english": "You mean Kairi.",
+    "arabic": "تقصدين كايري."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 175,
+    "id": "039e0a00",
+    "english": "Kairi...",
+    "arabic": "كايري..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 176,
+    "id": "039e2b00",
+    "english": "That's right. She's the one\nwho looks so much like me.",
+    "arabic": "صحيح. إنها الفتاة\nالتي تشبهني كثيرا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 177,
+    "id": "039e0b00",
+    "english": "To Sora, she's someone very special.",
+    "arabic": "إنها شخص عزيز جدا على سورا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 178,
+    "id": "039e0c00",
+    "english": "It's just...I remember\nthings about the two of them.",
+    "arabic": "كل ما في الأمر... أنني أتذكر\nأشياء عنهما."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 179,
+    "id": "039e0d00",
+    "english": "But I'm nothing more than a puppet--\nsomething that somebody created.",
+    "arabic": "لكنني لست سوى دمية،\nشيء صنعه أحدهم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 180,
+    "id": "039e0e00",
+    "english": "So why would I have...their memories?",
+    "arabic": "فلماذا أملك... ذكرياتهما؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 181,
+    "id": "039e0f00",
+    "english": "Do you know where Sora is now?",
+    "arabic": "أتعرف أين سورا الآن؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 182,
+    "id": "039e1000",
+    "english": "That secret stays with me.",
+    "arabic": "سأحتفظ بذلك السر لنفسي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 183,
+    "id": "039e1100",
+    "english": "Why's that?",
+    "arabic": "لماذا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 184,
+    "id": "039e1200",
+    "english": "Xion...",
+    "arabic": "شيون..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 185,
+    "id": "039e2c00",
+    "english": "your memories...they really belong to Sora.",
+    "arabic": "ذكرياتك... إنها في الحقيقة تخص سورا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 186,
+    "id": "039e1300",
+    "english": "So you mean...I'm like a part of him?",
+    "arabic": "إذن، تقصد... أنني جزء منه، نوعا ما؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 187,
+    "id": "039e1400",
+    "english": "When his memories were scattered, some\nof them...found their way inside you.",
+    "arabic": "عندما تفرقت ذكرياته، وجد بعضها...\nطريقه إلى داخلك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 188,
+    "id": "039e1500",
+    "english": "Now, Sora has been put to sleep so\nthat we can piece together his memory.",
+    "arabic": "والآن، وضع سورا في سبات\nلنعيد جمع ذكرياته."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 189,
+    "id": "039e1600",
+    "english": "Except...",
+    "arabic": "لكن..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 190,
+    "id": "039e1700",
+    "english": "You can't, because part of it is inside of me.",
+    "arabic": "لا تستطيعون، لأن جزءا منها بداخلي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 191,
+    "id": "039e2d00",
+    "english": "That means...he can't wake up.",
+    "arabic": "هذا يعني... أنه لا يستطيع الاستيقاظ."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 192,
+    "id": "039e1800",
+    "english": "Yeah. You got it.",
+    "arabic": "نعم. لقد فهمت."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 193,
+    "id": "039e1900",
+    "english": "But, if you go with me to Sora right now,",
+    "arabic": "لكن إن ذهبت معي إلى سورا الآن،"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 194,
+    "id": "039e2e00",
+    "english": "we could give the memories\ninside you back to him.",
+    "arabic": "يمكننا إعادة الذكريات\nالتي بداخلك إليه."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 195,
+    "id": "039e1a00",
+    "english": "So, do you hate me for taking\nyour friend away from you?",
+    "arabic": "إذن، هل تكرهني لأنني\nحرمتك من صديقك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 196,
+    "id": "039e1b00",
+    "english": "Nah. I guess...",
+    "arabic": "لا. أظن..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 197,
+    "id": "039e2f00",
+    "english": "I'm just sad.",
+    "arabic": "أنني حزين فحسب."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 198,
+    "id": "039e1c00",
+    "english": "I'm sorry, but...",
+    "arabic": "أنا آسفة، لكن..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 199,
+    "id": "039e1d00",
+    "english": "I can't go with you. It's\nmy friends--they need me.",
+    "arabic": "لا أستطيع الذهاب معك.\nفأصدقائي... يحتاجون إلي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 200,
+    "id": "039e1e00",
+    "english": "And I need them, too.",
+    "arabic": "وأنا أحتاج إليهم أيضا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 201,
+    "id": "039e1f00",
+    "english": "Maybe...you should take\nsome time and think about it.",
+    "arabic": "ربما... عليك أن تأخذي\nبعض الوقت للتفكير في الأمر."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 202,
+    "id": "039e2000",
+    "english": "Figure out who really needs you more.",
+    "arabic": "اعرفي من يحتاج إليك أكثر حقا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 203,
+    "id": "039e3000",
+    "english": "And where you belong.",
+    "arabic": "وأين مكانك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 204,
+    "id": "039e2100",
+    "english": "How will I know where I belong, truly?",
+    "arabic": "كيف سأعرف أين مكاني حقا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 205,
+    "id": "039e2200",
+    "english": "I'm not sure I can promise you\nI'll come up with the right answer.",
+    "arabic": "لست واثقة بأنني أستطيع أن أعدك\nبالوصول إلى الإجابة الصحيحة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 206,
+    "id": "039e2300",
+    "english": "Well, the answer you come up\nwith can't just be right for you.",
+    "arabic": "حسنا، لا يكفي أن تكون الإجابة\nالتي تصلين إليها مناسبة لك وحدك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 207,
+    "id": "039e2400",
+    "english": "It has to be one that\nworks best for everybody.",
+    "arabic": "بل يجب أن تكون\nالأفضل للجميع."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 208,
+    "id": "039e3100",
+    "english": "You and your friends and everyone else.",
+    "arabic": "لك ولأصدقائك ولكل الآخرين."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 209,
+    "id": "039e2500",
+    "english": "I'll try.",
+    "arabic": "سأحاول."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 210,
+    "id": "039e3200",
+    "english": "Thank you, Riku.",
+    "arabic": "شكرا يا ريكو."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 212,
+    "id": "039e8000",
+    "english": "Sora...",
+    "arabic": "سورا..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 213,
+    "id": "039e8100",
+    "english": "It appears we've come to a standstill.",
+    "arabic": "يبدو أننا وصلنا إلى طريق مسدود."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 214,
+    "id": "039e8200",
+    "english": "Yes.",
+    "arabic": "نعم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 215,
+    "id": "039e8300",
+    "english": "This has gone on long enough. Riku...",
+    "arabic": "لقد طال هذا بما فيه الكفاية. ريكو..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 216,
+    "id": "039e8600",
+    "english": "I think you know what needs to be done.",
+    "arabic": "أظن أنك تعرف ما يجب فعله."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 217,
+    "id": "039e8400",
+    "english": "Right.",
+    "arabic": "صحيح."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 219,
+    "id": "039f8000",
+    "english": "Nice to meet you...",
+    "arabic": "سررت بلقائك..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 220,
+    "id": "039f8200",
+    "english": "Xion.",
+    "arabic": "يا شيون."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 222,
+    "id": "03a00000",
+    "english": "Why do I always get stuck with the icky jobs?",
+    "arabic": "لماذا أبتلى دائما بالأعمال البغيضة؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 223,
+    "id": "03a00100",
+    "english": "Axel...",
+    "arabic": "آكسل..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 224,
+    "id": "03a00200",
+    "english": "Xion...what are you gonna do?",
+    "arabic": "شيون... ماذا ستفعلين؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 225,
+    "id": "03a00300",
+    "english": "I've decided that I have to\ngo back to where I belong.",
+    "arabic": "قررت أن علي\nالعودة إلى حيث أنتمي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 226,
+    "id": "03a00400",
+    "english": "Well, to be honest, I always felt that\nwas best, right from the very beginning.",
+    "arabic": "بصراحة، شعرت دائما أن\nذلك هو الأفضل، منذ البداية."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 227,
+    "id": "03a00500",
+    "english": "But you know, it still really bugs me.\nSomething about this just stinks.",
+    "arabic": "لكن، أتعلمين؟ ما زال الأمر يزعجني كثيرا.\nثمة أمر غير سليم في كل هذا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 228,
+    "id": "03a00600",
+    "english": "It's for the good of everyone.",
+    "arabic": "إنه لمصلحة الجميع."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 229,
+    "id": "03a00700",
+    "english": "But how do you know that?\nEverybody thinks they're right...",
+    "arabic": "لكن كيف تعرفين ذلك؟\nكل شخص يظن أنه محق..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 230,
+    "id": "03a00800",
+    "english": "This is right.",
+    "arabic": "هذا هو الصواب."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 231,
+    "id": "03a00900",
+    "english": "They're gonna destroy you!",
+    "arabic": "سيدمرونك!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 232,
+    "id": "03a00a00",
+    "english": "Please don't hold back, Axel. Promise.",
+    "arabic": "أرجوك، لا تتهاون يا آكسل. عدني بذلك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 233,
+    "id": "03a00b00",
+    "english": "What's your problem?",
+    "arabic": "ما خطبكما؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 234,
+    "id": "03a00c00",
+    "english": "You both...think you can\ndo whatever you want.",
+    "arabic": "أنتما الاثنان... تظنان أن بوسعكما\nفعل ما يحلو لكما."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 235,
+    "id": "03a00d00",
+    "english": "Well, I'm sick of it.",
+    "arabic": "لقد سئمت ذلك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 236,
+    "id": "03a00e00",
+    "english": "Go on, you just keep running.",
+    "arabic": "هيا، واصلا الهرب."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 237,
+    "id": "03a00f00",
+    "english": "But I'll always be there to bring you back!",
+    "arabic": "لكنني سأكون هناك دائما لأعيدكما!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 240,
+    "id": "03a08100",
+    "english": "Where did I think I could go? What a joke.",
+    "arabic": "إلى أين ظننت أن بوسعي الذهاب؟ يا لها من مهزلة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 241,
+    "id": "03a08200",
+    "english": "Xion!",
+    "arabic": "شيون!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 242,
+    "id": "03a08300",
+    "english": "Thank you.",
+    "arabic": "شكرا لك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 243,
+    "id": "03a08400",
+    "english": "Roxas... I'm out of time.",
+    "arabic": "روكساس... لقد نفد وقتي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 244,
+    "id": "03a08500",
+    "english": "Even if I'm not ready...\nI have to make this choice.",
+    "arabic": "حتى إن لم أكن مستعدة...\nعلي اتخاذ هذا القرار."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 245,
+    "id": "03a08600",
+    "english": "You have poured so many memories into me...",
+    "arabic": "لقد سكبت في داخلي ذكريات كثيرة..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 246,
+    "id": "03a08700",
+    "english": "given me so much...",
+    "arabic": "ومنحتني الكثير..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 247,
+    "id": "03a09100",
+    "english": "\nthat I feel like I'm about to overflow.",
+    "arabic": "\nحتى إنني أشعر بأنني أوشك أن أفيض."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 248,
+    "id": "03a08800",
+    "english": "Look at me, Roxas. Who do you see?",
+    "arabic": "انظر إلي يا روكساس. من ترى؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 249,
+    "id": "03a08900",
+    "english": "If you see somebody else's\nface...a boy's face...",
+    "arabic": "إن رأيت وجه شخص آخر...\nوجه فتى..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 250,
+    "id": "03a08a00",
+    "english": "then that means I'm almost ready.\nThis puppet will have to play her part.",
+    "arabic": "فهذا يعني أنني أوشكت أن أكون مستعدة.\nسيتعين على هذه الدمية أداء دورها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 251,
+    "id": "03a08b00",
+    "english": "Roxas...",
+    "arabic": "روكساس..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 252,
+    "id": "03a08c00",
+    "english": "This is him. It's Sora.",
+    "arabic": "هذا هو. إنه سورا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 253,
+    "id": "03a08d00",
+    "english": "You're next, Roxas. I have to\nmake you a part of me, too.",
+    "arabic": "أنت التالي يا روكساس. علي\nأن أجعلك جزءا مني أيضا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 254,
+    "id": "03a08e00",
+    "english": "Don't you see?",
+    "arabic": "ألا تفهم؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 255,
+    "id": "03a08f00",
+    "english": "This is why I was created.",
+    "arabic": "لهذا صنعت."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 257,
+    "id": "03a10000",
+    "english": "How did this happen?",
+    "arabic": "كيف حدث هذا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 259,
+    "id": "03a28000",
+    "english": "Why!?",
+    "arabic": "لماذا؟!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 260,
+    "id": "03a29000",
+    "english": "Why do you have the Keyblade?",
+    "arabic": "لماذا لديك الكيبلايد؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 261,
+    "id": "03a28100",
+    "english": "Shut up!",
+    "arabic": "اصمت!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 262,
+    "id": "03a28200",
+    "english": "Why don't you quit?",
+    "arabic": "لماذا لا تستسلم؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 263,
+    "id": "03a28300",
+    "english": "Come on, Sora.",
+    "arabic": "هيا يا سورا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 264,
+    "id": "03a29100",
+    "english": "I thought you were stronger than that.",
+    "arabic": "ظننت أنك أقوى من ذلك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 265,
+    "id": "03a28400",
+    "english": "Get real. Look which one of us is winning.",
+    "arabic": "كن واقعيا. انظر من منا ينتصر."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 267,
+    "id": "03a28600",
+    "english": "So it's true. You really are his Nobody.",
+    "arabic": "إذن، هذا صحيح. أنت حقا اللا أحد المنبثق منه."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 268,
+    "id": "03a29200",
+    "english": "Guess DiZ was right after all.",
+    "arabic": "يبدو أن ديز كان محقا في النهاية."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 269,
+    "id": "03a28700",
+    "english": "What are you talking about?",
+    "arabic": "عم تتحدث؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 270,
+    "id": "03a29300",
+    "english": "I am me. Nobody else!",
+    "arabic": "أنا أنا، ولست أي شخص آخر!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 272,
+    "id": "03a28900",
+    "english": "How many times do I have to beat you?",
+    "arabic": "كم مرة علي أن أهزمك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 273,
+    "id": "03a28a00",
+    "english": "Riku, please!\n\n\n\n\n\n\n",
+    "arabic": "أرجوك يا ريكو!\n\n\n\n\n\n\n"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 274,
+    "id": "03a29400",
+    "english": "You have to stop him!\n\n\n\n\n\n\n",
+    "arabic": "عليك إيقافه!\n\n\n\n\n\n\n"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 275,
+    "id": "03a28b00",
+    "english": "All right.",
+    "arabic": "حسنا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 276,
+    "id": "03a29500",
+    "english": "You've left me with no other choice.",
+    "arabic": "لم تترك لي خيارا آخر."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 277,
+    "id": "03a28c00",
+    "english": "What?",
+    "arabic": "ماذا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 278,
+    "id": "03a28d00",
+    "english": "I have to release the power in my heart--",
+    "arabic": "علي إطلاق القوة الكامنة في قلبي،"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 279,
+    "id": "03a29600",
+    "english": "the dark power that I've been holding back.",
+    "arabic": "قوة الظلام التي كنت أكبحها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 280,
+    "id": "03a28e00",
+    "english": "Even...if it changes me forever.",
+    "arabic": "حتى... إن غيرتني إلى الأبد."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 281,
+    "id": "03a28f00",
+    "english": "I have accepted it.",
+    "arabic": "لقد تقبلتها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 282,
+    "id": "03a40000",
+    "english": "DiZ...he could feel Sora.",
+    "arabic": "يا ديز... لقد استطاع الشعور بسورا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 283,
+    "id": "03a40100",
+    "english": "Oh, he told you how he \"felt,\" did he?",
+    "arabic": "آه، أخبرك بما «شعر» به، أليس كذلك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 284,
+    "id": "03a40b00",
+    "english": "Ridiculous.",
+    "arabic": "سخيف."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 285,
+    "id": "03a40200",
+    "english": "A Nobody cannot feel anything.",
+    "arabic": "لا يمكن لأي من اللا أحد أن يشعر بشيء."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 286,
+    "id": "03a40300",
+    "english": "If he had met Sora, things\nmight have been different.",
+    "arabic": "لو قابل سورا،\nلربما اختلفت الأمور."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 287,
+    "id": "03a40400",
+    "english": "Roxas, don't be sad.\n\n\n\n\n\n\n",
+    "arabic": "روكساس، لا تحزن.\n\n\n\n\n\n\n"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 288,
+    "id": "03a40500",
+    "english": "I came from you and Sora.\n\n\n\n\n\n\n",
+    "arabic": "أنا أتيت منك ومن سورا.\n\n\n\n\n\n\n"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 289,
+    "id": "03a40600",
+    "english": "I am you...the same way that I am Sora.\n\n\n\n\n\n\n",
+    "arabic": "أنا أنت... كما أنني سورا.\n\n\n\n\n\n\n"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 290,
+    "id": "03a40700",
+    "english": "You'll forget me, but the memories\nthemselves will never go away.\n\n\n\n\n\n\n",
+    "arabic": "ستنساني، لكن الذكريات نفسها\nلن تختفي أبدا.\n\n\n\n\n\n\n"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 291,
+    "id": "03a40800",
+    "english": "Memories of you and me\nwill always be together...\n\n\n\n\n\n\n",
+    "arabic": "ستظل الذكريات عنك وعني\nمعا دائما...\n\n\n\n\n\n\n"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 292,
+    "id": "03a40900",
+    "english": "forever, inside him.\n\n\n\n\n\n\n",
+    "arabic": "إلى الأبد، في داخله.\n\n\n\n\n\n\n"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 294,
+    "id": "03a50000",
+    "english": "Another dream about him...",
+    "arabic": "حلم آخر عنه..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 296,
+    "id": "03a58000",
+    "english": "Maybe...today we'll finally hit the beach!",
+    "arabic": "ربما... نذهب أخيرا إلى الشاطئ اليوم!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 298,
+    "id": "03a58200",
+    "english": "Only seven days to go,",
+    "arabic": "لم يبق سوى سبعة أيام،"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 299,
+    "id": "03a58300",
+    "english": "and then my summer vacation's over.",
+    "arabic": "ثم تنتهي عطلتي الصيفية."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 301,
+    "id": "03a68000",
+    "english": "Sora.",
+    "arabic": "سورا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 303,
+    "id": "03a70000",
+    "english": "You're sure things are better this way?",
+    "arabic": "أأنت متأكد أن الأمور أفضل هكذا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 304,
+    "id": "03a70100",
+    "english": "I never expected you to question it.",
+    "arabic": "لم أتوقع يوما أن تشكك في ذلك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 305,
+    "id": "03a70200",
+    "english": "If you could save one of them...\nwhy would you choose the puppet?",
+    "arabic": "إن كان بوسعك إنقاذ أحدهما...\nفلماذا تختار الدمية؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 306,
+    "id": "03a70300",
+    "english": "Or put it this way.",
+    "arabic": "أو لنقلها بهذه الطريقة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 307,
+    "id": "03a70400",
+    "english": "Which would you rather suffer the loss of:\nsome make-believe friendship, or a real one?",
+    "arabic": "أيهما تفضل أن تفقد:\nصداقة وهمية أم صداقة حقيقية؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 308,
+    "id": "03a70500",
+    "english": "Things are finally right again.\nOf course we're better off this way.",
+    "arabic": "عادت الأمور أخيرا إلى نصابها.\nبالطبع هذا أفضل لنا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 309,
+    "id": "03a70600",
+    "english": "Xemnas is exasperated from\nall the \"fixing\" we've had to do.",
+    "arabic": "ضاق زيمناس ذرعا\nبكل «الإصلاحات» التي اضطررنا إليها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 310,
+    "id": "03a70700",
+    "english": "We have to set things right.",
+    "arabic": "علينا إعادة الأمور إلى نصابها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 311,
+    "id": "03a70800",
+    "english": "There is simply too much on the line...",
+    "arabic": "هناك ببساطة الكثير على المحك..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 312,
+    "id": "03a70900",
+    "english": "Lea.",
+    "arabic": "يا ليا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 313,
+    "id": "03a78000",
+    "english": "Your mind's made up?",
+    "arabic": "هل اتخذت قرارك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 314,
+    "id": "03a78100",
+    "english": "Why did the Keyblade\nchoose me? I have to know.",
+    "arabic": "لماذا اختارني\nالكيبلايد؟ علي أن أعرف."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 315,
+    "id": "03a78200",
+    "english": "You can't turn on the Organization!",
+    "arabic": "لا يمكنك الانقلاب على المنظمة!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 316,
+    "id": "03a78600",
+    "english": "You get on their bad side,\nand they'll destroy you!",
+    "arabic": "إن أغضبتهم،\nفسيدمرونك!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 317,
+    "id": "03a78300",
+    "english": "No one would miss me.",
+    "arabic": "لن يفتقدني أحد."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 318,
+    "id": "03a78400",
+    "english": "That's not true.",
+    "arabic": "هذا غير صحيح."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 319,
+    "id": "03a78700",
+    "english": "I would.",
+    "arabic": "أنا سأفتقدك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 321,
+    "id": "03a80000",
+    "english": "Who are you...again?",
+    "arabic": "ذكريني... من أنت؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 322,
+    "id": "03a80100",
+    "english": "It's weird. I feel like I'm forgetting\nsomething really important.",
+    "arabic": "هذا غريب. أشعر بأنني أنسى\nشيئا مهما جدا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 323,
+    "id": "03a80200",
+    "english": "You'll be...better off now...Roxas.",
+    "arabic": "ستكون... أفضل حالا الآن... يا روكساس."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 324,
+    "id": "03a80300",
+    "english": "Am I...the one who did this to you?",
+    "arabic": "هل أنا... من فعل بك هذا؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 325,
+    "id": "03a80400",
+    "english": "No...",
+    "arabic": "لا..."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 326,
+    "id": "03a81600",
+    "english": "It was my choice...to go away now.",
+    "arabic": "كان قراري... أن أرحل الآن."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 327,
+    "id": "03a80500",
+    "english": "Better that, than to do nothing...\nand let Xemnas have his way.",
+    "arabic": "هذا أفضل من ألا أفعل شيئا...\nوأدع زيمناس يفعل ما يشاء."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 328,
+    "id": "03a80600",
+    "english": "I belong with Sora.",
+    "arabic": "مكاني مع سورا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 329,
+    "id": "03a80700",
+    "english": "And now, I am going back...to be with him.",
+    "arabic": "والآن، سأعود... لأكون معه."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 330,
+    "id": "03a80800",
+    "english": "Roxas...I need you...to do me a favor.",
+    "arabic": "روكساس... أحتاج منك... أن تسدي إلي معروفا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 331,
+    "id": "03a80900",
+    "english": "All those hearts that I've captured...\nKingdom Hearts... Set them free.",
+    "arabic": "كل تلك القلوب التي جمعتها...\nكينغدوم هارتس... حررها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 332,
+    "id": "03a80a00",
+    "english": "Kingdom Hearts... Free them?",
+    "arabic": "كينغدوم هارتس... أحررها؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 333,
+    "id": "03a80b00",
+    "english": "It's too late...for me to undo my mistakes.",
+    "arabic": "فات الأوان... لأصلح أخطائي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 334,
+    "id": "03a80c00",
+    "english": "But you can't let Xemnas...\nhave Kingdom Hearts. You can't.",
+    "arabic": "لكن لا يمكنك أن تدع زيمناس...\nيستولي على كينغدوم هارتس. لا يمكنك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 335,
+    "id": "03a80d00",
+    "english": "Good-bye, Roxas.",
+    "arabic": "وداعا يا روكساس."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 336,
+    "id": "03a81700",
+    "english": "See you again.",
+    "arabic": "سنلتقي مجددا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 337,
+    "id": "03a80e00",
+    "english": "I'm glad...I got to meet you.",
+    "arabic": "أنا سعيدة... لأنني التقيت بك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 338,
+    "id": "03a80f00",
+    "english": "Oh...and of course, Axel, too.",
+    "arabic": "آه... وبآكسل أيضا بالطبع."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 339,
+    "id": "03a81000",
+    "english": "You're both my best friends.",
+    "arabic": "أنتما أعز أصدقائي."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 340,
+    "id": "03a81100",
+    "english": "Never forget. That's the truth.",
+    "arabic": "لا تنس ذلك أبدا. هذه هي الحقيقة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 341,
+    "id": "03a81200",
+    "english": "No!",
+    "arabic": "لا!"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 342,
+    "id": "03a81300",
+    "english": "Xion...Who else will I have ice cream with?",
+    "arabic": "شيون... مع من سأتناول المثلجات غيرك؟"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd800.ctd",
+    "index": 343,
+    "id": "03a81400",
+    "english": "Xion.",
+    "arabic": "شيون."
+  }
+]

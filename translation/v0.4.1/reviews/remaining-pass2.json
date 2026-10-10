@@ -1,0 +1,100 @@
+{
+  "status": "complete",
+  "reviewer": "diaries",
+  "files": {
+    "ct00100": {
+      "reviewedRows": 538,
+      "outputCanonicalSha256": "33e4436a8f6fc28f85dcddf92f9ec1a16834e9dc1f168b9a2b01ae27c37a5abc",
+      "unresolved": []
+    },
+    "ctmn000": {
+      "reviewedRows": 51,
+      "outputCanonicalSha256": "d9660f6fb07b6dc1c6d11b5f84b7f28637752ce594edbe194ae387514bf7f3ae",
+      "unresolved": []
+    },
+    "ctmn300": {
+      "reviewedRows": 119,
+      "outputCanonicalSha256": "1e5952b303f7a5e0e7d3972ed2f4c0b050e29bdae84d357ffd22e17125b85d86",
+      "unresolved": []
+    }
+  },
+  "unresolved": [],
+  "reviewedRows": 708,
+  "previousFullReadingReport": "remaining-pass2-findings.json",
+  "finalPass1Report": "remaining-pass1.json",
+  "reviewMethod": "Independently read all 708 English/Arabic pairs in the earlier findings pass; reread all 34 final correction records against original English and checked every final file for metadata, row order, source text, line counts, blank positions, tags and forbidden diacritics. Verified application of all 31 findings, accepting the source-faithful subsequent Riku idiom correction.",
+  "verifiedFindingRows": 31,
+  "reviewedFinalCorrectionRecords": 34,
+  "corrections": [],
+  "scope": "Shared menus and character descriptions, including Re:coded entries, are intentional release content. Re:coded story is outside this review; technical hd keys are retained verbatim.",
+  "pass": 2,
+  "diaryFinalCorrectionVerification": {
+    "report": "diary200-pass2.json",
+    "reviewedCorrectionRecords": 9,
+    "verifiedFinalCorrectedIds": [
+      "34640100",
+      "34640106",
+      "34640107",
+      "34640132",
+      "34648101",
+      "34648112",
+      "34648117"
+    ],
+    "outputCanonicalSha256": "35c608e078d77b71bee189f55791eb60bef566a3eb5cf666abd7f14674959b3a",
+    "issuesResolved": [
+      "34648101",
+      "34648112"
+    ],
+    "unresolved": []
+  },
+  "supplementalFinalVerification": {
+    "reviewedRows": 4,
+    "reviewedIds": [
+      "00320013",
+      "00320113",
+      "00320221",
+      "00320222"
+    ],
+    "previousCanonicalSha256": "64053e82da060396004f6bc77ee9a1581e0c916667bc5f7b197dab2a21ef5c9a",
+    "outputCanonicalSha256": "33e4436a8f6fc28f85dcddf92f9ec1a16834e9dc1f168b9a2b01ae27c37a5abc",
+    "corrections": [
+      {
+        "file": "ct00100",
+        "id": "00320013",
+        "english": "The Dark Margin",
+        "before": "حافة الظلام",
+        "after": "الحافة المظلمة",
+        "verified": true,
+        "reason": "Reviewed against original English: feminine adjective agreement is correct and the phrase faithfully follows the established KH2 proper-name glossary. Part numbers preserved."
+      },
+      {
+        "file": "ct00100",
+        "id": "00320113",
+        "english": "The Dark Margin",
+        "before": "حافة الظلام",
+        "after": "الحافة المظلمة",
+        "verified": true,
+        "reason": "Reviewed against original English: feminine adjective agreement is correct and the phrase faithfully follows the established KH2 proper-name glossary. Part numbers preserved."
+      },
+      {
+        "file": "ct00100",
+        "id": "00320221",
+        "english": "The Dark Margin (1)",
+        "before": "حافة الظلام (1)",
+        "after": "الحافة المظلمة (1)",
+        "verified": true,
+        "reason": "Reviewed against original English: feminine adjective agreement is correct and the phrase faithfully follows the established KH2 proper-name glossary. Part numbers preserved."
+      },
+      {
+        "file": "ct00100",
+        "id": "00320222",
+        "english": "The Dark Margin (2)",
+        "before": "حافة الظلام (2)",
+        "after": "الحافة المظلمة (2)",
+        "verified": true,
+        "reason": "Reviewed against original English: feminine adjective agreement is correct and the phrase faithfully follows the established KH2 proper-name glossary. Part numbers preserved."
+      }
+    ],
+    "unresolved": []
+  }
+}

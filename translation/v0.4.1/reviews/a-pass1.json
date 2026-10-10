@@ -1,0 +1,235 @@
+{
+  "pass": 1,
+  "status": "complete",
+  "reviewer": "day7_trace / story_a",
+  "version": "0.4.0",
+  "method": "Read all 617 original English/Arabic pairs in order with adjacent dialogue. Reviewed spelling, hamza, grammar, agreement, pronouns, negation, natural cinematic Modern Standard Arabic and fidelity. Authored only beneficial corrections; retained the cake metaphor because a later diary entry discusses it literally. Automated structural checks followed the manual review.",
+  "files": {
+    "cthd000": {
+      "reviewedRows": 319,
+      "correctedIds": [
+        "02020400",
+        "02038000",
+        "02090000",
+        "020c8000",
+        "02138100",
+        "02138700",
+        "02162a00",
+        "02162300",
+        "02020800",
+        "02050800",
+        "02031100",
+        "02170500"
+      ],
+      "unresolved": [],
+      "outputCanonicalSha256": "91e42066bcf287cd57eccfe2f5f4f4e041273667dceb0ffe4ddb498dca5a114c"
+    },
+    "cthd800": {
+      "reviewedRows": 298,
+      "correctedIds": [
+        "03991400",
+        "039a8900",
+        "039e1400",
+        "039e3000",
+        "039e2100",
+        "039e2200",
+        "03a80000",
+        "03a81700"
+      ],
+      "unresolved": [],
+      "outputCanonicalSha256": "014394f6621cb94450d607a62c38252799d7ef413b0192f9126ef26097fec69a"
+    }
+  },
+  "corrections": [
+    {
+      "file": "cthd000",
+      "id": "02020400",
+      "before": "ما كان ذلك الاسم مجددا...؟",
+      "after": "ما كان اسمه...؟",
+      "reason": "صياغة طبيعية لطلب استعادة الاسم المنسي بدل النقل الحرفي لكلمة again.",
+      "category": "صياغة"
+    },
+    {
+      "file": "cthd000",
+      "id": "02038000",
+      "before": "تهزم المنظمة بلا قلب\nلتجمع القلوب...",
+      "after": "تهزم المنظمة مخلوقات بلا قلب\nلتجمع القلوب...",
+      "reason": "توضيح المفعول به ومنع قراءة العبارة بمعنى أن المنظمة تقاتل دون قلب.",
+      "category": "وضوح نحوي"
+    },
+    {
+      "file": "cthd000",
+      "id": "02090000",
+      "before": "لدي مكان أذهب إليه اليوم أيضا،\nلذا اذهب قبلي من دوني.",
+      "after": "لدي مكان أقصده اليوم أيضا،\nلذا انطلق من دوني.",
+      "reason": "إزالة التكرار المربك اذهب قبلي من دوني.",
+      "category": "صياغة"
+    },
+    {
+      "file": "cthd000",
+      "id": "020c8000",
+      "before": "ماذا يحدث عندما\nيتم القضاء على بلا قلب؟",
+      "after": "ماذا يحدث عندما\nيقضى على مخلوقات بلا قلب؟",
+      "reason": "تكييف المصطلح الثابت مع التركيب العربي وإزالة التباس على بلا قلب.",
+      "category": "وضوح نحوي"
+    },
+    {
+      "file": "cthd000",
+      "id": "02138100",
+      "before": "أتظن ذلك حقا؟ كنت\nأفكر في الأمر نفسه عنك.",
+      "after": "أتظن ذلك حقا؟ كنت\nأرى أنك أصبحت كذلك أيضا.",
+      "reason": "صياغة طبيعية لملاحظة التغير نفسه في المخاطب.",
+      "category": "صياغة"
+    },
+    {
+      "file": "cthd000",
+      "id": "02138700",
+      "before": "لا بد أنه أثر في.",
+      "after": "لا بد أنني تأثرت به.",
+      "reason": "إزالة التباس أثر في عند منع التشكيل، مع الحفاظ على تأثير الصديق.",
+      "category": "وضوح ضمير"
+    },
+    {
+      "file": "cthd000",
+      "id": "02162a00",
+      "before": "لكن إن لم أهزم بلا قلب\nباستخدام الكيبلايد...",
+      "after": "لكن إن لم أهزم مخلوقات بلا قلب\nباستخدام الكيبلايد...",
+      "reason": "توضيح المفعول به حول مصطلح بلا قلب.",
+      "category": "وضوح نحوي"
+    },
+    {
+      "file": "cthd000",
+      "id": "02162300",
+      "before": "يحتاج الأصدقاء إلى الاعتماد\nبعضهم على بعض بين حين وآخر.",
+      "after": "يحتاج الأصدقاء إلى أن يعتمد\nبعضهم على بعض بين حين وآخر.",
+      "reason": "إصلاح تركيب الاعتماد بعضهم على بعض بصلة فعلية سليمة.",
+      "category": "نحو"
+    },
+    {
+      "file": "cthd800",
+      "id": "03991400",
+      "before": "فليس لدي ذكريات\nمما قبل المنظمة.",
+      "after": "فليس لدي ذكريات\nتسبق انضمامي إلى المنظمة.",
+      "reason": "توضيح المدة وإزالة تركيب مما قبل المنظمة المترجم حرفيا.",
+      "category": "صياغة"
+    },
+    {
+      "file": "cthd800",
+      "id": "039a8900",
+      "before": "هذه كذبة! أتذكر\nالجميع من الجزر!",
+      "after": "هذه كذبة! أتذكر\nكل أهل الجزر!",
+      "reason": "صياغة طبيعية بدلا من الجميع من الجزر.",
+      "category": "صياغة"
+    },
+    {
+      "file": "cthd800",
+      "id": "039e1400",
+      "before": "عندما تفرقت ذكرياته، وجد بعض منها...\nطريقه إلى داخلك.",
+      "after": "عندما تفرقت ذكرياته، وجد بعضها...\nطريقه إلى داخلك.",
+      "reason": "تحسين ترابط ضمير الذكريات وإزالة بعض منها.",
+      "category": "ضمير"
+    },
+    {
+      "file": "cthd800",
+      "id": "039e3000",
+      "before": "وإلى أين تنتمين.",
+      "after": "وأين مكانك.",
+      "reason": "التعبير عن الانتماء دون تركيب الاتجاه إلى أين تنتمين.",
+      "category": "صياغة"
+    },
+    {
+      "file": "cthd800",
+      "id": "039e2100",
+      "before": "كيف سأعرف إلى أين أنتمي حقا؟",
+      "after": "كيف سأعرف أين مكاني حقا؟",
+      "reason": "صياغة طبيعية للسؤال عن موضع الانتماء، متسقة مع السابقة.",
+      "category": "صياغة"
+    },
+    {
+      "file": "cthd800",
+      "id": "039e2200",
+      "before": "لست واثقة أنني أستطيع أن أعدك\nبالوصول إلى الإجابة الصحيحة.",
+      "after": "لست واثقة بأنني أستطيع أن أعدك\nبالوصول إلى الإجابة الصحيحة.",
+      "reason": "إثبات حرف الجر في واثقة بأنني.",
+      "category": "نحو"
+    },
+    {
+      "file": "cthd800",
+      "id": "03a80000",
+      "before": "من أنت... مجددا؟",
+      "after": "ذكريني... من أنت؟",
+      "reason": "طلب التذكير بالهوية المنسية طبيعيا بدل من أنت مجددا، مع خطاب شيون المؤنث.",
+      "category": "صياغة"
+    },
+    {
+      "file": "cthd800",
+      "id": "03a81700",
+      "before": "أراك مجددا.",
+      "after": "سنلتقي مجددا.",
+      "reason": "صياغة وداع بلقاء لاحق بدلا من مضارع قد يفهم لقاء جاريا.",
+      "category": "صياغة"
+    },
+    {
+      "file": "cthd000",
+      "id": "02020800",
+      "before": "هل حفظته يا روكساس؟",
+      "after": "هل حفظت ذلك يا روكساس؟",
+      "reason": "توحيد الشعار المتكرر وفق قرار الاتساق، مع إبقاء اسم المخاطب.",
+      "category": "اتساق شعار"
+    },
+    {
+      "file": "cthd000",
+      "id": "02050800",
+      "before": "هل حفظته؟",
+      "after": "هل حفظت ذلك؟",
+      "reason": "توحيد السؤال المجرد للشعار المتكرر؛ لا يحدد هذا السطر مفعولا مستقلا مثل العدد.",
+      "category": "اتساق شعار"
+    },
+    {
+      "file": "cthd000",
+      "id": "02031100",
+      "before": "احفظه جيدا.",
+      "after": "احفظ ذلك جيدا.",
+      "reason": "توحيد صيغة الأمر في الشعار مع السؤال هل حفظت ذلك.",
+      "category": "اتساق شعار"
+    },
+    {
+      "file": "cthd000",
+      "id": "02170500",
+      "before": "لا أعرف. لا أستطيع إخبارك،\nفليس لدي أصدقاء مقربون إلى هذا الحد.",
+      "after": "لا أعرف. لا أستطيع إخبارك،\nفليس لدي من أعده أعز أصدقائي.",
+      "reason": "حفظ تعبير أعز أصدقائي صراحة مع فصحى طبيعية بدلا من أصدقاء مقربون إلى هذا الحد.",
+      "category": "اتساق مصطلح"
+    }
+  ],
+  "unresolved": [],
+  "totalReviewedRows": 617,
+  "totalCorrectedRows": 20,
+  "checks": {
+    "sourceMetadataAndOrderPreserved": true,
+    "newlineCountsPreserved": true,
+    "emptyLinePositionsPreserved": true,
+    "tagOrderPreserved": true,
+    "tagParagraphPositionsPreserved": true,
+    "noVowelMarksOrTatweel": true
+  },
+  "runtimeVisualVerificationPerformed": false,
+  "consistencyDecisions": [
+    {
+      "term": "Got it memorized / Get it memorized",
+      "decision": "Standardized the three bare catchphrase occurrences requested by the coordinator; retained explicit object Number in cthd800 03990500."
+    },
+    {
+      "term": "best friends",
+      "id": "02170500",
+      "decision": "Used فليس لدي من أعده أعز أصدقائي to retain the term naturally."
+    }
+  ],
+  "provenance": {
+    "reusedFromVersion": "0.4.0",
+    "sourceReport": "translation/v0.4.0/reviews/a-pass1.json",
+    "sourceReportSha256": "592c28717cc714078d375e73471bfb0d66e1b52ae0f28797a5e63fa2059296d6",
+    "reason": "Frozen story translations are byte-for-byte unchanged.",
+    "hashConvention": "UTF-8 with canonical LF line endings"
+  }
+}

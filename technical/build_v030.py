@@ -18,6 +18,9 @@ from font_atlas import make_fonts
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'technical/extracted_mare/original'
 NAMES = ['cthd000', 'cthd050', 'cthd100', 'cthd300', 'cthd800']
+COMPLETE_NAMES = ['ct00100', 'ctmn000', 'ctmn200', 'ctmn300'] + NAMES
+COUNTS = dict(ct00100=538,ctmn000=51,ctmn200=232,ctmn300=119,cthd000=319,cthd050=509,cthd100=444,cthd300=46,cthd800=298)
+PATHS = dict(ct00100='uk/ctd/ct00100.ctd',ctmn000='uk/ctd/ctmn000.ctd',ctmn200='uk/message/diary/ctmn200.ctd',ctmn300='uk/message/diary/ctmn300.ctd')
 TAG = re.compile(r'(\{[^}]+\}|\[(?:BGTRANS|WAIT)[^]]*\])')
 digest = lambda b: hashlib.sha256(b).hexdigest()
 
@@ -36,29 +39,43 @@ def visual(text):
 def build(require_reviews=True, version='0.3.0'):
     assert re.fullmatch(r'\d+\.\d+\.\d+',version)
     OUT=ROOT/f'out/v{version}'
-    rows=[]
-    for name in NAMES:
+    names=COMPLETE_NAMES if version=='0.4.1' else NAMES
+    rows=[];technical_keys=[];review_counts={}
+    for name in names:
         translated=json.loads((ROOT/f'translation/v{version}/{name}.json').read_text(encoding='utf-8'))
-        assert len(translated)==dict(cthd000=319,cthd050=509,cthd100=444,cthd300=46,cthd800=298)[name]
+        assert len(translated)==COUNTS[name]
+        review_counts[name]=len(translated)
         for row in translated:
-            assert row['file']==f'uk/message/en/event/hd/bin/{name}.ctd'
+            assert row['file']==PATHS.get(name,f'uk/message/en/event/hd/bin/{name}.ctd')
+            if name=='ct00100' and 491<=row['index']<=585:
+                assert row['english'].startswith('hd')
+                assert row['arabic']==row['english'],row['id']
+                technical_keys.append(row)
+                continue
             assert row['arabic'].strip() and row['arabic']!=row['english']
             assert row['arabic'].count('\n')==row['english'].count('\n'),row['id']
             assert TAG.findall(row['arabic'])==TAG.findall(row['english']),row['id']
             assert [not line.strip() for line in row['arabic'].split('\n')]==[not line.strip() for line in row['english'].split('\n')],row['id']
             assert not re.search('[\u064b-\u065f\u0640\u200e\u200f]',row['arabic']),row['id']
-        rows.extend(translated)
-    assert len(rows)==1616
+            rows.append(row)
+    assert len(rows)==(2461 if version=='0.4.1' else 1616)
+    assert len(technical_keys)==(95 if version=='0.4.1' else 0)
+    if technical_keys:
+        node(r"""
+const fs=require('fs'),assert=require('assert/strict'),c=require('./technical/tools/kh-localization-tool/tools/lib/ddd-ctd');
+const rows=JSON.parse(fs.readFileSync(0,'utf8')),p=c.parseDddCtd(fs.readFileSync('technical/extracted_mare/original/uk/ctd/ct00100.ctd'));
+for(const r of rows){assert.equal(p.entries[r.index].text,r.english);assert.equal(p.entries[r.index].id,parseInt(r.id,16));}console.log(JSON.stringify({verified:rows.length}));
+""",technical_keys)
     if require_reviews:
         reviews=[json.loads(p.read_text(encoding='utf-8')) for p in (ROOT/f'translation/v{version}/reviews').glob('*.json')]
-        for name in NAMES:
-            matching=[r for r in reviews if name in r.get('files',{})]
+        for name in names:
+            matching=[r for r in reviews if name in r.get('files',{}) and 'pass' in r and 'outputCanonicalSha256' in r['files'][name]]
             assert len(matching)>=2,('missing second review',name)
             assert {r['pass'] for r in matching}=={1,2},('missing independent passes',name)
             for review in matching:
                 assert review['status']=='complete' and not review.get('unresolved',[])
                 item=review['files'][name]
-                assert item['reviewedRows']==sum(r['file'].endswith(name+'.ctd') for r in rows)
+                assert item['reviewedRows']==review_counts[name]
                 assert not item.get('unresolved',[])
                 if review['pass']==2:
                     reviewed_hash=item['outputCanonicalSha256']
@@ -86,6 +103,13 @@ const fs=require('fs'),assert=require('assert/strict'),c=require('./technical/to
 for(const rel of new Set(x.rows.map(r=>r.file))){const p=c.parseDddCtd(fs.readFileSync('technical/extracted_mare/original/'+rel)),rep=new Map();x.rows.forEach((r,i)=>{if(r.file===rel){assert.equal(p.entries[r.index].text,r.english);assert.equal(p.entries[r.index].id,parseInt(r.id,16));assert(!rep.has(r.index));rep.set(r.index,x.mapped[i]);}});const b=c.composeDddCtd(p,rep),q=c.parseDddCtd(b);assert(c.composeDddCtd(q).equals(b));assert(p.layouts.equals(q.layouts));assert.equal(p.entries.length,q.entries.length);for(let i=0;i<p.entries.length;i++){assert.equal(p.entries[i].id,q.entries[i].id);assert.equal(p.entries[i].layout,q.entries[i].layout);if(rep.has(i))assert.equal(q.entries[i].text,rep.get(i));else{assert.deepEqual(p.entries[i].codes,q.entries[i].codes);unchanged++;}}files['original/'+rel]=b.toString('base64');}console.log(JSON.stringify({files,unchanged}));
 """,{'rows':rows,'mapped':mapped})
     payloads.update({rel:base64.b64decode(data) for rel,data in built['files'].items()})
+    ui_art=None
+    if version=='0.4.1':
+        from build_days_ui_art import main as build_ui
+        build_ui()
+        ui_art=json.loads((OUT/'ui-art-report.json').read_text(encoding='utf-8'))
+        for rel in sorted({r['path'] for r in ui_art['labels']}):
+            payloads['original/'+rel]=(OUT/'payload/original'/rel).read_bytes()
     by_id={int(row['id'],16):(row,text) for row,text in zip(rows,mapped)}
     assert len(by_id)==len(rows)
     xml_ids=set();xml_report=[];xml_source_mismatches=[]
@@ -129,12 +153,13 @@ for(const rel of new Set(x.rows.map(r=>r.file))){const p=c.parseDddCtd(fs.readFi
         files.append({'path':rel,'bytes':len(data),'source_sha256':digest((SOURCE/rel.removeprefix('original/')).read_bytes()),'sha256':digest(data)})
     width_report=[]
     for row,encoded in zip(rows,mapped):
-        name='menufont' if row['file'].endswith('cthd300.ctd') else 'eventfont'
+        name='menufont' if row['file'].endswith('cthd300.ctd') or '/ctmn' in row['file'] or row['file'].endswith('ct00100.ctd') else 'eventfont'
         def width(s):return sum(widths[name].get(ord(c),16) for part in TAG.split(s) if not TAG.fullmatch(part) for c in part)
         source_max=max(width(line) for line in row['english'].split('\n'))
         target_max=max(width(line) for line in encoded.split('\n'))
         width_report.append({'file':row['file'],'index':row['index'],'id':row['id'],'source_max':source_max,'arabic_max':target_max,'warn':target_max>max(160,source_max*1.3)})
-    report={'version':version,'changed_messages':len(rows),'unchanged_messages':built['unchanged'],'totalVisibleEntries':2556,'translatedPercent':round(100*len(rows)/2556,3),'roundtrip_original_files':92,'font':font_report,'files':files,'xml_files':xml_report,'xml_rows':len(xml_ids),'xml_source_mismatches':xml_source_mismatches,'widths':width_report,'installed':False,'in_game_verified':False,'review_gate_enforced':require_reviews}
+    total=2461 if version=='0.4.1' else 2556
+    report={'version':version,'changed_messages':len(rows),'unchanged_messages':built['unchanged'],'totalVisibleEntries':total,'translatedPercent':round(100*len(rows)/total,3),'legacyInventoryEntries':2556,'technicalResourceKeysPreserved':[{'id':r['id'],'index':r['index'],'value':r['english']} for r in technical_keys],'uiArt':ui_art,'roundtrip_original_files':92,'font':font_report,'files':files,'xml_files':xml_report,'xml_rows':len(xml_ids),'xml_source_mismatches':xml_source_mismatches,'widths':width_report,'installed':False,'in_game_verified':False,'review_gate_enforced':require_reviews}
     (OUT/'manifest.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps({'translated':len(rows),'percent':report['translatedPercent'],'files':len(files),'xml_rows':len(xml_ids),'xml_source_mismatches':len(xml_source_mismatches),'width_warnings':sum(r['warn'] for r in width_report)}))
 

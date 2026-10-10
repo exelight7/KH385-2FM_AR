@@ -1,0 +1,3768 @@
+[
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 0,
+    "id": "00320000",
+    "english": "Opening",
+    "arabic": "الافتتاحية"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 1,
+    "id": "00320001",
+    "english": "Why the Sun Sets Red",
+    "arabic": "لماذا تحمر الشمس عند الغروب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 2,
+    "id": "00320002",
+    "english": "Number XIV",
+    "arabic": "العضو الرابع عشر"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 3,
+    "id": "00320003",
+    "english": "Number XIV, Xion",
+    "arabic": "العضو الرابع عشر، شيون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 4,
+    "id": "00320004",
+    "english": "First Mission",
+    "arabic": "المهمة الأولى"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 5,
+    "id": "00320005",
+    "english": "The Icing on the Cake",
+    "arabic": "زينة الكعكة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 6,
+    "id": "00320006",
+    "english": "Heartless",
+    "arabic": "بلا قلب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 7,
+    "id": "00320007",
+    "english": "Incomplete",
+    "arabic": "غير مكتمل"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 8,
+    "id": "00320008",
+    "english": "Keyblade",
+    "arabic": "كيبلايد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 9,
+    "id": "00320009",
+    "english": "A Closed World",
+    "arabic": "عالم مغلق"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 10,
+    "id": "0032000a",
+    "english": "Deeds to Be Done",
+    "arabic": "أعمال تنتظر الإنجاز"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 11,
+    "id": "0032000b",
+    "english": "Friends",
+    "arabic": "أصدقاء"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 12,
+    "id": "0032000c",
+    "english": "Missions",
+    "arabic": "مهمات"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 13,
+    "id": "0032000d",
+    "english": "Left Behind",
+    "arabic": "من بقي خلفهم"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 14,
+    "id": "0032000e",
+    "english": "Axel's Orders",
+    "arabic": "أوامر آكسل"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 15,
+    "id": "0032000f",
+    "english": "Silent Companion",
+    "arabic": "رفيقة صامتة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 16,
+    "id": "00320010",
+    "english": "Silence Broken",
+    "arabic": "انكسر الصمت"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 17,
+    "id": "00320011",
+    "english": "Two Keys",
+    "arabic": "مفتاحان"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 18,
+    "id": "00320012",
+    "english": "Terminated",
+    "arabic": "تصفية"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 19,
+    "id": "00320013",
+    "english": "The Dark Margin",
+    "arabic": "الحافة المظلمة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 20,
+    "id": "00320014",
+    "english": "Sleep",
+    "arabic": "سبات"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 21,
+    "id": "00320015",
+    "english": "Familiar Sound",
+    "arabic": "صوت مألوف"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 22,
+    "id": "00320016",
+    "english": "Solo Mission",
+    "arabic": "مهمة فردية"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 23,
+    "id": "00320017",
+    "english": "Missing",
+    "arabic": "غياب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 24,
+    "id": "00320018",
+    "english": "Solitude",
+    "arabic": "وحدة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 25,
+    "id": "00320019",
+    "english": "Reunion",
+    "arabic": "لقاء من جديد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 26,
+    "id": "0032001a",
+    "english": "Axel's Report",
+    "arabic": "تقرير آكسل"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 27,
+    "id": "0032001b",
+    "english": "Change",
+    "arabic": "تغير"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 28,
+    "id": "0032001c",
+    "english": "The Promise",
+    "arabic": "الوعد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 29,
+    "id": "0032001d",
+    "english": "Trio",
+    "arabic": "الثلاثي"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 30,
+    "id": "0032001e",
+    "english": "A New Partner",
+    "arabic": "شريك جديد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 31,
+    "id": "0032001f",
+    "english": "Inseparable",
+    "arabic": "لا يفترقون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 32,
+    "id": "00320020",
+    "english": "Kingdom Hearts",
+    "arabic": "كينغدوم هارتس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 33,
+    "id": "00320021",
+    "english": "Hearts",
+    "arabic": "قلوب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 34,
+    "id": "00320022",
+    "english": "The Usual Spot",
+    "arabic": "المكان المعتاد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 35,
+    "id": "00320023",
+    "english": "Nobodies",
+    "arabic": "اللا أحد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 36,
+    "id": "00320024",
+    "english": "Meeting by the Gate",
+    "arabic": "لقاء عند البوابة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 37,
+    "id": "00320025",
+    "english": "Roxas's Keyblade",
+    "arabic": "كيبلايد روكساس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 38,
+    "id": "00320026",
+    "english": "Xion's Keyblade",
+    "arabic": "كيبلايد شيون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 39,
+    "id": "00320027",
+    "english": "Transfer",
+    "arabic": "انتقال"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 40,
+    "id": "00320028",
+    "english": "Secrets",
+    "arabic": "أسرار"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 41,
+    "id": "00320029",
+    "english": "Special Nobodies",
+    "arabic": "المميزون من اللا أحد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 42,
+    "id": "0032002a",
+    "english": "Recollection of Waves",
+    "arabic": "ذكرى الأمواج"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 43,
+    "id": "0032002b",
+    "english": "Vacation Plans",
+    "arabic": "خطط العطلة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 44,
+    "id": "0032002c",
+    "english": "Lazy Day",
+    "arabic": "يوم كسول"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 45,
+    "id": "0032002d",
+    "english": "A Warning from Saïx",
+    "arabic": "تحذير من سايكس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 46,
+    "id": "0032002e",
+    "english": "Work to Do",
+    "arabic": "عمل ينتظر الإنجاز"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 47,
+    "id": "0032002f",
+    "english": "Unlike Minds",
+    "arabic": "اختلاف الأفكار"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 48,
+    "id": "00320030",
+    "english": "Xion's Plea",
+    "arabic": "توسل شيون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 49,
+    "id": "00320031",
+    "english": "Fear",
+    "arabic": "خوف"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 50,
+    "id": "00320032",
+    "english": "A Mission Together",
+    "arabic": "مهمة معا"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 51,
+    "id": "00320033",
+    "english": "Distress",
+    "arabic": "ضيق"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 52,
+    "id": "00320034",
+    "english": "The Wrong Buttons",
+    "arabic": "إثارة الضيق"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 53,
+    "id": "00320035",
+    "english": "Disjointed Days",
+    "arabic": "أيام متفرقة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 54,
+    "id": "00320036",
+    "english": "Love",
+    "arabic": "الحب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 55,
+    "id": "00320037",
+    "english": "Xion Injured",
+    "arabic": "إصابة شيون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 56,
+    "id": "00320038",
+    "english": "Sound of the Surf",
+    "arabic": "صوت الأمواج"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 57,
+    "id": "00320039",
+    "english": "Lies",
+    "arabic": "أكاذيب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 58,
+    "id": "0032003a",
+    "english": "Action, Reaction",
+    "arabic": "فعل ورد فعل"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 59,
+    "id": "0032003b",
+    "english": "Xion Awakens",
+    "arabic": "استيقاظ شيون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 60,
+    "id": "0032003c",
+    "english": "Memories",
+    "arabic": "ذكريات"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 61,
+    "id": "0032003d",
+    "english": "Axel Learns the Truth",
+    "arabic": "آكسل يعرف الحقيقة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 62,
+    "id": "0032003e",
+    "english": "Like It Should Be",
+    "arabic": "كما ينبغي"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 63,
+    "id": "0032003f",
+    "english": "Anomaly",
+    "arabic": "خلل"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 64,
+    "id": "00320040",
+    "english": "A Surprising Foe",
+    "arabic": "خصم غير متوقع"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 65,
+    "id": "00320041",
+    "english": "To the Beach",
+    "arabic": "إلى الشاطئ"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 66,
+    "id": "00320042",
+    "english": "Quietude",
+    "arabic": "سكون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 67,
+    "id": "00320043",
+    "english": "Xemnas's Plans",
+    "arabic": "خطط زيمناس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 68,
+    "id": "00320044",
+    "english": "The Longest Day",
+    "arabic": "أطول يوم"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 69,
+    "id": "00320045",
+    "english": "News",
+    "arabic": "أخبار"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 70,
+    "id": "00320046",
+    "english": "Hollow",
+    "arabic": "خواء"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 71,
+    "id": "00320047",
+    "english": "Disorder",
+    "arabic": "اضطراب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 72,
+    "id": "00320048",
+    "english": "Tomorrow",
+    "arabic": "غدا"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 73,
+    "id": "00320049",
+    "english": "Searching",
+    "arabic": "البحث"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 74,
+    "id": "0032004a",
+    "english": "Confessions",
+    "arabic": "اعترافات"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 75,
+    "id": "0032004b",
+    "english": "Contact",
+    "arabic": "اتصال"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 76,
+    "id": "0032004c",
+    "english": "Fracture",
+    "arabic": "صدع"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 77,
+    "id": "0032004d",
+    "english": "Axel and Saïx",
+    "arabic": "آكسل وسايكس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 78,
+    "id": "0032004e",
+    "english": "Sora",
+    "arabic": "سورا"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 79,
+    "id": "0032004f",
+    "english": "Project Xion",
+    "arabic": "مشروع شيون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 80,
+    "id": "00320050",
+    "english": "Riku and Xion",
+    "arabic": "ريكو وشيون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 81,
+    "id": "00320051",
+    "english": "The Silent Trio",
+    "arabic": "الثلاثي الصامت"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 82,
+    "id": "00320052",
+    "english": "Shutdown",
+    "arabic": "إيقاف"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 83,
+    "id": "00320053",
+    "english": "Vacant Place",
+    "arabic": "مكان شاغر"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 84,
+    "id": "00320054",
+    "english": "Roxas's Tears",
+    "arabic": "دموع روكساس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 85,
+    "id": "00320055",
+    "english": "Memories of the Keyhole",
+    "arabic": "ذكريات ثقب المفتاح"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 86,
+    "id": "00320056",
+    "english": "Roxas in a Slump",
+    "arabic": "ضعف روكساس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 87,
+    "id": "00320057",
+    "english": "The Man in Black Reflects",
+    "arabic": "تأملات الرجل ذي السواد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 88,
+    "id": "00320058",
+    "english": "Waning Power",
+    "arabic": "قوة متضائلة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 89,
+    "id": "00320059",
+    "english": "The Program",
+    "arabic": "البرنامج"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 90,
+    "id": "0032005a",
+    "english": "Fleeting",
+    "arabic": "عابر"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 91,
+    "id": "0032005b",
+    "english": "Xion's Reply",
+    "arabic": "رد شيون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 92,
+    "id": "0032005c",
+    "english": "Setup",
+    "arabic": "مكيدة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 93,
+    "id": "0032005d",
+    "english": "Sunset",
+    "arabic": "غروب الشمس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 94,
+    "id": "0032005e",
+    "english": "Riku's Resolve",
+    "arabic": "عزم ريكو"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 95,
+    "id": "0032005f",
+    "english": "Saïx's Rebuttal",
+    "arabic": "اعتراض سايكس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 96,
+    "id": "00320060",
+    "english": "An Unusual Pairing",
+    "arabic": "ثنائي غير معتاد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 97,
+    "id": "00320061",
+    "english": "Resolve",
+    "arabic": "عزم"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 98,
+    "id": "00320062",
+    "english": "Truth",
+    "arabic": "الحقيقة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 99,
+    "id": "00320063",
+    "english": "Anxious Roxas",
+    "arabic": "قلق روكساس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 100,
+    "id": "00320064",
+    "english": "The King and Riku Reunited",
+    "arabic": "لقاء الملك وريكو من جديد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 101,
+    "id": "00320065",
+    "english": "Unsaid, Unheard",
+    "arabic": "ما لم يقل، وما لم يسمع"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 102,
+    "id": "00320066",
+    "english": "Saïx's Challenge",
+    "arabic": "تحدي سايكس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 103,
+    "id": "00320067",
+    "english": "Leaving the Organization",
+    "arabic": "مغادرة المنظمة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 104,
+    "id": "00320068",
+    "english": "Xion and Naminé",
+    "arabic": "شيون وناميني"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 105,
+    "id": "00320069",
+    "english": "Place to Belong",
+    "arabic": "مكان أنتمي إليه"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 106,
+    "id": "0032006a",
+    "english": "Tears",
+    "arabic": "دموع"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 107,
+    "id": "0032006b",
+    "english": "WINNER",
+    "arabic": "فائز"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 108,
+    "id": "0032006c",
+    "english": "Believe",
+    "arabic": "آمن"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 109,
+    "id": "0032006d",
+    "english": "The First Day",
+    "arabic": "اليوم الأول"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 112,
+    "id": "00320070",
+    "english": "Celestial Crossroad",
+    "arabic": "مفترق طرق سماوي"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 113,
+    "id": "00320071",
+    "english": "Because We're Best Friends",
+    "arabic": "لأننا أعز الأصدقاء"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 114,
+    "id": "00320072",
+    "english": "The Girl with the Sketch Book",
+    "arabic": "الفتاة ذات دفتر الرسم"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 117,
+    "id": "00320101",
+    "english": "Why the Sun Sets Red",
+    "arabic": "لماذا تحمر الشمس عند الغروب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 118,
+    "id": "00320102",
+    "english": "Number XIV",
+    "arabic": "العضو الرابع عشر"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 119,
+    "id": "00320103",
+    "english": "The Icing on the Cake",
+    "arabic": "زينة الكعكة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 122,
+    "id": "00320106",
+    "english": "Heartless",
+    "arabic": "بلا قلب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 123,
+    "id": "00320107",
+    "english": "Incomplete",
+    "arabic": "غير مكتمل"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 124,
+    "id": "00320108",
+    "english": "Keyblade",
+    "arabic": "كيبلايد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 125,
+    "id": "00320109",
+    "english": "A Closed World",
+    "arabic": "عالم مغلق"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 126,
+    "id": "0032010a",
+    "english": "Deeds to Be Done",
+    "arabic": "أعمال تنتظر الإنجاز"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 127,
+    "id": "0032010b",
+    "english": "Friends",
+    "arabic": "أصدقاء"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 128,
+    "id": "0032010c",
+    "english": "Missions",
+    "arabic": "مهمات"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 129,
+    "id": "0032010d",
+    "english": "Left Behind",
+    "arabic": "من بقي خلفهم"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 130,
+    "id": "0032010e",
+    "english": "Silent Companion",
+    "arabic": "رفيقة صامتة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 132,
+    "id": "00320110",
+    "english": "Silence Broken",
+    "arabic": "انكسر الصمت"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 133,
+    "id": "00320111",
+    "english": "Two Keys",
+    "arabic": "مفتاحان"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 134,
+    "id": "00320112",
+    "english": "Terminated",
+    "arabic": "تصفية"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 135,
+    "id": "00320113",
+    "english": "The Dark Margin",
+    "arabic": "الحافة المظلمة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 136,
+    "id": "00320114",
+    "english": "Sleep",
+    "arabic": "سبات"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 137,
+    "id": "00320115",
+    "english": "Familiar Sound",
+    "arabic": "صوت مألوف"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 138,
+    "id": "00320116",
+    "english": "Missing",
+    "arabic": "غياب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 140,
+    "id": "00320118",
+    "english": "Solitude",
+    "arabic": "وحدة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 141,
+    "id": "00320119",
+    "english": "Reunion",
+    "arabic": "لقاء من جديد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 142,
+    "id": "0032011a",
+    "english": "Change",
+    "arabic": "تغير"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 144,
+    "id": "0032011c",
+    "english": "The Promise",
+    "arabic": "الوعد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 145,
+    "id": "0032011d",
+    "english": "Trio",
+    "arabic": "الثلاثي"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 146,
+    "id": "0032011e",
+    "english": "Inseparable",
+    "arabic": "لا يفترقون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 148,
+    "id": "00320120",
+    "english": "Hearts",
+    "arabic": "قلوب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 150,
+    "id": "00320122",
+    "english": "Nobodies",
+    "arabic": "اللا أحد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 153,
+    "id": "00320125",
+    "english": "Xion's Keyblade",
+    "arabic": "كيبلايد شيون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 155,
+    "id": "00320127",
+    "english": "Transfer",
+    "arabic": "انتقال"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 156,
+    "id": "00320128",
+    "english": "Secrets",
+    "arabic": "أسرار"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 159,
+    "id": "0032012b",
+    "english": "Lazy Day",
+    "arabic": "يوم كسول"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 162,
+    "id": "0032012e",
+    "english": "Work to Do",
+    "arabic": "عمل ينتظر الإنجاز"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 163,
+    "id": "0032012f",
+    "english": "Unlike Minds",
+    "arabic": "اختلاف الأفكار"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 164,
+    "id": "00320130",
+    "english": "Fear",
+    "arabic": "خوف"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 166,
+    "id": "00320132",
+    "english": "Distress",
+    "arabic": "ضيق"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 168,
+    "id": "00320134",
+    "english": "The Wrong Buttons",
+    "arabic": "إثارة الضيق"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 169,
+    "id": "00320135",
+    "english": "Disjointed Days",
+    "arabic": "أيام متفرقة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 170,
+    "id": "00320136",
+    "english": "Love",
+    "arabic": "الحب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 171,
+    "id": "00320137",
+    "english": "Sound of the Surf",
+    "arabic": "صوت الأمواج"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 173,
+    "id": "00320139",
+    "english": "Lies",
+    "arabic": "أكاذيب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 174,
+    "id": "0032013a",
+    "english": "Action, Reaction",
+    "arabic": "فعل ورد فعل"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 175,
+    "id": "0032013b",
+    "english": "Xion Awakens",
+    "arabic": "استيقاظ شيون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 177,
+    "id": "0032013d",
+    "english": "Like It Should Be",
+    "arabic": "كما ينبغي"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 179,
+    "id": "0032013f",
+    "english": "Anomaly",
+    "arabic": "خلل"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 182,
+    "id": "00320142",
+    "english": "Quietude",
+    "arabic": "سكون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 183,
+    "id": "00320143",
+    "english": "The Longest Day",
+    "arabic": "أطول يوم"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 185,
+    "id": "00320145",
+    "english": "News",
+    "arabic": "أخبار"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 186,
+    "id": "00320146",
+    "english": "Hollow",
+    "arabic": "خواء"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 187,
+    "id": "00320147",
+    "english": "Disorder",
+    "arabic": "اضطراب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 189,
+    "id": "00320149",
+    "english": "Searching",
+    "arabic": "البحث"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 190,
+    "id": "0032014a",
+    "english": "Confessions",
+    "arabic": "اعترافات"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 191,
+    "id": "0032014b",
+    "english": "Contact",
+    "arabic": "اتصال"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 192,
+    "id": "0032014c",
+    "english": "Fracture",
+    "arabic": "صدع"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 193,
+    "id": "0032014d",
+    "english": "Sora",
+    "arabic": "سورا"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 197,
+    "id": "00320151",
+    "english": "Shutdown",
+    "arabic": "إيقاف"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 199,
+    "id": "00320153",
+    "english": "Vacant Place",
+    "arabic": "مكان شاغر"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 200,
+    "id": "00320154",
+    "english": "Waning Power",
+    "arabic": "قوة متضائلة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 205,
+    "id": "00320159",
+    "english": "The Program",
+    "arabic": "البرنامج"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 206,
+    "id": "0032015a",
+    "english": "Fleeting",
+    "arabic": "عابر"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 207,
+    "id": "0032015b",
+    "english": "Sunset",
+    "arabic": "غروب الشمس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 211,
+    "id": "0032015f",
+    "english": "Resolve",
+    "arabic": "عزم"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 214,
+    "id": "00320162",
+    "english": "Truth",
+    "arabic": "الحقيقة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 217,
+    "id": "00320165",
+    "english": "Unsaid, Unheard",
+    "arabic": "ما لم يقل، وما لم يسمع"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 220,
+    "id": "00320168",
+    "english": "Place to Belong",
+    "arabic": "مكان أنتمي إليه"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 222,
+    "id": "0032016a",
+    "english": "Tears",
+    "arabic": "دموع"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 224,
+    "id": "0032016c",
+    "english": "Believe",
+    "arabic": "آمن"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 225,
+    "id": "0032016d",
+    "english": "The First Day",
+    "arabic": "اليوم الأول"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 228,
+    "id": "00320200",
+    "english": "Opening",
+    "arabic": "الافتتاحية"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 229,
+    "id": "00320201",
+    "english": "Why the Sun Sets Red",
+    "arabic": "لماذا تحمر الشمس عند الغروب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 230,
+    "id": "00320202",
+    "english": "Number XIV (1)",
+    "arabic": "العضو الرابع عشر (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 231,
+    "id": "00320203",
+    "english": "Number XIV (2)",
+    "arabic": "العضو الرابع عشر (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 232,
+    "id": "00320204",
+    "english": "Number XIV, Xion",
+    "arabic": "العضو الرابع عشر، شيون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 233,
+    "id": "00320205",
+    "english": "First Mission",
+    "arabic": "المهمة الأولى"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 234,
+    "id": "00320206",
+    "english": "The Icing on the Cake",
+    "arabic": "زينة الكعكة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 235,
+    "id": "00320207",
+    "english": "Heartless (1)",
+    "arabic": "بلا قلب (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 236,
+    "id": "00320208",
+    "english": "Heartless (2)",
+    "arabic": "بلا قلب (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 237,
+    "id": "00320209",
+    "english": "Incomplete (1)",
+    "arabic": "غير مكتمل (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 238,
+    "id": "0032020a",
+    "english": "Incomplete (2)",
+    "arabic": "غير مكتمل (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 239,
+    "id": "0032020b",
+    "english": "Keyblade (1)",
+    "arabic": "كيبلايد (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 240,
+    "id": "0032020c",
+    "english": "Keyblade (2)",
+    "arabic": "كيبلايد (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 241,
+    "id": "0032020d",
+    "english": "A Closed World (1)",
+    "arabic": "عالم مغلق (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 242,
+    "id": "0032020e",
+    "english": "A Closed World (2)",
+    "arabic": "عالم مغلق (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 243,
+    "id": "0032020f",
+    "english": "Deeds to Be Done (1)",
+    "arabic": "أعمال تنتظر الإنجاز (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 244,
+    "id": "00320210",
+    "english": "Deeds to Be Done (2)",
+    "arabic": "أعمال تنتظر الإنجاز (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 245,
+    "id": "00320211",
+    "english": "Friends (1)",
+    "arabic": "أصدقاء (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 246,
+    "id": "00320212",
+    "english": "Friends (2)",
+    "arabic": "أصدقاء (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 247,
+    "id": "00320213",
+    "english": "Missions",
+    "arabic": "مهمات"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 248,
+    "id": "00320214",
+    "english": "Left Behind",
+    "arabic": "من بقي خلفهم"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 249,
+    "id": "00320215",
+    "english": "Axel's Orders (1)",
+    "arabic": "أوامر آكسل (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 250,
+    "id": "00320216",
+    "english": "Axel's Orders (2)",
+    "arabic": "أوامر آكسل (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 251,
+    "id": "00320217",
+    "english": "Silent Companion",
+    "arabic": "رفيقة صامتة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 252,
+    "id": "00320218",
+    "english": "Silence Broken (1)",
+    "arabic": "انكسر الصمت (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 253,
+    "id": "00320219",
+    "english": "Silence Broken (2)",
+    "arabic": "انكسر الصمت (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 254,
+    "id": "0032021a",
+    "english": "Silence Broken (3)",
+    "arabic": "انكسر الصمت (3)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 255,
+    "id": "0032021b",
+    "english": "Silence Broken (4)",
+    "arabic": "انكسر الصمت (4)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 256,
+    "id": "0032021c",
+    "english": "Two Keys (1)",
+    "arabic": "مفتاحان (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 257,
+    "id": "0032021d",
+    "english": "Two Keys (2)",
+    "arabic": "مفتاحان (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 258,
+    "id": "0032021e",
+    "english": "Two Keys (3)",
+    "arabic": "مفتاحان (3)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 259,
+    "id": "0032021f",
+    "english": "Terminated (1)",
+    "arabic": "تصفية (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 260,
+    "id": "00320220",
+    "english": "Terminated (2)",
+    "arabic": "تصفية (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 261,
+    "id": "00320221",
+    "english": "The Dark Margin (1)",
+    "arabic": "الحافة المظلمة (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 262,
+    "id": "00320222",
+    "english": "The Dark Margin (2)",
+    "arabic": "الحافة المظلمة (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 263,
+    "id": "00320223",
+    "english": "Sleep (1)",
+    "arabic": "سبات (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 264,
+    "id": "00320224",
+    "english": "Sleep (2)",
+    "arabic": "سبات (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 265,
+    "id": "00320225",
+    "english": "Familiar Sound (1)",
+    "arabic": "صوت مألوف (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 266,
+    "id": "00320226",
+    "english": "Familiar Sound (2)",
+    "arabic": "صوت مألوف (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 267,
+    "id": "00320227",
+    "english": "Familiar Sound (3)",
+    "arabic": "صوت مألوف (3)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 268,
+    "id": "00320228",
+    "english": "Familiar Sound (4)",
+    "arabic": "صوت مألوف (4)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 269,
+    "id": "00320229",
+    "english": "Solo Mission",
+    "arabic": "مهمة فردية"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 270,
+    "id": "0032022a",
+    "english": "Missing",
+    "arabic": "غياب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 271,
+    "id": "0032022b",
+    "english": "Solitude",
+    "arabic": "وحدة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 272,
+    "id": "0032022c",
+    "english": "Reunion (1)",
+    "arabic": "لقاء من جديد (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 273,
+    "id": "0032022d",
+    "english": "Reunion (2)",
+    "arabic": "لقاء من جديد (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 274,
+    "id": "0032022e",
+    "english": "Axel's Report",
+    "arabic": "تقرير آكسل"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 275,
+    "id": "0032022f",
+    "english": "Change",
+    "arabic": "تغير"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 276,
+    "id": "00320230",
+    "english": "The Promise",
+    "arabic": "الوعد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 277,
+    "id": "00320231",
+    "english": "Trio (1)",
+    "arabic": "الثلاثي (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 278,
+    "id": "00320232",
+    "english": "Trio (2)",
+    "arabic": "الثلاثي (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 279,
+    "id": "00320233",
+    "english": "Trio (3)",
+    "arabic": "الثلاثي (3)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 280,
+    "id": "00320234",
+    "english": "A New Partner",
+    "arabic": "شريك جديد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 281,
+    "id": "00320235",
+    "english": "Inseparable",
+    "arabic": "لا يفترقون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 282,
+    "id": "00320236",
+    "english": "Kingdom Hearts",
+    "arabic": "كينغدوم هارتس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 283,
+    "id": "00320237",
+    "english": "Hearts",
+    "arabic": "قلوب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 284,
+    "id": "00320238",
+    "english": "The Usual Spot",
+    "arabic": "المكان المعتاد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 285,
+    "id": "00320239",
+    "english": "Nobodies",
+    "arabic": "اللا أحد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 286,
+    "id": "0032023a",
+    "english": "Meeting by the Gate",
+    "arabic": "لقاء عند البوابة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 287,
+    "id": "0032023b",
+    "english": "Roxas's Keyblade",
+    "arabic": "كيبلايد روكساس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 288,
+    "id": "0032023c",
+    "english": "Xion's Keyblade (1)",
+    "arabic": "كيبلايد شيون (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 289,
+    "id": "0032023d",
+    "english": "Xion's Keyblade (2)",
+    "arabic": "كيبلايد شيون (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 290,
+    "id": "0032023e",
+    "english": "Transfer",
+    "arabic": "انتقال"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 291,
+    "id": "0032023f",
+    "english": "Secrets",
+    "arabic": "أسرار"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 292,
+    "id": "00320240",
+    "english": "Special Nobodies",
+    "arabic": "المميزون من اللا أحد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 293,
+    "id": "00320241",
+    "english": "Recollection of Waves",
+    "arabic": "ذكرى الأمواج"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 294,
+    "id": "00320242",
+    "english": "Vacation Plans",
+    "arabic": "خطط العطلة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 295,
+    "id": "00320243",
+    "english": "Lazy Day",
+    "arabic": "يوم كسول"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 296,
+    "id": "00320244",
+    "english": "A Warning from Saïx",
+    "arabic": "تحذير من سايكس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 297,
+    "id": "00320245",
+    "english": "Work to Do",
+    "arabic": "عمل ينتظر الإنجاز"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 298,
+    "id": "00320246",
+    "english": "Unlike Minds (1)",
+    "arabic": "اختلاف الأفكار (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 299,
+    "id": "00320247",
+    "english": "Unlike Minds (2)",
+    "arabic": "اختلاف الأفكار (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 300,
+    "id": "00320248",
+    "english": "Unlike Minds (3)",
+    "arabic": "اختلاف الأفكار (3)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 301,
+    "id": "00320249",
+    "english": "Unlike Minds (4)",
+    "arabic": "اختلاف الأفكار (4)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 302,
+    "id": "0032024a",
+    "english": "Xion's Plea (1)",
+    "arabic": "توسل شيون (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 303,
+    "id": "0032024b",
+    "english": "Xion's Plea (2)",
+    "arabic": "توسل شيون (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 304,
+    "id": "0032024c",
+    "english": "Xion's Plea (3)",
+    "arabic": "توسل شيون (3)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 305,
+    "id": "0032024d",
+    "english": "Xion's Plea (4)",
+    "arabic": "توسل شيون (4)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 306,
+    "id": "0032024e",
+    "english": "Fear",
+    "arabic": "خوف"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 307,
+    "id": "0032024f",
+    "english": "A Mission Together",
+    "arabic": "مهمة معا"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 308,
+    "id": "00320250",
+    "english": "Distress (1)",
+    "arabic": "ضيق (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 309,
+    "id": "00320251",
+    "english": "Distress (2)",
+    "arabic": "ضيق (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 310,
+    "id": "00320252",
+    "english": "Distress (3)",
+    "arabic": "ضيق (3)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 311,
+    "id": "00320253",
+    "english": "Distress (4)",
+    "arabic": "ضيق (4)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 312,
+    "id": "00320254",
+    "english": "The Wrong Buttons",
+    "arabic": "إثارة الضيق"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 313,
+    "id": "00320255",
+    "english": "Disjointed Days",
+    "arabic": "أيام متفرقة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 314,
+    "id": "00320256",
+    "english": "Love",
+    "arabic": "الحب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 315,
+    "id": "00320257",
+    "english": "Xion Injured",
+    "arabic": "إصابة شيون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 316,
+    "id": "00320258",
+    "english": "Sound of the Surf (1)",
+    "arabic": "صوت الأمواج (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 317,
+    "id": "00320259",
+    "english": "Sound of the Surf (2)",
+    "arabic": "صوت الأمواج (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 318,
+    "id": "0032025a",
+    "english": "Sound of the Surf (3)",
+    "arabic": "صوت الأمواج (3)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 319,
+    "id": "0032025b",
+    "english": "Lies",
+    "arabic": "أكاذيب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 320,
+    "id": "0032025c",
+    "english": "Action, Reaction",
+    "arabic": "فعل ورد فعل"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 321,
+    "id": "0032025d",
+    "english": "Xion Awakens (1)",
+    "arabic": "استيقاظ شيون (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 322,
+    "id": "0032025e",
+    "english": "Xion Awakens (2)",
+    "arabic": "استيقاظ شيون (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 323,
+    "id": "0032025f",
+    "english": "Memories (1)",
+    "arabic": "ذكريات (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 324,
+    "id": "00320260",
+    "english": "Memories (2)",
+    "arabic": "ذكريات (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 325,
+    "id": "00320261",
+    "english": "Memories (3)",
+    "arabic": "ذكريات (3)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 326,
+    "id": "00320262",
+    "english": "Memories (4)",
+    "arabic": "ذكريات (4)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 327,
+    "id": "00320263",
+    "english": "Memories (5)",
+    "arabic": "ذكريات (5)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 328,
+    "id": "00320264",
+    "english": "Memories (6)",
+    "arabic": "ذكريات (6)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 329,
+    "id": "00320265",
+    "english": "Axel Learns the Truth",
+    "arabic": "آكسل يعرف الحقيقة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 330,
+    "id": "00320266",
+    "english": "Like It Should Be",
+    "arabic": "كما ينبغي"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 331,
+    "id": "00320267",
+    "english": "Anomaly (1)",
+    "arabic": "خلل (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 332,
+    "id": "00320268",
+    "english": "Anomaly (2)",
+    "arabic": "خلل (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 333,
+    "id": "00320269",
+    "english": "A Surprising Foe",
+    "arabic": "خصم غير متوقع"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 334,
+    "id": "0032026a",
+    "english": "To the Ocean",
+    "arabic": "إلى المحيط"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 335,
+    "id": "0032026b",
+    "english": "Quietude",
+    "arabic": "سكون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 336,
+    "id": "0032026c",
+    "english": "Xemnas's Plans",
+    "arabic": "خطط زيمناس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 337,
+    "id": "0032026d",
+    "english": "The Longest Day (1)",
+    "arabic": "أطول يوم (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 338,
+    "id": "0032026e",
+    "english": "The Longest Day (2)",
+    "arabic": "أطول يوم (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 339,
+    "id": "0032026f",
+    "english": "The Longest Day (3)",
+    "arabic": "أطول يوم (3)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 340,
+    "id": "00320270",
+    "english": "News",
+    "arabic": "أخبار"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 341,
+    "id": "00320271",
+    "english": "Hollow",
+    "arabic": "خواء"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 342,
+    "id": "00320272",
+    "english": "Disorder (1)",
+    "arabic": "اضطراب (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 343,
+    "id": "00320273",
+    "english": "Disorder (2)",
+    "arabic": "اضطراب (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 344,
+    "id": "00320274",
+    "english": "Disorder (3)",
+    "arabic": "اضطراب (3)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 345,
+    "id": "00320275",
+    "english": "Disorder (4)",
+    "arabic": "اضطراب (4)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 346,
+    "id": "00320276",
+    "english": "Disorder (5)",
+    "arabic": "اضطراب (5)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 347,
+    "id": "00320277",
+    "english": "Disorder (6)",
+    "arabic": "اضطراب (6)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 348,
+    "id": "00320278",
+    "english": "Disorder (7)",
+    "arabic": "اضطراب (7)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 349,
+    "id": "00320279",
+    "english": "Tomorrow",
+    "arabic": "غدا"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 350,
+    "id": "0032027a",
+    "english": "Searching",
+    "arabic": "البحث"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 351,
+    "id": "0032027b",
+    "english": "Confessions",
+    "arabic": "اعترافات"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 352,
+    "id": "0032027c",
+    "english": "Contact (1)",
+    "arabic": "اتصال (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 353,
+    "id": "0032027d",
+    "english": "Contact (2)",
+    "arabic": "اتصال (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 354,
+    "id": "0032027e",
+    "english": "Contact (3)",
+    "arabic": "اتصال (3)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 355,
+    "id": "0032027f",
+    "english": "Fracture",
+    "arabic": "صدع"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 356,
+    "id": "00320280",
+    "english": "Axel and Saïx",
+    "arabic": "آكسل وسايكس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 357,
+    "id": "00320281",
+    "english": "Sora (1)",
+    "arabic": "سورا (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 358,
+    "id": "00320282",
+    "english": "Sora (2)",
+    "arabic": "سورا (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 359,
+    "id": "00320283",
+    "english": "Sora (3)",
+    "arabic": "سورا (3)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 360,
+    "id": "00320284",
+    "english": "Sora (4)",
+    "arabic": "سورا (4)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 361,
+    "id": "00320285",
+    "english": "Project Xion",
+    "arabic": "مشروع شيون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 362,
+    "id": "00320286",
+    "english": "Riku and Xion (1)",
+    "arabic": "ريكو وشيون (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 363,
+    "id": "00320287",
+    "english": "Riku and Xion (2)",
+    "arabic": "ريكو وشيون (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 364,
+    "id": "00320288",
+    "english": "Reflecting with the Sunset",
+    "arabic": "تأملات عند الغروب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 365,
+    "id": "00320289",
+    "english": "Shutdown",
+    "arabic": "إيقاف"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 366,
+    "id": "0032028a",
+    "english": "Vacant Place",
+    "arabic": "مكان شاغر"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 367,
+    "id": "0032028b",
+    "english": "Roxas's Tears (1)",
+    "arabic": "دموع روكساس (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 368,
+    "id": "0032028c",
+    "english": "Roxas's Tears (2)",
+    "arabic": "دموع روكساس (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 369,
+    "id": "0032028d",
+    "english": "Memories of the Keyhole",
+    "arabic": "ذكريات ثقب المفتاح"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 370,
+    "id": "0032028e",
+    "english": "Roxas in a Slump",
+    "arabic": "ضعف روكساس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 371,
+    "id": "0032028f",
+    "english": "Xion's Concern",
+    "arabic": "قلق شيون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 372,
+    "id": "00320290",
+    "english": "Waning Power",
+    "arabic": "قوة متضائلة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 373,
+    "id": "00320291",
+    "english": "The Program",
+    "arabic": "البرنامج"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 374,
+    "id": "00320292",
+    "english": "Fleeting",
+    "arabic": "عابر"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 375,
+    "id": "00320293",
+    "english": "Xion's Torment (1)",
+    "arabic": "عذاب شيون (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 376,
+    "id": "00320294",
+    "english": "Xion's Torment (2)",
+    "arabic": "عذاب شيون (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 377,
+    "id": "00320295",
+    "english": "Xion's Torment (3)",
+    "arabic": "عذاب شيون (3)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 378,
+    "id": "00320296",
+    "english": "Setup",
+    "arabic": "مكيدة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 379,
+    "id": "00320297",
+    "english": "Sunset",
+    "arabic": "غروب الشمس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 380,
+    "id": "00320298",
+    "english": "Riku's Resolve",
+    "arabic": "عزم ريكو"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 381,
+    "id": "00320299",
+    "english": "Saïx's Rebuttal",
+    "arabic": "اعتراض سايكس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 382,
+    "id": "0032029a",
+    "english": "Xion's Defiance",
+    "arabic": "تمرد شيون"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 383,
+    "id": "0032029b",
+    "english": "Resolve (1)",
+    "arabic": "عزم (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 384,
+    "id": "0032029c",
+    "english": "Resolve (2)",
+    "arabic": "عزم (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 385,
+    "id": "0032029d",
+    "english": "Resolve (3)",
+    "arabic": "عزم (3)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 386,
+    "id": "0032029e",
+    "english": "Truth (1)",
+    "arabic": "الحقيقة (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 387,
+    "id": "0032029f",
+    "english": "Truth (2)",
+    "arabic": "الحقيقة (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 388,
+    "id": "003202a0",
+    "english": "Anxious Roxas",
+    "arabic": "قلق روكساس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 389,
+    "id": "003202a1",
+    "english": "The King and Riku Reunited (1)",
+    "arabic": "لقاء الملك وريكو من جديد (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 390,
+    "id": "003202a2",
+    "english": "The King and Riku Reunited (2)",
+    "arabic": "لقاء الملك وريكو من جديد (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 391,
+    "id": "003202a3",
+    "english": "Unsaid, Unheard (1)",
+    "arabic": "ما لم يقل، وما لم يسمع (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 392,
+    "id": "003202a4",
+    "english": "Unsaid, Unheard (2)",
+    "arabic": "ما لم يقل، وما لم يسمع (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 393,
+    "id": "003202a5",
+    "english": "Unsaid, Unheard (3)",
+    "arabic": "ما لم يقل، وما لم يسمع (3)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 394,
+    "id": "003202a6",
+    "english": "Saïx's Challenge",
+    "arabic": "تحدي سايكس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 395,
+    "id": "003202a7",
+    "english": "Leaving the Organization",
+    "arabic": "مغادرة المنظمة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 396,
+    "id": "003202a8",
+    "english": "Xion and Naminé (1)",
+    "arabic": "شيون وناميني (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 397,
+    "id": "003202a9",
+    "english": "Xion and Naminé (2)",
+    "arabic": "شيون وناميني (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 398,
+    "id": "003202aa",
+    "english": "Place to Belong (1)",
+    "arabic": "مكان أنتمي إليه (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 399,
+    "id": "003202ab",
+    "english": "Place to Belong (2)",
+    "arabic": "مكان أنتمي إليه (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 400,
+    "id": "003202ac",
+    "english": "Tears (1)",
+    "arabic": "دموع (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 401,
+    "id": "003202ad",
+    "english": "Tears (2)",
+    "arabic": "دموع (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 402,
+    "id": "003202ae",
+    "english": "WINNER",
+    "arabic": "فائز"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 403,
+    "id": "003202af",
+    "english": "Believe (1)",
+    "arabic": "آمن (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 404,
+    "id": "003202b0",
+    "english": "Believe (2)",
+    "arabic": "آمن (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 405,
+    "id": "003202b1",
+    "english": "Believe (3)",
+    "arabic": "آمن (3)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 406,
+    "id": "003202b2",
+    "english": "Believe (4)",
+    "arabic": "آمن (4)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 407,
+    "id": "003202b3",
+    "english": "Believe (5)",
+    "arabic": "آمن (5)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 408,
+    "id": "003202b4",
+    "english": "Believe (6)",
+    "arabic": "آمن (6)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 409,
+    "id": "003202b5",
+    "english": "Believe (7)",
+    "arabic": "آمن (7)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 410,
+    "id": "003202b6",
+    "english": "Believe (8)",
+    "arabic": "آمن (8)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 411,
+    "id": "003202b7",
+    "english": "Believe (9)",
+    "arabic": "آمن (9)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 412,
+    "id": "003202b8",
+    "english": "The First Day (1)",
+    "arabic": "اليوم الأول (1)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 413,
+    "id": "003202b9",
+    "english": "The First Day (2)",
+    "arabic": "اليوم الأول (2)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 414,
+    "id": "003202ba",
+    "english": "The First Day (3)",
+    "arabic": "اليوم الأول (3)"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 415,
+    "id": "003202bb",
+    "english": "Monologue",
+    "arabic": "مناجاة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 416,
+    "id": "00328000",
+    "english": "Prologue",
+    "arabic": "تمهيد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 417,
+    "id": "00328001",
+    "english": "Unaccountable Accounts",
+    "arabic": "سجلات غامضة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 418,
+    "id": "00328002",
+    "english": "My Island",
+    "arabic": "جزيرتي"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 419,
+    "id": "00328003",
+    "english": "The King's Chronicles: Destiny Islands",
+    "arabic": "سجلات الملك: جزيرة المصير"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 420,
+    "id": "00328004",
+    "english": "The Keyhole's the Place",
+    "arabic": "ثقب المفتاح هو المكان"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 421,
+    "id": "00328005",
+    "english": "Restoring the Island",
+    "arabic": "استعادة الجزيرة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 422,
+    "id": "00328006",
+    "english": "An Unfamiliar World",
+    "arabic": "عالم غير مألوف"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 423,
+    "id": "00328007",
+    "english": "The King's Chronicles: Traverse Town I",
+    "arabic": "سجلات الملك: بلدة ترافيرس 1"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 424,
+    "id": "00328008",
+    "english": "Memories of a Past Adventure",
+    "arabic": "ذكريات مغامرة سابقة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 425,
+    "id": "00328009",
+    "english": "The King's Chronicles: Traverse Town II",
+    "arabic": "سجلات الملك: بلدة ترافيرس 2"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 426,
+    "id": "0032800a",
+    "english": "Into the Keyhole",
+    "arabic": "إلى داخل ثقب المفتاح"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 427,
+    "id": "0032800b",
+    "english": "Under Mouse Arrest",
+    "arabic": "رهن اعتقال الفأر"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 428,
+    "id": "0032800c",
+    "english": "Wonderland",
+    "arabic": "بلاد العجائب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 429,
+    "id": "0032800d",
+    "english": "Inklings",
+    "arabic": "بوادر"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 430,
+    "id": "0032800e",
+    "english": "Memories Regained",
+    "arabic": "ذكريات مستعادة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 431,
+    "id": "0032800f",
+    "english": "The Queen of Hearts",
+    "arabic": "ملكة القلوب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 432,
+    "id": "00328010",
+    "english": "Beneath the Hood",
+    "arabic": "تحت غطاء الرأس"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 433,
+    "id": "00328011",
+    "english": "Scoping Out the Area",
+    "arabic": "استطلاع المنطقة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 434,
+    "id": "00328012",
+    "english": "The King's Chronicles: Olympus Coliseum I",
+    "arabic": "سجلات الملك: كولوسيوم أولمبيا 1"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 435,
+    "id": "00328013",
+    "english": "I'm No Friend of Heroes",
+    "arabic": "لست صديقا للأبطال"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 436,
+    "id": "00328014",
+    "english": "The King's Chronicles: Olympus Coliseum II",
+    "arabic": "سجلات الملك: كولوسيوم أولمبيا 2"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 437,
+    "id": "00328015",
+    "english": "The Definition of a Hero",
+    "arabic": "معنى البطل"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 438,
+    "id": "00328016",
+    "english": "A Shady Character",
+    "arabic": "شخصية مريبة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 439,
+    "id": "00328017",
+    "english": "A Ghost Town",
+    "arabic": "بلدة أشباح"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 440,
+    "id": "00328018",
+    "english": "The King's Chronicles: Agrabah I",
+    "arabic": "سجلات الملك: أجرابا 1"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 441,
+    "id": "00328019",
+    "english": "Genie",
+    "arabic": "الجني"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 442,
+    "id": "0032801a",
+    "english": "Questions and More Questions",
+    "arabic": "أسئلة تجر أسئلة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 443,
+    "id": "0032801b",
+    "english": "The King's Chronicles: Agrabah II",
+    "arabic": "سجلات الملك: أجرابا 2"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 444,
+    "id": "0032801c",
+    "english": "My Last Wish",
+    "arabic": "أمنيتي الأخيرة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 445,
+    "id": "0032801d",
+    "english": "Maleficent's Designs",
+    "arabic": "مخططات مالفيسنت"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 446,
+    "id": "0032801e",
+    "english": "Where's My Keyblade?",
+    "arabic": "أين الكيبلايد الخاص بي؟"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 447,
+    "id": "0032801f",
+    "english": "The Chase Is On",
+    "arabic": "بدأت المطاردة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 448,
+    "id": "00328020",
+    "english": "Rescued!",
+    "arabic": "إنقاذ!"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 449,
+    "id": "00328021",
+    "english": "You Have Us",
+    "arabic": "نحن معك"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 450,
+    "id": "00328022",
+    "english": "My Friends Are My Power",
+    "arabic": "أصدقائي مصدر قوتي"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 451,
+    "id": "00328023",
+    "english": "Can't You Hear Me?",
+    "arabic": "ألا تسمعني؟"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 452,
+    "id": "00328024",
+    "english": "What Friends Are For",
+    "arabic": "لهذا وجد الأصدقاء"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 453,
+    "id": "00328025",
+    "english": "Riku's Datascape",
+    "arabic": "عالم بيانات ريكو"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 454,
+    "id": "00328026",
+    "english": "The Other Destiny Islands",
+    "arabic": "جزيرة المصير الأخرى"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 455,
+    "id": "00328027",
+    "english": "The Other Traverse Town",
+    "arabic": "بلدة ترافيرس الأخرى"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 456,
+    "id": "00328028",
+    "english": "The Other Wonderland",
+    "arabic": "بلاد العجائب الأخرى"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 457,
+    "id": "00328029",
+    "english": "The Other Agrabah",
+    "arabic": "أجرابا الأخرى"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 458,
+    "id": "0032802a",
+    "english": "The Enemy Within",
+    "arabic": "العدو في الداخل"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 459,
+    "id": "0032802b",
+    "english": "See You on the Other Side",
+    "arabic": "أراك على الجانب الآخر"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 460,
+    "id": "0032802c",
+    "english": "Back to the Real World",
+    "arabic": "العودة إلى العالم الحقيقي"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 461,
+    "id": "0032802d",
+    "english": "To the Rescue",
+    "arabic": "لنجدة الأصدقاء"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 462,
+    "id": "0032802e",
+    "english": "The Light Is Inside You",
+    "arabic": "النور بداخلك"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 463,
+    "id": "0032802f",
+    "english": "Friends Forever",
+    "arabic": "أصدقاء إلى الأبد"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 464,
+    "id": "00328030",
+    "english": "A Fairy Tale?",
+    "arabic": "حكاية خيالية؟"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 465,
+    "id": "00328031",
+    "english": "Thanks",
+    "arabic": "شكرا"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 466,
+    "id": "00328032",
+    "english": "One Last Mystery",
+    "arabic": "لغز أخير"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 467,
+    "id": "00328033",
+    "english": "A Strange Place",
+    "arabic": "مكان غريب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 468,
+    "id": "00328034",
+    "english": "Hidden Truths",
+    "arabic": "حقائق خفية"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 469,
+    "id": "00328035",
+    "english": "The First Question",
+    "arabic": "السؤال الأول"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 470,
+    "id": "00328036",
+    "english": "Heartache",
+    "arabic": "ألم القلب"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 471,
+    "id": "00328037",
+    "english": "The Hurt is the Key",
+    "arabic": "الألم هو المفتاح"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 472,
+    "id": "00328038",
+    "english": "The Hurt and the Darkness",
+    "arabic": "الألم والظلام"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 473,
+    "id": "00328039",
+    "english": "Lost and Confused",
+    "arabic": "ضياع وحيرة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 474,
+    "id": "0032803a",
+    "english": "An Unexpected Bond",
+    "arabic": "رابطة غير متوقعة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 475,
+    "id": "0032803b",
+    "english": "Hidden Memories",
+    "arabic": "ذكريات خفية"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 476,
+    "id": "0032803c",
+    "english": "Epilogue",
+    "arabic": "خاتمة"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 477,
+    "id": "0032803d",
+    "english": "Signs of What's Next",
+    "arabic": "بوادر ما هو آت"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 478,
+    "id": "0032803e",
+    "english": "Destiny",
+    "arabic": "القدر"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 479,
+    "id": "00328100",
+    "english": "{U+E150}Opening{U+E151}",
+    "arabic": "{U+E150}الافتتاحية{U+E151}"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 480,
+    "id": "00328101",
+    "english": "{U+E150}Destiny Islands{U+E151}",
+    "arabic": "{U+E150}جزيرة المصير{U+E151}"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 481,
+    "id": "00328102",
+    "english": "{U+E150}Traverse Town{U+E151}",
+    "arabic": "{U+E150}بلدة ترافيرس{U+E151}"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 482,
+    "id": "00328103",
+    "english": "{U+E150}Wonderland{U+E151}",
+    "arabic": "{U+E150}بلاد العجائب{U+E151}"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 483,
+    "id": "00328104",
+    "english": "{U+E150}Olympus Coliseum{U+E151}",
+    "arabic": "{U+E150}كولوسيوم أولمبيا{U+E151}"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 484,
+    "id": "00328105",
+    "english": "{U+E150}Agrabah{U+E151}",
+    "arabic": "{U+E150}أجرابا{U+E151}"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 485,
+    "id": "00328106",
+    "english": "{U+E150}Hollow Bastion I{U+E151}",
+    "arabic": "{U+E150}حصن هولو 1{U+E151}"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 486,
+    "id": "00328107",
+    "english": "{U+E150}Hollow Bastion II{U+E151}",
+    "arabic": "{U+E150}حصن هولو 2{U+E151}"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 487,
+    "id": "00328108",
+    "english": "{U+E150}Castle Oblivion{U+E151}",
+    "arabic": "{U+E150}قلعة النسيان{U+E151}"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 488,
+    "id": "00328109",
+    "english": "{U+E150}Ending{U+E151}",
+    "arabic": "{U+E150}النهاية{U+E151}"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 489,
+    "id": "0032810a",
+    "english": "{U+E150}Secret Ending I{U+E151}",
+    "arabic": "{U+E150}النهاية السرية 1{U+E151}"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 490,
+    "id": "0032810b",
+    "english": "{U+E150}Secret Ending II{U+E151}",
+    "arabic": "{U+E150}النهاية السرية 2{U+E151}"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 491,
+    "id": "00328200",
+    "english": "hd501",
+    "arabic": "hd501"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 492,
+    "id": "00328201",
+    "english": "hd502",
+    "arabic": "hd502"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 493,
+    "id": "00328202",
+    "english": "hd503 hd504",
+    "arabic": "hd503 hd504"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 494,
+    "id": "00328203",
+    "english": "hd504",
+    "arabic": "hd504"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 495,
+    "id": "00328204",
+    "english": "hd505",
+    "arabic": "hd505"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 496,
+    "id": "00328205",
+    "english": "hd506",
+    "arabic": "hd506"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 497,
+    "id": "00328206",
+    "english": "hd601",
+    "arabic": "hd601"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 498,
+    "id": "00328207",
+    "english": "hd507",
+    "arabic": "hd507"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 499,
+    "id": "00328208",
+    "english": "hd508",
+    "arabic": "hd508"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 500,
+    "id": "00328209",
+    "english": "hd509",
+    "arabic": "hd509"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 501,
+    "id": "0032820a",
+    "english": "hd510 hd511",
+    "arabic": "hd510 hd511"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 502,
+    "id": "0032820b",
+    "english": "hd511",
+    "arabic": "hd511"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 503,
+    "id": "0032820c",
+    "english": "hd512 hd513",
+    "arabic": "hd512 hd513"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 504,
+    "id": "0032820d",
+    "english": "hd513",
+    "arabic": "hd513"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 505,
+    "id": "0032820e",
+    "english": "hd602",
+    "arabic": "hd602"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 506,
+    "id": "0032820f",
+    "english": "hd514",
+    "arabic": "hd514"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 507,
+    "id": "00328210",
+    "english": "hd603",
+    "arabic": "hd603"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 508,
+    "id": "00328211",
+    "english": "hd516 C1 - C17",
+    "arabic": "hd516 C1 - C17"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 509,
+    "id": "00328212",
+    "english": "hd516 C18 - hd517",
+    "arabic": "hd516 C18 - hd517"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 510,
+    "id": "00328213",
+    "english": "hd517",
+    "arabic": "hd517"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 511,
+    "id": "00328214",
+    "english": "hd518",
+    "arabic": "hd518"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 512,
+    "id": "00328215",
+    "english": "hd519",
+    "arabic": "hd519"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 513,
+    "id": "00328216",
+    "english": "hd520",
+    "arabic": "hd520"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 514,
+    "id": "00328217",
+    "english": "hd521",
+    "arabic": "hd521"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 515,
+    "id": "00328218",
+    "english": "hd522 hd523",
+    "arabic": "hd522 hd523"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 516,
+    "id": "00328219",
+    "english": "hd524",
+    "arabic": "hd524"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 517,
+    "id": "0032821a",
+    "english": "hd525",
+    "arabic": "hd525"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 518,
+    "id": "0032821b",
+    "english": "hd604",
+    "arabic": "hd604"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 519,
+    "id": "0032821c",
+    "english": "hd528",
+    "arabic": "hd528"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 520,
+    "id": "0032821d",
+    "english": "hd605",
+    "arabic": "hd605"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 521,
+    "id": "0032821e",
+    "english": "hd530",
+    "arabic": "hd530"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 522,
+    "id": "0032821f",
+    "english": "hd531",
+    "arabic": "hd531"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 523,
+    "id": "00328220",
+    "english": "hd532",
+    "arabic": "hd532"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 524,
+    "id": "00328221",
+    "english": "hd606",
+    "arabic": "hd606"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 525,
+    "id": "00328222",
+    "english": "hd535",
+    "arabic": "hd535"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 526,
+    "id": "00328223",
+    "english": "hd536",
+    "arabic": "hd536"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 527,
+    "id": "00328224",
+    "english": "hd607",
+    "arabic": "hd607"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 528,
+    "id": "00328225",
+    "english": "hd538\n",
+    "arabic": "hd538\n"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 529,
+    "id": "00328226",
+    "english": "hd539 hd540",
+    "arabic": "hd539 hd540"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 530,
+    "id": "00328227",
+    "english": "hd540",
+    "arabic": "hd540"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 531,
+    "id": "00328228",
+    "english": "hd541",
+    "arabic": "hd541"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 532,
+    "id": "00328229",
+    "english": "hd542",
+    "arabic": "hd542"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 533,
+    "id": "0032822a",
+    "english": "hd543",
+    "arabic": "hd543"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 534,
+    "id": "0032822b",
+    "english": "hd544",
+    "arabic": "hd544"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 535,
+    "id": "0032822c",
+    "english": "hd545",
+    "arabic": "hd545"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 536,
+    "id": "0032822d",
+    "english": "hd546",
+    "arabic": "hd546"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 537,
+    "id": "0032822e",
+    "english": "hd547",
+    "arabic": "hd547"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 538,
+    "id": "0032822f",
+    "english": "hd548",
+    "arabic": "hd548"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 539,
+    "id": "00328230",
+    "english": "hd549",
+    "arabic": "hd549"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 540,
+    "id": "00328231",
+    "english": "hd550",
+    "arabic": "hd550"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 541,
+    "id": "00328232",
+    "english": "hd551",
+    "arabic": "hd551"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 542,
+    "id": "00328233",
+    "english": "hd552",
+    "arabic": "hd552"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 543,
+    "id": "00328234",
+    "english": "hd553",
+    "arabic": "hd553"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 544,
+    "id": "00328235",
+    "english": "hd554",
+    "arabic": "hd554"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 545,
+    "id": "00328236",
+    "english": "hd555",
+    "arabic": "hd555"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 546,
+    "id": "00328237",
+    "english": "hd556",
+    "arabic": "hd556"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 547,
+    "id": "00328238",
+    "english": "hd557",
+    "arabic": "hd557"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 548,
+    "id": "00328239",
+    "english": "hd558",
+    "arabic": "hd558"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 549,
+    "id": "0032823a",
+    "english": "hd559",
+    "arabic": "hd559"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 550,
+    "id": "0032823b",
+    "english": "hd560",
+    "arabic": "hd560"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 551,
+    "id": "0032823c",
+    "english": "hd561",
+    "arabic": "hd561"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 552,
+    "id": "0032823d",
+    "english": "hd562 hd563 hd564 hd565 hd566 hd567 hd568 hd569",
+    "arabic": "hd562 hd563 hd564 hd565 hd566 hd567 hd568 hd569"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 553,
+    "id": "0032823e",
+    "english": "hd563",
+    "arabic": "hd563"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 554,
+    "id": "0032823f",
+    "english": "hd564",
+    "arabic": "hd564"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 555,
+    "id": "00328240",
+    "english": "hd565",
+    "arabic": "hd565"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 556,
+    "id": "00328241",
+    "english": "hd566",
+    "arabic": "hd566"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 557,
+    "id": "00328242",
+    "english": "hd567",
+    "arabic": "hd567"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 558,
+    "id": "00328243",
+    "english": "hd568",
+    "arabic": "hd568"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 559,
+    "id": "00328244",
+    "english": "hd569",
+    "arabic": "hd569"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 560,
+    "id": "00328245",
+    "english": "hd570",
+    "arabic": "hd570"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 561,
+    "id": "00328246",
+    "english": "hd571",
+    "arabic": "hd571"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 562,
+    "id": "00328247",
+    "english": "hd595",
+    "arabic": "hd595"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 563,
+    "id": "00328248",
+    "english": "hd572",
+    "arabic": "hd572"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 564,
+    "id": "00328249",
+    "english": "hd573 hd574",
+    "arabic": "hd573 hd574"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 565,
+    "id": "0032824a",
+    "english": "hd574",
+    "arabic": "hd574"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 566,
+    "id": "0032824b",
+    "english": "hd575",
+    "arabic": "hd575"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 567,
+    "id": "0032824c",
+    "english": "hd576",
+    "arabic": "hd576"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 568,
+    "id": "0032824d",
+    "english": "hd577",
+    "arabic": "hd577"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 569,
+    "id": "0032824e",
+    "english": "hd578",
+    "arabic": "hd578"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 570,
+    "id": "0032824f",
+    "english": "hd579",
+    "arabic": "hd579"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 571,
+    "id": "00328250",
+    "english": "hd580",
+    "arabic": "hd580"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 572,
+    "id": "00328251",
+    "english": "hd581",
+    "arabic": "hd581"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 573,
+    "id": "00328252",
+    "english": "hd582",
+    "arabic": "hd582"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 574,
+    "id": "00328253",
+    "english": "hd583",
+    "arabic": "hd583"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 575,
+    "id": "00328254",
+    "english": "hd584",
+    "arabic": "hd584"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 576,
+    "id": "00328255",
+    "english": "hd585",
+    "arabic": "hd585"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 577,
+    "id": "00328256",
+    "english": "hd586",
+    "arabic": "hd586"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 578,
+    "id": "00328257",
+    "english": "hd587",
+    "arabic": "hd587"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 579,
+    "id": "00328258",
+    "english": "hd588",
+    "arabic": "hd588"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 580,
+    "id": "00328259",
+    "english": "hd589",
+    "arabic": "hd589"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 581,
+    "id": "0032825a",
+    "english": "hd590 hd591",
+    "arabic": "hd590 hd591"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 582,
+    "id": "0032825b",
+    "english": "hd596",
+    "arabic": "hd596"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 583,
+    "id": "0032825c",
+    "english": "hd592",
+    "arabic": "hd592"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 584,
+    "id": "0032825d",
+    "english": "hd593",
+    "arabic": "hd593"
+  },
+  {
+    "file": "uk/ctd/ct00100.ctd",
+    "index": 585,
+    "id": "0032825e",
+    "english": "hd594",
+    "arabic": "hd594"
+  }
+]

@@ -143,3 +143,15 @@ test('previous release journal recovers a missing HED before uninstall', async t
   assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.hed')), f.hed);
   assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.pkg')), f.pkg);
 });
+
+test('upgrade from the fourth historical release preserves the original backup', async t => {
+  const f = await previousFixture(t);
+  f.m.earlier = f.m.previous;
+  delete f.m.previous;
+  await fs.writeFile(path.join(f.patch, 'manifest.json'), JSON.stringify(f.m));
+  await operate({...f.args, action: 'install'});
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.hed')), f.changedHed);
+  await operate({...f.args, action: 'uninstall'});
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.pkg')), f.pkg);
+  assert.deepEqual(await fs.readFile(path.join(f.image, '.days-arabic-backup/Mare.pkg')), f.pkg);
+});

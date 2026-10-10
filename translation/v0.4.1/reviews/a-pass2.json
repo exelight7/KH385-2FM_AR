@@ -1,0 +1,110 @@
+{
+  "pass": 2,
+  "status": "complete",
+  "reviewer": "day7_trace",
+  "version": "0.4.0",
+  "independent": true,
+  "method": "Read all 509 original English/Arabic pairs in order with neighbouring dialogue and speaker context. Reviewed meaning, pronouns, spelling, grammar, negation scope and faithful natural cinematic Modern Standard Arabic. Authored only beneficial corrections directly in the current release file. Automated structural checks followed the manual review.",
+  "files": {
+    "cthd050": {
+      "reviewedRows": 509,
+      "correctedIds": [
+        "021c0e00",
+        "021c2400",
+        "021f8c00",
+        "02260300",
+        "02280c00",
+        "022b8f00",
+        "022f1300"
+      ],
+      "unresolved": [],
+      "outputCanonicalSha256": "b4745c3dcd671c712120189b15a9b62cf3c6062f8d362219dc381796d31ea3f9"
+    }
+  },
+  "corrections": [
+    {
+      "file": "cthd050",
+      "id": "021c0e00",
+      "before": "فتشنا المكان رأسا على عقب. إن كانت هناك،\nفلن نجدها بمجرد البحث.",
+      "after": "قلبنا المكان رأسا على عقب. إن كانت هناك،\nفلن نجدها بمجرد البحث.",
+      "reason": "استعمال التعبير العربي الصحيح قلبنا المكان رأسا على عقب بدلا من فتشنا المكان رأسا على عقب.",
+      "category": "صياغة اصطلاحية"
+    },
+    {
+      "file": "cthd050",
+      "id": "021c2400",
+      "before": "توقع الأوامر قريبا.",
+      "after": "ستتلقى الأوامر قريبا.",
+      "reason": "صياغة طبيعية لإبلاغ المخاطب بأن الأوامر ستصله قريبا بدل الأمر الحرفي توقع الأوامر.",
+      "category": "صياغة"
+    },
+    {
+      "file": "cthd050",
+      "id": "021f8c00",
+      "before": "همم... ربما أستطيع تدبر سبعة أيام.",
+      "after": "همم... ربما أستطيع تدبر أمر سبعة أيام.",
+      "reason": "إكمال تعدية تدبر بالتركيب الطبيعي تدبر أمر، مع حفظ الإجازة ذات السبعة أيام.",
+      "category": "نحو وصياغة"
+    },
+    {
+      "file": "cthd050",
+      "id": "02260300",
+      "before": "إن كان هناك شيء يحدث، فكن صريحا\nمعي ولو لمرة، أتفعل؟",
+      "after": "إن كان هناك شيء يحدث، فكن صريحا\nمعي ولو لمرة، أرجوك.",
+      "reason": "ترجمة will ya كطلب ملح طبيعي بدل النقل الحرفي أتفعل.",
+      "category": "صياغة حوار"
+    },
+    {
+      "file": "cthd050",
+      "id": "02280c00",
+      "before": "نعم. نمت طويلا إلى حد\nجعلني أنا وآكسل نقلق عليك.",
+      "after": "نعم. نمت طويلا إلى حد\nأثار قلقي وقلق آكسل عليك.",
+      "reason": "إصلاح عدم المطابقة في جعلني أنا وآكسل نقلق، مع حفظ قلق الشخصين بسبب طول نوم شيون.",
+      "category": "نحو ومطابقة"
+    },
+    {
+      "file": "cthd050",
+      "id": "022b8f00",
+      "before": "حسنا... ربما لا\nيحتاجون إليكما هناك فحسب.",
+      "after": "حسنا... ربما هم ببساطة\nلا يحتاجون إليكما هناك.",
+      "reason": "إزالة التباس نطاق فحسب بعد النفي؛ الأصل يرجح ببساطة أنهم لا يحتاجون إليهما في المكان.",
+      "category": "نطاق قيد ونفي"
+    },
+    {
+      "file": "cthd050",
+      "id": "022f1300",
+      "before": "ليكتشف أن أحدا\nلم يعد يتذكره.",
+      "after": "ليكتشف أنه لم يعد\nهناك من يتذكره.",
+      "reason": "توضيح النفي الشامل في nobody remembers him anymore ومنع فهم أن شخصا واحدا فقط نسيه.",
+      "category": "نفي ودلالة"
+    }
+  ],
+  "unresolved": [],
+  "totalReviewedRows": 509,
+  "totalCorrectedRows": 7,
+  "confirmedRows": [
+    {
+      "file": "cthd050",
+      "id": "022b8d00",
+      "english": "For research, huh?",
+      "arabic": "للأبحاث، إذن؟",
+      "decision": "Correct research-facility follow-up question; retained the first reviewers corrected translation unchanged."
+    }
+  ],
+  "checks": {
+    "sourceMetadataAndOrderPreserved": true,
+    "newlineCountsPreserved": true,
+    "emptyLinePositionsPreserved": true,
+    "tagOrderPreserved": true,
+    "tagParagraphPositionsPreserved": true,
+    "noVowelMarksOrTatweel": true
+  },
+  "runtimeVisualVerificationPerformed": false,
+  "provenance": {
+    "reusedFromVersion": "0.4.0",
+    "sourceReport": "translation/v0.4.0/reviews/a-pass2.json",
+    "sourceReportSha256": "cbceb55621ba15334a37e161b758a62bc25ab7b8d64be958921a804115327663",
+    "reason": "Frozen story translations are byte-for-byte unchanged.",
+    "hashConvention": "UTF-8 with canonical LF line endings"
+  }
+}

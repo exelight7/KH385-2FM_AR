@@ -1,0 +1,42 @@
+{
+  "source": {
+    "Mare.hed": "1e5e8fb26cf0eb52e2c37a542bc3218fcf3c48b286c8495109af73c3777e420f",
+    "Mare.pkg": "5a3a20283ce7dd2edcd9c96a898c4a6d00c03d5592f3e06f3caaafb7e32980b1"
+  },
+  "stages": {
+    "font-only": {
+      "entry_count": 2024,
+      "changed_entries": 4,
+      "files": {
+        "Mare.hed": {
+          "bytes": 64768,
+          "sha256": "65bb2788231784e85ed4aedc6ae2f9816fadd9f671bd1e8d3ee3f39e11cde8da"
+        },
+        "Mare.pkg": {
+          "bytes": 2771074224,
+          "sha256": "d80e99e76394a8b339773cf6c9196a70956646a44f0c3cbf77d09582b47a92dd"
+        }
+      }
+    },
+    "first-dialogue": {
+      "entry_count": 2024,
+      "changed_entries": 136,
+      "files": {
+        "Mare.hed": {
+          "bytes": 64768,
+          "sha256": "2dd9ed37066d0259f43b9f68430508ca04f266bb457b42d4ea103f0dbb0f1efc"
+        },
+        "Mare.pkg": {
+          "bytes": 2816552176,
+          "sha256": "2248e801a5761cdf9a59a5670aeba7bc2d05d4c444bbbbc0e01be345315fe5c1"
+        }
+      }
+    }
+  },
+  "unknown_entries_preserved": 57,
+  "payload_extract_hashes_match": true,
+  "original_game_unchanged": true,
+  "warning": "OpenKH hed patch output under patched/ loses 57 entries; never install that intermediate output.",
+  "installed": false,
+  "in_game_verified": false
+}

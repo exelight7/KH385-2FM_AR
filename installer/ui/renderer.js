@@ -11,7 +11,7 @@ async function operate(action) {
   try {
     const r = await window.days.operate($('folder').value.trim(), action);
     if (!r.ok) return status(r.error, 'error');
-    const message = action === 'install' ? 'تم تثبيت حوارات القصة والمقدمة (63.2%). أعد تشغيل اللعبة واختر English للنص.' : 'تم إلغاء التعريب واسترجاع ملفات اللعبة الأصلية.';
+    const message = action === 'install' ? 'تم تثبيت النصوص العربية والقوائم المصورة. أعد تشغيل اللعبة واختر English للنص.' : 'تم إلغاء التعريب واسترجاع ملفات اللعبة الأصلية.';
     status(r.status === 'unchanged' ? (action === 'install' ? 'هذه الدفعة مثبتة بالفعل.' : 'ملفات اللعبة أصلية بالفعل.') : message, 'success');
   } catch (e) { status('تعذر إكمال العملية: ' + e.message, 'error'); }
   finally { busy(false); }

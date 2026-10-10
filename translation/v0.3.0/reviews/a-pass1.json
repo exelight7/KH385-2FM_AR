@@ -1,0 +1,299 @@
+{
+  "pass": 1,
+  "version": "0.3.0",
+  "reviewer": "story_a / day7_trace",
+  "status": "complete",
+  "method": "Read all 828 paired original English and Arabic rows, including adjacent dialogue for speaker context. Assessed semantic accuracy, omissions and additions, natural Modern Standard Arabic, pronouns, negation, tense, names and KH2 glossary consistency. Corrections were authored individually; structural checks were automated afterward.",
+  "prior_interrupted_review_claimed_complete": false,
+  "files": {
+    "cthd000": {
+      "reviewed_rows": 319,
+      "corrected_ids": [
+        "02021000",
+        "02030500",
+        "02050400",
+        "020d8200",
+        "02110500",
+        "02161300",
+        "02162300",
+        "02170500",
+        "02181000"
+      ],
+      "sha256": "e406c95773b75b46194ae5587e7bc581883d41de2ac3024c4315f4e9ab991f67",
+      "reviewedRows": 319
+    },
+    "cthd050": {
+      "reviewed_rows": 509,
+      "corrected_ids": [
+        "02191000",
+        "021b8e00",
+        "021b9000",
+        "021b9600",
+        "021b9a00",
+        "021c1600",
+        "021c1700",
+        "021c1900",
+        "021f9900",
+        "021fa900",
+        "02200100",
+        "02221c00",
+        "022a8200",
+        "022a8400",
+        "022c8900",
+        "022d0500",
+        "022d0a00",
+        "022d0b00",
+        "022e0100",
+        "02300700"
+      ],
+      "sha256": "734e1f6fae1c119998a228d20d33b83e059d64f4523a13736db3a4c79420446f",
+      "reviewedRows": 509
+    }
+  },
+  "total_reviewed_rows": 828,
+  "total_corrected_rows": 29,
+  "corrections": [
+    {
+      "file": "cthd000.json",
+      "id": "02021000",
+      "index": 13,
+      "before": "هل تشغلك العضوة الجديدة؟",
+      "after": "أأنت قلق على العضوة الجديدة؟",
+      "reason": "Expresses concern for the new recruit."
+    },
+    {
+      "file": "cthd000.json",
+      "id": "02030500",
+      "index": 34,
+      "before": "يا روكساس، قلت الكلام نفسه تماما\nفي ذلك اليوم.",
+      "after": "يا روكساس، قلت الكلام نفسه تماما\nفي يوم سابق.",
+      "reason": "The other day refers to an unspecified earlier day."
+    },
+    {
+      "file": "cthd000.json",
+      "id": "02050400",
+      "index": 98,
+      "before": "يمكنني إخبارك بما أنني صديقك.",
+      "after": "يمكنني إخبارك بما أننا صديقان.",
+      "reason": "Preserves reciprocal friendship."
+    },
+    {
+      "file": "cthd000.json",
+      "id": "020d8200",
+      "index": 190,
+      "before": "أخبرت بأن روكساس سيعود، شريطة\nأن يجرد البطل من كل ذكرياته.",
+      "after": "بلغني أن روكساس سيعود، شريطة\nأن يجرد البطل من كل ذكرياته.",
+      "reason": "Makes I am told unambiguous without vowel marks."
+    },
+    {
+      "file": "cthd000.json",
+      "id": "02110500",
+      "index": 216,
+      "before": "أنا لم أبد. فأنا قوي.",
+      "after": "أنا نجوت. فأنا قوي.",
+      "reason": "Clarifies the response to being annihilated."
+    },
+    {
+      "file": "cthd000.json",
+      "id": "02161300",
+      "index": 295,
+      "before": "وعندما يكتشفون ذلك،\nسيحولونني إلى داسك.",
+      "after": "وعندما يكتشفون ذلك،\nسيحولونني إلى الداسك.",
+      "reason": "Uses the shared KH2 Dusk glossary term."
+    },
+    {
+      "file": "cthd000.json",
+      "id": "02162300",
+      "index": 312,
+      "before": "يحتاج الأصدقاء إلى الاتكاء\nبعضهم على بعض بين حين وآخر.",
+      "after": "يحتاج الأصدقاء إلى الاعتماد\nبعضهم على بعض بين حين وآخر.",
+      "reason": "Natural figurative sense of lean on each other."
+    },
+    {
+      "file": "cthd000.json",
+      "id": "02170500",
+      "index": 325,
+      "before": "لا أعرف. لا أستطيع إخبارك،\nإذ ليس لي أي أعز أصدقاء.",
+      "after": "لا أعرف. لا أستطيع إخبارك،\nفليس لدي أصدقاء مقربون إلى هذا الحد.",
+      "reason": "Natural phrasing for the best-friends distinction."
+    },
+    {
+      "file": "cthd000.json",
+      "id": "02181000",
+      "index": 345,
+      "before": "سنجعل القلوب ملكا لنا...",
+      "after": "ستصبح القلوب ملكا لنا...",
+      "reason": "Preserves the passive promise."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "02191000",
+      "index": 17,
+      "before": "لكنني... لا أتذكر أي شيء.\nحتى حين ولدت كواحد من اللا أحد.",
+      "after": "لكنني... لا أتذكر أي شيء.\nولا حتى من وقت ولادتي كواحد من اللا أحد.",
+      "reason": "Keeps the explicit negative link to memories from becoming a Nobody."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "021b8e00",
+      "index": 49,
+      "before": "ما رأيكما في مثلجات ملح البحر إذن؟",
+      "after": "ما رأيك في مثلجات ملح البحر إذن؟",
+      "reason": "Singular address to Roxas requesting thanks."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "021b9000",
+      "index": 51,
+      "before": "اشتريا لي واحدة، ونكون متعادلين.",
+      "after": "اشتر لي واحدة، ونكون متعادلين.",
+      "reason": "Singular address to Roxas, who replies that he will return."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "021b9600",
+      "index": 57,
+      "before": "حسنا، لا شيء يدوم إلى الأبد، تعلمان؟",
+      "after": "حسنا، لا شيء يدوم إلى الأبد، تعلمين؟",
+      "reason": "Roxas has left; Axel is addressing Xion alone."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "021b9a00",
+      "index": 62,
+      "before": "هل حفظتما ذلك؟",
+      "after": "هل حفظت ذلك؟",
+      "reason": "Singular address to Xion after Roxas leaves."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "021c1600",
+      "index": 90,
+      "before": "ستعرف كل شيء\nعن مخططه الحقيقي. أليس كذلك؟",
+      "after": "ستعرف كل شيء\nعن مخطط زيمناس الحقيقي. أليس كذلك؟",
+      "reason": "Restores Xemnas explicitly named in the source."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "021c1700",
+      "index": 91,
+      "before": "حجرة السكون، وكذلك\nحجرة اليقظة...",
+      "after": "قاعة الراحة، وكذلك\nقاعة اليقظة...",
+      "reason": "Uses KH2 Chamber of Repose and Waking terms."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "021c1900",
+      "index": 93,
+      "before": "ولا بد أننا سنجد بعض الأدلة\nفي حجرة اليقظة.",
+      "after": "ولا بد أننا سنجد بعض الأدلة\nفي قاعة اليقظة.",
+      "reason": "Uses the KH2 Chamber of Waking term."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "021f9900",
+      "index": 155,
+      "before": "ربما لياقتك ضعيفة فحسب،\nبخلافنا أنا وروكساس!",
+      "after": "ربما لياقتك ضعيفة فحسب،\nعلى عكسي وعكس روكساس!",
+      "reason": "Natural phrasing for unlike me and Roxas."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "021fa900",
+      "index": 171,
+      "before": "علي فقط أن أكتم الأمر،\nوإلا فسيتعقبني سايكس باللوم.",
+      "after": "علي فقط أن أكتم الأمر،\nوإلا فسيوبخني سايكس.",
+      "reason": "Translates get on my case idiomatically."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "02200100",
+      "index": 182,
+      "before": "هذه إجازتي. يمكنني أن آخذ\nكل الوقت الذي أريده.",
+      "after": "هذه إجازتي. يمكنني أن أتمهل\nقدر ما أشاء.",
+      "reason": "Naturalizes taking all the time he wants."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "02221c00",
+      "index": 240,
+      "before": "إن اختفى أصدقائي...",
+      "after": "لو أن أصدقائي...",
+      "reason": "Preserves the unfinished conditional without an added verb."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "022a8200",
+      "index": 329,
+      "before": "هذا لا يشبهك فحسب.",
+      "after": "الأمر فقط أن هذا لا يشبهك.",
+      "reason": "Places just naturally without changing its scope."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "022a8400",
+      "index": 331,
+      "before": "أقصد أنك لا تحب\nتعقيد الأمور.",
+      "after": "أقصد أنك لا تحب\nأن تكون الأمور معقدة.",
+      "reason": "Preserves disliking complicated situations."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "022c8900",
+      "index": 391,
+      "before": "وتتوقع منا أن نصدق أنك\nلا تعرف من هو حقا؟ هذا محال.",
+      "after": "وتتوقع منا أن نصدق أنك\nلا تعرف من هو حقا؟ وكأننا سنصدق!",
+      "reason": "Preserves dismissive disbelief."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "022d0500",
+      "index": 413,
+      "before": "لا يوجد هنا شيء يستحق أن تريه.",
+      "after": "ليس هنا شيء لتريه.",
+      "reason": "Removes added value judgment about what is worth seeing."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "022d0a00",
+      "index": 418,
+      "before": "وإلا فسيحولونني إلى داسك؟",
+      "after": "وإلا فسيحولونني إلى الداسك؟",
+      "reason": "Uses the shared KH2 Dusk term."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "022d0b00",
+      "index": 419,
+      "before": "سيفعلون ما هو أسوأ من تحويلك إلى داسك.",
+      "after": "سيفعلون ما هو أسوأ من تحويلك إلى الداسك.",
+      "reason": "Uses the shared KH2 Dusk term."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "022e0100",
+      "index": 439,
+      "before": "إذن، لم أكن... من أظن أنني أنا...؟",
+      "after": "إذن، أنا... لست من كنت أظن...؟",
+      "reason": "Naturalizes the shocked identity question."
+    },
+    {
+      "file": "cthd050.json",
+      "id": "02300700",
+      "index": 504,
+      "before": "قلت إنها كلفت بمهمة\nمهمة. أتذكر؟",
+      "after": "قلت إنها كلفت\nبمهمة ذات أهمية. أتذكر؟",
+      "reason": "Removes the unnatural adjacent repetition مهمة مهمة."
+    }
+  ],
+  "unresolved_rows": [],
+  "checks": {
+    "source_fields_unchanged": true,
+    "newline_counts_preserved": true,
+    "blank_line_positions_preserved": true,
+    "tag_order_preserved": true,
+    "no_vowel_marks_or_tatweel": true
+  },
+  "independent_second_review_complete": false,
+  "runtime_visual_verification_performed": false
+}

@@ -1,0 +1,132 @@
+{
+  "format": 2,
+  "version": "0.2.0",
+  "title": "KINGDOM HEARTS 358/2 Days",
+  "day": 7,
+  "previous": {
+    "Mare.hed": {
+      "bytes": 64768,
+      "sha256": "b47d4c55250f959cfdfd368695a99c436639a3403c3afeb6a9ffacf014d3ed59"
+    },
+    "Mare.pkg": {
+      "bytes": 2754323472,
+      "sha256": "a6e566e0486f8dda34f92fab61387335b73d59cebc4cd7a9d55c99ce1829567b"
+    }
+  },
+  "translatedEntries": 28,
+  "totalVisibleEntries": 2556,
+  "inGameVerified": false,
+  "source": {
+    "Mare.hed": {
+      "bytes": 64768,
+      "sha256": "1e5e8fb26cf0eb52e2c37a542bc3218fcf3c48b286c8495109af73c3777e420f"
+    },
+    "Mare.pkg": {
+      "bytes": 2750086080,
+      "sha256": "5a3a20283ce7dd2edcd9c96a898c4a6d00c03d5592f3e06f3caaafb7e32980b1"
+    }
+  },
+  "target": {
+    "Mare.hed": {
+      "bytes": 64768,
+      "sha256": "f43b48a65f1c676ebe0e296fce6c71f9e89aca22a906ae9b521195475b211a2c"
+    },
+    "Mare.pkg": {
+      "bytes": 2754521408,
+      "sha256": "fc4182833b076a731a16d4f0c53871182f626a9715bc95b0df7fc1425d37f5a7"
+    }
+  },
+  "tail": {
+    "bytes": 4435328,
+    "sha256": "a0f304215fdac6c8e552a549d35e1f456d1fb9adceb442e053c8265aa2200905"
+  },
+  "delta": {
+    "file": "tail.gz",
+    "bytes": 4435328,
+    "sha256": "548c95cb20fa731af82d5cf40b77f1592066f3086b6bae78419a2fff380d806c",
+    "baseSegments": [
+      {
+        "sourceOffset": 2524357744,
+        "tailOffset": 0,
+        "bytes": 7488
+      },
+      {
+        "sourceOffset": 2524374592,
+        "tailOffset": 7952,
+        "bytes": 7840
+      },
+      {
+        "sourceOffset": 2524382432,
+        "tailOffset": 16544,
+        "bytes": 142528
+      },
+      {
+        "sourceOffset": 2553306592,
+        "tailOffset": 160320,
+        "bytes": 7792
+      },
+      {
+        "sourceOffset": 2558108240,
+        "tailOffset": 168800,
+        "bytes": 9712
+      },
+      {
+        "sourceOffset": 2558117984,
+        "tailOffset": 178512,
+        "bytes": 4195408
+      },
+      {
+        "sourceOffset": 2699146752,
+        "tailOffset": 4373920,
+        "bytes": 32272
+      },
+      {
+        "sourceOffset": 2699724720,
+        "tailOffset": 4406192,
+        "bytes": 29136
+      }
+    ]
+  },
+  "hedChanges": [
+    {
+      "offset": 56896,
+      "before": "9bda7e1df150aeca99a36c50555e174b70a4769600000000401d0000301d0000",
+      "after": "9bda7e1df150aeca99a36c50555e174bc0fbeaa300000000101f0000001f0000"
+    },
+    {
+      "offset": 56960,
+      "before": "7e0c16f57a1c54669773dcfed6b8faac40e6769600000000a01e0000901e0000",
+      "after": "7e0c16f57a1c54669773dcfed6b8faacd01aeba3000000009021000080210000"
+    },
+    {
+      "offset": 56992,
+      "before": "b5df63e5eaa2de34f62c18c1571859cce004779600000000c02c0200b02c0200",
+      "after": "b5df63e5eaa2de34f62c18c1571859cc603ceba300000000a031020090310200"
+    },
+    {
+      "offset": 62528,
+      "before": "48186339384a4fed41162ba33aad7fa1e05d309800000000701e0000601e0000",
+      "after": "48186339384a4fed41162ba33aad7fa1006eeda3000000002021000010210000"
+    },
+    {
+      "offset": 63904,
+      "before": "65e67a2bc470c69308f8b095546483b350a2799800000000f0250000e0250000",
+      "after": "65e67a2bc470c69308f8b095546483b3208feda300000000f0250000e0250000"
+    },
+    {
+      "offset": 63968,
+      "before": "9bce45633273cae1f91c77dadb09aadb60c87998000000005004400040044000",
+      "after": "9bce45633273cae1f91c77dadb09aadb10b5eda3000000005004400040044000"
+    },
+    {
+      "offset": 64288,
+      "before": "9a361c82a283d22f07c862e0373e3f3700b6e1a000000000607f0000507f0000",
+      "after": "9a361c82a283d22f07c862e0373e3f3760b92da400000000107e0000007e0000"
+    },
+    {
+      "offset": 64544,
+      "before": "aee77b862dfab7ba1c7cd1d681b6e231b087eaa0000000003072000020720000",
+      "after": "aee77b862dfab7ba1c7cd1d681b6e23170372ea400000000d0710000c0710000"
+    }
+  ]
+}

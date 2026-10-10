@@ -1,0 +1,9 @@
+# Translation contract
+
+Target: fluent Modern Standard Arabic subtitles faithful to the ORIGINAL English CTD text, without invented implications, censorship or added explanation. Read neighbouring lines for context, speaker gender and story.
+
+Use KH2 terms: Roxas روكساس; Axel آكسل; Xemnas زيمناس; Xion شيون; Saix/Saïx سايكس; Xigbar زيغبار; Xaldin زالدين; Vexen فيكسن; Zexion زيكسيون; Lexaeus ليكساوس; Demyx ديميكس; Luxord لوكسورد; Marluxia مارلوكسيا; Larxene لارزين; Naminé ناميني; Sora سورا; Riku ريكو; Kairi كايري; DiZ ديز; Xehanort زيهانورت. Keyblade كيبلايد; Heartless بلا قلب; Nobody/Nobodies اللا أحد; Kingdom Hearts كينغدوم هارتس; Castle Oblivion قلعة النسيان; Twilight Town بلدة الشفق; Organization XIII المنظمة الثالثة عشرة (KH2's custom numeral glyph is unavailable here); sea-salt ice cream مثلجات ملح البحر. Adapt grammar around fixed terms naturally.
+
+Use Arabic punctuation ؟ ، ؛, no vowel marks or tatweel. Keep ASCII numbers. Preserve ALL {tags} exactly and in order, and preserve the source newline count. Long diary lines may be reflowed within that count later by builder. Preserve index/id/file/English exactly. Do not deduplicate dialogue by text.
+
+Each file: translate every row, then conduct REVIEW 1 against original English for omitted/invented meaning, pronouns, negation, tense, names. Record exact corrected IDs, unresolved uncertainties and row count. REVIEW 2 will be performed independently by another reviewer against source after handoff. Do not mark a review complete without reading every row.

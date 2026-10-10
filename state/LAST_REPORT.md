@@ -1,3 +1,3 @@
-round: DAYS-DAY7-V020
+round:DAYS-STORY-V030
 
-Day7 selected by user.0.1 installed hashes verified; originals safe in backup. Added4 missing Xemnas welcome lines, completing8/8 Day7 dialogue. Both CTD and inline XML updated; timing preserved.10 installer tests pass. No live installation or game launch. Full-size copy upgrade/restore PASS, hashes verified and live0.1 unchanged. GitHubActions37934072172 all3 jobsSUCCESS. Ten tests pass on Windows andLinux. v0.2.0 published, allpublic download hashesverified. Actualgame display remainsuser verification gate.
+Reached63.224% reviewed text coverage (1616/2556) and installed0.3.0 after verified full-size copy upgrade/restore. Original backups remain byte-identical. Same IBM Plex Sans Arabic Medium as KH2FM, lighter outline and Plex punctuation/spacing. Two independent source-English reviews for every included row. Eleven installer tests pass. No movie encoding or game launch. User screenshot confirms0.2 Arabic only; new0.3 font rendering still needs human verification. CI/release publication pending.

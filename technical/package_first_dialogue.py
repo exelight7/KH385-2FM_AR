@@ -9,7 +9,7 @@ import subprocess
 from original_archive import original_archive
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "out/first-dialogue"
+OUT = Path(os.environ.get('DAYS_BUILD_DIR', str(ROOT / "out/first-dialogue")))
 GAME = original_archive()
 IDXIMG = Path(os.environ.get("OPENKH_IDXIMG", str(ROOT / "technical/tools/OpenKh.Command.IdxImg.exe")))
 

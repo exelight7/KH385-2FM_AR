@@ -1,0 +1,143 @@
+{
+  "pass": 2,
+  "version": "0.3.0",
+  "reviewer": "day7_trace / story_a",
+  "independent": true,
+  "status": "complete",
+  "method": "Read every original English/Arabic pair in cthd100 and cthd300 with surrounding dialogue and narrative paragraphs. Reviewed fidelity, natural Modern Standard Arabic, pronouns, negation, tense, identity references and glossary. Made individually authored Arabic corrections directly in the current release files; did not recopy drafts.",
+  "files": {
+    "cthd100": {
+      "reviewedRows": 444,
+      "correctedIds": [
+        "02350300",
+        "02369000",
+        "023fa000",
+        "02400900",
+        "02409300",
+        "02421900",
+        "02429a00",
+        "0242a200",
+        "02460100"
+      ],
+      "unresolved": [],
+      "sha256Before": "20370c50e5bb12429b904587d73c650bcaf59420a8f05b6bed17f0c578f1690f",
+      "sha256": "155445a7e4079039c8891e279cc406e42166f607c297257a8a9df06fe69f5d0a",
+      "outputCanonicalSha256": "ef063756b01c734fa11326753b1a1025b3a8f0ab5a90b1e632b61c8195dbbb6a"
+    },
+    "cthd300": {
+      "reviewedRows": 46,
+      "correctedIds": [
+        "02a38000",
+        "02a68001"
+      ],
+      "unresolved": [],
+      "sha256Before": "86cebb6682cd02045032a4661256066cb2db15e709afbfc5f4c2bea74924a7bc",
+      "sha256": "e4a4808cb762d0f552c7ace79439327157885aeffb7199a56af5d30e9d9dcf1c",
+      "outputCanonicalSha256": "afd96657b0092902ac571ebcd00513f47b3cbc5aaddca0422dfcd91c2a6ebc6e"
+    }
+  },
+  "totalReviewedRows": 490,
+  "totalCorrectedRows": 11,
+  "corrections": [
+    {
+      "file": "cthd100",
+      "id": "02350300",
+      "index": 10,
+      "before": "شيون عضو نقدر وجوده\nفي المنظمة،",
+      "after": "شيون عضوة قيمة\nفي المنظمة،",
+      "reason": "Natural feminine agreement for Xion as a valued member."
+    },
+    {
+      "file": "cthd100",
+      "id": "02369000",
+      "index": 43,
+      "before": "سورا من الاستيقاظ إلى الأبد.",
+      "after": "سورا من أن يستيقظ أبدا.",
+      "reason": "Makes the scope of ever waking unambiguous after the preceding prevent clause."
+    },
+    {
+      "file": "cthd100",
+      "id": "023fa000",
+      "index": 227,
+      "before": "فلن تبقى على طبيعتك.",
+      "after": "فلن تبقى أنت كما أنت.",
+      "reason": "Preserves the threatened loss of identity rather than a change of temperament."
+    },
+    {
+      "file": "cthd100",
+      "id": "02400900",
+      "index": 246,
+      "before": "ستعرفين حين ترينها. لا أظن\nأنك ستجدين صعوبة في العثور عليها.",
+      "after": "ستعرفين. لا أظن\nأنك ستجدين صعوبة في العثور عليها.",
+      "reason": "Removes the added circumstance when you see her."
+    },
+    {
+      "file": "cthd100",
+      "id": "02409300",
+      "index": 270,
+      "before": "فيمكننا التأكد من أنها\nلن تؤثر في خططنا بعد الآن.",
+      "after": "فمن المؤكد أنها\nلن تؤثر في خططنا بعد الآن.",
+      "reason": "Preserves certainty rather than the ability to check."
+    },
+    {
+      "file": "cthd100",
+      "id": "02421900",
+      "index": 398,
+      "before": "اكتشاف الحقيقة\nلا تكون عاقبته خيرا دائما.",
+      "after": "اكتشاف الحقيقة لا يؤدي\nدائما إلى أفضل النتائج.",
+      "reason": "Natural Fusha for finding out the truth not always working out for the best."
+    },
+    {
+      "file": "cthd100",
+      "id": "02429a00",
+      "index": 443,
+      "before": "ليس هناك ببساطة",
+      "after": "ليس هناك ببساطة أي شيء آخر",
+      "reason": "Redistributes the complete sentence across adjacent subtitle fragments without changing meaning."
+    },
+    {
+      "file": "cthd100",
+      "id": "0242a200",
+      "index": 444,
+      "before": "أي شيء آخر أستطيع فعله.",
+      "after": "أستطيع فعله.",
+      "reason": "Keeps I can do as the short continuation of the preceding subtitle; meaning retained across both rows."
+    },
+    {
+      "file": "cthd100",
+      "id": "02460100",
+      "index": 459,
+      "before": "وما أهمية ذلك؟\nأنا هنا من أجلك.",
+      "after": "وما أهمية ذلك؟\nأنت سبب مجيئي.",
+      "reason": "In this confrontation Riku came for Roxas; avoids the supportive implication of أنا هنا من أجلك."
+    },
+    {
+      "file": "cthd300",
+      "id": "02a38000",
+      "index": 34,
+      "before": "[BGTRANS:tz225a.tm2]رحلت شيون محبطة دون\nأن تأكل مثلجاتها.\n\nسأل روكساس آكسل إن كانت بخير، لكنه\nتلقى جوابا ينم عن عدم الاكتراث.\n\nتساءل روكساس إن كانت ستتحسن\nحالتها لو ذهب ثلاثتهم إلى\nالشاطئ معا، كما وعدوا\nبعضهم في ذلك اليوم.",
+      "after": "[BGTRANS:tz225a.tm2]رحلت شيون محبطة دون\nأن تأكل مثلجاتها.\n\nسأل روكساس آكسل إن كانت بخير، لكنه\nتلقى جوابا ينم عن عدم الاكتراث.\n\nتساءل روكساس إن كانت ستتحسن\nحالتها لو ذهب ثلاثتهم إلى\nالشاطئ معا، كما وعدوا\nبعضهم في يوم سابق.",
+      "reason": "The other day is an unspecified earlier day."
+    },
+    {
+      "file": "cthd300",
+      "id": "02a68001",
+      "index": 44,
+      "before": "[BGTRANS:tz352b.tm2]لكن ضربته توقفت على\nصوت اصطدام المعدن.\n\nكان آكسل هناك، يصد الكيبلايد الخاص بروكساس\nوالكيبلايد الخاص بشيون معا. فقد كانا\nيتقاتلان طوال الوقت، وكل منهما\nيظن الآخر أحد مخلوقات بلا قلب.\n\nوكشف آكسل لهما حقيقة\nهذه المهمة التي دبرت\nليقاتل أحدهما الآخر.",
+      "after": "[BGTRANS:tz352b.tm2]لكن ضربته لم تكتمل، ودوى\nصوت اصطدام المعدن.\n\nكان آكسل هناك، يصد الكيبلايد الخاص بروكساس\nوالكيبلايد الخاص بشيون معا. فقد كانا\nيتقاتلان طوال الوقت، وكل منهما\nيظن الآخر أحد مخلوقات بلا قلب.\n\nوكشف آكسل لهما حقيقة\nهذه المهمة التي دبرت\nليقاتل أحدهما الآخر.",
+      "reason": "Naturalizes the interrupted strike accompanied by the sound of clashing metal."
+    }
+  ],
+  "unresolved": [],
+  "checks": {
+    "originalSourceFieldsPreserved": true,
+    "draftMetadataPreserved": true,
+    "newlineCountsPreserved": true,
+    "blankLinePositionsPreserved": true,
+    "curlyAndSquareTagOrderPreserved": true,
+    "tagParagraphPositionsPreserved": true,
+    "noVowelMarksOrTatweel": true
+  },
+  "runtimeVisualVerificationPerformed": false,
+  "canonicalHashDefinition": "SHA256 of UTF-8 text with CRLF normalized to LF. Existing reviewer hashes retain raw Windows bytes at review time."
+}

@@ -1,0 +1,154 @@
+{
+  "pass": 2,
+  "reviewer": "story_b",
+  "status": "complete",
+  "files": {
+    "cthd800": {
+      "reviewedRows": 298,
+      "correctedIds": [
+        "03911900",
+        "03918000",
+        "03918200",
+        "03990200",
+        "03990900",
+        "03990e00",
+        "039a8400",
+        "039c8400",
+        "039e0c00",
+        "039e1300",
+        "03a08a00",
+        "03a28000",
+        "03a40000",
+        "03a40200",
+        "03a70100"
+      ],
+      "unresolved": [],
+      "sourceSha256": "11ddf458b38405649b0c974ba79472f82685bc6ea2db030a26aee2679aff032c",
+      "inputSha256": "e2ab57efadd54cd267f95c18c33ecfa2e9b5601c923060fe53b24c54fc155941",
+      "outputSha256": "ec4c6cf8a609ab02ff54410c9c29afac2fb92ef1a035a79519847f6c1bc9a9d1",
+      "corrections": [
+        {
+          "id": "03911900",
+          "index": 27,
+          "before": "أما زلت تتذكر؟",
+          "after": "أما زلت تحفظ ذلك؟",
+          "reason": "Preserve Axel recurring memorized catchphrase rather than generic remembering."
+        },
+        {
+          "id": "03918000",
+          "index": 47,
+          "before": "بشراكم يا أصدقائي.\nاليوم يوم عظيم.",
+          "after": "بشرى سارة يا أصدقائي.\nاليوم يوم عظيم.",
+          "reason": "Natural formal announcement for Good tidings, friends."
+        },
+        {
+          "id": "03918200",
+          "index": 49,
+          "before": "العضو رقم XIV.",
+          "after": "العضو الرابع عشر.",
+          "reason": "Render Number XIV naturally and consistently with chapter title; retains fourteen."
+        },
+        {
+          "id": "03990200",
+          "index": 100,
+          "before": "اليوم يكتمل 255 يوما.",
+          "after": "مر حتى اليوم 255 يوما.",
+          "reason": "Correct awkward Arabic count construction while retaining exact elapsed-day count."
+        },
+        {
+          "id": "03990900",
+          "index": 109,
+          "before": "لكن، هيا، ما زلت تشبه الميت الحي قليلا.",
+          "after": "لكن، بحقك، ما زلت أشبه بميت حي.",
+          "reason": "Translate teasing come on idiom as emphasis, not literal invitation to move."
+        },
+        {
+          "id": "03990e00",
+          "index": 114,
+          "before": "وكأنني سألتك! يا مدعي المعرفة.",
+          "after": "وكأنني سألتك! يا من تعرف كل شيء.",
+          "reason": "Preserve sarcastic know-it-all jab without broad false-knowledge accusation."
+        },
+        {
+          "id": "039a8400",
+          "index": 123,
+          "before": "ولماذا سأعرف؟",
+          "after": "وما الذي يجعلني أعرف؟",
+          "reason": "Rhetorical why-would-I-know is not a future prediction."
+        },
+        {
+          "id": "039c8400",
+          "index": 148,
+          "before": "إن عدت طوعا، فسيتجاوز سايكس\nعن كل هذا. لا بد له من ذلك.",
+          "after": "إن عدت طوعا، فسيتغاضى سايكس\nعن كل هذا. لا بد له من ذلك.",
+          "reason": "Natural Arabic collocation for letting the matter drop."
+        },
+        {
+          "id": "039e0c00",
+          "index": 178,
+          "before": "الأمر فقط... أنني أتذكر\nأشياء عنهما.",
+          "after": "كل ما في الأمر... أنني أتذكر\nأشياء عنهما.",
+          "reason": "Replace literal awkward it is just construction with fluent Fusha."
+        },
+        {
+          "id": "039e1300",
+          "index": 186,
+          "before": "إذن، تقصد... أنني أشبه بجزء منه؟",
+          "after": "إذن، تقصد... أنني جزء منه، نوعا ما؟",
+          "reason": "Preserve like/a-part hedge without implying visual resemblance to a part."
+        },
+        {
+          "id": "03a08a00",
+          "index": 250,
+          "before": "فهذا يعني أنني أوشكت على الاستعداد.\nسيتعين على هذه الدمية أداء دورها.",
+          "after": "فهذا يعني أنني أوشكت أن أكون مستعدة.\nسيتعين على هذه الدمية أداء دورها.",
+          "reason": "Almost ready means nearing readiness, not about to begin preparing."
+        },
+        {
+          "id": "03a28000",
+          "index": 259,
+          "before": "لماذا!؟",
+          "after": "لماذا؟!",
+          "reason": "Use Arabic question/exclamation punctuation order."
+        },
+        {
+          "id": "03a40000",
+          "index": 282,
+          "before": "ديز... لقد استطاع الشعور بسورا.",
+          "after": "يا ديز... لقد استطاع الشعور بسورا.",
+          "reason": "Clarify DiZ is being addressed, while he refers to Roxas; avoids making DiZ the feeling subject."
+        },
+        {
+          "id": "03a40200",
+          "index": 285,
+          "before": "لا يستطيع اللا أحد الشعور بشيء.",
+          "after": "لا يمكن لأي من اللا أحد أن يشعر بشيء.",
+          "reason": "Express singular a Nobody clearly within locked collective term."
+        },
+        {
+          "id": "03a70100",
+          "index": 304,
+          "before": "لم أتوقع يوما أن تتساءل عن ذلك.",
+          "after": "لم أتوقع يوما أن تشكك في ذلك.",
+          "reason": "Question it here means doubt/challenge the decision, not merely ask about it."
+        }
+      ],
+      "outputCanonicalSha256": "ec4c6cf8a609ab02ff54410c9c29afac2fb92ef1a035a79519847f6c1bc9a9d1"
+    }
+  },
+  "method": "Independently read all 298 original-English/Arabic pairs in source order with adjacent dialogue context, including opening, borrowed-memory visions, Riku/Xion conversation, confrontation, farewell, and framing scenes. Checked meaning, omissions/additions, negation, speaker/address pronouns, name consistency, idioms and formal subtitle register. No review-complete claim was generated from automated matching.",
+  "checks": {
+    "sourceMetadataExact": true,
+    "rowCountExact": true,
+    "newlineCountsExact": true,
+    "blankPositionsExact": true,
+    "orderedTagsExact": true,
+    "noVowelMarksOrTatweel": true
+  },
+  "notes": [
+    "Source lower-case nobody wordplay at 03968a00 retained as نكرة; upper-case Nobody class terminology elsewhere retained as اللا أحد.",
+    "Scientific dialogue about red light at 03990d00 translated faithfully from the game rather than rewritten.",
+    "No installation, launch, build or publication performed."
+  ],
+  "canonicalHashDefinition": "SHA256 of UTF-8 text with CRLF normalized to LF. Existing reviewer hashes retain raw Windows bytes at review time."
+}

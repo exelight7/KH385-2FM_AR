@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "installed_archive_hashes_match_release": true,
+  "original_pkg_prefix_byte_identical": true,
+  "changed_archive_paths": [
+    "uk/message/en/event/hd/bin/cthd000.ctd",
+    "uk/message/en/event/hd/bin/cthd800.ctd",
+    "uk/font/eventfont.cod",
+    "uk/font/eventfont.tm2",
+    "uk/event/en/hd/hd000/hd000.exia2",
+    "uk/event/en/hd/hd003/hd003.exia2",
+    "uk/event/en/hd/hd004/hd004.exia2",
+    "uk/event/en/hd/hd803/hd803.exia2"
+  ],
+  "unmodified_hed_records": 2016,
+  "movie_files_written_by_installer": [],
+  "movie_reencoding_in_pipeline": false,
+  "visual_quality_cause_confirmed": false,
+  "limit": "No before/after full-frame movie comparison supplied. User has not tested the same scene after uninstall."
+}

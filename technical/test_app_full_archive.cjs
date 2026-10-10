@@ -26,14 +26,14 @@ const original = 'C:/Program Files (x86)/Steam/steamapps/common/KINGDOM HEARTS -
   for (const n of Object.keys(m.target)) {
     if (await hash(path.join(image, n)) !== m.target[n].sha256) throw Error('Fixture install mismatch');
   }
-  checks.push('full-size upgrade from live 0.1.0 copy matches verified 0.2.0 archive');
+  checks.push(`full-size upgrade from live previous-release copy matches verified ${m.version} archive`);
   await operate({folder: scratch, patchDir, action: 'uninstall', progress});
   for (const n of Object.keys(m.source)) {
     if (await hash(path.join(image, n)) !== m.source[n].sha256) throw Error('Fixture restore mismatch');
     if (await hash(path.join(original, n)) !== liveHashes[n]) throw Error('Live game changed');
   }
-  checks.push('full-size uninstall restores byte-identical originals', 'live game 0.1.0 hashes unchanged');
-  await fs.writeFile(path.join(root, 'out/apps/full-archive-verification.json'), JSON.stringify({date: new Date().toISOString(), version: m.version, translatedEntries: m.translatedEntries, checks, liveHashes, gameInstalled: false, inGameVerified: false}, null, 2));
+  checks.push('full-size uninstall restores byte-identical originals', 'live game hashes unchanged');
+  await fs.writeFile(path.join(root, 'out/apps/full-archive-verification.json'), JSON.stringify({date: new Date().toISOString(), version: m.version, translatedEntries: m.translatedEntries, testedArchiveTarget: m.target, patchDeltaSha256: m.delta.sha256, checks, liveHashes, gameInstalled: false, inGameVerified: false}, null, 2));
   // mkdtemp created this exact disposable directory within technical/.
   if (path.dirname(scratch) !== __dirname || !path.basename(scratch).startsWith('installer-e2e-')) throw Error('Unexpected cleanup target');
   await fs.rm(scratch, {recursive: true, force: true});

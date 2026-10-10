@@ -1,3 +1,5 @@
 # Days Arabic
 
-0.2.0 targets Day7 Number XIV:8/8 dialogue rows;28 cumulative. Live remains user-installed0.1.0; real-game rendering unverified. Sourceoftruth: PROJECT_STATE.md. Public repo: https://github.com/exelight7/KH385-2FM_AR.
+0.3.0 milestone:1616/2556 text records (63.224%), two independent full reviews, IBM Plex Sans Arabic Medium from KH2FM. Installed in the live game with verified original backups. New font rendering awaits human screenshot; menus/diaries/image titles remain English. Source of truth:PROJECT_STATE.md and PROJECT_PROGRESS.json.
+
+Public repository:https://github.com/exelight7/KH385-2FM_AR. CI/release publication is tracked separately from installation.

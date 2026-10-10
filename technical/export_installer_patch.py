@@ -3,12 +3,13 @@ import gzip
 import hashlib
 import json
 import struct
+import os
 from pathlib import Path
 import numpy as np
 from original_archive import original_archive
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'out/first-dialogue'
+OUT = Path(os.environ.get('DAYS_BUILD_DIR', str(ROOT / 'out/first-dialogue')))
 GAME = original_archive()
 
 
@@ -46,9 +47,11 @@ def main():
     segments.sort(key=lambda x: x['tailOffset'])
     compressed = gzip.compress(delta, compresslevel=9, mtime=0)
     (dest / 'tail.gz').write_bytes(compressed)
-    previous = json.loads((ROOT / 'technical/verification/v0.1.0-manifest.json').read_text())['target']
-    manifest = {'format': 2, 'version': '0.2.0', 'title': 'KINGDOM HEARTS 358/2 Days', 'day': 7,
-                'previous': previous,
+    previous = json.loads((ROOT / 'technical/verification/v0.2.0-manifest.json').read_text(encoding='utf-8'))['target']
+    legacy = json.loads((ROOT / 'technical/verification/v0.1.0-manifest.json').read_text(encoding='utf-8'))['target']
+    version = json.loads((ROOT / 'installer/package.json').read_text(encoding='utf-8'))['version']
+    manifest = {'format': 2, 'version': version, 'title': 'KINGDOM HEARTS 358/2 Days',
+                'previous': previous, 'legacy': legacy,
                 'translatedEntries': translation['changed_messages'], 'totalVisibleEntries': 2556,
                 'inGameVerified': False, 'source': source, 'target': target,
                 'tail': {'bytes': len(tail), 'sha256': hashlib.sha256(tail).hexdigest()},

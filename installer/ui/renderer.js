@@ -11,7 +11,7 @@ async function operate(action) {
   try {
     const r = await window.days.operate($('folder').value.trim(), action);
     if (!r.ok) return status(r.error, 'error');
-    const message = action === 'install' ? 'تم تثبيت اليوم السابع. أعد تشغيل اللعبة، واختر English ثم Chapter → Number XIV (Day 7).' : 'تم إلغاء التعريب واسترجاع ملفات اللعبة الأصلية.';
+    const message = action === 'install' ? 'تم تثبيت حوارات القصة والمقدمة (63.2%). أعد تشغيل اللعبة واختر English للنص.' : 'تم إلغاء التعريب واسترجاع ملفات اللعبة الأصلية.';
     status(r.status === 'unchanged' ? (action === 'install' ? 'هذه الدفعة مثبتة بالفعل.' : 'ملفات اللعبة أصلية بالفعل.') : message, 'success');
   } catch (e) { status('تعذر إكمال العملية: ' + e.message, 'error'); }
   finally { busy(false); }
@@ -21,6 +21,7 @@ $('uninstall').onclick = () => operate('uninstall');
 window.days.initial().then(info => {
   $('folder').value = info.folder; $('version').textContent = info.version;
   $('count').textContent = info.count; $('total').textContent = info.total;
+  document.querySelector('.translation-track i').style.width = (100 * info.count / info.total) + '%';
   $('found').textContent = info.folder ? 'تم العثور على نسخة Steam' : 'اختر مجلد Steam يدويًا';
   if (info.uninstall) { $('install').className = 'secondary'; $('uninstall').className = 'primary'; status('اضغط «إلغاء التعريب» لاسترجاع النسخة الأصلية.'); }
 }).catch(e => { status('تعذر قراءة الحزمة: ' + e.message, 'error'); busy(true); });

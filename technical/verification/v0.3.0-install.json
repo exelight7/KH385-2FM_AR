@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-10T04:08:23.301Z",
+  "version": "0.3.0",
+  "translatedEntries": 1616,
+  "totalVisibleEntries": 2556,
+  "translatedPercent": 63.224,
+  "installed": true,
+  "inGameVerified": false,
+  "gameLaunched": false,
+  "before": {
+    "Mare.hed": "f43b48a65f1c676ebe0e296fce6c71f9e89aca22a906ae9b521195475b211a2c",
+    "Mare.pkg": "fc4182833b076a731a16d4f0c53871182f626a9715bc95b0df7fc1425d37f5a7"
+  },
+  "after": {
+    "Mare.hed": "6ea392f61abacf37b9b442d661d30227812ecbc6f0365a5f7b0bda3b9ce9ae6f",
+    "Mare.pkg": "ed99f88be70db700c98227c9dc012bfddc23ea688049a7c19e15f582537991e4"
+  },
+  "originalBackup": {
+    "Mare.hed": "1e5e8fb26cf0eb52e2c37a542bc3218fcf3c48b286c8495109af73c3777e420f",
+    "Mare.pkg": "5a3a20283ce7dd2edcd9c96a898c4a6d00c03d5592f3e06f3caaafb7e32980b1"
+  },
+  "result": {
+    "status": "complete",
+    "action": "install",
+    "folder": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\KINGDOM HEARTS -HD 1.5+2.5 ReMIX-"
+  }
+}

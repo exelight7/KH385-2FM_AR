@@ -1,0 +1,324 @@
+[
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 0,
+    "id": "02968000",
+    "english": "[BGTRANS:tz008b.tm2]Roxas completed his first mission.\n\nAxel took Roxas to a special place instead\nof returning straight to the castle.",
+    "arabic": "[BGTRANS:tz008b.tm2]أتم روكساس مهمته الأولى.\n\nوبدلا من العودة مباشرة إلى القلعة،\nأخذه آكسل إلى مكان مميز."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 1,
+    "id": "02970000",
+    "english": "[BGTRANS:tz009a.tm2]Roxas learned of the Heartless during\nhis mission. [WAIT:60]\n\n[BGTRANS:tz009b.tm2]Marluxia, who accompanied Roxas\non his mission, explained how hearts\nappear when a Heartless is defeated.\nHe also explained that the Organization\nseeks to collect released hearts to\ncomplete Kingdom Hearts, and that Roxas,\nas a Keyblade wielder, is the only one\ncapable of completing this mission.",
+    "arabic": "[BGTRANS:tz009a.tm2]تعرف روكساس على مخلوقات\nبلا قلب خلال مهمته. [WAIT:60]\n\n[BGTRANS:tz009b.tm2]شرح مارلوكسيا، الذي رافق روكساس\nفي مهمته، كيف تظهر القلوب عند\nهزيمة أحد مخلوقات بلا قلب. وشرح\nأيضا أن المنظمة تسعى إلى جمع\nالقلوب المتحررة لإكمال كينغدوم\nهارتس، وأن روكساس، بصفته حاملا\nللكيبلايد، هو الوحيد القادر\nعلى إنجاز هذه المهمة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 2,
+    "id": "02978000",
+    "english": "[BGTRANS:tz010a.tm2]Organization members seek to become\nwhole by assimilating with Kingdom Hearts.\n\nZexion explained how Nobodies lack\nhearts and are therefore incomplete\nand desire ones of their own.",
+    "arabic": "[BGTRANS:tz010a.tm2]يسعى أعضاء المنظمة إلى أن يصبحوا كاملين\nبالاتحاد مع كينغدوم هارتس.\n\nشرح زيكسيون أن اللا أحد يفتقرون\nإلى القلوب، ولذلك فهم ناقصون ويتوقون\nإلى امتلاك قلوب خاصة بهم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 3,
+    "id": "02980000",
+    "english": "[BGTRANS:tz011a.tm2]Larxene, who accompanied Roxas on\nhis mission, seemed displeased with him\nfor being a Keyblade wielder.\n\nShe instructed Roxas on how to fight\nwithout using the Keyblade.\n\nBy training without the Keyblade, Roxas\nonce again realized its efficacy, but the\nquestion of why he alone can wield it\ndeepens.",
+    "arabic": "[BGTRANS:tz011a.tm2]بدت لارزين، التي رافقت روكساس\nفي مهمته، مستاءة منه لكونه\nحاملا للكيبلايد.\n\nعلمت روكساس كيف يقاتل دون\nاستخدام الكيبلايد.\n\nوبالتدرب من دونه، أدرك روكساس\nمجددا مدى فعاليته، لكن\nتساؤله عن سبب قدرته وحده\nعلى حمله ازداد عمقا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 4,
+    "id": "02988000",
+    "english": "[BGTRANS:tz012a.tm2]While carrying out a reconnaissance\nmission together, Vexen informed Roxas\nthat there are other worlds, and one\nmust be aware of each world's own\nunique rules and features.",
+    "arabic": "[BGTRANS:tz012a.tm2]أثناء قيامهما بمهمة استطلاع\nمعا، أخبر فيكسن روكساس\nبوجود عوالم أخرى، وبضرورة\nمعرفة القواعد والخصائص\nالفريدة لكل عالم."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 5,
+    "id": "02990000",
+    "english": "[BGTRANS:tz013a.tm2]Lexaeus exhorted Roxas to rely only on\nhis own strength during missions.\n\nRoxas had simply followed the\nOrganization's orders up to that point,\nbut he began to realize that his ability to\nwield the Keyblade was his strength and\nsomething that only he could do.",
+    "arabic": "[BGTRANS:tz013a.tm2]حث ليكساوس روكساس على الاعتماد\nعلى قوته وحدها خلال المهمات.\n\nحتى ذلك الحين، كان روكساس ينفذ\nأوامر المنظمة فحسب، لكنه بدأ\nيدرك أن قدرته على حمل الكيبلايد\nهي مكمن قوته، وأنها قدرة\nينفرد بها وحده."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 6,
+    "id": "02990001",
+    "english": "Lexaeus informed Roxas that he is vital\nto the Organization.",
+    "arabic": "أخبر ليكساوس روكساس بأنه\nلا غنى للمنظمة عنه."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 7,
+    "id": "02998000",
+    "english": "[BGTRANS:tz015a.tm2]Roxas executed his missions without much\nthought. [WAIT:60]\n[BGTRANS:tz015b.tm2][WAIT:60]\n[BGTRANS:tz015c.tm2]",
+    "arabic": "[BGTRANS:tz015a.tm2]نفذ روكساس مهامه دون\nكثير من التفكير. [WAIT:60]\n[BGTRANS:tz015b.tm2][WAIT:60]\n[BGTRANS:tz015c.tm2]"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 8,
+    "id": "029a0000",
+    "english": "[BGTRANS:tz023b.tm2]Roxas received orders to carry out a\nmission with Xion.\n\nXion, hooded and hiding any facial\nexpression, spoke not a word throughout\nthe mission.",
+    "arabic": "[BGTRANS:tz023b.tm2]تلقى روكساس أوامر بتنفيذ\nمهمة مع شيون.\n\nكانت شيون ترتدي غطاء رأس\nيخفي تعابير وجهها، ولم تنطق\nبكلمة طوال المهمة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 9,
+    "id": "029a8000",
+    "english": "[BGTRANS:tz051a.tm2]The whereabouts of the members who\nwere sent to Castle Oblivion were still\nunknown.\n\nRoxas received a solo mission.",
+    "arabic": "[BGTRANS:tz051a.tm2]ظل مكان الأعضاء الذين\nأرسلوا إلى قلعة\nالنسيان مجهولا.\n\nوتلقى روكساس مهمة ينفذها بمفرده."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 10,
+    "id": "029b0000",
+    "english": "[BGTRANS:tz052a.tm2]Roxas carried out his daily missions alone. [WAIT:60]\n[BGTRANS:tz052b.tm2][WAIT:60]\n[BGTRANS:tz052c.tm2]",
+    "arabic": "[BGTRANS:tz052a.tm2]نفذ روكساس مهامه اليومية وحده. [WAIT:60]\n[BGTRANS:tz052b.tm2][WAIT:60]\n[BGTRANS:tz052c.tm2]"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 11,
+    "id": "029b8000",
+    "english": "[BGTRANS:tz073a.tm2]Roxas worried over having not seen Xion\nin over ten days.\n\nThey had yet to fulfill their promise of\nhaving ice cream together with Axel.",
+    "arabic": "[BGTRANS:tz073a.tm2]قلق روكساس لأنه لم ير شيون\nمنذ أكثر من عشرة أيام.\n\nولم يكونا قد وفيا بعد بوعدهما\nبتناول المثلجات مع آكسل."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 12,
+    "id": "029c0000",
+    "english": "[BGTRANS:tz075a.tm2]Roxas and Xion went on a mission\ntogether like Axel suggested.\n\nRoxas met Aladdin's friend Genie during\nhis mission. When Genie attempted to\nmagically repair the damage from the\nsandstorm, Roxas informed him that\nAladdin had said he wanted to rebuild\nthe town without relying on magic.",
+    "arabic": "[BGTRANS:tz075a.tm2]ذهب روكساس وشيون في مهمة\nمعا كما اقترح آكسل.\n\nوخلال مهمته، التقى روكساس بالجني،\nصديق علاء الدين. وحين حاول الجني\nإصلاح أضرار العاصفة الرملية بالسحر،\nأخبره روكساس بأن علاء الدين\nقال إنه يريد إعادة بناء البلدة\nدون الاعتماد على السحر."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 13,
+    "id": "029c0001",
+    "english": "Genie respected his friend's resolve and\ndecided against using his powers.\n\nRoxas reflected on the idea of a friend's\nresolve.",
+    "arabic": "احترم الجني عزيمة صديقه\nوقرر ألا يستخدم قواه.\n\nوأخذ روكساس يتأمل معنى\nعزيمة الصديق."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 14,
+    "id": "029c8000",
+    "english": "[BGTRANS:tz095a.tm2]Roxas and Xion went to the usual spot.\n\nThey had begun to get used to going on\nmissions together.",
+    "arabic": "[BGTRANS:tz095a.tm2]ذهب روكساس وشيون إلى مكانهما المعتاد.\n\nوكانا قد بدآ يعتادان الذهاب\nفي المهمات معا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 15,
+    "id": "029d0000",
+    "english": "[BGTRANS:tz096a.tm2]Xion, informed by Saïx that she and\nRoxas would no longer go on missions\ntogether, worried over still being unable\nto use her Keyblade.\n\nRoxas in turn lent Xion his Keyblade.",
+    "arabic": "[BGTRANS:tz096a.tm2]أخبر سايكس شيون بأنها وروكساس\nلن ينفذا المهمات معا بعد الآن.\nفقلقت لأنها ما زالت عاجزة عن\nاستخدام الكيبلايد الخاص بها.\n\nعندها أعارها روكساس الكيبلايد الخاص به."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 16,
+    "id": "029d8000",
+    "english": "[BGTRANS:tz097a.tm2]As Xion had regained her Keyblade,\nRoxas returned to carrying out his daily\nmissions as usual.  [WAIT:60]\n[BGTRANS:tz097b.tm2][WAIT:60]\n[BGTRANS:tz097c.tm2]",
+    "arabic": "[BGTRANS:tz097a.tm2]بعد أن استعادت شيون الكيبلايد\nالخاص بها، عاد روكساس إلى تنفيذ\nمهامه اليومية كالمعتاد. [WAIT:60]\n[BGTRANS:tz097b.tm2][WAIT:60]\n[BGTRANS:tz097c.tm2]"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 17,
+    "id": "029e0000",
+    "english": "[BGTRANS:tz117b.tm2]Roxas and Xigbar investigated a new\nworld on a reconnaissance mission.\n\nRoxas asked about the purpose of the\nmission and Xigbar replied that they were\nsearching for possible candidates to join\nthe Organization. Only special Nobodies\ncan join the Organization. Xigbar then\ninformed Roxas that he and Xion are\nparticularly special Nobodies.",
+    "arabic": "[BGTRANS:tz117b.tm2]استكشف روكساس وزيغبار عالما\nجديدا في مهمة استطلاع.\n\nسأل روكساس عن غرض المهمة، فأجابه\nزيغبار بأنهما يبحثان عن مرشحين\nمحتملين للانضمام إلى المنظمة.\nفلا ينضم إليها إلا المميزون\nمن اللا أحد. ثم أخبر زيغبار\nروكساس بأنه وشيون مميزان على\nنحو خاص بين اللا أحد."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 18,
+    "id": "029e8000",
+    "english": "[BGTRANS:tz118a.tm2]Roxas's first day off.\nAccustomed to always having a mission to\nexecute, Roxas aimlessly wandered the\ncastle, unsure of what else to do. [WAIT:60]\n\n[BGTRANS:tz118b.tm2]Even asking Axel and Xion how they\nspent their time off proved unhelpful, so\nhe eventually went to his usual spot.",
+    "arabic": "[BGTRANS:tz118a.tm2]كان هذا أول يوم إجازة لروكساس. ولأنه\nاعتاد أن تكون لديه دائما مهمة\nينفذها، تجول في القلعة بلا هدف،\nلا يعرف ماذا يفعل غير ذلك. [WAIT:60]\n\n[BGTRANS:tz118b.tm2]حتى سؤاله آكسل وشيون عما يفعلانه\nفي إجازتهما لم يفده، فتوجه في\nالنهاية إلى مكانه المعتاد."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 19,
+    "id": "029f0000",
+    "english": "[BGTRANS:tz119a.tm2]Important things can be a weakness.\nRoxas talked to Xion about what Xaldin\nsaid during his mission, but they were\nunable to understand the meaning of\nXaldin's words.\n\n[BGTRANS:tz119b.tm2]Roxas continued his daily missions. [WAIT:60]\n[BGTRANS:tz119c.tm2][WAIT:60]\n\nMeanwhile, Axel was on a top secret\nmission.",
+    "arabic": "[BGTRANS:tz119a.tm2]قد تصبح الأشياء المهمة\nنقطة ضعف. حدث روكساس شيون\nعما قاله زالدين خلال\nمهمته، لكنهما لم يستطيعا\nفهم معنى كلامه.\n\n[BGTRANS:tz119b.tm2]واصل روكساس مهامه اليومية. [WAIT:60]\n[BGTRANS:tz119c.tm2][WAIT:60]\n\nوفي تلك الأثناء، كان آكسل\nينفذ مهمة بالغة السرية."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 20,
+    "id": "029f8000",
+    "english": "[BGTRANS:tz151a.tm2]Coincidentally, Roxas and Xion were\ngiven the same post.\n\nXion failed in her mission to dispose of an\nimposter, and became discouraged after\nbeing reprimanded by Saïx.\n\nXion put up a strong front for Roxas who\nwas at a loss for words. Roxas then\nsuggested going on missions together to\ncheer her up.",
+    "arabic": "[BGTRANS:tz151a.tm2]بالمصادفة، كلف روكساس وشيون\nبالعمل في المكان نفسه.\n\nأخفقت شيون في مهمتها للقضاء\nعلى منتحل، وشعرت بالإحباط\nبعدما وبخها سايكس.\n\nحاولت أن تبدو قوية أمام روكساس،\nالذي لم يجد ما يقوله. ثم اقترح\nروكساس أن ينفذا المهمات\nمعا ليرفع معنوياتها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 21,
+    "id": "02a00000",
+    "english": "[BGTRANS:tz152a.tm2]Roxas reflected on how Xion was\nacting differently.\n\nAxel asked Roxas what's wrong. According\nto Axel, girls are complicated and there\nare buttons to avoid pressing.\n\nRoxas worried he pressed the wrong\nbuttons with Xion, but Axel assured him\nthat Xion was fine.",
+    "arabic": "[BGTRANS:tz152a.tm2]تأمل روكساس تغير\nتصرفات شيون.\n\nسأله آكسل عما يزعجه، وقال له\nإن الفتيات معقدات وإن هناك أمورا\nينبغي ألا يثيرها معهن.\n\nخشي روكساس أنه أثار\nغضب شيون، لكن آكسل طمأنه\nإلى أنها بخير."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 22,
+    "id": "02a08000",
+    "english": "[BGTRANS:tz153b.tm2]Roxas and Demyx saw Phil putting\nHercules through rigorous training.\n\nPhil stated that the higher his\nexpectations, the tougher the training.\nRoxas wondered if the Organization had\nbeen giving him tough missions because\nthey had high expectations of him.\nRoxas, however, did not understand the\nmeaning of \"expectations\" very well to\nbegin with.",
+    "arabic": "[BGTRANS:tz153b.tm2]رأى روكساس وديميكس فيل وهو\nيخضع هرقل لتدريب شاق.\n\nقال فيل إن التدريب يزداد\nمشقة كلما علت توقعاته.\nفتساءل روكساس إن كانت\nالمنظمة تكلفه بمهمات\nصعبة لأنها تعلق عليه\nآمالا كبيرة. لكنه لم\nيكن يفهم معنى «التوقعات»\nجيدا من الأساس."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 23,
+    "id": "02a08001",
+    "english": "[BGTRANS:tz153a.tm2]Ever since parting awkwardly with Xion,\nRoxas ate his ice cream alone after\nmissions.",
+    "arabic": "[BGTRANS:tz153a.tm2]منذ افتراقه عن شيون على نحو\nمحرج، صار روكساس يتناول المثلجات\nوحده بعد المهمات."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 24,
+    "id": "02a10000",
+    "english": "[BGTRANS:tz171a.tm2]Before returning to the castle,\nRoxas saw Beast, wounded from\nprotecting what he cares for, with\nBelle there to care for him.\n\nLove had grown between the two. Xaldin\ndeclared the power of love to be\nworthless. Roxas asked what that power\nwas, but Xaldin said that explaining the\nconcept to a Nobody with no heart would\nbe pointless, and departed.",
+    "arabic": "[BGTRANS:tz171a.tm2]قبل عودته إلى القلعة،\nرأى روكساس الوحش مصابا\nبعدما حمى ما يهمه،\nورأى بيل تعتني به.\n\nكان الحب قد نما بينهما. أعلن\nزالدين أن قوة الحب عديمة القيمة.\nسأله روكساس عن تلك القوة، لكن\nزالدين قال إن شرح الفكرة\nلأحد اللا أحد ممن لا قلب\nلهم لا جدوى منه، ثم رحل."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 25,
+    "id": "02a10001",
+    "english": "Left alone, Roxas contemplated what\nlove might be.",
+    "arabic": "بقي روكساس وحده يتأمل\nماهية الحب."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 26,
+    "id": "02a10002",
+    "english": "[BGTRANS:tz171b.tm2]At their usual spot, Roxas asked Axel\nwhat love is, but got no answers.\n\nPerhaps completing Kingdom Hearts and\ngaining a heart would offer some answers.\nRoxas watched the sunset with these\nthoughts on his mind.",
+    "arabic": "[BGTRANS:tz171b.tm2]في مكانهما المعتاد، سأل روكساس آكسل\nعن الحب، لكنه لم يحصل على إجابة.\n\nلعل إكمال كينغدوم هارتس واكتساب\nقلب يقدمان بعض الإجابات.\nشاهد روكساس غروب الشمس وهذه\nالأفكار تشغل ذهنه."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 27,
+    "id": "02a18000",
+    "english": "[BGTRANS:tz172a.tm2]Before leaving for a mission with Luxord,\nRoxas heard that Xion failed another\nmission and fell into a deep slumber.\n\nRoxas disregarded Saïx's order to not\nworry about a failure like Xion and went\nto her room.",
+    "arabic": "[BGTRANS:tz172a.tm2]قبل أن يخرج في مهمة مع لوكسورد،\nسمع روكساس أن شيون أخفقت في مهمة\nأخرى وغطت في سبات عميق.\n\nتجاهل أمر سايكس بألا\nيقلق على فاشلة مثل شيون،\nوذهب إلى غرفتها."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 28,
+    "id": "02a20000",
+    "english": "[BGTRANS:tz173a.tm2]Axel informed Roxas of what he had heard\nfrom Saïx about Xion.\n\nHe said that Saïx would reconsider\nclaiming Xion to be a failure depending on\nhow she performed from now on. But this\nwas a lie by Axel to cheer up Roxas.",
+    "arabic": "[BGTRANS:tz173a.tm2]أخبر آكسل روكساس بما سمعه\nمن سايكس عن شيون.\n\nقال إن سايكس سيعيد النظر في\nوصفها بالفاشلة بناء على أدائها\nمن الآن فصاعدا. لكن آكسل\nكذب عليه ليرفع معنوياته."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 29,
+    "id": "02a28000",
+    "english": "[BGTRANS:tz174a.tm2]Lock, Shock, and Barrel got in\nRoxas's way with their mischief.\nThey claimed that causing mischief and\nsurprising people is fun, but those\nfeelings were lost on Roxas.",
+    "arabic": "[BGTRANS:tz174a.tm2]اعترض لوك وشوك وباريل طريق\nروكساس بمقالبهم. قالوا إن\nإثارة المتاعب ومفاجأة الناس\nأمر ممتع، لكن روكساس\nلم يفهم تلك المشاعر."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 30,
+    "id": "02a28001",
+    "english": "[BGTRANS:tz174b.tm2]Roxas continued to carry out his missions\nwhile covering for Xion. [WAIT:60]\n[BGTRANS:tz174c.tm2]",
+    "arabic": "[BGTRANS:tz174b.tm2]واصل روكساس تنفيذ مهامه والقيام\nبمهام شيون أيضا. [WAIT:60]\n[BGTRANS:tz174c.tm2]"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 31,
+    "id": "02a30000",
+    "english": "[BGTRANS:tz194b.tm2]During a mission, Roxas and Axel visited\nthe world where Roxas had once flown.\n\nRoxas again met Tinker Bell and had her\nsprinkle pixie dust on him so that they\nmight fly. He began to float, but Axel\nremained firmly planted on the ground.",
+    "arabic": "[BGTRANS:tz194b.tm2]خلال إحدى المهمات، زار روكساس وآكسل\nالعالم الذي طار فيه روكساس من قبل.\n\nالتقى روكساس بتينكر بيل مجددا، وطلب\nمنها نثر غبار الجنيات عليه كي يتمكنا\nمن الطيران. بدأ يطفو، لكن آكسل\nبقي على الأرض دون حراك."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 32,
+    "id": "02a30001",
+    "english": "Roxas told Axel to trust him, that he\ntoo could fly if he believed it. Trusting\nin Roxas's words, Axel began to float\nin the air.\n\nThe pair flew off to complete their\nmission.",
+    "arabic": "طلب روكساس من آكسل أن يثق به،\nوقال إنه يستطيع الطيران أيضا\nإن آمن بذلك. وثق آكسل بكلامه\nوبدأ يطفو في الهواء.\n\nثم انطلق الاثنان طائرين\nلإكمال مهمتهما."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 33,
+    "id": "02a30002",
+    "english": "[BGTRANS:tz194c.tm2]Roxas spent his days completing missions. [WAIT:60]\n[BGTRANS:tz194d.tm2]",
+    "arabic": "[BGTRANS:tz194c.tm2]قضى روكساس أيامه في إنجاز المهمات. [WAIT:60]\n[BGTRANS:tz194d.tm2]"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 34,
+    "id": "02a38000",
+    "english": "[BGTRANS:tz225a.tm2]Xion, depressed, left without eating\nher ice cream.\n\nRoxas asked Axel if she was alright but\nreceived a dismissive response.\n\nRoxas wondered if Xion might feel better\nif the three of them went to the beach\ntogether, like they had promised the\nother day.",
+    "arabic": "[BGTRANS:tz225a.tm2]رحلت شيون محبطة دون\nأن تأكل مثلجاتها.\n\nسأل روكساس آكسل إن كانت بخير، لكنه\nتلقى جوابا ينم عن عدم الاكتراث.\n\nتساءل روكساس إن كانت ستتحسن\nحالتها لو ذهب ثلاثتهم إلى\nالشاطئ معا، كما وعدوا\nبعضهم في يوم سابق."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 35,
+    "id": "02a38001",
+    "english": "[BGTRANS:tz225b.tm2]Xion found the information that Saïx\nhad entered regarding Castle Oblivion.",
+    "arabic": "[BGTRANS:tz225b.tm2]عثرت شيون على المعلومات التي أدخلها\nسايكس بشأن قلعة النسيان."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 36,
+    "id": "02a40000",
+    "english": "[BGTRANS:tz256a.tm2]In the Round Room, Xemnas informed the\nassembled Organization members of Xion's\ndisappearance. He continued by prohibiting\nanyone from pursuing her.\n\nUnhappy with Xemnas's decision, Roxas\nargued that they should search for Xion,\nbut was told that all will become clear when\nthe time came. Xemnas concluded the\nmeeting with those words.",
+    "arabic": "[BGTRANS:tz256a.tm2]في القاعة المستديرة، أخبر\nزيمناس أعضاء المنظمة المجتمعين\nباختفاء شيون، ثم منع\nالجميع من ملاحقتها.\n\nاستاء روكساس من قراره وأصر\nعلى ضرورة البحث عنها، لكن\nزيمناس قال إن كل شيء سيتضح\nحين يحين الوقت. وبهذه الكلمات،\nأنهى الاجتماع."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 37,
+    "id": "02a48000",
+    "english": "[BGTRANS:tz257a.tm2]The days passed without Xion.\n\nAxel no longer came to the usual spot,\nand Roxas sat alone, eating his ice\ncream.",
+    "arabic": "[BGTRANS:tz257a.tm2]مضت الأيام دون شيون.\n\nلم يعد آكسل يأتي إلى المكان\nالمعتاد، وجلس روكساس\nوحده يأكل مثلجاته."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 38,
+    "id": "02a50000",
+    "english": "[BGTRANS:tz277a.tm2]While visiting a world on a mission,\nRoxas met the always cryptic Cheshire\nCat.\n\nBefore disappearing, the Cheshire Cat\nresponded to Roxas's questions by saying\nthat he must follow his heart and decide\nwhat to believe in. ",
+    "arabic": "[BGTRANS:tz277a.tm2]أثناء زيارته أحد العوالم في مهمة،\nالتقى روكساس بقط تشيشاير، الذي\nلا يكف عن الكلام المبهم.\n\nوقبل أن يختفي، أجاب القط\nعن أسئلة روكساس قائلا\nإن عليه أن يتبع قلبه ويقرر\nما الذي يؤمن به."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 39,
+    "id": "02a50001",
+    "english": "Would having a heart resolve everything,\nincluding Xion's predicament?\n\nRoxas was left pondering over what he\ncould believe in when he doesn't possess\na heart.",
+    "arabic": "هل سيحل امتلاك قلب كل\nشيء، حتى مأزق شيون؟\n\nبقي روكساس يتساءل عما\nيمكنه أن يؤمن به وهو\nلا يمتلك قلبا."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 40,
+    "id": "02a50002",
+    "english": "[BGTRANS:tz277b.tm2]Roxas and Axel continued their search\nfor Xion. [WAIT:60]\n[BGTRANS:tz277c.tm2]",
+    "arabic": "[BGTRANS:tz277b.tm2]واصل روكساس وآكسل\nالبحث عن شيون. [WAIT:60]\n[BGTRANS:tz277c.tm2]"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 41,
+    "id": "02a58000",
+    "english": "[BGTRANS:tz321c.tm2]After Xion returned to the Organization,\nRoxas grew weaker by the day. It was as\nthough Xion continued to gain strength as\nRoxas lost it.\n\nUsing the Keyblade was beginning to wear\nout Roxas.",
+    "arabic": "[BGTRANS:tz321c.tm2]بعد عودة شيون إلى المنظمة،\nأخذ روكساس يضعف يوما بعد يوم.\nوبدا كأن شيون تزداد قوة\nكلما فقد روكساس قوته.\n\nوبدأ استخدام الكيبلايد\nينهك روكساس."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 42,
+    "id": "02a60000",
+    "english": "[BGTRANS:tz323a.tm2]Roxas, still in a slump, continued to\nreceive missions from the Organization. [WAIT:60]\n\n[BGTRANS:tz323b.tm2]He spent his days executing missions. [WAIT:60]\n[BGTRANS:tz323c.tm2]",
+    "arabic": "[BGTRANS:tz323a.tm2]واصل روكساس تلقي المهمات من المنظمة،\nوهو ما زال في حال من الضعف. [WAIT:60]\n\n[BGTRANS:tz323b.tm2]وقضى أيامه في تنفيذ المهمات. [WAIT:60]\n[BGTRANS:tz323c.tm2]"
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 43,
+    "id": "02a68000",
+    "english": "[BGTRANS:tz352e.tm2]Roxas battled a Heartless during a\nmission.\n\nHis strength spent against a formidable\nfoe, Roxas swung his Keyblade with all\nhis might in hopes of ending things\nquickly.",
+    "arabic": "[BGTRANS:tz352e.tm2]قاتل روكساس أحد مخلوقات\nبلا قلب خلال مهمة.\n\nاستنزف الخصم الهائل قوته،\nفلوح بالكيبلايد بكل ما\nأوتي من قوة، آملا في\nإنهاء القتال بسرعة."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 44,
+    "id": "02a68001",
+    "english": "[BGTRANS:tz352b.tm2]But his strike was interrupted with the\nsound of clashing metal.\n\nThere was Axel, blocking both Roxas's\nand Xion's Keyblades. They had been\nfighting the entire time, each thinking\nthe other was a Heartless.\n\nAxel informed them of the truth\nsurrounding this mission rigged to get\nthem to fight one another.",
+    "arabic": "[BGTRANS:tz352b.tm2]لكن ضربته لم تكتمل، ودوى\nصوت اصطدام المعدن.\n\nكان آكسل هناك، يصد الكيبلايد الخاص بروكساس\nوالكيبلايد الخاص بشيون معا. فقد كانا\nيتقاتلان طوال الوقت، وكل منهما\nيظن الآخر أحد مخلوقات بلا قلب.\n\nوكشف آكسل لهما حقيقة\nهذه المهمة التي دبرت\nليقاتل أحدهما الآخر."
+  },
+  {
+    "file": "uk/message/en/event/hd/bin/cthd300.ctd",
+    "index": 45,
+    "id": "02a70000",
+    "english": "[BGTRANS:tz353b.tm2]Roxas entered the lobby to see Axel,\nXion, and Xigbar conversing with Saïx.\nThe unusual trio were about to head out\non a mission.\n\nRoxas asked Saïx if he could take\nXigbar's spot, but Saïx chided Roxas,\nasking if he was powerless without Axel.\n\nRoxas saw Xion and Axel off with a sense\nof unease.",
+    "arabic": "[BGTRANS:tz353b.tm2]دخل روكساس البهو، فرأى آكسل\nوشيون وزيغبار يتحدثون مع سايكس.\nكان هذا الثلاثي غير المعتاد\nيستعد للخروج في مهمة.\n\nسأل روكساس سايكس إن كان يستطيع الحلول\nمحل زيغبار، لكن سايكس وبخه وسأله\nإن كان عاجزا دون آكسل.\n\nودع روكساس شيون وآكسل\nوهو يشعر بالقلق."
+  }
+]

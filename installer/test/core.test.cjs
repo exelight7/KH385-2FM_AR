@@ -237,3 +237,16 @@ test('process detection covers the collection launcher without matching installe
   for (const line of ['"KINGDOM HEARTS HD 1.5+2.5 ReMIX.exe","123","Console"', 'wine /games/KINGDOM HEARTS/WaitTitleProject.exe', '"WaitTitleProject.exe","42"', '/games/KINGDOM HEARTS HD 1.5+2.5 ReMIX.exe']) assert.equal(isGameRunning(line), true, line);
   for (const line of ['wine /games/KINGDOM HEARTS -HD 1.5+2.5 ReMIX-/Days-Arabic-Setup-1.0.0.exe', '"explorer.exe","42"', '']) assert.equal(isGameRunning(line), false, line);
 });
+
+// The sixth historical release remains recognizable after adding 1.0.0.
+test('sixth historical release upgrades and restores the exact original pair', async t => {
+  const f = await previousFixture(t);
+  f.m.ancient = f.m.previous;
+  delete f.m.previous;
+  await fs.writeFile(path.join(f.patch, 'manifest.json'), JSON.stringify(f.m));
+  assert.equal((await operate({...f.args, action: 'install'})).status, 'complete');
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.hed')), f.changedHed);
+  assert.equal((await operate({...f.args, action: 'uninstall'})).status, 'complete');
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.hed')), f.hed);
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.pkg')), f.pkg);
+});

@@ -41,7 +41,7 @@ for i,line in enumerate(lines):
         if code==32:
             x+=16
             continue
-        e=entries[code];cell=rgba[pixels[e['y']:e['y']+32,e['x']:e['x']+32]]
+        e=entries[code];cell=rgba[pixels[e['y']:e['y']+32,e['x']:e['x']+e['width']]]
         canvas.alpha_composite(Image.fromarray(cell),(x,40+i*40))
         x+=e['width']
 canvas.convert('RGB').resize((canvas.width*2,canvas.height*2),Image.Resampling.NEAREST).save(OUT/'font-preview.png')

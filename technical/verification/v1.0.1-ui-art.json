@@ -1,0 +1,919 @@
+{
+  "labels": [
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 2,
+      "sp2RecordOffset": 256,
+      "uv": [
+        1566,
+        1220,
+        1750,
+        1288
+      ],
+      "changedRectangle": [
+        1566,
+        1220,
+        1750,
+        1288
+      ],
+      "english": "DAY",
+      "arabic": "اليوم",
+      "fontPixels": 61,
+      "nativeAlphaMaximum": 255,
+      "placement": "centered-label",
+      "nativeInk": [
+        6,
+        1,
+        180,
+        61
+      ],
+      "targetInk": [
+        37,
+        2,
+        145,
+        66
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 93,
+      "sp2RecordOffset": 2440,
+      "uv": [
+        18,
+        852,
+        598,
+        918
+      ],
+      "changedRectangle": [
+        18,
+        852,
+        598,
+        918
+      ],
+      "english": "ROXAS’S DIARY",
+      "arabic": "يوميات روكساس",
+      "fontPixels": 26,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        57,
+        18,
+        446,
+        44
+      ],
+      "targetInk": [
+        58,
+        19,
+        221,
+        44
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 95,
+      "sp2RecordOffset": 2488,
+      "uv": [
+        520,
+        928,
+        1150,
+        994
+      ],
+      "changedRectangle": [
+        520,
+        928,
+        1150,
+        994
+      ],
+      "english": "SECRET REPORTS",
+      "arabic": "التقارير السرية",
+      "fontPixels": 26,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        57,
+        20,
+        512,
+        44
+      ],
+      "targetInk": [
+        58,
+        19,
+        189,
+        44
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 97,
+      "sp2RecordOffset": 2536,
+      "uv": [
+        1420,
+        1254,
+        1530,
+        1292
+      ],
+      "changedRectangle": [
+        1420,
+        1254,
+        1530,
+        1292
+      ],
+      "english": "DAY",
+      "arabic": "اليوم",
+      "fontPixels": 32,
+      "nativeAlphaMaximum": 255,
+      "placement": "centered-label",
+      "nativeInk": [
+        2,
+        1,
+        108,
+        35
+      ],
+      "targetInk": [
+        26,
+        2,
+        83,
+        36
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 101,
+      "sp2RecordOffset": 2632,
+      "uv": [
+        18,
+        928,
+        512,
+        994
+      ],
+      "changedRectangle": [
+        18,
+        928,
+        512,
+        994
+      ],
+      "english": "CHAPTERS",
+      "arabic": "الفصول",
+      "fontPixels": 26,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        57,
+        20,
+        333,
+        44
+      ],
+      "targetInk": [
+        58,
+        19,
+        133,
+        44
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 107,
+      "sp2RecordOffset": 2776,
+      "uv": [
+        1636,
+        1150,
+        1780,
+        1188
+      ],
+      "changedRectangle": [
+        1636,
+        1150,
+        1780,
+        1188
+      ],
+      "english": "NEW!",
+      "arabic": "جديد!",
+      "fontPixels": 24,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        54,
+        6,
+        138,
+        30
+      ],
+      "targetInk": [
+        83,
+        7,
+        138,
+        29
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 110,
+      "sp2RecordOffset": 2848,
+      "uv": [
+        4,
+        1314,
+        636,
+        1390
+      ],
+      "changedRectangle": [
+        4,
+        1314,
+        636,
+        1390
+      ],
+      "english": "PLAY",
+      "arabic": "تشغيل",
+      "fontPixels": 40,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        80,
+        20,
+        262,
+        61
+      ],
+      "targetInk": [
+        81,
+        20,
+        186,
+        60
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 111,
+      "sp2RecordOffset": 2872,
+      "uv": [
+        640,
+        1314,
+        1272,
+        1390
+      ],
+      "changedRectangle": [
+        640,
+        1314,
+        1272,
+        1390
+      ],
+      "english": "PLAY",
+      "arabic": "تشغيل",
+      "fontPixels": 40,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        84,
+        24,
+        266,
+        65
+      ],
+      "targetInk": [
+        85,
+        24,
+        190,
+        64
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 113,
+      "sp2RecordOffset": 2920,
+      "uv": [
+        4,
+        1394,
+        636,
+        1470
+      ],
+      "changedRectangle": [
+        4,
+        1394,
+        636,
+        1470
+      ],
+      "english": "CHAPTERS",
+      "arabic": "الفصول",
+      "fontPixels": 40,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        80,
+        21,
+        462,
+        61
+      ],
+      "targetInk": [
+        81,
+        20,
+        197,
+        60
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 114,
+      "sp2RecordOffset": 2944,
+      "uv": [
+        640,
+        1394,
+        1272,
+        1470
+      ],
+      "changedRectangle": [
+        640,
+        1394,
+        1272,
+        1470
+      ],
+      "english": "CHAPTERS",
+      "arabic": "الفصول",
+      "fontPixels": 40,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        84,
+        25,
+        466,
+        65
+      ],
+      "targetInk": [
+        85,
+        24,
+        201,
+        64
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 116,
+      "sp2RecordOffset": 2992,
+      "uv": [
+        4,
+        1474,
+        636,
+        1550
+      ],
+      "changedRectangle": [
+        4,
+        1474,
+        636,
+        1550
+      ],
+      "english": "EXTRAS",
+      "arabic": "الإضافات",
+      "fontPixels": 40,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        80,
+        21,
+        365,
+        61
+      ],
+      "targetInk": [
+        82,
+        18,
+        217,
+        60
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 117,
+      "sp2RecordOffset": 3016,
+      "uv": [
+        640,
+        1474,
+        1272,
+        1550
+      ],
+      "changedRectangle": [
+        640,
+        1474,
+        1272,
+        1550
+      ],
+      "english": "EXTRAS",
+      "arabic": "الإضافات",
+      "fontPixels": 40,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        84,
+        25,
+        369,
+        65
+      ],
+      "targetInk": [
+        86,
+        22,
+        221,
+        64
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 119,
+      "sp2RecordOffset": 3064,
+      "uv": [
+        4,
+        1554,
+        636,
+        1630
+      ],
+      "changedRectangle": [
+        4,
+        1554,
+        636,
+        1630
+      ],
+      "english": "BACK",
+      "arabic": "رجوع",
+      "fontPixels": 40,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        80,
+        21,
+        269,
+        61
+      ],
+      "targetInk": [
+        81,
+        25,
+        159,
+        62
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 120,
+      "sp2RecordOffset": 3088,
+      "uv": [
+        640,
+        1554,
+        1272,
+        1630
+      ],
+      "changedRectangle": [
+        640,
+        1554,
+        1272,
+        1630
+      ],
+      "english": "BACK",
+      "arabic": "رجوع",
+      "fontPixels": 40,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        84,
+        25,
+        273,
+        65
+      ],
+      "targetInk": [
+        85,
+        29,
+        163,
+        66
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 122,
+      "sp2RecordOffset": 3136,
+      "uv": [
+        1278,
+        1314,
+        1618,
+        1390
+      ],
+      "changedRectangle": [
+        1278,
+        1314,
+        1618,
+        1390
+      ],
+      "english": "Play All",
+      "arabic": "تشغيل الكل",
+      "fontPixels": 28,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        151,
+        31,
+        279,
+        61
+      ],
+      "targetInk": [
+        152,
+        30,
+        279,
+        58
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 123,
+      "sp2RecordOffset": 3160,
+      "uv": [
+        1622,
+        1314,
+        1962,
+        1390
+      ],
+      "changedRectangle": [
+        1622,
+        1314,
+        1962,
+        1390
+      ],
+      "english": "Play All",
+      "arabic": "تشغيل الكل",
+      "fontPixels": 28,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        153,
+        33,
+        281,
+        63
+      ],
+      "targetInk": [
+        154,
+        32,
+        281,
+        60
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 124,
+      "sp2RecordOffset": 3184,
+      "uv": [
+        1278,
+        1394,
+        1618,
+        1470
+      ],
+      "changedRectangle": [
+        1278,
+        1394,
+        1618,
+        1470
+      ],
+      "english": "Continue",
+      "arabic": "متابعة",
+      "fontPixels": 28,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        124,
+        31,
+        278,
+        57
+      ],
+      "targetInk": [
+        213,
+        30,
+        277,
+        57
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 125,
+      "sp2RecordOffset": 3208,
+      "uv": [
+        1622,
+        1394,
+        1962,
+        1470
+      ],
+      "changedRectangle": [
+        1622,
+        1394,
+        1962,
+        1470
+      ],
+      "english": "Continue",
+      "arabic": "متابعة",
+      "fontPixels": 28,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        126,
+        33,
+        280,
+        59
+      ],
+      "targetInk": [
+        215,
+        32,
+        279,
+        59
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 132,
+      "sp2RecordOffset": 3376,
+      "uv": [
+        1154,
+        1640,
+        1592,
+        1716
+      ],
+      "changedRectangle": [
+        1154,
+        1640,
+        1592,
+        1716
+      ],
+      "english": "CHARACTERS",
+      "arabic": "الشخصيات",
+      "fontPixels": 28,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        131,
+        31,
+        376,
+        57
+      ],
+      "targetInk": [
+        255,
+        30,
+        374,
+        57
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 133,
+      "sp2RecordOffset": 3400,
+      "uv": [
+        1604,
+        1640,
+        2042,
+        1716
+      ],
+      "changedRectangle": [
+        1604,
+        1640,
+        2042,
+        1716
+      ],
+      "english": "CHARACTERS",
+      "arabic": "الشخصيات",
+      "fontPixels": 28,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        133,
+        33,
+        378,
+        59
+      ],
+      "targetInk": [
+        257,
+        32,
+        376,
+        59
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 134,
+      "sp2RecordOffset": 3424,
+      "uv": [
+        1154,
+        1724,
+        1592,
+        1800
+      ],
+      "changedRectangle": [
+        1154,
+        1724,
+        1592,
+        1800
+      ],
+      "english": "ROXAS’S DIARY",
+      "arabic": "يوميات روكساس",
+      "fontPixels": 28,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        95,
+        31,
+        376,
+        57
+      ],
+      "targetInk": [
+        201,
+        30,
+        376,
+        58
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 135,
+      "sp2RecordOffset": 3448,
+      "uv": [
+        1604,
+        1724,
+        2042,
+        1800
+      ],
+      "changedRectangle": [
+        1604,
+        1724,
+        2042,
+        1800
+      ],
+      "english": "ROXAS’S DIARY",
+      "arabic": "يوميات روكساس",
+      "fontPixels": 28,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        98,
+        33,
+        379,
+        59
+      ],
+      "targetInk": [
+        204,
+        32,
+        379,
+        60
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/days_theatre.l2d",
+      "sprite": 137,
+      "sp2RecordOffset": 3496,
+      "uv": [
+        1104,
+        1810,
+        1492,
+        1874
+      ],
+      "changedRectangle": [
+        1104,
+        1810,
+        1492,
+        1874
+      ],
+      "english": "GAME SETTINGS",
+      "arabic": "إعدادات اللعبة",
+      "fontPixels": 26,
+      "nativeAlphaMaximum": 255,
+      "placement": "native-anchor/common-baseline",
+      "nativeInk": [
+        84,
+        20,
+        383,
+        44
+      ],
+      "targetInk": [
+        241,
+        19,
+        383,
+        44
+      ],
+      "sourceSha256": "26691298423d7b2a4540d967dfed35a3e7f93bdf8a08d394e31c6cc607cd2358",
+      "targetSha256": "38a11ea55af91fa27912bda68f677d8c2f002f8375d62efc39490ad5da164991",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    },
+    {
+      "path": "uk/l2d/pause.l2d",
+      "sprite": 4,
+      "sp2RecordOffset": 304,
+      "uv": [
+        492,
+        82,
+        816,
+        120
+      ],
+      "changedRectangle": [
+        492,
+        82,
+        816,
+        120
+      ],
+      "english": "PAUSE",
+      "arabic": "إيقاف مؤقت",
+      "fontPixels": 32,
+      "nativeAlphaMaximum": 255,
+      "placement": "centered-label",
+      "nativeInk": [
+        3,
+        2,
+        323,
+        36
+      ],
+      "targetInk": [
+        87,
+        2,
+        238,
+        36
+      ],
+      "sourceSha256": "6dd13bf86ed2c81d5413b629395d7481485b12cfd0a126a37e55f1993b410784",
+      "targetSha256": "77bf9a76fbb22671fe55642ed1ad1e359a0c60001e98e3bedf69f621f975d026",
+      "layoutAndOtherTexturesUnchanged": true,
+      "outsideLabelsUnchanged": true
+    }
+  ],
+  "count": 24,
+  "developedByOriginalEnglishPreserved": true,
+  "inGameVerified": false
+}

@@ -1,15 +1,13 @@
-# Days Arabic · 1.0.0
+# Days Arabic · 1.0.1
 
-Date: 2026-10-10 / DAYS-REVIEW-V100
+Date:2026-10-10 / FONT-UI-FIX-101
 
-- Fresh independent bilingual passes 1 and 2 read all 2461 translated CTD rows, including all1616 story rows. No inherited-review completion claims. 11 distinct rows corrected against frozen0.4.1; 11 correction events, with original English and reasons recorded.
-- Nine CTDs cover dialogue, intro/narration, menus/chapters, diaries/reports and character descriptions. All95 movie resource keys remain verbatim and are excluded from the2461 denominator. Complete visual localization remains false.
--92 original CTD roundtrips; source IDs/layouts/commands/newlines preserved. 121 inline XML schedules / 1568 IDs updated with timing and other languages intact. Canonical CTD English resolves 44 abbreviated/empty inline source fields.
--25 native UI labels retain UVs, geometry, dimensions, alpha maximum and all pixels outside text. IBM Plex Sans Arabic Medium is the exact KH2FM font. 136 glyphs, 216 connectivity checks, 0 width warnings.
--All2024 archive records and57 unknown records preserved; 136 replacements re-extracted and hash matched. Original PKG prefix unchanged, no video reencoding; reported video-quality cause unconfirmed.
--Fixed cross-version interrupted-transaction recovery, backup/transaction junction writes, leaked lock on metadata failure, and launcher/process detection.22 installer tests pass. Full archive upgrade/restore verified: True. Direct upgrade supports0.1.0/0.2.0/0.3.0/0.4.0/0.4.1.
--Live installed:True; current live version:1.0.0. No automatic game launch. In-game rendering remains unverified (0 rows).
--Decorative WINNER and OPERATIONS CLOSED FOR VACATION artwork remains English; logos/credits retained. Full artwork inventory remains pending. Shared Re:coded menu labels/profiles included; Re:coded story and KH1/KH2 excluded.
--Public downloads verified:True. https://github.com/exelight7/KH385-2FM_AR/actions/runs/38043186624
+- User1.0.0 screenshots expose menu oversizing and broken Arabic joins.1.0.1 moves join strokes inside COD.width and preserves glyph body bounds. Preview now samples cropped quads.1334 distinct adjacent pairs pass for each font offline; engine extra spacing has not been instrumented. Current runtime approval remains pending.
+- Main image menu uses40px Plex, secondary options28px and headers26px, native anchors/common baselines. Every image label's alpha>80 ink height is at most4px above original. DEVELOPED BY/SQUARE ENIX pixels restored byte-identically.24 translated image labels; geometry and outside pixels unchanged.
+- All nine translation JSON files and all CTD/XML payloads are byte-identical to1.0.0.2461 translated rows inherit1.0.0's two independent bilingual reviews. No fresh review or linguistic correction claimed in1.0.1.95 movie resource keys preserved verbatim.
+- Only four font payloads and days_theatre.l2d changed since1.0.0;131 payloads unchanged.136 replacements re-extracted/hash matched,2024 archive records including57 unknown preserved. Video untouched; reported video-quality cause remains unconfirmed.
+-23 installer tests; upgrades supported from0.1.0/0.2.0/0.3.0/0.4.0/0.4.1/1.0.0. Full archive upgrade/restore verified:True. Live installed:True; live version:1.0.1. No automatic game launch.
+- Decorative scene artwork (including WINNER/vacation notice) still English. Full art inventory and runtime verification pending. Re:coded story/KH1/KH2 excluded; shared labels/profiles included.
+- Public binary downloads verified:False. CI packaging pending.
 
-Preserve Image/.days-arabic-backup and frozen earlier translations/proofs. Never install intermediate OpenKH output, which drops57 records. Sources of truth: PROJECT_PROGRESS.json, installer/patch/manifest.json, versioned verification files.
+Preserve original Image/.days-arabic-backup and prior frozen proofs. Sources of truth: PROJECT_PROGRESS.json, installer/patch/manifest.json and versioned verification files.

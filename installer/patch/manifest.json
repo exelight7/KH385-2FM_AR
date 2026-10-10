@@ -1,8 +1,18 @@
 {
   "format": 2,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title": "KINGDOM HEARTS 358/2 Days",
   "previous": {
+    "Mare.hed": {
+      "bytes": 64768,
+      "sha256": "116c8fd2965edc76df7a641974adcc21fe133ff40cc2dae621016c43957df3e8"
+    },
+    "Mare.pkg": {
+      "bytes": 2816552176,
+      "sha256": "125b1b628180eece8959cdb6849c9a868f451b1b1cebe7170be09e91fe9f8258"
+    }
+  },
+  "older": {
     "Mare.hed": {
       "bytes": 64768,
       "sha256": "2dd9ed37066d0259f43b9f68430508ca04f266bb457b42d4ea103f0dbb0f1efc"
@@ -12,7 +22,7 @@
       "sha256": "2248e801a5761cdf9a59a5670aeba7bc2d05d4c444bbbbc0e01be345315fe5c1"
     }
   },
-  "older": {
+  "earlier": {
     "Mare.hed": {
       "bytes": 64768,
       "sha256": "c4a4229bf956b9bb3e4044527fb7c033b2a1d38387aead69458177f2a75dce3d"
@@ -22,7 +32,7 @@
       "sha256": "3607fbcb8a2fe6b1e95109d6615e5bad4695b4a4aecf78df8dd7fac2a1b668ee"
     }
   },
-  "earlier": {
+  "oldest": {
     "Mare.hed": {
       "bytes": 64768,
       "sha256": "6ea392f61abacf37b9b442d661d30227812ecbc6f0365a5f7b0bda3b9ce9ae6f"
@@ -32,7 +42,7 @@
       "sha256": "ed99f88be70db700c98227c9dc012bfddc23ea688049a7c19e15f582537991e4"
     }
   },
-  "oldest": {
+  "legacy": {
     "Mare.hed": {
       "bytes": 64768,
       "sha256": "f43b48a65f1c676ebe0e296fce6c71f9e89aca22a906ae9b521195475b211a2c"
@@ -42,7 +52,7 @@
       "sha256": "fc4182833b076a731a16d4f0c53871182f626a9715bc95b0df7fc1425d37f5a7"
     }
   },
-  "legacy": {
+  "ancient": {
     "Mare.hed": {
       "bytes": 64768,
       "sha256": "b47d4c55250f959cfdfd368695a99c436639a3403c3afeb6a9ffacf014d3ed59"
@@ -55,7 +65,7 @@
   "translatedEntries": 2461,
   "totalVisibleEntries": 2461,
   "preservedTechnicalKeys": 95,
-  "translatedImageLabels": 25,
+  "translatedImageLabels": 24,
   "inGameVerified": false,
   "source": {
     "Mare.hed": {
@@ -74,17 +84,17 @@
     },
     "Mare.pkg": {
       "bytes": 2816552176,
-      "sha256": "125b1b628180eece8959cdb6849c9a868f451b1b1cebe7170be09e91fe9f8258"
+      "sha256": "15a2b38d05d7b04ca685bb47592f631f53c48dcdc1b7fb30b412c74d5876a74d"
     }
   },
   "tail": {
     "bytes": 66466096,
-    "sha256": "48c2fbdd3072275662993aeb9641c88ea2d75ad2254df397f4cf963adeda7702"
+    "sha256": "b14659392d92ba0957465d0d09ad2849b60b3bd5d4fe00c82702dac5830d1a1a"
   },
   "delta": {
     "file": "tail.gz",
     "bytes": 66466096,
-    "sha256": "1fc52dff3b162d81f8988ae6d0c47697ad87981c52d3343bf8ac7483554d8300",
+    "sha256": "f3fd94c89f2a9f21a3dbcae51e7c2114284aed2f9a25a6514f14f96acd396729",
     "baseSegments": [
       {
         "sourceOffset": 2524333328,

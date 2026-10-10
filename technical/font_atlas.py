@@ -1,6 +1,7 @@
 """Plex Medium glyphs in Days' existing cells; retain every other texel."""
 import hashlib
 import json
+import math
 from pathlib import Path
 import struct
 import unicodedata
@@ -12,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 FONT = ROOT / 'font-rtl/fonts/IBMPlexSansArabic-Medium.ttf'
 FONT_SHA = 'b60e43e9a2f454f3ef705bb29bb751a9eb915de14898dc0513a2d80d0d3e54f0'
 SOURCE = ROOT / 'technical/extracted_mare/original/uk/font'
-SS, PX, PEN, BASE = 4, 21, 2, 22
+SS, PX, PEN, BASE = 4, 21, 0, 22
 
 
 def cod_entries(data, count):
@@ -33,14 +34,19 @@ def make_fonts(forms, used_codes, output):
     allocation = dict(zip(sorted(forms), sorted(common)))
     glyphs, advances = {}, {}
     for char in sorted(forms):
-        advance = round(font.getlength(char)/SS)
+        form = unicodedata.decomposition(char).split(' ')[0]
+        bbox = font.getbbox(char, anchor='ls')
+        # COD.width clips the sampled quad as well as advancing the pen.
+        # Connected left edges must start at x0, not behind a two-pixel inset.
+        pen = 0 if form in ('<initial>', '<medial>') else max(0, math.ceil(-bbox[0]/SS))
+        advance = max(round(font.getlength(char)/SS), math.ceil(bbox[2]/SS)+pen)
         assert 0 < advance <= 28, (char, advance)
         mask = Image.new('L', (32*SS, 32*SS))
         draw = ImageDraw.Draw(mask)
-        bbox = draw.textbbox((PEN*SS, BASE*SS), char, font=font, anchor='ls')
-        assert min(bbox[:2]) >= 0 and max(bbox[2:]) <= 32*SS, (char, bbox)
-        draw.text((PEN*SS, BASE*SS), char, font=font, anchor='ls', fill=255)
-        form = unicodedata.decomposition(char).split(' ')[0]
+        bbox = draw.textbbox((pen*SS, BASE*SS), char, font=font, anchor='ls')
+        assert bbox[1] >= 0 and bbox[2] <= advance*SS and bbox[3] <= 32*SS, (char, bbox)
+        assert bbox[0] >= 0 or form in ('<initial>', '<medial>'), (char, bbox)
+        draw.text((pen*SS, BASE*SS), char, font=font, anchor='ls', fill=255)
         ink = np.array(mask.resize((32,32), Image.Resampling.LANCZOS), dtype=np.int32)
         # Round advances onto the game's integer pen grid. Join strokes occupy
         # rows20..21 for this exact Plex/size/baseline, measured from tatweel.
@@ -87,7 +93,7 @@ def make_fonts(forms, used_codes, output):
                 desired[:,:,:3] = (ink[:,:,None]*128+127)//255
                 desired[:,:,3] = np.maximum(ink,outline)
                 if form in ('<initial>','<medial>'):desired[:,:PEN] = 0
-                if form in ('<final>','<medial>'):desired[:,PEN+advance:] = 0
+                desired[:,advance:] = 0
                 distances = ((desired[:,:,None,:]-rgba[None,None,:,:])**2).sum(axis=3)
                 cell = distances.argmin(axis=2).astype(np.uint8)
                 visual = rgba[cell].astype(np.uint8)
@@ -96,7 +102,7 @@ def make_fonts(forms, used_codes, output):
                 cell = np.full((32,32,4),128,np.uint8)
                 cell[:,:,3] = ((ink+1)//2).astype(np.uint8)
                 if form in ('<initial>','<medial>'):cell[:,:PEN,3] = 0
-                if form in ('<final>','<medial>'):cell[:,PEN+advance:,3] = 0
+                cell[:,advance:,3] = 0
                 visual = cell.copy(); visual[:,:,3] = np.minimum(255,visual[:,:,3].astype(np.int32)*2).astype(np.uint8)
             pixels[y:y+32,x:x+32] = cell
             allowed[y:y+32,x:x+32] = True
@@ -116,7 +122,7 @@ def make_fonts(forms, used_codes, output):
         prefix='original/uk/font/'+name
         payloads[prefix+'.cod']=bytes(cod)
         payloads[prefix+'.tm2']=original[:off]+pixels.tobytes()+original[off+image_size:]
-        reports[name]={'forms':len(allocation),'font_sha256':FONT_SHA,'font':'IBM Plex Sans Arabic Medium','pixels':PX,'outline_pixels':0.5 if palette_size else 0,'join_edges_checked':len(joins),'minimum_join_ink':min(joins),'outside_cells_unchanged':True,'original_format_preserved':True}
+        reports[name]={'forms':len(allocation),'font_sha256':FONT_SHA,'font':'IBM Plex Sans Arabic Medium','pixels':PX,'outline_pixels':0.5 if palette_size else 0,'join_edges_checked':len(joins),'minimum_join_ink':min(joins),'join_edges_inside_cod_width':True,'connected_left_inset':0,'outside_cells_unchanged':True,'original_format_preserved':True}
         widths_by_font[name]={e['id']:e['width'] for e in entries}
         previews[name]=rendered
     output.mkdir(parents=True,exist_ok=True)

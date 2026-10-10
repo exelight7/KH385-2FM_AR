@@ -1,0 +1,26 @@
+{
+  "version": "1.0.1",
+  "runtimeVerified": false,
+  "userScreenshotVersion": "1.0.0",
+  "changesSince100": [
+    "original/uk/font/eventfont.cod",
+    "original/uk/font/eventfont.tm2",
+    "original/uk/font/menufont.cod",
+    "original/uk/font/menufont.tm2",
+    "original/uk/l2d/days_theatre.l2d"
+  ],
+  "unchangedPayloadFiles": 131,
+  "allCtdAndXmlPayloadsByteIdenticalTo100": true,
+  "developedByAndSquareEnixPixelsByteIdenticalToOriginal": true,
+  "developedBySprite": 79,
+  "developedByUv": [
+    4,
+    1020,
+    444,
+    1090
+  ],
+  "originalAndTargetPixelSha256": "e6cc20d25299f6da768c27a25956de66eba108906697a37bc4786803b70d7b2d",
+  "fontReason": "Join strokes were outside COD.width in1.0.0. The1.0.1 builder puts strokes inside both sampled edges and includes ink bounds in integer advances. Days20-byte CTD layouts remain unchanged.",
+  "offlineSamplingAssumption": "COD.width cropped quads; zero extra engine spacing. Based on shared COD model, source geometry and screenshot symptoms; actual Days renderer has not been instrumented.",
+  "uiSizing": "Main menu40px; secondary choices28px; headers26px. Every label is checked against original alpha>80 ink height, allowing at most4px difference."
+}

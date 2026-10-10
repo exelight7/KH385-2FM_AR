@@ -1,0 +1,249 @@
+{
+  "version": "1.0.1",
+  "sampling": "COD.width cropped quads; zero extra spacing",
+  "runtimeVerified": false,
+  "textFilesByteIdenticalTo100": {
+    "ct00100.json": "1ed81221c43feab5a0c22707290614614b340c466a0233f194fff49ca33132a7",
+    "cthd000.json": "a25509e4eed372dae85f5b85395e86a3741a09992d6915a21cf6f73356cd55d1",
+    "cthd050.json": "3617b09518d62052f99a3a632b58c9b7f41f735efb10ef72e2e81340d347cbd8",
+    "cthd100.json": "a9343eb0f4bb2a1c1ee3970669e5e7489b211ac936c23ca9e7325d07fefff1be",
+    "cthd300.json": "3f1d7525ffc9aec41ded4590c63690a05e3f457fc7730610ec4143a9d159a986",
+    "cthd800.json": "2416bd4a5dd748e430b2fe3037fe2694fa8ad723cf0c05616fe076ee4425e5cc",
+    "ctmn000.json": "d9660f6fb07b6dc1c6d11b5f84b7f28637752ce594edbe194ae387514bf7f3ae",
+    "ctmn200.json": "941904917040ab40dab84484a38fab837f28c7f25ecc974830ece51b500b38f7",
+    "ctmn300.json": "c66266c813993e00f5eb0ed681a86221222aba892e4c94aa66b7b8554059cf50"
+  },
+  "distinctAdjacentJoinPairs": 1334,
+  "fonts": {
+    "eventfont": {
+      "1.0.0": {
+        "pairsChecked": 1334,
+        "brokenPairs": 1334,
+        "minimumSeamInk": 0,
+        "failureExamples": [
+          [
+            "U+FE82",
+            "U+FE91",
+            0
+          ],
+          [
+            "U+FE82",
+            "U+FEB8",
+            0
+          ],
+          [
+            "U+FE82",
+            "U+FEDC",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FE91",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FE97",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FE98",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FE9F",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEA0",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEB3",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEB4",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEB7",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEB8",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEC4",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FED3",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FED4",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEDB",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEE3",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEE4",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEE7",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEE8",
+            0
+          ]
+        ]
+      },
+      "1.0.1": {
+        "pairsChecked": 1334,
+        "brokenPairs": 0,
+        "minimumSeamInk": 246,
+        "failureExamples": []
+      }
+    },
+    "menufont": {
+      "1.0.0": {
+        "pairsChecked": 1334,
+        "brokenPairs": 1334,
+        "minimumSeamInk": 0,
+        "failureExamples": [
+          [
+            "U+FE82",
+            "U+FE91",
+            0
+          ],
+          [
+            "U+FE82",
+            "U+FEB8",
+            0
+          ],
+          [
+            "U+FE82",
+            "U+FEDC",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FE91",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FE97",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FE98",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FE9F",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEA0",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEB3",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEB4",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEB7",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEB8",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEC4",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FED3",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FED4",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEDB",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEE3",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEE4",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEE7",
+            0
+          ],
+          [
+            "U+FE84",
+            "U+FEE8",
+            0
+          ]
+        ]
+      },
+      "1.0.1": {
+        "pairsChecked": 1334,
+        "brokenPairs": 0,
+        "minimumSeamInk": 246,
+        "failureExamples": []
+      }
+    }
+  }
+}

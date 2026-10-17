@@ -5,7 +5,7 @@ const crypto = require('node:crypto');
 const zlib = require('node:zlib');
 
 const names = ['Mare.hed', 'Mare.pkg'];
-const versions = m => ['source', 'target', ...['previous', 'older', 'earlier', 'oldest', 'legacy', 'ancient'].filter(g => m[g])];
+const versions = m => ['source', 'target', ...['previous', 'older', 'earlier', 'oldest', 'legacy', 'ancient'].filter(g => m[g]), ...Object.keys(m).filter(g => /^upgrade\d+$/.test(g))];
 const isGameRunning = text => /(?:^|[\/\\\s"'])(?:KINGDOM[ \t]*HEARTS[^\/\\\r\n"]*|WaitTitleProject)\.exe(?=$|[\s"',])/im.test(text);
 const exists = async p => fs.access(p).then(() => true, () => false);
 async function hash(p) {
@@ -24,7 +24,7 @@ async function loadPatch(dir) {
     if (!Number.isSafeInteger(v?.bytes) || v.bytes < 0 || !/^[a-f0-9]{64}$/.test(v.sha256)) throw Error('بيانات التحقق غير صالحة.');
   }
   if (m.source['Mare.hed'].bytes !== m.target['Mare.hed'].bytes || m.target['Mare.pkg'].bytes - m.source['Mare.pkg'].bytes !== m.tail.bytes) throw Error('أحجام الحزمة غير متطابقة.');
-  if (!Number.isSafeInteger(m.delta.bytes) || m.delta.bytes <= 0 || m.delta.bytes > 64 * 1024 * 1024 || m.delta.bytes !== m.tail.bytes || !/^[a-f0-9]{64}$/.test(m.delta.sha256) || !/^[a-f0-9]{64}$/.test(m.tail.sha256)) throw Error('بيانات الفروق غير صالحة.');
+  if (!Number.isSafeInteger(m.delta.bytes) || m.delta.bytes <= 0 || m.delta.bytes > 128 * 1024 * 1024 || m.delta.bytes !== m.tail.bytes || !/^[a-f0-9]{64}$/.test(m.delta.sha256) || !/^[a-f0-9]{64}$/.test(m.tail.sha256)) throw Error('بيانات الفروق غير صالحة.');
   let end = 0;
   for (const s of m.delta.baseSegments) {
     if (![s.sourceOffset, s.tailOffset, s.bytes].every(Number.isSafeInteger) || s.sourceOffset < 0 || s.tailOffset < end || s.bytes <= 0 || s.sourceOffset + s.bytes > m.source['Mare.pkg'].bytes || s.tailOffset + s.bytes > m.delta.bytes) throw Error('نطاق فروق غير صالح.');

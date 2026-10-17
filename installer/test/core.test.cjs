@@ -95,6 +95,17 @@ async function previousFixture(t) {
   await fs.writeFile(path.join(f.image, 'Mare.pkg'), oldPkg);
   return {...f, oldHed, oldPkg};
 }
+for (const group of ['upgrade101', 'upgrade100']) test(`upgrade via ${group} preserves original backups and uninstalls exactly`, async t => {
+  const f = await previousFixture(t);
+  f.m[group] = f.m.previous;
+  delete f.m.previous;
+  await fs.writeFile(path.join(f.patch, 'manifest.json'), JSON.stringify(f.m));
+  assert.equal((await operate({...f.args, action: 'install'})).status, 'complete');
+  assert.equal((await operate({...f.args, action: 'uninstall'})).status, 'complete');
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.hed')), f.hed);
+  assert.deepEqual(await fs.readFile(path.join(f.image, 'Mare.pkg')), f.pkg);
+});
+
 test('upgrade from previous release and uninstall preserve original backups', async t => {
   const f = await previousFixture(t);
   assert.equal((await operate({...f.args, action: 'install'})).status, 'complete');

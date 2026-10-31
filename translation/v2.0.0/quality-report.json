@@ -1,0 +1,67 @@
+{
+  "version": "2.0.0",
+  "status": "complete",
+  "translatedEntries": 2461,
+  "technicalResourceKeysPreserved": 95,
+  "base": "1.0.1",
+  "correctedRows": 2,
+  "corrections": [
+    {
+      "file": "ctmn200",
+      "id": "34648114",
+      "before": "اجتمعت القلوب التي جمعها حاملا\nالكيبلايد لدينا، روكساس وشيون، وها هي كينغدوم\nهارتس العظيمة تتعاظم في سماء الليل.\nأثمرت\nجهودنا، وكادت الثمار تنضج للقطاف. تسير جميع\nالخطط بسلاسة، بل بسلاسة مقلقة في\nالحقيقة، لكن هذا ليس الوقت المناسب\nللاستسلام للشكوك المفرطة.",
+      "after": "اجتمعت القلوب التي جمعها حاملا\nالكيبلايد لدينا، روكساس وشيون، وها هو كينغدوم\nهارتس العظيم يتعاظم في سماء الليل.\nأثمرت\nجهودنا، وكادت الثمار تنضج للقطاف. تسير جميع\nالخطط بسلاسة، بل بسلاسة مقلقة في\nالحقيقة، لكن هذا ليس الوقت المناسب\nللاستسلام للشكوك المفرطة.",
+      "reason": "Agreement: Kingdom Hearts is masculine everywhere else in the game text, for example 02180a00 and 02180c00."
+    },
+    {
+      "file": "ctmn200",
+      "id": "34648138",
+      "before": "بدأت تروس خطط زيمناس تدور باضطراب\nمنذ فقدنا نصف أعضائنا في قلعة\nالنسيان. النتائج موجودة، لكن هل يصح\nوصف هذا الوضع بالنجاح؟ إن أمكن القول\nإن لكينغدوم هارتس عقلا خاصا بها، فهي\nترفض زيمناس بلا شك، بل ترفض زيهانورت.\nغادر روكساس المنظمة اليوم.",
+      "after": "بدأت تروس خطط زيمناس تدور باضطراب\nمنذ فقدنا نصف أعضائنا في قلعة\nالنسيان. النتائج موجودة، لكن هل يصح\nوصف هذا الوضع بالنجاح؟ إن أمكن القول\nإن لكينغدوم هارتس عقلا خاصا به، فهو\nيرفض زيمناس بلا شك، بل يرفض زيهانورت.\nغادر روكساس المنظمة اليوم.",
+      "reason": "Agreement: Kingdom Hearts is masculine everywhere else in the game text, for example 02180a00 and 02180c00."
+    }
+  ],
+  "files": {
+    "ct00100": {
+      "translatedRows": 443,
+      "canonicalSha256": "1ed81221c43feab5a0c22707290614614b340c466a0233f194fff49ca33132a7"
+    },
+    "ctmn000": {
+      "translatedRows": 51,
+      "canonicalSha256": "d9660f6fb07b6dc1c6d11b5f84b7f28637752ce594edbe194ae387514bf7f3ae"
+    },
+    "ctmn200": {
+      "translatedRows": 232,
+      "canonicalSha256": "25a34080f732b17f35cce872c9916f3bcdb6cba2dca205f36f81dabecae122ab"
+    },
+    "ctmn300": {
+      "translatedRows": 119,
+      "canonicalSha256": "c66266c813993e00f5eb0ed681a86221222aba892e4c94aa66b7b8554059cf50"
+    },
+    "cthd000": {
+      "translatedRows": 319,
+      "canonicalSha256": "a25509e4eed372dae85f5b85395e86a3741a09992d6915a21cf6f73356cd55d1"
+    },
+    "cthd050": {
+      "translatedRows": 509,
+      "canonicalSha256": "3617b09518d62052f99a3a632b58c9b7f41f735efb10ef72e2e81340d347cbd8"
+    },
+    "cthd100": {
+      "translatedRows": 444,
+      "canonicalSha256": "a9343eb0f4bb2a1c1ee3970669e5e7489b211ac936c23ca9e7325d07fefff1be"
+    },
+    "cthd300": {
+      "translatedRows": 46,
+      "canonicalSha256": "3f1d7525ffc9aec41ded4590c63690a05e3f457fc7730610ec4143a9d159a986"
+    },
+    "cthd800": {
+      "translatedRows": 298,
+      "canonicalSha256": "2416bd4a5dd748e430b2fe3037fe2694fa8ad723cf0c05616fe076ee4425e5cc"
+    }
+  },
+  "method": "One full read of all unique Arabic rows, a scan of all 4771 unique words and technical/lint_arabic.py. English was consulted only for suspect rows. This is a correction pass, not a new pair of independent bilingual reviews.",
+  "inheritedReviewsFrom": "1.0.0",
+  "inheritedReviewPasses": 2,
+  "freshBilingualReview": false,
+  "inGameVerified": false
+}

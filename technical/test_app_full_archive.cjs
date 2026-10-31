@@ -15,7 +15,7 @@ const original = 'C:/Program Files (x86)/Steam/steamapps/common/KINGDOM HEARTS -
   await fs.mkdir(backup);
   for (const n of Object.keys(m.source)) {
     liveHashes[n] = await hash(path.join(original, n));
-    if (![m.source[n].sha256, m.previous?.[n]?.sha256].includes(liveHashes[n])) throw Error('Unexpected live version; aborting fixture test');
+    if (![m.source[n].sha256, m.previous?.[n]?.sha256, m.target[n].sha256].includes(liveHashes[n])) throw Error('Unexpected live version; aborting fixture test');
     const source = liveHashes[n] === m.source[n].sha256 ? path.join(original, n) : path.join(original, '.days-arabic-backup', n);
     if (await hash(source) !== m.source[n].sha256) throw Error('Original backup mismatch');
     await fs.copyFile(source, path.join(backup, n));

@@ -14,6 +14,7 @@ from bidi.algorithm import get_display
 import numpy as np
 from PIL import Image, ImageDraw
 from font_atlas import make_fonts
+from text_layout import reflow
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'technical/extracted_mare/original'
@@ -22,6 +23,7 @@ COMPLETE_NAMES = ['ct00100', 'ctmn000', 'ctmn200', 'ctmn300'] + NAMES
 COUNTS = dict(ct00100=538,ctmn000=51,ctmn200=232,ctmn300=119,cthd000=319,cthd050=509,cthd100=444,cthd300=46,cthd800=298)
 PATHS = dict(ct00100='uk/ctd/ct00100.ctd',ctmn000='uk/ctd/ctmn000.ctd',ctmn200='uk/message/diary/ctmn200.ctd',ctmn300='uk/message/diary/ctmn300.ctd')
 TAG = re.compile(r'(\{[^}]+\}|\[(?:BGTRANS|WAIT)[^]]*\])')
+TOKEN = re.compile(r'\{[^}]+\}')
 digest = lambda b: hashlib.sha256(b).hexdigest()
 
 
@@ -30,10 +32,24 @@ def node(code, value=None):
     return json.loads(p.stdout)
 
 
+def shape(text):
+    return get_display(arabic_reshaper.reshape(text))
+
+
+def visual_with_tokens(line):
+    # A {token} between words belongs to the sentence, so bidi must place it. A
+    # private-use stand-in passes through the reshaper and bidi untouched.
+    tokens = iter(reversed(TOKEN.findall(line)))
+    return re.sub('', lambda _: next(tokens), shape(TOKEN.sub('', line)))
+
+
 def visual(text):
+    lines = text.split('\n')
+    if any(line[:m.start()].strip() and line[m.end():].strip() for line in lines for m in TOKEN.finditer(line)):
+        return '\n'.join(visual_with_tokens(line) for line in lines)
     # Narrative image/wait directives remain in their original order; shape only
     # the text between them, including each independent newline paragraph.
-    return ''.join(part if TAG.fullmatch(part) else get_display(arabic_reshaper.reshape(part)) for part in TAG.split(text))
+    return ''.join(part if TAG.fullmatch(part) else shape(part) for part in TAG.split(text))
 
 
 def build(require_reviews=True, version='0.3.0'):
@@ -67,7 +83,14 @@ const fs=require('fs'),assert=require('assert/strict'),c=require('./technical/to
 const rows=JSON.parse(fs.readFileSync(0,'utf8')),p=c.parseDddCtd(fs.readFileSync('technical/extracted_mare/original/uk/ctd/ct00100.ctd'));
 for(const r of rows){assert.equal(p.entries[r.index].text,r.english);assert.equal(p.entries[r.index].id,parseInt(r.id,16));}console.log(JSON.stringify({verified:rows.length}));
 """,technical_keys)
-    if require_reviews:
+    corrective=tuple(map(int,version.split('.')))>=(1,0,3)
+    if require_reviews and corrective:
+        # Corrective versions inherit the 1.0.0 reviews; only their logged corrections may differ.
+        from quality_review_corrective import audit
+        proof=audit(version)
+        for name in names:
+            assert proof['files'][name]['canonicalSha256']==digest((ROOT/f'translation/v{version}/{name}.json').read_text(encoding='utf-8').encode('utf-8')),('changed after audit',name)
+    elif require_reviews:
         reviews=[json.loads(p.read_text(encoding='utf-8')) for p in (ROOT/f'translation/v{version}/reviews').glob('*.json')]
         for name in names:
             matching=[r for r in reviews if name in r.get('files',{}) and 'pass' in r and 'outputCanonicalSha256' in r['files'][name]]
@@ -90,11 +113,20 @@ walk('technical/extracted_mare/original');walk('technical/extracted/original');c
 """)
     assert metadata['count']==92
     shaped=[visual(r['arabic']) for r in rows]
-    # Arabic lines use Plex punctuation and a Plex-width blank cell, avoiding
+    # Arabic lines use punctuation and a blank cell from the Arabic font, avoiding
     # the original font's heavy dot and oversized interword advance. Original
     # English glyphs/space handling elsewhere remain unchanged.
-    forms={c for s in shaped for part in TAG.split(s) if not TAG.fullmatch(part) for c in part if ord(c)>127 or c in string.punctuation+' '}
+    glyphs_in=lambda strings:{c for s in strings for part in TAG.split(s) if not TAG.fullmatch(part) for c in part if ord(c)>127 or c in string.punctuation+' '}
+    forms=glyphs_in(shaped)
     payloads,allocation,widths,previews,font_report=make_fonts(forms,set(metadata['used']),OUT)
+    if corrective:
+        # Diary breaks were chosen before pixel widths were known, leaving one-word
+        # lines. Rebalance within the source line count; breaking at a space leaves
+        # every letter form unchanged.
+        measure=lambda word:sum(widths['menufont'].get(allocation.get(c,ord(c)),16) for c in arabic_reshaper.reshape(word))
+        space=widths['menufont'][allocation[' ']]
+        shaped=[visual(reflow(r['arabic'],measure,space)) if r['file'].startswith('uk/message/diary/') and not TAG.search(r['arabic']) else s for r,s in zip(rows,shaped)]
+        assert glyphs_in(shaped)<=forms
     def encode(s):
         return ''.join(part if TAG.fullmatch(part) else ''.join(chr(allocation[c]) if c in allocation else c for c in part) for part in TAG.split(s))
     mapped=[encode(s) for s in shaped]
@@ -154,12 +186,18 @@ for(const rel of new Set(x.rows.map(r=>r.file))){const p=c.parseDddCtd(fs.readFi
         dest=OUT/'payload'/rel;dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(data)
         files.append({'path':rel,'bytes':len(data),'source_sha256':digest((SOURCE/rel.removeprefix('original/')).read_bytes()),'sha256':digest(data)})
     width_report=[]
+    font_of=lambda row:'menufont' if row['file'].endswith('cthd300.ctd') or '/ctmn' in row['file'] or row['file'].endswith('ct00100.ctd') else 'eventfont'
+    def width(s,name):return sum(widths[name].get(ord(c),16) for part in TAG.split(s) if not TAG.fullmatch(part) for c in part)
+    # The widest English line in a file shows how much room its text box has.
+    file_limit={}
+    for row in rows:
+        file_limit[row['file']]=max(file_limit.get(row['file'],0),max(width(line,font_of(row)) for line in row['english'].split('\n')))
     for row,encoded in zip(rows,mapped):
-        name='menufont' if row['file'].endswith('cthd300.ctd') or '/ctmn' in row['file'] or row['file'].endswith('ct00100.ctd') else 'eventfont'
-        def width(s):return sum(widths[name].get(ord(c),16) for part in TAG.split(s) if not TAG.fullmatch(part) for c in part)
-        source_max=max(width(line) for line in row['english'].split('\n'))
-        target_max=max(width(line) for line in encoded.split('\n'))
-        width_report.append({'file':row['file'],'index':row['index'],'id':row['id'],'source_max':source_max,'arabic_max':target_max,'warn':target_max>max(160,source_max*1.3)})
+        name=font_of(row)
+        source_max=max(width(line,name) for line in row['english'].split('\n'))
+        target_max=max(width(line,name) for line in encoded.split('\n'))
+        warn=target_max>file_limit[row['file']] if corrective else target_max>max(160,source_max*1.3)
+        width_report.append({'file':row['file'],'index':row['index'],'id':row['id'],'source_max':source_max,'arabic_max':target_max,'limit':file_limit[row['file']],'warn':warn})
     total=2461 if complete else 2556
     report={'version':version,'changed_messages':len(rows),'unchanged_messages':built['unchanged'],'totalVisibleEntries':total,'translatedPercent':round(100*len(rows)/total,3),'legacyInventoryEntries':2556,'technicalResourceKeysPreserved':[{'id':r['id'],'index':r['index'],'value':r['english']} for r in technical_keys],'uiArt':ui_art,'roundtrip_original_files':92,'font':font_report,'files':files,'xml_files':xml_report,'xml_rows':len(xml_ids),'xml_source_mismatches':xml_source_mismatches,'widths':width_report,'installed':False,'in_game_verified':False,'review_gate_enforced':require_reviews}
     (OUT/'manifest.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

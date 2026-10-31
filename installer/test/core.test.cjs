@@ -95,7 +95,7 @@ async function previousFixture(t) {
   await fs.writeFile(path.join(f.image, 'Mare.pkg'), oldPkg);
   return {...f, oldHed, oldPkg};
 }
-for (const group of ['upgrade101', 'upgrade100']) test(`upgrade via ${group} preserves original backups and uninstalls exactly`, async t => {
+for (const group of ['upgrade1031', 'upgrade1030', 'upgrade102', 'upgrade101', 'upgrade100']) test(`upgrade via ${group} preserves original backups and uninstalls exactly`, async t => {
   const f = await previousFixture(t);
   f.m[group] = f.m.previous;
   delete f.m.previous;

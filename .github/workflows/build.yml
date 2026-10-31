@@ -56,7 +56,7 @@ jobs:
       - uses: actions/download-artifact@v8
         with:
           path: artifacts
-      - name: Publish experimental release
+      - name: Publish release
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
@@ -71,4 +71,4 @@ jobs:
             exit 0
           fi
           find artifacts -type f \( -name '*.exe' -o -name '*.AppImage' \) -exec sha256sum {} + > SHA256SUMS.txt
-          gh release create "$TAG" --target "$GITHUB_SHA" --prerelease --title "Days Arabic $TAG — تجريبي" --notes-file release-notes.md artifacts/windows-exe/*.exe artifacts/linux-appimage/*.AppImage SHA256SUMS.txt
+          gh release create "$TAG" --target "$GITHUB_SHA" --latest --title "Days Arabic $TAG" --notes-file release-notes.md artifacts/windows-exe/*.exe artifacts/linux-appimage/*.AppImage SHA256SUMS.txt

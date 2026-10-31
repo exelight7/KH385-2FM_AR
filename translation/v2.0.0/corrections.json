@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "base": "1.0.1",
+  "inheritedReviewsFrom": "1.0.0",
+  "freshBilingualReview": false,
+  "method": "One full read of all unique Arabic rows, a scan of all 4771 unique words and technical/lint_arabic.py. English was consulted only for suspect rows. This is a correction pass, not a new pair of independent bilingual reviews.",
+  "corrections": [
+    {
+      "file": "ctmn200",
+      "id": "34648114",
+      "before": "اجتمعت القلوب التي جمعها حاملا\nالكيبلايد لدينا، روكساس وشيون، وها هي كينغدوم\nهارتس العظيمة تتعاظم في سماء الليل.\nأثمرت\nجهودنا، وكادت الثمار تنضج للقطاف. تسير جميع\nالخطط بسلاسة، بل بسلاسة مقلقة في\nالحقيقة، لكن هذا ليس الوقت المناسب\nللاستسلام للشكوك المفرطة.",
+      "after": "اجتمعت القلوب التي جمعها حاملا\nالكيبلايد لدينا، روكساس وشيون، وها هو كينغدوم\nهارتس العظيم يتعاظم في سماء الليل.\nأثمرت\nجهودنا، وكادت الثمار تنضج للقطاف. تسير جميع\nالخطط بسلاسة، بل بسلاسة مقلقة في\nالحقيقة، لكن هذا ليس الوقت المناسب\nللاستسلام للشكوك المفرطة.",
+      "reason": "Agreement: Kingdom Hearts is masculine everywhere else in the game text, for example 02180a00 and 02180c00."
+    },
+    {
+      "file": "ctmn200",
+      "id": "34648138",
+      "before": "بدأت تروس خطط زيمناس تدور باضطراب\nمنذ فقدنا نصف أعضائنا في قلعة\nالنسيان. النتائج موجودة، لكن هل يصح\nوصف هذا الوضع بالنجاح؟ إن أمكن القول\nإن لكينغدوم هارتس عقلا خاصا بها، فهي\nترفض زيمناس بلا شك، بل ترفض زيهانورت.\nغادر روكساس المنظمة اليوم.",
+      "after": "بدأت تروس خطط زيمناس تدور باضطراب\nمنذ فقدنا نصف أعضائنا في قلعة\nالنسيان. النتائج موجودة، لكن هل يصح\nوصف هذا الوضع بالنجاح؟ إن أمكن القول\nإن لكينغدوم هارتس عقلا خاصا به، فهو\nيرفض زيمناس بلا شك، بل يرفض زيهانورت.\nغادر روكساس المنظمة اليوم.",
+      "reason": "Agreement: Kingdom Hearts is masculine everywhere else in the game text, for example 02180a00 and 02180c00."
+    }
+  ]
+}

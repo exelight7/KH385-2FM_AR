@@ -1,0 +1,2 @@
+9e63c9fe406f0cee16492c9bfc52d0bcd4d8d72ceb72d9449cea963c1e85abef  Days-Arabic-Setup-2.0.0.exe
+9e63c9fe406f0cee16492c9bfc52d0bcd4d8d72ceb72d9449cea963c1e85abef  Days-Arabic-Uninstall-2.0.0.exe

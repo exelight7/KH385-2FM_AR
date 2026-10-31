@@ -1,6 +1,6 @@
 # مسرد Days
 
-المصدر الحالي: [STYLE.md](full/STYLE.md). خط IBM Plex Sans Arabic Medium مطابق لملف KH2FM؛ تستخدم الأسطر العربية مسافات وترقيما من الخط نفسه.
+المصدر الحالي: [STYLE.md](full/STYLE.md). خط Noto Sans Arabic SemiBold؛ تستخدم الأسطر العربية مسافات وترقيما من الخط نفسه، وIBM Plex SemiBold للرموز التي لا يحتويها.
 
 | الأصل | العربية |
 |---|---|

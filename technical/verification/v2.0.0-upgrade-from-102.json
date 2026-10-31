@@ -1,0 +1,16 @@
+﻿{
+  "upgradeFrom": "1.0.2",
+  "to": "2.0.0",
+  "target": {
+    "Mare.hed": {
+      "bytes": 64768,
+      "sha256": "77e46f3c76b403c1f26c4aca3220e8623ea1d1be5d23581b6aa70fcc8c562434"
+    },
+    "Mare.pkg": {
+      "bytes": 2846947424,
+      "sha256": "777b4fda56637bd9b5d6218e7e67f7203b89b1e55192bcc6618c3af22809996e"
+    }
+  },
+  "restoredByteIdentical": true,
+  "liveGameUnchanged": true
+}

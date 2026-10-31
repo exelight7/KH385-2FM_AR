@@ -47,16 +47,14 @@ def main():
     segments.sort(key=lambda x: x['tailOffset'])
     compressed = gzip.compress(delta, compresslevel=9, mtime=0)
     (dest / 'tail.gz').write_bytes(compressed)
-    previous = json.loads((ROOT / 'technical/verification/v1.0.0-manifest.json').read_text(encoding='utf-8'))['target']
-    older = json.loads((ROOT / 'technical/verification/v0.4.1-manifest.json').read_text(encoding='utf-8'))['target']
-    earlier = json.loads((ROOT / 'technical/verification/v0.4.0-manifest.json').read_text(encoding='utf-8'))['target']
-    oldest = json.loads((ROOT / 'technical/verification/v0.3.0-manifest.json').read_text(encoding='utf-8'))['target']
-    legacy = json.loads((ROOT / 'technical/verification/v0.2.0-manifest.json').read_text(encoding='utf-8'))['target']
-    ancient = json.loads((ROOT / 'technical/verification/v0.1.0-manifest.json').read_text(encoding='utf-8'))['target']
+    # The frozen 1.0.2 manifest already lists every older published archive; its
+    # own "previous" is an earlier 1.0.2 build that also shipped.
+    frozen = json.loads((ROOT / 'technical/verification/v1.0.2-manifest.json').read_text(encoding='utf-8'))
+    groups = {'previous': frozen['target'], 'upgrade102': frozen['previous'],
+              **{name: frozen[name] for name in ('upgrade101', 'upgrade100', 'older', 'earlier', 'oldest', 'legacy', 'ancient')}}
     version = json.loads((ROOT / 'installer/package.json').read_text(encoding='utf-8'))['version']
     assert translation['version']==version, 'Build and installer versions must match'
-    manifest = {'format': 2, 'version': version, 'title': 'KINGDOM HEARTS 358/2 Days',
-                'previous': previous, 'older': older, 'earlier': earlier, 'oldest': oldest, 'legacy': legacy, 'ancient': ancient,
+    manifest = {'format': 2, 'version': version, 'title': 'KINGDOM HEARTS 358/2 Days', **groups,
                 'translatedEntries': translation['changed_messages'], 'totalVisibleEntries': translation['totalVisibleEntries'],
                 'preservedTechnicalKeys': len(translation.get('technicalResourceKeysPreserved', [])),
                 'translatedImageLabels': translation.get('uiArt', {}).get('count', 0),

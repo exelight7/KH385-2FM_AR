@@ -1,0 +1,277 @@
+{
+  "version": "2.0.0",
+  "sampling": "bilinear straight-alpha quads, offline",
+  "scales": [
+    1.0,
+    1.5,
+    2.0,
+    2.25
+  ],
+  "offsets": [
+    0.0,
+    0.25,
+    0.5
+  ],
+  "runtimeVerified": false,
+  "distinctAdjacentJoinPairs": 1334,
+  "fonts": {
+    "eventfont": {
+      "2.0.0": {
+        "seams": {
+          "1.0": {
+            "checked": 4002,
+            "weak": 0,
+            "worst": 1.0,
+            "worstPair": [
+              "U+FE82",
+              "U+FE91"
+            ]
+          },
+          "1.5": {
+            "checked": 4002,
+            "weak": 0,
+            "worst": 0.946,
+            "worstPair": [
+              "U+FEE6",
+              "U+FE8B"
+            ]
+          },
+          "2.0": {
+            "checked": 4002,
+            "weak": 0,
+            "worst": 0.95,
+            "worstPair": [
+              "U+FEE6",
+              "U+FE8B"
+            ]
+          },
+          "2.25": {
+            "checked": 4002,
+            "weak": 0,
+            "worst": 0.962,
+            "worstPair": [
+              "U+FEE6",
+              "U+FE8B"
+            ]
+          }
+        },
+        "weakestCore": {
+          "form": "U+00AE",
+          "light": 0.988
+        },
+        "weakestMarks": [
+          {
+            "pair": [
+              "U+FEAD",
+              "U+FEAF"
+            ],
+            "contrast": 0.646
+          },
+          {
+            "pair": [
+              "U+FEA9",
+              "U+FEAB"
+            ],
+            "contrast": 0.646
+          },
+          {
+            "pair": [
+              "U+FECB",
+              "U+FECF"
+            ],
+            "contrast": 0.696
+          },
+          {
+            "pair": [
+              "U+FEBB",
+              "U+FEBF"
+            ],
+            "contrast": 0.712
+          },
+          {
+            "pair": [
+              "U+FEA0",
+              "U+FEA4"
+            ],
+            "contrast": 0.716
+          }
+        ],
+        "palestRimOnBright": 0.127
+      },
+      "1.0.2": {
+        "seams": {},
+        "weakestCore": {
+          "form": "U+FE94",
+          "light": 1.0
+        },
+        "weakestMarks": [
+          {
+            "pair": [
+              "U+FE97",
+              "U+FE9B"
+            ],
+            "contrast": 0.551
+          },
+          {
+            "pair": [
+              "U+FE98",
+              "U+FE9C"
+            ],
+            "contrast": 0.582
+          },
+          {
+            "pair": [
+              "U+FE88",
+              "U+FE8E"
+            ],
+            "contrast": 0.61
+          },
+          {
+            "pair": [
+              "U+FEAD",
+              "U+FEAF"
+            ],
+            "contrast": 0.611
+          },
+          {
+            "pair": [
+              "U+FE91",
+              "U+FEE7"
+            ],
+            "contrast": 0.618
+          }
+        ],
+        "palestRimOnBright": 0.275
+      }
+    },
+    "menufont": {
+      "2.0.0": {
+        "seams": {
+          "1.0": {
+            "checked": 4002,
+            "weak": 0,
+            "worst": 0.991,
+            "worstPair": [
+              "U+FE84",
+              "U+FEE4"
+            ]
+          },
+          "1.5": {
+            "checked": 4002,
+            "weak": 0,
+            "worst": 0.952,
+            "worstPair": [
+              "U+FEDE",
+              "U+FE8B"
+            ]
+          },
+          "2.0": {
+            "checked": 4002,
+            "weak": 0,
+            "worst": 0.958,
+            "worstPair": [
+              "U+FEDE",
+              "U+FE8B"
+            ]
+          },
+          "2.25": {
+            "checked": 4002,
+            "weak": 0,
+            "worst": 0.962,
+            "worstPair": [
+              "U+FEB4",
+              "U+FE91"
+            ]
+          }
+        },
+        "weakestCore": {
+          "form": "U+0021",
+          "light": 1.0
+        },
+        "weakestMarks": [
+          {
+            "pair": [
+              "U+FED3",
+              "U+FED7"
+            ],
+            "contrast": 0.087
+          },
+          {
+            "pair": [
+              "U+FE88",
+              "U+FE8E"
+            ],
+            "contrast": 0.098
+          },
+          {
+            "pair": [
+              "U+FE94",
+              "U+FEEA"
+            ],
+            "contrast": 0.1
+          },
+          {
+            "pair": [
+              "U+FE93",
+              "U+FEE9"
+            ],
+            "contrast": 0.1
+          },
+          {
+            "pair": [
+              "U+FEF2",
+              "U+FEF0"
+            ],
+            "contrast": 0.1
+          }
+        ],
+        "palestRimOnBright": 0.9
+      },
+      "1.0.2": {
+        "seams": {},
+        "weakestCore": {
+          "form": "U+FE94",
+          "light": 1.0
+        },
+        "weakestMarks": [
+          {
+            "pair": [
+              "U+FED3",
+              "U+FED7"
+            ],
+            "contrast": 0.086
+          },
+          {
+            "pair": [
+              "U+FE97",
+              "U+FEE7"
+            ],
+            "contrast": 0.096
+          },
+          {
+            "pair": [
+              "U+FE97",
+              "U+FE9B"
+            ],
+            "contrast": 0.099
+          },
+          {
+            "pair": [
+              "U+FE94",
+              "U+FEEA"
+            ],
+            "contrast": 0.1
+          },
+          {
+            "pair": [
+              "U+FE93",
+              "U+FEE9"
+            ],
+            "contrast": 0.1
+          }
+        ],
+        "palestRimOnBright": 0.9
+      }
+    }
+  }
+}

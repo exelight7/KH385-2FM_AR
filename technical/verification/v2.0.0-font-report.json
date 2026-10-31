@@ -1,0 +1,40 @@
+{
+  "eventfont": {
+    "forms": 136,
+    "font_sha256": "c3fba0d014108e86247cf19ea2fd7f28e53b13f0f6180c755a2b4d7da404d18e",
+    "font": "Noto Sans Arabic SemiBold",
+    "pixels": 21,
+    "baseline": 22,
+    "outline_pixels": 0.75,
+    "join_rows": [
+      20,
+      22
+    ],
+    "join_edges_checked": 108,
+    "minimum_join_ink": 128,
+    "maximum_advance": 30,
+    "worst_palette_error": 20.92176055908203,
+    "join_edges_inside_cod_width": true,
+    "outside_cells_unchanged": true,
+    "original_format_preserved": true
+  },
+  "menufont": {
+    "forms": 136,
+    "font_sha256": "c3fba0d014108e86247cf19ea2fd7f28e53b13f0f6180c755a2b4d7da404d18e",
+    "font": "Noto Sans Arabic SemiBold",
+    "pixels": 20,
+    "baseline": 22,
+    "outline_pixels": 0,
+    "join_rows": [
+      20,
+      22
+    ],
+    "join_edges_checked": 108,
+    "minimum_join_ink": 128,
+    "maximum_advance": 28,
+    "worst_palette_error": null,
+    "join_edges_inside_cod_width": true,
+    "outside_cells_unchanged": true,
+    "original_format_preserved": true
+  }
+}

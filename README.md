@@ -1,25 +1,25 @@
 # تعريب KINGDOM HEARTS 358/2 Days
 
-نسخة Steam ضمن HD 1.5+2.5 ReMIX. آخر إصدار: **1.0.2 تجريبي**.
+نسخة Steam ضمن HD 1.5+2.5 ReMIX. آخر إصدار: **2.0.0**. التعريب: **EXELIGHT7**.
 
-[تحميل آخر إصدار](https://github.com/exelight7/KH385-2FM_AR/releases/tag/v1.0.2) · [المشاكل والتحسينات](release-notes.md)
+[تحميل آخر إصدار](https://github.com/exelight7/KH385-2FM_AR/releases/tag/v2.0.0) · [المشاكل والتحسينات](release-notes.md)
 
 ## التحميل
 
 | النظام | الملف |
 |---|---|
-| Windows | [مثبت التعريب](https://github.com/exelight7/KH385-2FM_AR/releases/download/v1.0.2/Days-Arabic-Setup-1.0.2.exe) · [إلغاء التعريب](https://github.com/exelight7/KH385-2FM_AR/releases/download/v1.0.2/Days-Arabic-Uninstall-1.0.2.exe) |
-| Linux / Steam Deck | [AppImage](https://github.com/exelight7/KH385-2FM_AR/releases/download/v1.0.2/Days-Arabic-1.0.2.AppImage) |
+| Windows | [مثبت التعريب](https://github.com/exelight7/KH385-2FM_AR/releases/download/v2.0.0/Days-Arabic-Setup-2.0.0.exe) · [إلغاء التعريب](https://github.com/exelight7/KH385-2FM_AR/releases/download/v2.0.0/Days-Arabic-Uninstall-2.0.0.exe) |
+| Linux / Steam Deck | [AppImage](https://github.com/exelight7/KH385-2FM_AR/releases/download/v2.0.0/Days-Arabic-2.0.0.AppImage) |
 
 أغلق اللعبة ومشغل المجموعة، ثم شغل المثبت واختر مجلد اللعبة. اختر English للنص داخل اللعبة وأعد تشغيلها. على Linux امنح AppImage صلاحية التنفيذ؛ قد تحتاج FUSE 2.
 
-لإلغاء التعريب استخدم برنامج الإلغاء أو الزر داخل المثبت. احتفظ بمجلد `.days-arabic-backup`؛ فهو نسخة ملفات Days الأصلية. التحديث يدعم النسخ المنشورة من 0.1.0 حتى 1.0.1.
+لإلغاء التعريب استخدم برنامج الإلغاء أو الزر داخل المثبت. احتفظ بمجلد `.days-arabic-backup`؛ فهو نسخة ملفات Days الأصلية. التحديث يدعم النسخ المنشورة من 0.1.0 حتى 1.0.2.
 
 ## ما الجديد وما بقي
 
-تعريب 2461 نصا، وخط Noto Sans Arabic مع تحسين الحواف والوصلات، ومعالجة إضافية لـ40 نصا في يوم 96. لا إعادة ترميز للفيديو.
+تعريب 2461 نصا، وخط Noto Sans Arabic SemiBold أوضح بحافة أخف، ومعد لمنع الفواصل بين الحروف المتصلة، مع ضبط المسافات وترجمة «إعدادات اللعبة». لا إعادة ترميز للفيديو.
 
-قد تبقى فواصل خفيفة بين بعض الحروف. تحسين يوم 96 يحتاج اعتمادا بلقطات جديدة داخل اللعبة؛ الفحوص خارج اللعبة لا تكفي لإثبات الشكل النهائي. بعض الكتابات داخل الصور إنجليزية، وLinux لم يختبر داخل اللعبة. لا يوجد ضمان لحل كل التعليقات والكراشات السابقة. أرسل صورة واسم المشهد عند الإبلاغ عن مشكلة.
+لم يُختبر الإصدار على كل المشاهد داخل اللعبة؛ مشهد يوم 96 دون لقطة جديدة. بعض الكتابات داخل الصور إنجليزية، وLinux لم يختبر داخل اللعبة. لا يوجد ضمان لحل كل التعليقات والكراشات السابقة. أرسل صورة واسم المشهد عند الإبلاغ عن مشكلة.
 
 هذا المشروع خاص بـ358/2 Days؛ لا يتضمن تعريب KH2 أو KH3 أو تثبيت محمل لهما.
 

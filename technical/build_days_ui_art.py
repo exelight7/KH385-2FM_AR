@@ -23,7 +23,10 @@ LABELS={
         122:('Play All','تشغيل الكل'),123:('Play All','تشغيل الكل'),124:('Continue','متابعة'),125:('Continue','متابعة'),
         132:('CHARACTERS','الشخصيات'),133:('CHARACTERS','الشخصيات'),134:("ROXAS’S DIARY",'يوميات روكساس'),
         135:("ROXAS’S DIARY",'يوميات روكساس'),137:('GAME SETTINGS','إعدادات اللعبة')},
-    'pause':{4:('PAUSE','إيقاف مؤقت')}
+    'pause':{4:('PAUSE','إيقاف مؤقت')},
+    # The same settings label sits at the same UV here, and English still showed
+    # in game after translating only days_theatre.
+    'recoded_theatre':{93:('GAME SETTINGS','إعدادات اللعبة')}
 }
 
 
@@ -52,7 +55,8 @@ def main(out=OUT):
             text=get_display(arabic_reshaper.reshape(arabic))
             main_menu=name=='days_theatre' and ident in (110,111,113,114,116,117,119,120)
             secondary=name=='days_theatre' and ident in (122,123,124,125,132,133,134,135)
-            header=name=='days_theatre' and ident in (93,95,101,137)
+            settings=(name,ident) in (('days_theatre',137),('recoded_theatre',93))
+            header=settings or (name=='days_theatre' and ident in (93,95,101))
             new_badge=name=='days_theatre' and ident==107
             sizes=[40] if main_menu else [28] if secondary else [26] if header else [24] if new_badge else range(h*2,5,-1)
             for size in sizes:
@@ -72,12 +76,13 @@ def main(out=OUT):
             elif secondary or header or new_badge:
                 box=font.getbbox(text,anchor='ls')
                 baseline=(53 if ident in (123,125,133,135) else 51) if secondary else 38 if header else 24
-                right_aligned=secondary or ident in (107,137)
+                right_aligned=secondary or settings or new_badge
                 tx=native_ink[2]*4-box[2] if right_aligned else native_ink[0]*4-box[0]
                 draw.text((tx,baseline*4),text,font=font,fill=255,anchor='ls')
             else:
                 draw.text((tx,ty),text,font=font,fill=255)
-            alpha=np.array(mask.resize((w,h),Image.Resampling.LANCZOS),np.uint16)
+            # Plain area coverage: LANCZOS rings around thin strokes.
+            alpha=np.array(mask.resize((w,h),Image.Resampling.BOX),np.uint16)
             replacement=np.zeros((h,w,4),np.uint8);replacement[:,:,:3]=color
             alpha_max=int(cell[:,:,3].max())
             replacement[:,:,3]=((alpha*alpha_max+127)//255).astype(np.uint8)
